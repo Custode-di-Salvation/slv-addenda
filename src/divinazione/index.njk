@@ -1,0 +1,35 @@
+---
+layout: base.njk
+permalink: /divinazione/
+title: "Guide di Divinazione"
+crumb:
+  href: /
+  label: Home
+---
+<div class="page-hero">
+  <h1>Undici metodi</h1>
+  <p>Strumenti opzionali per arricchire le scene di divinazione: ogni metodo ha una sua guida narrativa e, dove ha senso, un piccolo strumento interattivo per generare uno spunto casuale. L'interpretazione resta sempre nelle mani di chi gioca.</p>
+</div>
+
+<section>
+  <div class="card-grid">
+    {% for m in metodi %}
+      {% if m.stato == "live" %}
+      <a class="card" href="/divinazione/{{ m.slug }}/">
+      {% else %}
+      <div class="card disabled">
+      {% endif %}
+        <span class="icon"><i class="{{ m.icona }}"></i></span>
+        <h3>{{ m.titolo }}</h3>
+        <p>{{ m.sintesi }}</p>
+        {% if m.stato != "live" %}
+          <span class="status presto">In arrivo</span>
+        {% endif %}
+      {% if m.stato == "live" %}
+      </a>
+      {% else %}
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

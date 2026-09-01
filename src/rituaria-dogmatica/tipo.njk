@@ -1,0 +1,71 @@
+---
+layout: base.njk
+styles:
+  - /css/rituaria.css
+pagination:
+  data: rituaria
+  size: 1
+  alias: tipo
+permalink: "/rituaria-dogmatica/{{ tipo.slug }}/"
+eleventyComputed:
+  title: "{{ tipo.nome }}"
+crumbs:
+  - href: /
+    label: Home
+  - href: /rituaria-dogmatica/
+    label: Rituaria Dogmatica
+---
+<div class="page-hero">
+  <h1>{{ tipo.nome }}</h1>
+  <p>{{ tipo.sintesi }}</p>
+</div>
+
+{% if tipo.sottotipi.length == 1 and tipo.sottotipi[0].slug == "_" %}
+<section>
+  <div class="ritual-list">
+    {% for r in tipo.sottotipi[0].rituali %}
+    {% if r.stato == "live" %}
+    <a class="ritual-item" href="/rituaria-dogmatica/{{ tipo.slug }}/{{ r.slug }}/">
+      <span class="ritual-name">{{ r.nome }}</span>
+      {% if r.rarita %}<span class="rarity-badge{% if r.rarita != 'Comune' %} {{ r.rarita | lower | replace(" ", "-") }}{% endif %}">{{ r.rarita }}</span>{% endif %}
+    </a>
+    {% else %}
+    <div class="ritual-item disabled">
+      <span class="ritual-name">{{ r.nome }}</span>
+      <span class="status presto">In arrivo</span>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% else %}
+{% for st in tipo.sottotipi %}
+<section{% if loop.first %} id="{{ st.slug }}"{% endif %}>
+  {% if st.slug != "_" %}
+  <div class="section-head">
+    <h2><a href="/rituaria-dogmatica/{{ tipo.slug }}/{{ st.slug }}/">{{ st.nome }}</a></h2>
+  </div>
+  {% endif %}
+  <div class="ritual-list">
+    {% for r in st.rituali %}
+    {% if st.slug == "_" %}
+    {% set ritualHref = "/rituaria-dogmatica/" + tipo.slug + "/" + r.slug + "/" %}
+    {% else %}
+    {% set ritualHref = "/rituaria-dogmatica/" + tipo.slug + "/" + st.slug + "/" + r.slug + "/" %}
+    {% endif %}
+    {% if r.stato == "live" %}
+    <a class="ritual-item" href="{{ ritualHref }}">
+      <span class="ritual-name">{{ r.nome }}</span>
+      {% if r.rarita %}<span class="rarity-badge{% if r.rarita != 'Comune' %} {{ r.rarita | lower | replace(" ", "-") }}{% endif %}">{{ r.rarita }}</span>{% endif %}
+    </a>
+    {% else %}
+    <div class="ritual-item disabled">
+      <span class="ritual-name">{{ r.nome }}</span>
+      <span class="status presto">In arrivo</span>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endif %}

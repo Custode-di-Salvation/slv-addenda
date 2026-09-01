@@ -1,0 +1,142 @@
+---
+layout: base.njk
+permalink: /divinazione/piromanzia/
+title: "Piromanzia"
+tags: ["metodo-divinazione"]
+ordine: 7
+description: "Guida alla piromanzia per le scene di divinazione: comportamento della fiamma, colori, fumo, e una fiamma che reagisce davvero."
+crumb:
+  href: /divinazione/
+  label: Divinazione
+styles:
+  - /css/piromanzia.css
+scripts:
+  - /js/interp-tabs.js
+  - /js/piromanzia.js
+---
+<div class="page-hero">
+  <h1>Piromanzia</h1>
+  <p>Antichissima pratica di divinazione che si basa sull'osservazione e sull'interpretazione del fuoco. Sfrutta il movimento delle fiamme, il colore del fuoco, il fumo e le scintille per rispondere alle domande.</p>
+</div>
+
+<section class="prose" id="intro">
+  <div class="section-head">
+    <h2>Introduzione</h2>
+  </div>
+  <p>Essendo legata all'elemento del fuoco, la piromanzia è spesso utilizzata per ottenere risposte su questioni legate all'energia, alla passione, ai cambiamenti improvvisi e alla purificazione. Il tipo di combustibile è cruciale:</p>
+  <ul>
+    <li><strong>Legno comune</strong>: per questioni quotidiane o per presagi generali. Legni specifici (quercia per forza, salice per intuizione) possono essere scelti per affinità.</li>
+    <li><strong>Erbe aromatiche, resine</strong>: aggiunte per influenzare il tipo di fumo o per invocare spiriti specifici (incenso per purificazione, mirra per lutto, sandalo per meditazione).</li>
+    <li><strong>Materiali rari</strong>: per visioni più potenti. Legno di un albero sacro caduto, un frammento di osso, o qualcosa legato alla domanda. Rivelazioni intense, ma anche rischi.</li>
+  </ul>
+  <p>Il fuoco può essere acceso in una ciotola sacra (tripode, bacile di metallo, contenitore di argilla), una pira rituale all'aperto, o persino una torcia tenuta salda.</p>
+</section>
+
+<section id="metodi">
+  <div class="section-head">
+    <h2>Metodi di utilizzo</h2>
+    <p>Diversi approcci possono essere usati per ottenere risposte.</p>
+  </div>
+  <div class="method-grid">
+    <div class="method-card">
+      <h4>L'accensione rituale</h4>
+      <p><strong>Come si fa:</strong> il divinatore accende un fuoco rituale ponendo la domanda prima dell'accensione o all'atto di accendere. La prima reazione della fiamma e del fumo fornisce il presagio iniziale.</p>
+      <p><strong>Quando usarlo:</strong> per un'impressione generale su una situazione, un presagio su un viaggio o un'impresa.</p>
+    </div>
+    <div class="method-card">
+      <h4>La lettura del fumo</h4>
+      <p><strong>Come si fa:</strong> il divinatore fissa il fumo che sale, cercando forme, immagini o schemi particolari.</p>
+      <p><strong>Quando usarlo:</strong> per indizi più specifici, per rivelare identità nascoste, luoghi o eventi in corso.</p>
+    </div>
+    <div class="method-card">
+      <h4>Domande e sacrifici</h4>
+      <p><strong>Come si fa:</strong> un oggetto significativo per la domanda (un capello, un pezzo di mappa, una runa incisa) viene gettato nel fuoco. L'interpretazione si basa su come brucia, si disintegra, o il fumo che ne deriva.</p>
+      <p><strong>Quando usarlo:</strong> per domande di grande importanza. Una tecnica più rischiosa, con conseguenze maggiori.</p>
+    </div>
+  </div>
+</section>
+
+<section id="interpretazione">
+  <div class="section-head">
+    <h2>Interpretazione</h2>
+    <p>L'interpretazione nella piromanzia è altamente visiva e intuitiva, basandosi su diversi aspetti della fiamma e del fumo.</p>
+  </div>
+
+  <div class="interp-tabs" id="interpTabs">
+    <div class="interp-tab-nav">
+      <button type="button" class="interp-tab is-active" data-tab="0">Comportamento</button>
+      <button type="button" class="interp-tab" data-tab="1">Colori</button>
+      <button type="button" class="interp-tab" data-tab="2">Fumo</button>
+    </div>
+
+    <div class="interp-tab-panels">
+      <div class="interp-panel is-active" data-tab="0">
+        <ul>
+          <li><strong>Alta e stabile</strong>: chiarezza, forza, successo, energia positiva, verità manifesta.</li>
+          <li><strong>Bassa e fievole</strong>: debolezza, ostacoli, stanchezza, incertezza, verità difficili da afferrare.</li>
+          <li><strong>Danzante</strong>: cambiamento, instabilità, eccitazione, irrequietezza, pericolo imminente.</li>
+          <li><strong>Che scoppietta, crepita</strong>: conflitto, rivelazioni improvvise, discussioni, energie in attrito.</li>
+          <li><strong>Che punta</strong>: direzione, focalizzazione, indicazione di un luogo o di una persona.</li>
+        </ul>
+      </div>
+
+      <div class="interp-panel" data-tab="1">
+        <div class="color-swatch-list">
+          <div class="color-swatch-item">
+            <span class="color-swatch-dot" style="--swatch-hex:#4a7fd6"></span>
+            <span class="color-swatch-text"><strong>Blu</strong>Spiritualità o intuizione.</span>
+          </div>
+          <div class="color-swatch-item">
+            <span class="color-swatch-dot" style="--swatch-hex:#4a9d6a"></span>
+            <span class="color-swatch-text"><strong>Verde</strong>Guarigione o crescita.</span>
+          </div>
+          <div class="color-swatch-item">
+            <span class="color-swatch-dot" style="--swatch-hex:#9a1e24"></span>
+            <span class="color-swatch-text"><strong>Rosso</strong>Passione o pericolo.</span>
+          </div>
+          <div class="color-swatch-item">
+            <span class="color-swatch-dot" style="--swatch-hex:#d99a3f"></span>
+            <span class="color-swatch-text"><strong>Giallo, arancione</strong>Vitalità o chiarezza.</span>
+          </div>
+          <div class="color-swatch-item">
+            <span class="color-swatch-dot" style="--swatch-hex:#6a6a6e"></span>
+            <span class="color-swatch-text"><strong>Nero, grigio</strong>Negatività o corruzione.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="interp-panel" data-tab="2">
+        <ul>
+          <li><strong>Diritto e costante</strong>: chiarezza, verità, risposta affermativa o un percorso senza ostacoli.</li>
+          <li><strong>Turbolento, a spirale</strong>: confusione, inganno, complicazioni, forze contrastanti.</li>
+          <li><strong>Che si divide</strong>: scelta, divisione, conflitto, separazione.</li>
+          <li><strong>Denso, nero</strong>: negatività, pericolo, corruzione, inganno, blocchi.</li>
+          <li><strong>Leggero, bianco</strong>: purificazione, benedizione, buona fortuna, chiarezza.</li>
+        </ul>
+        <p>Anche le forme che il fumo assume, volti, animali, simboli, possono essere lette come presagi o indizi. Il calore della fiamma aggiunge un'ultima sfumatura: un calore improvviso indica passione o pericolo, un calore rassicurante indica protezione.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="osserva">
+  <div class="section-head">
+    <h2>Osserva la fiamma</h2>
+    <p>Accendi il fuoco e poni la tua domanda: comportamento e colore della fiamma insieme formano la lettura.</p>
+  </div>
+
+  <div class="flame-widget">
+    <div class="flame-ask">
+      <div class="flame-stage">
+        <i class="fa-solid fa-fire flame-icon" id="flameIcon"></i>
+      </div>
+      <button class="btn-draw" id="flameBtn" type="button">Osserva la fiamma</button>
+    </div>
+    <div class="flame-result" id="flameResult" hidden>
+      <div class="flame-result-row"><span class="flame-tag">Comportamento</span><strong id="flameBehaviorName"></strong><p id="flameBehaviorText"></p></div>
+      <div class="flame-result-row"><span class="flame-tag">Colore</span><strong id="flameColorName"></strong><p id="flameColorText"></p></div>
+    </div>
+  </div>
+</section>
+
+<script>window.FUOCO = {{ fuoco | dump | safe }};</script>

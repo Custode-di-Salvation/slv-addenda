@@ -1,0 +1,196 @@
+---
+layout: base.njk
+pagination:
+  data: specie
+  size: 1
+  alias: sp
+permalink: "/specie/{{ sp.slug }}/"
+styles: ["/css/specie.css"]
+scripts: ["/js/specie.js"]
+eleventyComputed:
+  title: "{{ sp.nome }}"
+  description: "{{ sp.tagline }}"
+---
+{%- set idx = specieIndex(sp.slug) -%}
+{%- set prevItem = specie[idx - 1] if idx > 0 else null -%}
+{%- set nextItem = specie[idx + 1] if idx < specie.length - 1 else null -%}
+
+<p class="crumb">
+  <a href="/">Home</a> <span>/</span>
+  <a href="/specie/">Specie</a> <span>/</span>
+  {{ sp.nome }}
+</p>
+
+<div class="specie-container">
+  <div class="specie-header">
+    <div class="specie-icon"><i class="{{ sp.icona }}"></i></div>
+    <div class="specie-header-text">
+      <span class="eyebrow">Scheda specie</span>
+      <h1 class="specie-name">{{ sp.nome }}</h1>
+      <p class="specie-tagline">{{ sp.tagline }}</p>
+    </div>
+  </div>
+
+  {% if sp.inRevisione %}
+  <div class="revisione-banner">
+    <i class="fa-solid fa-scroll"></i>
+    <span>In revisione</span>
+  </div>
+  {% else %}
+
+  {% if sp.caratteristiche or sp.avversioni or sp.poteri %}
+  <div class="potere-search">
+    <input type="text" class="search-input" id="potereSearch" placeholder="Cerca un potere, una caratteristica, un'avversione...">
+    <div class="filters">
+      <button class="filter-btn active" data-tipo="all">Tutte le voci</button>
+      {% if sp.caratteristiche %}<button class="filter-btn" data-tipo="caratteristica">Caratteristiche</button>{% endif %}
+      {% if sp.avversioni %}<button class="filter-btn" data-tipo="avversione">Avversioni</button>{% endif %}
+      {% if sp.poteri %}<button class="filter-btn" data-tipo="potere">Poteri</button>{% endif %}
+    </div>
+    <div class="counter-row">
+      <div class="results-counter" id="potereCounter"></div>
+    </div>
+  </div>
+  {% endif %}
+
+  {% if sp.body %}
+  <div class="specie-custom-body" style="margin-top: 2rem;">
+    {{ sp.body | safe }}
+  </div>
+  {% endif %}
+
+  {% if sp.caratteristiche %}
+  <section id="caratteristiche">
+    <div class="section-head"><h2>Caratteristiche di specie</h2></div>
+    <div class="specie-intro">{{ sp.introCaratteristiche | safe }}</div>
+
+    <div class="potere-accordion" data-group="caratteristiche">
+      {% for c in sp.caratteristiche %}
+      <details class="potere-item" id="{{ c.id }}" data-tipo="caratteristica" data-search="{{ (c.nome + ' ' + c.preview + ' ' + (c.lore | join(' '))) | striptags | lower }}">
+        <summary>
+          <span class="potere-icon"><i class="{{ c.icona }}"></i></span>
+          <span class="potere-item-heading">
+            <span class="potere-item-title">{{ c.nome }}</span>
+            <span class="potere-item-preview">{{ c.preview }}</span>
+          </span>
+          <i class="fa-solid fa-chevron-down potere-item-chevron"></i>
+        </summary>
+        <div class="potere-item-body">
+          {% for p in c.lore %}<div class="potere-lore">{{ p | safe }}</div>{% endfor %}
+          {% if c.mech %}
+          <ul class="potere-mech">
+            {% for m in c.mech %}<li><i class="fa-solid fa-circle-arrow-right"></i> <span>{{ m | safe }}</span></li>{% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if sp.avversioni %}
+  <section id="avversioni">
+    <div class="section-head"><h2>Vulnerabilità e avversioni</h2></div>
+    <div class="specie-intro">{{ sp.introAvversioni | safe }}</div>
+
+    <div class="potere-accordion" data-group="avversioni">
+      {% for a in sp.avversioni %}
+      <details class="potere-item is-avversione" id="{{ a.id }}" data-tipo="avversione" data-search="{{ (a.nome + ' ' + a.preview + ' ' + (a.lore | join(' '))) | striptags | lower }}">
+        <summary>
+          <span class="potere-icon"><i class="{{ a.icona }}"></i></span>
+          <span class="potere-item-heading">
+            <span class="potere-item-title">{{ a.nome }}</span>
+            <span class="potere-item-preview">{{ a.preview }}</span>
+          </span>
+          <i class="fa-solid fa-chevron-down potere-item-chevron"></i>
+        </summary>
+        <div class="potere-item-body">
+          {% for p in a.lore %}<div class="potere-lore">{{ p | safe }}</div>{% endfor %}
+          {% if a.mech %}
+          <ul class="potere-mech">
+            {% for m in a.mech %}<li><i class="fa-solid fa-circle-arrow-right"></i> <span>{{ m | safe }}</span></li>{% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if sp.poteri or sp.introPoteri %}
+  <section id="poteri">
+    <div class="section-head"><h2>Poteri di specie</h2></div>
+    {% if sp.introPoteri %}<div class="specie-intro">{{ sp.introPoteri | safe }}</div>{% endif %}
+
+    {% if sp.notaPoteri %}
+    <div class="potere-nota">
+      <i class="fa-solid fa-masks-theater"></i>
+      <div class="potere-nota-body">{{ sp.notaPoteri | safe }}</div>
+    </div>
+    {% endif %}
+
+    {% if sp.poteri %}
+    <div class="potere-cards" data-group="poteri">
+      {% for p in sp.poteri %}
+      {% if p.gruppo and (loop.first or p.gruppo != sp.poteri[loop.index0 - 1].gruppo) %}
+      <div class="sub-heading potere-gruppo-heading">{{ p.gruppo }}</div>
+      {% endif %}
+      <div class="potere-card" id="{{ p.id }}" data-tipo="potere" data-search="{{ (p.nome + ' ' + p.body) | striptags | lower }}">
+        <div class="potere-card-header">
+          <span class="potere-icon"><i class="{{ p.icona }}"></i></span>
+          <span class="potere-card-title">{{ p.nome }}</span>
+          {% if p.requisito %}<span class="potere-card-requisito"><i class="fa-solid fa-triangle-exclamation"></i> {{ p.requisito }}</span>{% endif %}
+        </div>
+        <div class="potere-card-body">{{ p.body | safe }}</div>
+        <div class="potere-card-stats">
+          <span class="potere-stat"><i class="fa-solid fa-crosshairs"></i> {{ p.stats.gittata | safe }}</span>
+          <span class="potere-stat"><i class="fa-solid fa-hourglass-start"></i> {{ p.stats.durata | safe }}</span>
+          <span class="potere-stat"><i class="fa-solid fa-bolt"></i> {{ p.stats.costo | safe }}</span>
+          <span class="potere-stat"><i class="fa-solid fa-hand-fist"></i> {{ p.stats.abilita | safe }}</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if sp.eredita %}
+  <section id="poteri">
+    <div class="section-head"><h2>{{ sp.eredita.titolo }}</h2></div>
+    <div class="specie-intro">{{ sp.eredita.intro | safe }}</div>
+
+    <div class="potere-eredita">
+      {% for s in sp.eredita.sezioni %}
+      <div class="potere-eredita-sezione">
+        <div class="sub-heading">{{ s.titolo }}</div>
+        <p>{{ s.corpo | safe }}</p>
+        {% if s.lista and s.lista.length > 0 %}
+        <ol>{% for l in s.lista %}<li>{{ l | safe }}</li>{% endfor %}</ol>
+        {% endif %}
+        {% if s.chiusura %}<p>{{ s.chiusura | safe }}</p>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% endif %}
+
+  <div class="specie-nav">
+    {% if prevItem %}
+    <a class="specie-nav-link prev" href="/specie/{{ prevItem.slug }}/">
+      <span class="specie-nav-label"><i class="fa-solid fa-arrow-left"></i> Precedente</span>
+      <span class="specie-nav-name">{{ prevItem.nome }}</span>
+    </a>
+    {% else %}<span class="specie-nav-empty"></span>{% endif %}
+    {% if nextItem %}
+    <a class="specie-nav-link next" href="/specie/{{ nextItem.slug }}/">
+      <span class="specie-nav-label">Successiva <i class="fa-solid fa-arrow-right"></i></span>
+      <span class="specie-nav-name">{{ nextItem.nome }}</span>
+    </a>
+    {% else %}<span class="specie-nav-empty"></span>{% endif %}
+  </div>
+</div>

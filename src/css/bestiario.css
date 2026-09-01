@@ -1,0 +1,608 @@
+/* ═══════════════════════════════════════════
+   BESTIARIO
+   Sistema coerente con addenda.css: pannelli scuri,
+   Cinzel per i titoli, DM Mono per le etichette, rosso
+   d'accento. Colore di pericolosità come unico elemento
+   cromatico aggiuntivo (bassa → estrema).
+   ═══════════════════════════════════════════ */
+
+main.main-content {
+  max-width: 1400px;
+}
+
+.bestiary-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ── Scala di pericolosità: unica fonte di colore in tutta la pagina ── */
+.danger-bassa, [data-danger="bassa"] { --danger-color: var(--gold); }
+.danger-media, [data-danger="media"] { --danger-color: #c99a3f; }
+.danger-alta, [data-danger="alta"] { --danger-color: var(--accent-bright); }
+.danger-estrema, [data-danger="estrema"] { --danger-color: #e0454c; }
+
+/* ═══════════════════════════════════════════
+   BARRA DI RICERCA E FILTRI (stile Abilità e Tratti,
+   adattato alle due dimensioni del bestiario: tipo
+   e pericolosità)
+   ═══════════════════════════════════════════ */
+.search-container {
+  max-width: 1400px;
+  margin: 0 auto 20px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 65px;
+  z-index: 9;
+  padding: 14px 0;
+  background: linear-gradient(var(--bg) 82%, transparent);
+}
+
+.search-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 18px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font: italic 14px var(--font-display);
+  color: var(--text);
+  margin-bottom: 14px;
+  transition: all var(--transition);
+}
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: var(--bg);
+  box-shadow: 0 0 15px rgba(154, 30, 36, .15);
+}
+.search-input::placeholder {
+  color: var(--muted);
+  text-transform: lowercase;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.filters-danger { margin-bottom: 12px; }
+
+.filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--text-soft);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.filter-btn:hover {
+  color: var(--text);
+  border-color: var(--text-soft);
+}
+.filter-btn i { font-size: .78rem; color: var(--muted); }
+
+.filters:not(.filters-danger) .filter-btn.active {
+  color: var(--accent-bright);
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+.filters:not(.filters-danger) .filter-btn.active i { color: var(--accent-bright); }
+
+/* Le pillole di pericolosità usano il colore della scala invece del rosso fisso */
+.filters-danger .filter-btn.active {
+  color: var(--danger-color, var(--accent-bright));
+  border-color: var(--danger-color, var(--accent));
+  background: rgba(255, 255, 255, .04);
+}
+.filters-danger .filter-btn.active i { color: var(--danger-color, var(--accent-bright)); }
+
+.counter-row {
+  border-top: 1px solid var(--border-soft);
+  padding-top: 12px;
+  margin-top: 4px;
+}
+.results-counter {
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.results-counter::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: bestiario-pulse 1.4s ease-in-out infinite;
+  flex-shrink: 0;
+}
+@keyframes bestiario-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .35; }
+}
+
+@media (max-width: 768px) {
+  .search-container { position: static; background: none; }
+}
+
+/* ═══════════════════════════════════════════
+   GRIGLIA E CARD (indice)
+   ═══════════════════════════════════════════ */
+.creatures-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 18px;
+  margin-bottom: 40px;
+}
+
+.creature-card {
+  background-color: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  display: block;
+  text-decoration: none;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .25);
+  transition: all var(--transition);
+}
+
+.creature-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--danger-color, var(--accent));
+  box-shadow: 0 14px 32px rgba(0, 0, 0, .55);
+}
+
+.creature-image {
+  position: relative;
+  height: 170px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.creature-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1);
+  transition: transform .5s ease;
+}
+
+.creature-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(19, 20, 23, 0) 40%, rgba(13, 14, 16, .94) 100%);
+}
+
+.creature-card:hover .creature-image {
+  filter: saturate(1.15);
+}
+.creature-card:hover .creature-image::before {
+  transform: scale(1.08);
+}
+
+.creature-danger {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-mono);
+  font-size: .62rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--danger-color);
+  background: rgba(13, 14, 16, .78);
+  border: 1px solid var(--danger-color);
+  border-radius: 3px;
+  padding: 4px 8px;
+  backdrop-filter: blur(2px);
+}
+
+.danger-estrema.creature-danger {
+  box-shadow: 0 0 10px rgba(224, 69, 76, .55);
+  animation: danger-pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes danger-pulse {
+  0%, 100% { box-shadow: 0 0 6px rgba(224, 69, 76, .4); }
+  50% { box-shadow: 0 0 16px rgba(224, 69, 76, .8); }
+}
+
+.creature-type-icon {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: rgba(13, 14, 16, .78);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .85rem;
+  backdrop-filter: blur(2px);
+}
+
+.creature-card-body {
+  padding: 16px 16px 18px;
+  text-align: center;
+  border-top: 2px solid var(--danger-color, var(--border));
+  transition: border-color var(--transition);
+}
+
+.creature-index {
+  font-family: var(--font-mono);
+  font-size: .58rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.creature-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--text);
+  letter-spacing: .02em;
+  transition: color var(--transition);
+}
+
+.creature-card:hover .creature-name { color: var(--accent-bright); }
+
+.creature-rule {
+  width: 26px;
+  height: 1px;
+  background: var(--border);
+  margin: 9px auto;
+  transition: background var(--transition), width var(--transition);
+}
+.creature-card:hover .creature-rule { width: 40px; background: var(--danger-color, var(--accent)); }
+
+.creature-type {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  font-size: .64rem;
+  letter-spacing: .1em;
+  color: var(--muted);
+}
+.creature-type i { color: var(--danger-color, var(--muted)); font-size: .68rem; }
+
+.no-results {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 20px;
+  font-family: var(--font-mono);
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: .8rem;
+}
+.no-results i { font-size: 1.6rem; color: var(--border); }
+
+/* ═══════════════════════════════════════════
+   SCHEDA CREATURA (pagina singola)
+   ═══════════════════════════════════════════ */
+.creature-detail-header {
+  display: flex;
+  gap: 36px;
+  margin-bottom: 12px;
+  align-items: flex-start;
+}
+
+.detail-image {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, .6);
+  flex-shrink: 0;
+}
+
+.detail-image .creature-type-icon {
+  width: 38px;
+  height: 38px;
+  font-size: 1rem;
+  right: 10px;
+  left: auto;
+  bottom: 10px;
+  border-color: var(--accent);
+  color: var(--accent-bright);
+}
+
+.detail-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4px;
+}
+
+.detail-info > .eyebrow { margin-bottom: 10px; }
+
+.detail-name {
+  font-size: 2.4rem;
+  color: var(--text);
+  font-family: var(--font-display);
+  font-weight: 600;
+  margin: 0 0 14px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  line-height: 1.15;
+}
+
+.detail-type {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 26px;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-soft);
+  font-size: .74rem;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.detail-type .creature-danger {
+  position: static;
+  background: transparent;
+  padding: 3px 10px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-top: auto;
+  width: 100%;
+}
+
+.stat {
+  background-color: var(--panel-dark);
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  border: 1px solid var(--border-soft);
+}
+
+.stat-name {
+  font-weight: 600;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: .6rem;
+  letter-spacing: .08em;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.stat-name i { color: var(--muted); font-size: .72rem; }
+.stat > span:last-child {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+/* ── Descrizione ──
+   Tre livelli di lettura invece di un unico muro di testo:
+   1) lore (tassonomia, aspetto, habitat, comportamento, dieta,
+      ciclo vitale) su due colonne leggere, icona + titoletto,
+      senza il peso di sei riquadri impilati;
+   2) riquadro minaccia a due colonne (capacità / debolezze), il
+      dato che serve davvero a chi master la scena, messo in risalto;
+   3) nota d'archivio finale (origini), staccata visivamente come
+      un'appendice, non come lore di pari peso. */
+.creature-description { margin-top: 44px; }
+
+.creature-info-list {
+  column-count: 2;
+  column-gap: 36px;
+  margin: 20px 0 32px;
+}
+.creature-info-item {
+  break-inside: avoid;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 26px;
+}
+.creature-info-item:last-child { margin-bottom: 0; }
+.creature-info-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-bright);
+  font-size: .78rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.creature-info-body { min-width: 0; }
+.creature-info-body h4 {
+  font: 700 13px 'Cinzel', serif;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  margin: 0 0 6px;
+}
+.creature-info-body p {
+  font-size: .87rem;
+  color: var(--text-soft);
+  line-height: 1.65;
+  text-align: justify;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .creature-info-list { column-count: 1; }
+  .creature-info-item { margin-bottom: 20px; }
+}
+
+.creature-threat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.creature-threat-card {
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  border: 1px solid var(--border);
+}
+.creature-threat-card h4 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font: 700 14px 'Cinzel', serif;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin: 0 0 10px;
+}
+.creature-threat-card p {
+  font-size: .9rem;
+  color: var(--text-soft);
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0;
+}
+.creature-threat-card.is-power {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+}
+.creature-threat-card.is-power h4 { color: var(--accent-bright); }
+.creature-threat-card.is-weakness {
+  background: var(--panel-dark);
+  border-color: var(--gold);
+}
+.creature-threat-card.is-weakness h4 { color: var(--gold); }
+
+.creature-origins {
+  border-top: 1px dashed var(--border);
+  padding-top: 20px;
+}
+.creature-origins h4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font: 700 12px 'Cinzel', serif;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  color: var(--muted);
+  margin: 0 0 10px;
+}
+.creature-origins p {
+  font-size: .85rem;
+  font-style: italic;
+  color: var(--text-soft);
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .creature-threat-card { padding: 16px 18px; }
+}
+
+/* ── Poteri ── */
+.abilities { margin-top: 44px; }
+
+.ability {
+  margin-bottom: 14px;
+  padding: 16px 20px;
+  background-color: var(--panel);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  transition: border-color var(--transition);
+}
+.ability:hover { border-color: var(--accent-bright); border-left-color: var(--accent-bright); }
+.ability:last-child { margin-bottom: 0; }
+
+.ability-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: var(--accent-bright);
+  margin-bottom: 6px;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: .82rem;
+}
+.ability-name i { font-size: .78rem; }
+.ability p { color: var(--text-soft); font-size: .92rem; line-height: 1.65; }
+
+@media (max-width: 768px) {
+  .creatures-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+
+  .creature-detail-header { flex-direction: column; }
+
+  .detail-image { width: 100%; height: 240px; }
+
+  .detail-name { font-size: 1.8rem; }
+
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ── In revisione banner ── */
+.revisione-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 48px 24px;
+  margin: 32px auto;
+  max-width: 1200px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: .85rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.revisione-banner i {
+  font-size: 1.1rem;
+  color: var(--accent);
+}

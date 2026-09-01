@@ -1,0 +1,100 @@
+---
+layout: base.njk
+permalink: /divinazione/aruspicina/
+title: "Aruspicina"
+tags: ["metodo-divinazione"]
+ordine: 1
+description: "Guida all'aruspicina per le scene di divinazione: il sacrificio rituale, la cerimonia, e una mappa interattiva del fegato."
+crumb:
+  href: /divinazione/
+  label: Divinazione
+styles:
+  - /css/aruspicina.css
+scripts:
+  - /js/aruspicina.js
+---
+<div class="page-hero">
+  <h1>Aruspicina</h1>
+  <p>Antica pratica divinatoria che si basa sull'osservazione e l'interpretazione delle viscere degli animali sacrificati, in particolare il fegato. Risalente alle civiltà etrusche, romane e mesopotamiche, era usata per ottenere indicazioni dagli dèi su eventi futuri, decisioni politiche, battaglie o calamità naturali.</p>
+</div>
+
+<section class="prose" id="intro">
+  <div class="section-head">
+    <h2>Introduzione</h2>
+  </div>
+  <p>Il cuore dell'aruspicina è il sacrificio rituale: non un atto casuale, ma un rito preciso che crea un ponte tra il mondo mortale e quello divino. La specie della vittima e le sue condizioni fisiche influenzano il tipo di messaggio e la sua purezza:</p>
+  <ul>
+    <li><strong>Pecore, capre</strong>: comuni per questioni quotidiane o meno gravi. Viscere considerate "limpide" per presagi generali.</li>
+    <li><strong>Bovini</strong>: per questioni di grande importanza, fertilità, prosperità, forza, o per interrogare divinità potenti.</li>
+    <li><strong>Pollame</strong>: per indizi rapidi, o domande più semplici.</li>
+    <li><strong>Animali puri, vergini</strong>: spesso preferiti per l'integrità del presagio.</li>
+    <li><strong>Animali specifici</strong>: a seconda della lore del mondo, alcune specie possono essere sacre a divinità particolari.</li>
+  </ul>
+  <p>È un processo meticoloso: l'animale deve essere senza macchia, la sua uccisione rapida e compassionevole, il sangue raccolto ritualmente.</p>
+</section>
+
+<section class="prose" id="cerimonia">
+  <div class="section-head">
+    <h2>Cerimonia</h2>
+  </div>
+  <p>Non è una divinazione che chiunque può fare: richiede un aruspice o un sacerdote specializzato, con anni di studio e pratica. La sua reputazione e la sua abilità influenzano l'affidabilità della lettura.</p>
+  <p>La domanda deve essere chiara e concisa. Spesso riguarda la bontà o meno di un'impresa (una guerra, un matrimonio, un viaggio) o la causa di un problema (una pestilenza, un fallimento del raccolto).</p>
+  <p>Dopo l'estrazione, il fegato viene lavato e posizionato su un altare o un tavolo sacrificale. L'aruspice lo esamina attentamente, consultando mappe o modelli tradizionali che guidano l'interpretazione dei vari settori.</p>
+</section>
+
+<section id="interpretazione">
+  <div class="section-head">
+    <h2>Interpretazione</h2>
+    <p>L'aruspicina si concentra principalmente sul fegato, considerato una "mappa" del cosmo e del destino. Tocca una zona per leggerne il significato.</p>
+  </div>
+
+  <div class="liver-layout">
+    <div class="liver-diagram" id="liverDiagram">
+      <svg class="liver-shape" viewBox="0 0 300 220" preserveAspectRatio="none">
+        <path d="M40,60 C20,90 15,140 40,170 C70,200 130,205 180,190 C230,175 270,150 275,110 C280,70 250,40 200,35 C160,30 140,50 110,45 C80,40 55,35 40,60 Z" />
+      </svg>
+      {% for zona in fegato %}
+      <button type="button" class="liver-hotspot{% if loop.first %} is-active{% endif %}" style="left:{{ zona.x }}%; top:{{ zona.y }}%;" data-index="{{ loop.index0 }}" aria-label="{{ zona.nome }}">{{ loop.index }}</button>
+      {% endfor %}
+    </div>
+    <div class="liver-side">
+      <div class="liver-detail" id="liverDetail">
+        <h4 id="liverDetailTitle">{{ fegato[0].nome }}</h4>
+        <p id="liverDetailText">{{ fegato[0].testo }}</p>
+      </div>
+
+      <div class="tool-list">
+        <div class="tool-list-item">
+          <div class="tool-icon"><i class="fa-solid fa-wind"></i></div>
+          <div>
+            <h4>Odore e consistenza</h4>
+            <p>Al di là del visivo, l'odore e la sensazione al tatto forniscono indizi aggiuntivi. Un odore nauseabondo o una consistenza insolita possono indicare corruzione nascosta, anche senza macchie visibili.</p>
+          </div>
+        </div>
+        <div class="tool-list-item">
+          <div class="tool-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          <div>
+            <h4>Cuore</h4>
+            <p>Il battito al momento dell'estrazione, forma, colore e anomalie possono indicare coraggio, vitalità, amore o tradimento.</p>
+          </div>
+        </div>
+        <div class="tool-list-item">
+          <div class="tool-icon"><i class="fa-solid fa-lungs"></i></div>
+          <div>
+            <h4>Polmoni</h4>
+            <p>Possono riflettere la "respirazione" di una situazione: la libertà o l'oppressione.</p>
+          </div>
+        </div>
+        <div class="tool-list-item">
+          <div class="tool-icon"><i class="fa-solid fa-route"></i></div>
+          <div>
+            <h4>Intestini</h4>
+            <p>Il loro intreccio, blocchi o anomalie suggeriscono complicazioni, percorsi tortuosi o nodi da sciogliere.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>window.FEGATO = {{ fegato | dump | safe }};</script>

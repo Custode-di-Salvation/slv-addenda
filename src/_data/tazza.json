@@ -1,0 +1,26 @@
+{
+  "posizioni": [
+    { "nome": "A metà tazza", "testo": "Eventi nel futuro prossimo, o aspetti della situazione attuale che si stanno sviluppando." },
+    { "nome": "Sul fondo", "testo": "Eventi lontani nel tempo, influenze di lunga data, o il risultato finale." },
+    { "nome": "Vicino al bordo", "testo": "Eventi imminenti o influenze presenti nella vita quotidiana." },
+    { "nome": "Vicino al manico", "testo": "Riguarda il consultante stesso, la sua casa, le persone più vicine." }
+  ],
+  "simboli": [
+    { "nome": "Albero", "testo": "Crescita, forza, stabilità, legame con la natura, famiglia." },
+    { "nome": "Cane", "testo": "Amicizia, lealtà, protezione." },
+    { "nome": "Cerchio", "testo": "Completamento, ciclo, unità, protezione." },
+    { "nome": "Chiave", "testo": "Soluzione, segreto rivelato, opportunità." },
+    { "nome": "Cuore", "testo": "Amore, affetto, gioia, relazioni." },
+    { "nome": "Gatto", "testo": "Indipendenza, astuzia, mistero, inganno (se accovacciato)." },
+    { "nome": "Linea diritta", "testo": "Viaggio, percorso chiaro, progresso." },
+    { "nome": "Linea ondeggiante", "testo": "Difficoltà, incertezza, ostacoli." },
+    { "nome": "Montagna", "testo": "Ostacoli, grandi sfide, ambizione." },
+    { "nome": "Nave", "testo": "Viaggio, avventura, arrivo, partenza." },
+    { "nome": "Pesce", "testo": "Abbondanza, fortuna, segreti nascosti." },
+    { "nome": "Quadrato", "testo": "Stabilità, sicurezza, struttura, ma anche restrizione." },
+    { "nome": "Serpente", "testo": "Tradimento, saggezza, trasformazione, pericolo." },
+    { "nome": "Stella", "testo": "Speranza, successo, buona fortuna, fama." },
+    { "nome": "Triangolo", "testo": "Cambiamento, armonia (punta in alto) o frustrazione (punta in basso)." },
+    { "nome": "Uccello", "testo": "Notizie, messaggi, viaggi (se in volo)." }
+  ]
+}

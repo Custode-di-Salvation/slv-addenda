@@ -1,0 +1,24 @@
+---
+layout: base.njk
+permalink: /rituaria-dogmatica/
+title: "Rituaria Dogmatica"
+crumb:
+  href: /
+  label: Home
+---
+<div class="page-hero">
+  <h1>Rituaria Dogmatica</h1>
+  <p>Il formulario dei rituali dogmatici: formule tratte da tradizioni religiose reali (cristiana cattolica, ortodossa, ebraica, musulmana) e non, catalogate per tipo e tradizione. Ogni rituale ha componenti, tempo di lancio, effetti e la formula completa, in lingua originale e tradotta.</p>
+</div>
+
+<section>
+  <div class="card-grid card-grid-wide">
+    {% for t in rituaria %}
+    <a class="card" href="/rituaria-dogmatica/{{ t.slug }}/">
+      <span class="icon"><i class="{{ t.icona }}"></i></span>
+      <h3{% if t.nome.length > 25 %} class="tight"{% endif %}>{{ t.nome }}</h3>
+      <p>{{ t.sintesi }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>

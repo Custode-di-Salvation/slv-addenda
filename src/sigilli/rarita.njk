@@ -1,0 +1,41 @@
+---
+layout: base.njk
+pagination:
+  data: sigilli
+  size: 1
+  alias: rarita
+permalink: "/sigilli/{{ rarita.slug }}/"
+eleventyComputed:
+  title: "{{ rarita.nome }}"
+crumbs:
+  - href: /
+    label: Home
+  - href: /sigilli/
+    label: Sigilli
+---
+<div class="page-hero">
+  <h1>{{ rarita.nome }}</h1>
+  <p>{{ rarita.sintesi }}</p>
+</div>
+
+{% for c in rarita.categorie %}
+<section{% if loop.first %} id="{{ c.slug }}"{% endif %}>
+  <div class="section-head">
+    <h2><a href="/sigilli/{{ rarita.slug }}/{{ c.slug }}/">{{ c.nome }}</a></h2>
+  </div>
+  <div class="ritual-list">
+    {% for s in c.sigilli %}
+    {% if s.stato == "live" %}
+    <a class="ritual-item" href="/sigilli/{{ rarita.slug }}/{{ c.slug }}/{{ s.slug }}/">
+      <span class="ritual-name">{{ s.nome }}</span>
+    </a>
+    {% else %}
+    <div class="ritual-item disabled">
+      <span class="ritual-name">{{ s.nome }}</span>
+      <span class="status presto">In arrivo</span>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

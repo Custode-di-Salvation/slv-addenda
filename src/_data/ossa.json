@@ -1,0 +1,40 @@
+{
+  "posizione": [
+    { "nome": "Dritto, in piedi", "testo": "Forza, stabilità, affermazione, superamento di ostacoli." },
+    { "nome": "Punta a est", "testo": "Un inizio, un'alba, qualcosa che si apre." },
+    { "nome": "Punta a nord", "testo": "Il passato, o il freddo che avanza." },
+    { "nome": "Punta a ovest", "testo": "Una fine, un tramonto, qualcosa che si chiude." },
+    { "nome": "Punta a sud", "testo": "Il calore, o ciò che deve ancora venire." },
+    { "nome": "Punta lontano dal divinatore", "testo": "Qualcosa di esterno, una partenza, un allontanamento." },
+    { "nome": "Punta verso il divinatore", "testo": "La questione riguarda direttamente chi ha chiesto la lettura." },
+    { "nome": "Punta verso un altro osso", "testo": "Una connessione diretta, o un conflitto se le punte si scontrano." },
+    { "nome": "Rovesciato, piatto", "testo": "Debolezza, fallimento, rovesciamento delle fortune." }
+  ],
+  "relazione": [
+    { "nome": "A croce", "testo": "Un dilemma, una scelta difficile, un crocevia." },
+    { "nome": "A gruppo, cumulo", "testo": "Un accumulo di problemi, risorse o eventi simultanei." },
+    { "nome": "A linea o percorso", "testo": "Un viaggio, un processo, una via chiara da seguire." },
+    { "nome": "A triangolo, punta in alto", "testo": "Crescita, aspirazione, manifestazione spirituale." },
+    { "nome": "A triangolo, punta in basso", "testo": "Caduta, declino, problemi materiali." },
+    { "nome": "Allineate", "testo": "Un percorso chiaro, una sequenza di eventi in ordine." },
+    { "nome": "In cerchio", "testo": "Un ciclo, protezione, unità, un confine sacro." },
+    { "nome": "Lontane, separate", "testo": "Separazione, percorsi divergenti, forze indipendenti." },
+    { "nome": "Sovrapposte", "testo": "Un elemento domina l'altro; forse un segreto nascosto sotto." },
+    { "nome": "Vicine, toccanti", "testo": "Connessione forte, alleanza, eventi correlati." }
+  ],
+  "suono": [
+    { "nome": "Armonico, risonante", "testo": "Equilibrio, chiarezza, una benedizione." },
+    { "nome": "Crepitio", "testo": "Rottura, conflitto, tensione imminente." },
+    { "nome": "Silenzio muffato", "testo": "Segreti, cose nascoste, una verità non ancora rivelata." },
+    { "nome": "Stridulo, dissonante", "testo": "Discordia, allarme, energie ostili." },
+    { "nome": "Tintinnio acuto", "testo": "Leggerezza, velocità, un evento improvviso." },
+    { "nome": "Tonfo sordo", "testo": "Gravità, un presagio importante, qualcosa di ineluttabile." }
+  ],
+  "superficie": [
+    { "nome": "Annerito, bruciato", "testo": "Distruzione, purificazione, una fine violenta." },
+    { "nome": "Grezzo, sporco", "testo": "Difficoltà, ostacoli, qualcosa non ancora risolto." },
+    { "nome": "Incrinato, scheggiato", "testo": "Rottura, conflitto, ferita, una verità scomoda." },
+    { "nome": "Liscio, lucido", "testo": "Chiarezza, verità, pace, scorrimento fluido degli eventi." },
+    { "nome": "Vibrante, caldo al tatto", "testo": "Un'energia attiva, un messaggio urgente." }
+  ]
+}

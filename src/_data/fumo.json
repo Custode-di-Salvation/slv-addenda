@@ -1,0 +1,16 @@
+{
+  "colore": [
+    { "nome": "Bianco, argentato", "hex": "#cfd3dc", "testo": "Purezza, benedizione, presagio favorevole, presenza spirituale benevola." },
+    { "nome": "Bluastro", "hex": "#4a7fd6", "testo": "Spiritualità, intuizione, contatto con il sottile." },
+    { "nome": "Giallastro, ocra", "hex": "#c9a227", "testo": "Malattia, debolezza, vecchiezza di una situazione." },
+    { "nome": "Grigio perlaceo", "hex": "#9a9ea8", "testo": "Risposta sospesa, situazione in evoluzione." },
+    { "nome": "Grigio scuro, plumbeo", "hex": "#55585f", "testo": "Difficoltà, peso, pessimismo." },
+    { "nome": "Nero", "hex": "#2a2b2f", "testo": "Pericolo serio, malattia, malevolenza, presenze ostili." }
+  ],
+  "direzione": [
+    { "id": "alto", "nome": "Dritto verso l'alto", "testo": "Sì. Chiarezza, risposta affermativa, percorso libero da ostacoli." },
+    { "id": "basso", "nome": "Resta basso, non sale", "testo": "Non è il momento. Riformula la domanda." },
+    { "id": "anelli", "nome": "Si ramifica in anelli", "testo": "Sì, ma non nel modo in cui il consultante si aspetta." },
+    { "id": "rotto", "nome": "Si rompe in pezzi irregolari", "testo": "No. Risposta negativa, frammentazione, comunicazione interrotta." }
+  ]
+}

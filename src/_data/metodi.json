@@ -1,0 +1,90 @@
+[
+  {
+    "ordine": 1,
+    "slug": "aruspicina",
+    "titolo": "Aruspicina",
+    "sintesi": "L'antica lettura delle viscere sacrificali, in particolare del fegato.",
+    "icona": "fa-solid fa-heart-pulse",
+    "stato": "live"
+  },
+  {
+    "ordine": 2,
+    "slug": "auguri",
+    "titolo": "Àuguri",
+    "sintesi": "Il volo, il canto e il comportamento degli uccelli come messaggio divino.",
+    "icona": "fa-solid fa-dove",
+    "stato": "live"
+  },
+  {
+    "ordine": 3,
+    "slug": "bibliomanzia",
+    "titolo": "Bibliomanzia",
+    "sintesi": "Un libro aperto a caso: la prima riga su cui cade lo sguardo diventa la risposta.",
+    "icona": "fa-solid fa-book-open",
+    "stato": "live"
+  },
+  {
+    "ordine": 4,
+    "slug": "capnomanzia",
+    "titolo": "Capnomanzia",
+    "sintesi": "Il fumo che sale da un fuoco rituale, letto in direzione, forma e colore.",
+    "icona": "fa-solid fa-smog",
+    "stato": "live"
+  },
+  {
+    "ordine": 5,
+    "slug": "osteomanzia",
+    "titolo": "Osteomanzia",
+    "sintesi": "Ossa e frammenti gettati a terra: forma, posizione e suono rivelano il presagio.",
+    "icona": "fa-solid fa-bone",
+    "stato": "live"
+  },
+  {
+    "ordine": 6,
+    "slug": "pendolo",
+    "titolo": "Pendolo",
+    "sintesi": "Un peso sospeso a un filo, le cui oscillazioni rispondono sì, no o forse.",
+    "icona": "fa-solid fa-gem",
+    "stato": "live"
+  },
+  {
+    "ordine": 7,
+    "slug": "piromanzia",
+    "titolo": "Piromanzia",
+    "sintesi": "Il movimento e il colore delle fiamme come specchio del destino.",
+    "icona": "fa-solid fa-fire",
+    "stato": "live"
+  },
+  {
+    "ordine": 8,
+    "slug": "scrying",
+    "titolo": "Scrying",
+    "sintesi": "Sfere, specchi e acque calme come portali per visioni e verità nascoste.",
+    "icona": "fa-solid fa-eye",
+    "stato": "live"
+  },
+  {
+    "ordine": 9,
+    "slug": "sideromanzia",
+    "titolo": "Sideromanzia",
+    "sintesi": "Stelle, comete e aurore osservate nel cielo notturno per leggere il destino.",
+    "icona": "fa-solid fa-star",
+    "stato": "live"
+  },
+  {
+    "ordine": 10,
+    "slug": "tarocchi",
+    "titolo": "Tarocchi",
+    "sintesi": "Le 22 carte degli Arcani Maggiori, lette dritte o rovesciate in una stesa.",
+    "icona": "fa-solid fa-layer-group",
+    "stato": "live"
+  },
+  {
+    "ordine": 11,
+    "slug": "tasseomanzia",
+    "titolo": "Tasseomanzia",
+    "sintesi": "I fondi di tè o caffè, letti nella forma che assumono in fondo alla tazza.",
+    "icona": "fa-solid fa-mug-hot",
+    "stato": "live"
+  }
+]

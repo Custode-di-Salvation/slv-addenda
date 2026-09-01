@@ -1,0 +1,26 @@
+[
+  {
+    "id": "forse",
+    "glifo": "↻",
+    "nome": "Forse, non so, riformula",
+    "testo": "Oscillazione circolare irregolare, un piccolo tremolio, o nessun movimento significativo. La domanda è formulata male, o non è il momento di saperlo."
+  },
+  {
+    "id": "no",
+    "glifo": "↔",
+    "nome": "No",
+    "testo": "Oscillazione da un lato all'altro, o in senso antiorario."
+  },
+  {
+    "id": "si",
+    "glifo": "↕",
+    "nome": "Sì",
+    "testo": "Oscillazione avanti e indietro, o in senso orario."
+  },
+  {
+    "id": "direzione",
+    "glifo": "↗",
+    "nome": "Verso una direzione",
+    "testo": "Se usato su una mappa o un diagramma, il pendolo può puntare verso una posizione specifica: un luogo, una persona, un oggetto."
+  }
+]

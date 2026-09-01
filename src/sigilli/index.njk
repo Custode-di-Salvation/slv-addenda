@@ -1,0 +1,24 @@
+---
+layout: base.njk
+permalink: /sigilli/
+title: "Sigilli"
+crumb:
+  href: /
+  label: Home
+---
+<div class="page-hero">
+  <h1>Sigilli</h1>
+  <p>Un catalogo di sigilli utilizzabili nelle scene: simboli tradizionali e sigilli compositi, divisi per rarità e per campo d'azione (Manipolazione, Percezione, Protezione, Vincoli). Ogni voce spiega il campo semantico del simbolo, gli effetti coerenti che può produrre e i suoi limiti.</p>
+</div>
+
+<section>
+  <div class="card-grid">
+    {% for r in sigilli %}
+    <a class="card" href="/sigilli/{{ r.slug }}/">
+      <span class="icon"><i class="{{ r.icona }}"></i></span>
+      <h3>{{ r.nome }}</h3>
+      <p>{{ r.sintesi }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>

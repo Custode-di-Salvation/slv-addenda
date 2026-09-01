@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} · {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
+  <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.tagline }}{% endif %}">
+  <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon-192.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/addenda.css?v=1">
+  {% for href in styles %}<link rel="stylesheet" href="{{ href }}?v=1">{% endfor %}
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="/">
+        <span class="mark"><i class="fa-solid fa-crow"></i></span>
+        <span class="titles">
+          <span class="name">{{ site.name }}</span>
+          <span class="subname">Salvation &middot; GDR</span>
+        </span>
+      </a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+          <li><a href="/abilita/" {% if page.url.startsWith('/abilita/') %}class="active"{% endif %}>Abilità e Tratti</a></li>
+          <li><a href="/bestiario/" {% if page.url.startsWith('/bestiario/') %}class="active"{% endif %}>Bestiario</a></li>
+          <li><a href="/divinazione/" {% if page.url.startsWith('/divinazione/') %}class="active"{% endif %}>Divinazione</a></li>
+          <li><a href="/rituaria-dogmatica/" {% if page.url.startsWith('/rituaria-dogmatica/') %}class="active"{% endif %}>Rituaria Dogmatica</a></li>
+          <li><a href="/sigilli/" {% if page.url.startsWith('/sigilli/') %}class="active"{% endif %}>Sigilli</a></li>
+          <li><a href="/specie/" {% if page.url.startsWith('/specie/') %}class="active"{% endif %}>Poteri di specie</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    {% if crumbs %}
+    <p class="crumb">{% for c in crumbs %}{% if c.label %}<a href="{{ c.href }}">{{ c.label }}</a> <span>/</span> {% endif %}{% endfor %}{{ title }}</p>
+    {% elif crumb %}
+    <p class="crumb"><a href="{{ crumb.href }}">{{ crumb.label }}</a> <span>/</span> {{ title }}</p>
+    {% endif %}
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <p>Addenda al regolamento &middot; materiale integrativo, non sostituisce il regolamento ufficiale &middot; <a href="{{ site.forumUrl }}" target="_blank" rel="noopener">Torna al forum</a></p>
+  </footer>
+
+  <script src="/js/skill-ref.js?v=1" defer></script>
+  {% for src in scripts %}<script src="{{ src }}?v=1" defer></script>{% endfor %}
+</body>
+</html>

@@ -1,0 +1,88 @@
+---
+layout: base.njk
+styles: ["/css/bestiario.css"]
+---
+
+{% set danger = pericolosita | lower %}
+{% set tipoIcona = bestiarioMeta.icone[tipo | lower] or bestiarioMeta.iconaDefault %}
+
+<p class="crumb">
+  <a href="/">Home</a> <span>/</span>
+  <a href="/bestiario/">Bestiario</a> <span>/</span>
+  {{ nome }}
+</p>
+
+<div class="bestiary-container">
+  <div class="creature-detail-header">
+    <div class="detail-image" style="background-image: url('{{ immagine }}')">
+      <span class="creature-type-icon"><i class="{{ tipoIcona }}"></i></span>
+    </div>
+    <div class="detail-info">
+      <span class="eyebrow">Scheda creatura</span>
+      <h1 class="detail-name">{{ nome }}</h1>
+      <div class="detail-type">
+        {{ tipo | capitalize }}
+        <span class="creature-danger danger-{{ danger }}"><i class="{{ (bestiarioMeta.pericolo[danger] or {}).icona or 'fa-solid fa-circle-question' }}"></i> Pericolosità {{ (bestiarioMeta.pericolo[danger] or {}).label or pericolosita }}</span>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-name"><i class="fa-solid fa-dumbbell"></i> FOR</span>
+          <span>{{ statistiche.forza }}</span>
+        </div>
+        <div class="stat">
+          <span class="stat-name"><i class="fa-solid fa-person-running"></i> AGI</span>
+          <span>{{ statistiche.agilita }}</span>
+        </div>
+        <div class="stat">
+          <span class="stat-name"><i class="fa-solid fa-shield"></i> COS</span>
+          <span>{{ statistiche.costituzione }}</span>
+        </div>
+        <div class="stat">
+          <span class="stat-name"><i class="fa-solid fa-hand-holding-heart"></i> TEN</span>
+          <span>{{ statistiche.tenacia }}</span>
+        </div>
+        <div class="stat">
+          <span class="stat-name"><i class="fa-solid fa-comments"></i> CAR</span>
+          <span>{{ statistiche.carisma }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="creature-description">
+    <div class="description-section">
+      {{ content | safe }}
+    </div>
+  </div>
+
+  {% if poteri and poteri.length > 0 %}
+  <div class="abilities">
+    <div class="section-head"><h2>Poteri</h2></div>
+    {% for potere in poteri %}
+    <div class="ability">
+      <span class="ability-name"><i class="fa-solid fa-sparkles"></i> {{ potere.nome }}</span>
+      <p>{{ potere.descrizione | safe }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% set prevItem = collections.bestiario | getPreviousCollectionItem(page) %}
+  {% set nextItem = collections.bestiario | getNextCollectionItem(page) %}
+  
+  <div class="specie-nav">
+    {% if prevItem %}
+    <a class="specie-nav-link prev" href="{{ prevItem.url }}">
+      <span class="specie-nav-label"><i class="fa-solid fa-arrow-left"></i> Precedente</span>
+      <span class="specie-nav-name">{{ prevItem.data.nome }}</span>
+    </a>
+    {% else %}<span class="specie-nav-empty"></span>{% endif %}
+    {% if nextItem %}
+    <a class="specie-nav-link next" href="{{ nextItem.url }}">
+      <span class="specie-nav-label">Successiva <i class="fa-solid fa-arrow-right"></i></span>
+      <span class="specie-nav-name">{{ nextItem.data.nome }}</span>
+    </a>
+    {% else %}<span class="specie-nav-empty"></span>{% endif %}
+  </div>
+</div>

@@ -1,0 +1,44 @@
+[
+  {
+    "nome": "Caput Iecoris",
+    "x": 82,
+    "y": 26,
+    "testo": "Una protuberanza specifica, di suprema importanza. Ben formata e sana indica un presagio favorevole; atrofizzata, mancante o malformata è un segno di grave sfortuna."
+  },
+  {
+    "nome": "Colorazione",
+    "x": 48,
+    "y": 58,
+    "testo": "Colori insoliti o macchie (nero, giallo pallido, rosso intenso) possono presagire malattie, corruzione, prosperità o sventura."
+  },
+  {
+    "nome": "Crescite e anomalie",
+    "x": 28,
+    "y": 76,
+    "testo": "Tumori, cisti, noduli o escrescenze insolite sono spesso interpretati come presagi negativi, malattie, pericoli, corruzione nascosta."
+  },
+  {
+    "nome": "Lobazione",
+    "x": 32,
+    "y": 28,
+    "testo": "Il numero e la forma dei lobi, la loro simmetria o asimmetria, possono indicare equilibrio o squilibrio negli eventi."
+  },
+  {
+    "nome": "Organi adesivi",
+    "x": 16,
+    "y": 52,
+    "testo": "Piccole formazioni attaccate al fegato: influenze esterne, legami inaspettati, elementi estranei che si manifestano nella situazione."
+  },
+  {
+    "nome": "Striature e venature",
+    "x": 62,
+    "y": 42,
+    "testo": "Presenza, direzione e profondità delle vene indicano percorsi, ostacoli o benedizioni. Vene pulsanti o di colore insolito (bluastre, nere) indicano malattia o tradimento; un reticolo chiaro e uniforme, buona salute e fortuna."
+  },
+  {
+    "nome": "Vescica biliare",
+    "x": 76,
+    "y": 70,
+    "testo": "La sua dimensione e posizione sono cruciali. Piena, indica prosperità; vuota o malformata, presagi negativi."
+  }
+]

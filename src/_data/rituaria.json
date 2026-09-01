@@ -1,0 +1,312 @@
+[
+  {
+    "slug": "esorcismi-e-congedi",
+    "nome": "Esorcismi e Congedi",
+    "sintesi": "Rituali che scacciano presenze ostili o accompagnano gli spiriti al congedo finale.",
+    "icona": "fa-solid fa-hand-fist",
+    "sottotipi": [
+      {
+        "slug": "cristiana-cattolica",
+        "nome": "Cristiana cattolica",
+        "rituali": [
+          {
+            "slug": "de-exorcizandis-obsessis-a-daemonio",
+            "nome": "De exorcizandis obsessis a daemonio",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "esorcismo-minore-di-san-benedetto",
+            "nome": "Esorcismo Minore di San Benedetto",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "exorcismus-in-articulo-mortis",
+            "nome": "Exorcismus in articulo mortis",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "exorcizamus-te",
+            "nome": "Exorcizamus te",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "cristiana-ortodossa",
+        "nome": "Cristiana ortodossa",
+        "rituali": [
+          {
+            "slug": "akolouthia-tou-exorkismou",
+            "nome": "Akolouthia tou Exorkismou",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "lysis",
+            "nome": "Lýsis",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "ebraica",
+        "nome": "Ebraica",
+        "rituali": [
+          {
+            "slug": "ibbur-neshamah",
+            "nome": "Ibbur Neshamah",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "vidui",
+            "nome": "Vidui",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "evocazioni-e-vincoli",
+    "nome": "Evocazioni e Vincoli",
+    "sintesi": "Rituali che chiamano ed evocano presenze, cercando di vincolarle o controllarle.",
+    "icona": "fa-solid fa-circle-nodes",
+    "sottotipi": [
+      {
+        "slug": "cristiana-cattolica",
+        "nome": "Cristiana cattolica",
+        "rituali": [
+          {
+            "slug": "exorcismus-in-satanam-et-angelos-apostaticos",
+            "nome": "Exorcismus in Satanam et angelos apostaticos",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "salomonica",
+        "nome": "Salomonica",
+        "rituali": [
+          {
+            "slug": "ars-goetia",
+            "nome": "Ars Goetia",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "sincretica",
+        "nome": "Sincretica",
+        "rituali": [
+          {
+            "slug": "crossroads-deal",
+            "nome": "Crossroads Deal",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "percezioni",
+    "nome": "Percezioni",
+    "sintesi": "Rituali che aprono i sensi al sovrannaturale, rivelando ciò che resta nascosto.",
+    "icona": "fa-solid fa-eye",
+    "sottotipi": [
+      {
+        "slug": "ebraica",
+        "nome": "Ebraica",
+        "rituali": [
+          {
+            "slug": "tikkun-chatzot",
+            "nome": "Tikkun Chatzot",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "musulmana",
+        "nome": "Musulmana",
+        "rituali": [
+          {
+            "slug": "istikhara",
+            "nome": "Istikhara",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "protezione-e-interdizione",
+    "nome": "Protezione e Interdizione",
+    "sintesi": "Rituali che proteggono luoghi e persone dall'accesso di presenze indesiderate.",
+    "icona": "fa-solid fa-shield-halved",
+    "sottotipi": [
+      {
+        "slug": "cristiana-cattolica",
+        "nome": "Cristiana cattolica",
+        "rituali": [
+          {
+            "slug": "benedictio-domus",
+            "nome": "Benedictio domus",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "lorica-di-san-patrizio",
+            "nome": "Lorica di San Patrizio",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "cristiana-ortodossa",
+        "nome": "Cristiana ortodossa",
+        "rituali": [
+          {
+            "slug": "marginalia-sw-maksyma",
+            "nome": "Marginalia św. Maksyma",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "ebraica",
+        "nome": "Ebraica",
+        "rituali": [
+          {
+            "slug": "kviat-mezuzah",
+            "nome": "K'viat mezuzah",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "shema-israel-hashkiveinu",
+            "nome": "Shema Israel & hashkiveinu",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "musulmana",
+        "nome": "Musulmana",
+        "rituali": [
+          {
+            "slug": "khutbah-al-hifz",
+            "nome": "Khutbah al-Hifz",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "purificazione-e-consacrazione",
+    "nome": "Purificazione e Consacrazione",
+    "sintesi": "Rituali che benedicono, esorcizzano e consacrano acqua, sale, luoghi e persone.",
+    "icona": "fa-solid fa-droplet",
+    "sottotipi": [
+      {
+        "slug": "cristiana-cattolica",
+        "nome": "Cristiana cattolica",
+        "rituali": [
+          {
+            "slug": "asperges-me",
+            "nome": "Asperges me",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "benedictio-aquae-et-salis",
+            "nome": "Benedictio aquae et salis",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "de-benedictione-et-consecratione-loci",
+            "nome": "De benedictione et consecratione loci",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "cristiana-ortodossa",
+        "nome": "Cristiana ortodossa",
+        "rituali": [
+          {
+            "slug": "megas-agiasmos",
+            "nome": "Megas agiasmos",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "ebraica",
+        "nome": "Ebraica",
+        "rituali": [
+          {
+            "slug": "kapparot",
+            "nome": "Kapparot",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "tevilat-kelim",
+            "nome": "Tevilat kelim",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "eterodossa-cristiana",
+        "nome": "Eterodossa cristiana",
+        "rituali": [
+          {
+            "slug": "restitutio-humanae-naturae",
+            "nome": "Restitutio humanae naturae",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "musulmana",
+        "nome": "Musulmana",
+        "rituali": [
+          {
+            "slug": "al-muawwidhatayn",
+            "nome": "Al-Mu'awwidhatayn",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "ghusl",
+            "nome": "Ghusl",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      }
+    ]
+  }
+]

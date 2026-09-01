@@ -1,0 +1,308 @@
+---
+layout: base.njk
+permalink: /divinazione/tarocchi/
+title: "Tarocchi"
+tags: ["metodo-divinazione"]
+ordine: 10
+description: "Guida ai Tarocchi per le scene di divinazione: le stese principali e un widget per pescare una carta."
+crumb:
+  href: /divinazione/
+  label: Divinazione
+styles:
+  - /css/tarocchi.css
+scripts:
+  - /js/tarocchi.js
+---
+<div class="page-hero">
+  <h1>Tarocchi</h1>
+  <p>Le carte dei tarocchi rappresentano uno dei metodi più antichi di divinazione. La guida si basa sugli Arcani Maggiori, ventidue carte con significati che rappresentano archetipi e aspetti della vita.</p>
+</div>
+
+<section class="prose" id="intro">
+  <div class="section-head">
+    <h2>Introduzione</h2>
+  </div>
+  <p>Le carte mostrano sempre un possibile futuro o le probabili conseguenze delle azioni attuali. L'interpretazione delle carte non è una scienza esatta, ma un'arte intuitiva. Si basa su:</p>
+  <div class="term-table-wrap">
+    <table class="term-table">
+      <thead><tr><th>Fattore</th><th>Cosa considerare</th></tr></thead>
+      <tbody>
+        <tr><td>Significato base</td><td>Ogni carta ha un suo significato tradizionale.</td></tr>
+        <tr><td>Posizione della carta</td><td>Dritta: piena espressione del significato, spesso positiva o palese. Rovesciata: significato bloccato, una sfida, l'eccesso o un aspetto più nascosto.</td></tr>
+        <tr><td>Contesto della domanda</td><td>La stessa carta può avere significati diversi a seconda della domanda posta o della situazione attuale dei personaggi.</td></tr>
+        <tr><td>Combinazioni di carte</td><td>Le carte si influenzano a vicenda. L'una accanto all'altra possono creare una narrazione più complessa.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="stese">
+  <div class="section-head">
+    <h2>Le stese</h2>
+    <p>Il modo in cui le carte vengono disposte si chiama "stesa". Eccone alcune semplici e versatili (se ne possono usare anche altre, ma va specificato nel post).</p>
+  </div>
+  <div class="stesa-carousel" id="steseCarousel">
+
+    <div class="stesa-tabs">
+      <button type="button" class="stesa-tab is-active" data-slide="0">Carta singola</button>
+      <button type="button" class="stesa-tab" data-slide="1">Tre carte</button>
+      <button type="button" class="stesa-tab" data-slide="2">La croce</button>
+      <button type="button" class="stesa-tab" data-slide="3">Sì o No</button>
+      <button type="button" class="stesa-tab" data-slide="4">Il ventaglio</button>
+      <button type="button" class="stesa-tab" data-slide="5">Gli elementi</button>
+      <button type="button" class="stesa-tab" data-slide="6">Lo specchio</button>
+      <button type="button" class="stesa-tab" data-slide="7">Croce celtica</button>
+    </div>
+
+    <div class="stesa-viewport">
+
+      <div class="stesa-slide is-active" data-slide="0">
+        <div class="stesa-diagram layout-singola">
+          <div class="stesa-diagram-card" style="grid-area: c;">1</div>
+        </div>
+        <div class="stesa-text">
+          <h4>Tiro a carta singola</h4>
+          <p><strong>Come si fa:</strong> il personaggio pesca una singola carta.</p>
+          <p><strong>Quando usarlo:</strong> per risposte rapide, un'intuizione improvvisa su una situazione, un consiglio "al volo".</p>
+        </div>
+      </div>
+
+      <div class="stesa-slide" data-slide="1">
+        <div class="stesa-diagram layout-linea3">
+          <div class="stesa-diagram-card">1</div>
+          <div class="stesa-diagram-card">2</div>
+          <div class="stesa-diagram-card">3</div>
+        </div>
+        <div class="stesa-text">
+          <h4>Tre carte: "passato, presente, futuro"</h4>
+          <p><strong>Come si fa:</strong> il personaggio pesca tre carte e le dispone in linea.</p>
+          <ol>
+            <li>Passato → cosa ha portato alla situazione attuale</li>
+            <li>Presente → la situazione attuale, le sfide o le energie in gioco</li>
+            <li>Futuro → possibile esito o direzione</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="stesa-slide" data-slide="2">
+        <div class="stesa-diagram layout-croce5">
+          <div class="stesa-diagram-card" style="grid-area: top;">5</div>
+          <div class="stesa-diagram-card" style="grid-area: left;">4</div>
+          <div class="stesa-diagram-card" style="grid-area: center;">1</div>
+          <div class="stesa-diagram-card" style="grid-area: right;">2</div>
+          <div class="stesa-diagram-card" style="grid-area: bottom;">3</div>
+        </div>
+        <div class="stesa-text">
+          <h4>Cinque carte: "la croce"</h4>
+          <p><strong>Come si fa:</strong> il personaggio pesca cinque carte e le dispone in una croce.</p>
+          <ol>
+            <li>Centro/cuore del problema</li>
+            <li>Ostacolo/sfida</li>
+            <li>Cosa aiuta/fonda</li>
+            <li>Esperienza passata/influenze esterne</li>
+            <li>Risultato potenziale/consiglio</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="stesa-slide" data-slide="3">
+        <div class="stesa-diagram layout-due">
+          <div class="stesa-diagram-card">1</div>
+          <div class="stesa-diagram-card">2</div>
+        </div>
+        <div class="stesa-text">
+          <h4>Due carte: "sì o no"</h4>
+          <p><strong>Come si fa:</strong> il personaggio pesca due carte e le affianca.</p>
+          <ol>
+            <li>Energie a favore → ciò che spinge verso il "sì"</li>
+            <li>Energie contrarie → ciò che spinge verso il "no"</li>
+          </ol>
+          <p><strong>Quando usarlo:</strong> per una domanda diretta, quando serve un responso rapido senza il peso di una stesa completa. La carta dal significato più "forte" (dritta contro rovesciata, o semplicemente la lettura che convince di più) indica la tendenza della risposta.</p>
+        </div>
+      </div>
+
+      <div class="stesa-slide" data-slide="4">
+        <div class="stesa-diagram layout-ventaglio7">
+          <div class="stesa-diagram-card">1</div>
+          <div class="stesa-diagram-card">2</div>
+          <div class="stesa-diagram-card">3</div>
+          <div class="stesa-diagram-card">4</div>
+          <div class="stesa-diagram-card">5</div>
+          <div class="stesa-diagram-card">6</div>
+          <div class="stesa-diagram-card">7</div>
+        </div>
+        <div class="stesa-text">
+          <h4>Sette carte: "il ventaglio"</h4>
+          <p><strong>Come si fa:</strong> il personaggio pesca sette carte e le dispone a ventaglio, in ordine.</p>
+          <ol>
+            <li>Passato lontano → radici della situazione</li>
+            <li>Passato recente → eventi che hanno innescato il presente</li>
+            <li>Presente → dove si trovano ora i personaggi</li>
+            <li>La sfida → l'ostacolo centrale da affrontare</li>
+            <li>Influenze esterne → forze, persone o eventi che agiscono da fuori</li>
+            <li>Consiglio → come muoversi nell'immediato</li>
+            <li>Esito → dove porta questo percorso, se nulla cambia</li>
+          </ol>
+          <p><strong>Quando usarlo:</strong> per archi narrativi lunghi o trame complesse, quando una stesa a tre o cinque carte non basta a coprire tutta la vicenda.</p>
+        </div>
+      </div>
+
+      <div class="stesa-slide" data-slide="5">
+        <div class="stesa-diagram layout-quattro">
+          <div class="stesa-diagram-card">1</div>
+          <div class="stesa-diagram-card">2</div>
+          <div class="stesa-diagram-card">3</div>
+          <div class="stesa-diagram-card">4</div>
+        </div>
+        <div class="stesa-text">
+          <h4>Quattro carte: "gli elementi"</h4>
+          <p><strong>Come si fa:</strong> il personaggio pesca quattro carte e le dispone a quadrato.</p>
+          <ol>
+            <li>Fuoco → volontà, azione, passione</li>
+            <li>Acqua → emozioni, intuizione, legami</li>
+            <li>Aria → pensieri, comunicazione, idee</li>
+            <li>Terra → corpo, materialità, concretezza</li>
+          </ol>
+          <p><strong>Quando usarlo:</strong> per analizzare una situazione da quattro angolazioni complementari, o per capire quale aspetto di un personaggio è davvero in gioco in una scena.</p>
+        </div>
+      </div>
+
+      <div class="stesa-slide" data-slide="6">
+        <div class="stesa-diagram layout-specchio6">
+          <div class="stesa-diagram-side">
+            <div class="stesa-diagram-card">1</div>
+            <div class="stesa-diagram-card">2</div>
+            <div class="stesa-diagram-card">3</div>
+          </div>
+          <div class="stesa-diagram-vs">VS</div>
+          <div class="stesa-diagram-side">
+            <div class="stesa-diagram-card">4</div>
+            <div class="stesa-diagram-card">5</div>
+            <div class="stesa-diagram-card">6</div>
+          </div>
+        </div>
+        <div class="stesa-text">
+          <h4>Sei carte: "lo specchio"</h4>
+          <p><strong>Come si fa:</strong> si pescano sei carte, tre per lato, a rappresentare due personaggi, fazioni o punti di vista in dialogo o in conflitto.</p>
+          <ol>
+            <li>Cosa muove il primo lato, nel profondo</li>
+            <li>Il suo timore più grande in questa situazione</li>
+            <li>Dove lo sta portando questa strada</li>
+            <li>Cosa muove il secondo lato, nel profondo</li>
+            <li>Il suo timore più grande in questa situazione</li>
+            <li>Dove lo sta portando questa strada</li>
+          </ol>
+          <p><strong>Quando usarlo:</strong> per scene di confronto, negoziazione o scontro tra due personaggi o fazioni, per leggere le rispettive motivazioni prima di interpretarle.</p>
+        </div>
+      </div>
+
+      <div class="stesa-slide" data-slide="7">
+        <div class="stesa-diagram layout-celtic10">
+          <div class="stesa-cross">
+            <div class="stesa-diagram-card" style="grid-area: top;">5</div>
+            <div class="stesa-diagram-card" style="grid-area: left;">4</div>
+            <div class="stesa-diagram-card" style="grid-area: center;">1</div>
+            <div class="stesa-diagram-card crossing" style="grid-area: center;">2</div>
+            <div class="stesa-diagram-card" style="grid-area: right;">6</div>
+            <div class="stesa-diagram-card" style="grid-area: bottom;">3</div>
+          </div>
+          <div class="stesa-staff">
+            <div class="stesa-diagram-card">10</div>
+            <div class="stesa-diagram-card">9</div>
+            <div class="stesa-diagram-card">8</div>
+            <div class="stesa-diagram-card">7</div>
+          </div>
+        </div>
+        <div class="stesa-text">
+          <h4>Dieci carte: "la croce celtica completa"</h4>
+          <p><strong>Come si fa:</strong> il personaggio pesca dieci carte: sei disposte a croce, quattro in colonna a lato.</p>
+          <ol>
+            <li>Situazione presente</li>
+            <li>Sfida immediata, la carta che "attraversa" la prima</li>
+            <li>Fondamenta, passato lontano</li>
+            <li>Passato recente</li>
+            <li>Possibile esito</li>
+            <li>Futuro prossimo</li>
+            <li>Come il personaggio si vede o si comporta</li>
+            <li>Ambiente e influenze esterne</li>
+            <li>Speranze e paure</li>
+            <li>Esito finale</li>
+          </ol>
+          <p><strong>Quando usarlo:</strong> per i momenti chiave della trama, gli archi narrativi importanti, o quando serve davvero una lettura completa della situazione.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="stesa-nav">
+      <button type="button" class="stesa-arrow" id="stesaPrev" aria-label="Stesa precedente">‹</button>
+      <div class="stesa-dots" id="stesaDots"></div>
+      <button type="button" class="stesa-arrow" id="stesaNext" aria-label="Stesa successiva">›</button>
+    </div>
+
+  </div>
+</section>
+
+<section id="arcani">
+  <div class="section-head">
+    <h2>Tutti gli Arcani</h2>
+    <p>I 22 Arcani Maggiori, uno accanto all'altro: clicca una carta per vedere subito il significato dritto e rovesciato, senza dover pescare.</p>
+  </div>
+
+  <div class="arcani-layout">
+    <div class="arcani-grid" id="arcaniGrid">
+      {% for c in arcani %}
+      <button type="button" class="arcano-chip{% if loop.first %} is-active{% endif %}" data-index="{{ loop.index0 }}">
+        <span class="arcano-chip-num">{{ c.numeroRomano }}</span>
+        <span class="arcano-chip-name">{{ c.nome }}</span>
+      </button>
+      {% endfor %}
+    </div>
+
+    <div class="arcano-detail" id="arcanoDetail">
+      <h3 id="arcanoDetailTitle">{{ arcani[0].numeroRomano }}: {{ arcani[0].nome }}</h3>
+      <div class="arcano-detail-cols">
+        <div>
+          <span class="arcano-detail-tag">Dritta</span>
+          <p id="arcanoDetailUpright">{{ arcani[0].dritto }}</p>
+        </div>
+        <div>
+          <span class="arcano-detail-tag reversed">Rovesciata</span>
+          <p id="arcanoDetailReversed">{{ arcani[0].rovesciato }}</p>
+        </div>
+      </div>
+      <div class="arcano-detail-lore">
+        <span class="arcano-detail-tag lore">Simbolismo &amp; corrispondenze</span>
+        <p id="arcanoDetailLore">{{ arcani[0].approfondimento }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pesca">
+  <div class="section-head">
+    <h2>Pesca una carta</h2>
+    <p>Uno strumento rapido per un tiro a carta singola: estrae uno dei 22 Arcani Maggiori, dritto o rovesciato.</p>
+  </div>
+
+  <div class="tarot-widget">
+    <div class="tarot-stage">
+      <div class="tarot-card" id="tarotCard">
+        <div class="tarot-card-face tarot-card-back">
+          <span class="tarot-card-glyph">✦</span>
+        </div>
+        <div class="tarot-card-face tarot-card-front">
+          <div class="tarot-card-frame" id="tarotFrame">
+            <span class="tarot-card-numeral" id="tarotNumeral">–</span>
+            <span class="tarot-card-name" id="tarotName">&nbsp;</span>
+            <span class="tarot-card-orient" id="tarotOrient">&nbsp;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn-draw" id="drawBtn" type="button">Pesca una carta</button>
+    <p class="tarot-drawn-label" id="tarotDrawnLabel"></p>
+  </div>
+</section>
+
+<script>window.ARCANI = {{ arcani | dump | safe }};</script>

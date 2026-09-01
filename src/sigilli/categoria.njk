@@ -1,0 +1,38 @@
+---
+layout: base.njk
+pagination:
+  data: categorieSigilliFlat
+  size: 1
+  alias: item
+permalink: "/sigilli/{{ item.raritaSlug }}/{{ item.categoria.slug }}/"
+eleventyComputed:
+  title: "{{ item.categoria.nome }}"
+---
+<p class="crumb">
+  <a href="/">Home</a> <span>/</span>
+  <a href="/sigilli/">Sigilli</a> <span>/</span>
+  <a href="/sigilli/{{ item.raritaSlug }}/">{{ item.raritaNome }}</a> <span>/</span>
+  {{ item.categoria.nome }}
+</p>
+
+<div class="page-hero">
+  <h1>{{ item.categoria.nome }}</h1>
+  <p>{{ item.raritaNome }} che agiscono nel campo di {{ item.categoria.nome | lower }}.</p>
+</div>
+
+<section>
+  <div class="ritual-list">
+    {% for s in item.categoria.sigilli %}
+    {% if s.stato == "live" %}
+    <a class="ritual-item" href="/sigilli/{{ item.raritaSlug }}/{{ item.categoria.slug }}/{{ s.slug }}/">
+      <span class="ritual-name">{{ s.nome }}</span>
+    </a>
+    {% else %}
+    <div class="ritual-item disabled">
+      <span class="ritual-name">{{ s.nome }}</span>
+      <span class="status presto">In arrivo</span>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,7 @@
+[
+  { "id": "alto", "nome": "Vola alto e stabile", "testo": "Successo, prosperità, una visione chiara, protezione divina." },
+  { "id": "destra", "nome": "Vola da destra", "testo": "Presagio favorevole. Successo, fortuna, il favore degli dèi, una direzione propizia per l'azione." },
+  { "id": "sinistra", "nome": "Vola da sinistra", "testo": "Presagio sfavorevole, o un avvertimento: pericoli, ostacoli, disfavore divino. Ma se ascoltato, può deviare un pericolo imminente." },
+  { "id": "cerchio", "nome": "Vola in cerchio", "testo": "Confusione, attesa, un ciclo che si ripete, o un luogo che va esaminato con attenzione." },
+  { "id": "via", "nome": "Vola via dalla scena", "testo": "Un'opportunità persa, la necessità di ritirarsi, o un pericolo che si allontana." }
+]

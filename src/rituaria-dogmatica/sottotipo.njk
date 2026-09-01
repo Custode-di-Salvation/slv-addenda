@@ -1,0 +1,41 @@
+---
+layout: base.njk
+styles:
+  - /css/rituaria.css
+pagination:
+  data: sottotipiFlat
+  size: 1
+  alias: item
+permalink: "/rituaria-dogmatica/{{ item.tipoSlug }}/{{ item.sottotipo.slug }}/"
+eleventyComputed:
+  title: "{{ item.sottotipo.nome }}"
+---
+<p class="crumb">
+  <a href="/">Home</a> <span>/</span>
+  <a href="/rituaria-dogmatica/">Rituaria Dogmatica</a> <span>/</span>
+  <a href="/rituaria-dogmatica/{{ item.tipoSlug }}/">{{ item.tipoNome }}</a> <span>/</span>
+  {{ item.sottotipo.nome }}
+</p>
+
+<div class="page-hero">
+  <h1>{{ item.sottotipo.nome }}</h1>
+  <p>Rituali di tradizione {{ item.sottotipo.nome | lower }} appartenenti a "{{ item.tipoNome }}".</p>
+</div>
+
+<section>
+  <div class="ritual-list">
+    {% for r in item.sottotipo.rituali %}
+    {% if r.stato == "live" %}
+    <a class="ritual-item" href="/rituaria-dogmatica/{{ item.tipoSlug }}/{{ item.sottotipo.slug }}/{{ r.slug }}/">
+      <span class="ritual-name">{{ r.nome }}</span>
+      {% if r.rarita %}<span class="rarity-badge{% if r.rarita != 'Comune' %} {{ r.rarita | lower | replace(" ", "-") }}{% endif %}">{{ r.rarita }}</span>{% endif %}
+    </a>
+    {% else %}
+    <div class="ritual-item disabled">
+      <span class="ritual-name">{{ r.nome }}</span>
+      <span class="status presto">In arrivo</span>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>

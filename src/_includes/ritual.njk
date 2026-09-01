@@ -1,0 +1,64 @@
+---
+layout: base.njk
+styles:
+  - /css/rituaria.css
+---
+{%- set idx = ritualIndex(tipo, sottotipo, page.fileSlug) -%}
+{%- set prevItem = ritualiFlat[idx - 1] if idx > 0 else null -%}
+{%- set nextItem = ritualiFlat[idx + 1] if idx < ritualiFlat.length - 1 else null -%}
+
+<p class="crumb">
+  <a href="/">Home</a> <span>/</span>
+  <a href="/rituaria-dogmatica/">Rituaria Dogmatica</a> <span>/</span>
+  <a href="/rituaria-dogmatica/{{ tipo }}/">{{ tipoNomeOf(tipo) }}</a> <span>/</span>
+  {% if sottotipo != "_" %}<a href="/rituaria-dogmatica/{{ tipo }}/{{ sottotipo }}/">{{ sottotipoNomeOf(tipo, sottotipo) }}</a> <span>/</span>{% endif %}
+  {{ title }}
+</p>
+
+<div class="ritual-page-header">
+  <h1>{{ title }}</h1>
+  <p class="ritual-byline">{{ tipoNomeOf(tipo) }}{% if sottotipo != "_" %} · {{ sottotipoNomeOf(tipo, sottotipo) }}{% if denominazione %} ({{ denominazione }}){% endif %}{% endif %}</p>
+</div>
+
+<dl class="ritual-stats">
+  <dt>Rarità</dt>
+  <dd><span class="rarity-badge{% if rarita != 'Comune' %} {{ rarita | lower | replace(" ", "-") }}{% endif %}">{{ rarita }}</span></dd>
+  <dt>Tempo di lancio</dt>
+  <dd>{{ tempo | safe }}</dd>
+  <dt>Componenti</dt>
+  <dd>{{ componenti | safe }}{% if "*" in componenti %}<br><span class="ritual-note">* componente facoltativo</span>{% endif %}</dd>
+  <dt>Costo</dt>
+  <dd>{{ costo | safe }}</dd>
+</dl>
+
+{{ content | safe }}
+
+<div class="ritual-nav">
+  {% if not prevItem %}
+  <span class="ritual-nav-empty"></span>
+  {% elif prevItem.stato == "live" %}
+  <a class="ritual-nav-link prev" href="/rituaria-dogmatica/{{ prevItem.tipoSlug }}/{% if prevItem.sottotipoSlug != '_' %}{{ prevItem.sottotipoSlug }}/{% endif %}{{ prevItem.slug }}/">
+    <span class="ritual-nav-dir">Precedente</span>
+    <span class="ritual-nav-name">{{ prevItem.nome }}</span>
+  </a>
+  {% else %}
+  <div class="ritual-nav-link disabled prev">
+    <span class="ritual-nav-dir">Precedente · in arrivo</span>
+    <span class="ritual-nav-name">{{ prevItem.nome }}</span>
+  </div>
+  {% endif %}
+
+  {% if not nextItem %}
+  <span class="ritual-nav-empty"></span>
+  {% elif nextItem.stato == "live" %}
+  <a class="ritual-nav-link next" href="/rituaria-dogmatica/{{ nextItem.tipoSlug }}/{% if nextItem.sottotipoSlug != '_' %}{{ nextItem.sottotipoSlug }}/{% endif %}{{ nextItem.slug }}/">
+    <span class="ritual-nav-dir">Prossimo</span>
+    <span class="ritual-nav-name">{{ nextItem.nome }}</span>
+  </a>
+  {% else %}
+  <div class="ritual-nav-link disabled next">
+    <span class="ritual-nav-dir">Prossimo · in arrivo</span>
+    <span class="ritual-nav-name">{{ nextItem.nome }}</span>
+  </div>
+  {% endif %}
+</div>

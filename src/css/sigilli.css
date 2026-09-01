@@ -1,0 +1,33 @@
+/* Sigilli: riusa i componenti di rituaria.css (header, prose, verse, nav).
+   Qui solo l'aggiustamento per il badge di rarità accanto al titolo, al posto
+   del box statistiche che i rituali hanno e i sigilli no. */
+
+.sigillo-title-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.sigillo-title-row h1 {
+  margin-bottom: 0;
+}
+
+.sigillo-title-row .rarity-badge {
+  transform: translateY(-2px);
+}
+
+/* Griglia per "Esempi di effetti coerenti" (sigilli comuni): 2 per riga,
+   altezza uniforme entro la stessa riga. */
+.effetti-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: stretch;
+  gap: 14px;
+}
+@media (max-width: 700px) {
+  .effetti-grid { grid-template-columns: 1fr; }
+}
+.effetti-grid .method-card {
+  height: 100%;
+}

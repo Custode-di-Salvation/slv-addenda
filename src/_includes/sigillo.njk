@@ -1,0 +1,57 @@
+---
+layout: base.njk
+styles:
+  - /css/rituaria.css
+  - /css/sigilli.css
+---
+{%- set idx = sigilloIndex(rarita, categoria, page.fileSlug) -%}
+{%- set prevItem = sigilliFlat[idx - 1] if idx > 0 else null -%}
+{%- set nextItem = sigilliFlat[idx + 1] if idx < sigilliFlat.length - 1 else null -%}
+
+<p class="crumb">
+  <a href="/">Home</a> <span>/</span>
+  <a href="/sigilli/">Sigilli</a> <span>/</span>
+  <a href="/sigilli/{{ rarita }}/">{{ raritaOf(rarita).nome }}</a> <span>/</span>
+  <a href="/sigilli/{{ rarita }}/{{ categoria }}/">{{ categoriaSigilloNomeOf(rarita, categoria) }}</a> <span>/</span>
+  {{ title }}
+</p>
+
+<div class="ritual-page-header">
+  <div class="sigillo-title-row">
+    <h1>{{ title }}</h1>
+    <span class="rarity-badge{% if raritaOf(rarita).badge != 'Comune' %} raro{% endif %}">{{ raritaOf(rarita).badge }}</span>
+  </div>
+  <p class="ritual-byline">{{ categoriaSigilloNomeOf(rarita, categoria) }}</p>
+</div>
+
+{{ content | safe }}
+
+<div class="ritual-nav">
+  {% if not prevItem %}
+  <span class="ritual-nav-empty"></span>
+  {% elif prevItem.stato == "live" %}
+  <a class="ritual-nav-link prev" href="/sigilli/{{ prevItem.raritaSlug }}/{{ prevItem.categoriaSlug }}/{{ prevItem.slug }}/">
+    <span class="ritual-nav-dir">Precedente</span>
+    <span class="ritual-nav-name">{{ prevItem.nome }}</span>
+  </a>
+  {% else %}
+  <div class="ritual-nav-link disabled prev">
+    <span class="ritual-nav-dir">Precedente · in arrivo</span>
+    <span class="ritual-nav-name">{{ prevItem.nome }}</span>
+  </div>
+  {% endif %}
+
+  {% if not nextItem %}
+  <span class="ritual-nav-empty"></span>
+  {% elif nextItem.stato == "live" %}
+  <a class="ritual-nav-link next" href="/sigilli/{{ nextItem.raritaSlug }}/{{ nextItem.categoriaSlug }}/{{ nextItem.slug }}/">
+    <span class="ritual-nav-dir">Prossimo</span>
+    <span class="ritual-nav-name">{{ nextItem.nome }}</span>
+  </a>
+  {% else %}
+  <div class="ritual-nav-link disabled next">
+    <span class="ritual-nav-dir">Prossimo · in arrivo</span>
+    <span class="ritual-nav-name">{{ nextItem.nome }}</span>
+  </div>
+  {% endif %}
+</div>

@@ -1,0 +1,16 @@
+{
+  "colore": [
+    { "id": "blu", "hex": "#4a7fd6", "nome": "Blu", "testo": "Spiritualità o intuizione." },
+    { "id": "giallo", "hex": "#d99a3f", "nome": "Giallo, arancione", "testo": "Vitalità o chiarezza." },
+    { "id": "nero", "hex": "#6a6a6e", "nome": "Nero, grigio", "testo": "Negatività o corruzione." },
+    { "id": "rosso", "hex": "#9a1e24", "nome": "Rosso", "testo": "Passione o pericolo." },
+    { "id": "verde", "hex": "#4a9d6a", "nome": "Verde", "testo": "Guarigione o crescita." }
+  ],
+  "comportamento": [
+    { "id": "alta", "nome": "Alta e stabile", "testo": "Chiarezza, forza, successo, energia positiva, verità manifesta." },
+    { "id": "bassa", "nome": "Bassa e fievole", "testo": "Debolezza, ostacoli, stanchezza, incertezza, verità nascoste o difficili da afferrare." },
+    { "id": "puntante", "nome": "Che punta", "testo": "Direzione, focalizzazione, indicazione di un luogo o di una persona." },
+    { "id": "scoppiettante", "nome": "Che scoppietta, crepita", "testo": "Conflitto, rivelazioni improvvise, discussioni, energie in attrito." },
+    { "id": "danzante", "nome": "Danzante", "testo": "Cambiamento, instabilità, eccitazione, irrequietezza, pericolo imminente." }
+  ]
+}

@@ -1,0 +1,617 @@
+---
+layout: base.njk
+title: "Abilità e Tratti"
+styles: ["/css/abilita.css"]
+---
+
+<div class="page-hero">
+  <h1>Abilità e Tratti</h1>
+  <p>L'elenco completo delle Abilità e dei Tratti disponibili per i Personaggi Giocanti.</p>
+</div>
+
+<div class="search-container"> 
+ <input type="text" class="search-input" placeholder="Cerca una skill..." id="searchInput"> 
+ 
+ <div class="filters"> 
+ <button class="filter-btn active" data-type="all">Tutte</button>
+ <button class="filter-btn" data-type="combattimento">Combattimento</button>
+ <button class="filter-btn" data-type="movimenti">Movimenti</button>
+ <button class="filter-btn" data-type="sociali">Sociali</button>
+ <button class="filter-btn" data-type="tecniche">Tecniche</button>
+ <button class="filter-btn" data-type="tratti">Tratti</button>
+ <button class="filter-btn special-btn" id="specialBtn" title="Mostra solo le abilit&agrave; specializzabili">&#10035; Specializzabili</button> 
+ <button class="filter-btn" id="viewBtn" title="Riduci le descrizioni a 3 righe">Vista compatta</button> 
+ </div> 
+ 
+ <div class="counter-row"> 
+ <div class="results-counter" id="resultsCounter"></div> 
+ <div class="skills-note">* = abilità specializzabile</div> 
+ </div> 
+</div> 
+ 
+<div class="skills-container" id="skillsContainer"></div> 
+<div class="no-results" id="noResults" style="display:none">Nessuna abilità trovata</div> 
+ 
+<!-- Modal per gli esempi --> 
+<div id="examplesModal" class="modal"> 
+ <div class="modal-content"> 
+ <div class="modal-header"> 
+ <div class="skill-icon"><i id="modalIcon"></i></div> 
+ <h2 id="modalTitle"></h2> 
+ <span class="modal-count" id="modalCount"></span> 
+ <span class="close">&times;</span> 
+ </div> 
+ <div class="modal-body"> 
+ <div class="example-section"> 
+ <h3>Quando non serve tiro/azione:</h3> 
+ <p id="noRollExamples"></p> 
+ </div> 
+ <div class="example-section"> 
+ <h3>Quando serve tiro/azione:</h3> 
+ <p id="rollRequiredExamples"></p> 
+ </div> 
+ <div class="sequence-section"> 
+ <h4>Sequenze di esempio:</h4> 
+ <p id="sequenceExamples"></p> 
+ </div> 
+ </div> 
+ <button class="modal-arr prev" id="modalPrev" title="Abilit&agrave; precedente">&lsaquo;</button> 
+ <button class="modal-arr next" id="modalNext" title="Abilit&agrave; successiva">&rsaquo;</button> 
+ </div> 
+</div> 
+ 
+<script type="text/javascript"> 
+ /* SLV-SKILLS-START 
+ NON rimuovere questo marcatore ne' quello in fondo all'array: 
+ la pagina "Allocazione punti" legge da qui descrizioni e sinergie. */ 
+ const skills = [
+ { 
+ name: "Addestrare animali *", 
+ description: "L'imposizione della volontà inter-specie. È la capacità naturale di leggere il linguaggio del corpo animale e proiettare un'aura di comando che la bestia rispetta istintivamente. Non è insegnare trucchi, è stabilire una gerarchia immediata e farsi obbedire (attaccare, fermarsi, cercare) anche contro l'istinto dell'animale. Possedere questa abilità significa poter portare in giocate masterate il proprio animale addestrato e comandarlo (l'animale ha un massimo di 3 azioni). Si consideri che alcuni animali sono impossibili da addestrare. Valida anche per gli animali da sella, come cavalli o cammelli, nel cui caso non comprende automaticamente l'abilità di cavalcarli che è invece [Equitazione]. Si deve specializzare l'abilità per ogni animale (l'abilità generica permette di comandare un animale ma soltanto per 1 azione). <br>Può essere specializzata, ad esempio, in: K9, cinofilia, falconeria, addestramento equestre (in sinergia con [Equitazione]), animali selvatici/esotici.", 
+ type: "tecniche", 
+ level: 0, 
+ icon: "fa-solid fa-dog", 
+ examples: { 
+ noRoll: "Operazioni di base, cura/igiene, comandi semplici su animali già addestrati.", 
+ rollRequired: "Addestrare comportamenti nuovi, comandare animali in pericolo/combattimento, domare animali spaventati o ostili.", 
+ sequences: "Comandi ripetuti per guidare animali in fila; interventi su animali spaventati (calmare > legare > caricare); impartire una sequenza di ordini d'attacco e ritirata." 
+}},
+ { 
+ name: "Agilità", 
+ description: "Misura la propriocezione, l'equilibrio, i riflessi e la coordinazione motoria pura. È l'hardware del movimento: la capacità di controllare il corpo nello spazio per reagire a minacce immediate. A differenza di [Arrampicata] (che gestisce il superamento degli ostacoli), l'[Agilità] gestisce l'evasione e la stabilità. È il tratto fondamentale per la difesa fisica (schivare colpi o proiettili), per mantenere l'equilibrio su superfici precarie e per attutire l'impatto al suolo (riduzione danni da caduta).", 
+ type: "tratti", 
+ level: 0, 
+ icon: "fa-solid fa-person-running", 
+ examples: { 
+ noRoll: "Muoversi a passo svelto, correre in linea retta su terreno pianeggiante, saltare un piccolo ostacolo (es. una pozzanghera) in condizioni favorevoli, restare in piedi su un mezzo in movimento lento.", 
+ rollRequired: "Schivare attacchi in combattimento (mischia o distanza), mantenere l'equilibrio su ghiaccio o cornicioni stretti, scattare per evitare un pericolo improvviso (es. un'auto che arriva), ridurre i danni di una caduta (rotolata difensiva).", 
+ sequences: "Una serie di scarti laterali, rotolate e scatti per uscire dalla linea di tiro di un cecchino e raggiungere una copertura; subire un urto, rotolare per dissipare l'energia e rimettersi in piedi in guardia in un unico movimento fluido." 
+}},
+ { 
+ name: "Armi da fuoco", 
+ description: "La memoria muscolare del tiratore. Riguarda la gestione istintiva del rinculo, la velocità di ricarica, l'allineamento rapido dell'arma e la disciplina del grilletto sotto stress. È la capacità di risolvere malfunzionamenti in secondi e sparare efficacemente senza dover pensare alla meccanica dell'arma.", 
+ type: "combattimento", 
+ level: 1, 
+ icon: "fa-solid fa-gun", 
+ examples: { 
+ noRoll: "Impugnare, sparare a bersagli grandi, fermi e vicini in condizioni favorevoli senza stress.", 
+ rollRequired: "Bersagli in movimento, scontri a fuoco, colpi a distanza, raffiche controllate, fuoco su bersagli coperti, operare con armi difettose o condizioni avverse.", 
+ sequences: "Fuoco di soppressione (fuoco ripetuto su obiettivo singolo o multiplo); serie tecnica di spara e muoviti (copertura > fuoco > spostamento > fuoco); altre tecniche formalizzate (es. Mozambique Drill) con tiri ripetuti in rapida sequenza." 
+}},
+ { 
+ name: "Armi da taglio", 
+ description: "L'estensione del braccio. È la gestione delle distanze, delle angolazioni e del flusso cinetico con una lama. Riguarda la velocità di estrazione, la parata e la precisione nel colpire punti vitali, trasformando lo strumento in un vortice letale o difensivo. Può essere utilizzata anche per utilizzare armi da taglio in altre circostanze, come tagliare una corda, tagliare un albero con un'accetta e così via, arrivando anche all'utilizzo di armi da taglio più complesse come sciabole, spade, asce, motoseghe, lance e frusta (che rientra nelle armi da taglio).", 
+ type: "combattimento", 
+ level: 1, 
+ icon: "fa-solid fa-utensils", 
+ examples: { 
+ noRoll: "Usare un coltello per tagliare materiali morbidi o compiere azioni non violente e non contestate.", 
+ rollRequired: "Per colpi mirati, combattimenti in spazi ridotti, tagliare materiali ostici sotto pressione, operare con armi pesanti come asce o spade in contesti tecnici, quando si cerca di infliggere ferite a qualcun altro.", 
+ sequences: "Serie di fendenti per aprirsi un varco; tagliare più legacci in sequenza; combinazione di parata e risposta rapida; sequenza di colpi per abbattere una difesa; tecniche con serie di colpi in sequenza ravvicinata." 
+}},
+ { 
+ name: "Arrampicata *", 
+ description: "La padronanza della dinamica verticale, del movimento fluido e degli ostacoli naturali e urbani. Include la forza nelle dita per le scalate statiche, ma anche l'esplosività, l'equilibrio e il calcolo delle traiettorie per il movimento urbano rapido. È la capacità di leggere l'ambiente come un percorso, trasformando ostacoli in appigli. In situazioni di stress si richiede, di solito, un tiro ogni 5 m. <br>Può essere specializzata, ad esempio, in: parkour & free running (comprende anche il buildering); su roccia (comprende anche l'alpinismo su ghiaccio e in grotta, quest'ultima in sinergia con [Contorsionismo: speleologia]); discesa tattica & tecniche di corda.", 
+ type: "movimenti", 
+ level: 1, 
+ icon: "fa-solid fa-person-falling", 
+ examples: { 
+ noRoll: "Salire su una scala a pioli, scavalcare un muretto basso (altezza vita), arrampicarsi su un albero con rami comodi.", 
+ rollRequired: "Scalate su pareti verticali, roccia, edifici (1 tiro ogni 5m o per passaggio chiave); salti di precisione tra tetti; wall-run (correre sul muro); volteggi rapidi su ostacoli alti; atterraggi precisi su superfici piccole.", 
+ sequences: "Trovare la linea > stabilire la presa > salire per blocchi; sequenza di parkour (salto > atterraggio rollato > risalita su muro in corsa); discese rapide (lasciarsi cadere da un piano > afferrare un tubo per rallentare > oscillare > atterrare e ripartire)." 
+}},
+ { 
+ name: "Carisma", 
+ description: "Definisce il peso specifico della presenza del personaggio. Non è mera bellezza, ma magnetismo, gravitas e capacità di proiettare la propria volontà sull'ambiente sociale. È la differenza tra essere ascoltati ed essere ignorati. Essenziale per negoziare, comandare o manipolare, agendo come amplificatore della propria reputazione.", 
+ type: "tratti", 
+ level: 0, 
+ icon: "fa-solid fa-comments", 
+ examples: { 
+ noRoll: "Presentarsi in modo curato, parlare educatamente in situazioni informali, fare conversazione di superficie o partecipare a scambi sociali di routine.", 
+ rollRequired: "Convincere qualcuno a compiere un atto non scontato, negoziare termini favorevoli, ingraziarsi una figura influente, influenzare un gruppo ostile, condurre discorsi che devono suscitare una reazione specifica, sedurre o manipolare consapevolmente.", 
+ sequences: "Discorso persuasivo prolungato con una serie di argomentazioni mirate per guadagnare fiducia; gestione di una folla tramite una serie di ordini e appelli emotivi in rapida successione." 
+}},
+ { 
+ name: "Chimica *", 
+ description: "La manipolazione della materia instabile. Non è la formula accademica, ma la mano ferma nel miscelare reagenti, la stima dei dosaggi a occhio e l'istinto nel gestire reazioni pericolose sul campo. È l'attitudine a sintetizzare composti utili (o letali) con attrezzatura di fortuna senza farsi esplodere. <br>Può essere specializzata, ad esempio, in: esplosivistica & pirotecnica (in sinergia con [Manualità: demolizioni]); tossicologia, farmacologia (comprende le droghe), industriale, CBRN. In questo caso un [Chimica] specializzato comprende comunque anche chimica di base.", 
+ type: "tecniche", 
+ level: 0, 
+ icon: "fa-solid fa-flask", 
+ examples: { 
+ noRoll: "Creare reazioni semplici e sicure con istruzioni chiare in laboratorio adeguato.", 
+ rollRequired: "Sintetizzare composti pericolosi, purificazioni complesse, esperimenti instabili, manipolazione di esplosivi o veleni attivi.", 
+ sequences: "Preparazione rapida (pesare > reagire > stabilizzare); separazioni multiple in sequenza per purificare un composto; assemblaggio di un ordigno chimico in tempi stretti." 
+}},
+ { 
+ name: "Contorsionismo *", 
+ description: "La capacità di dominare i propri limiti articolari e la soglia del dolore. È l'attitudine a dislocare volontariamente giunture, controllare il respiro per ridurre il volume toracico e sopportare posizioni innaturali per infilarsi in condotti, liberarsi da costrizioni fisiche o nascondersi in spazi impossibili, così come di mantenere queste posizioni per lunghi periodi di tempo e può adattarsi a spazi ristretti. Può essere usata in situazioni quali sfuggire da catene o trappole, o per esplorare spazi ristretti, togliersi le manette facendoci passare in mezzo il polso e così via. <br>Può essere specializzata, ad esempio, in: escapologia (in sinergia con [Rapidità di mano: prestigiazione]); urban exploration (infiltrazione tattica in spazi confinati); speleologia (in sinergia con [Arrampicata: su roccia]).", 
+ type: "movimenti", 
+ level: 1, 
+ icon: "fa-solid fa-person-shelter", 
+ examples: { 
+ noRoll: "Muoversi con maggiore agio in spazi ristretti ordinari o adattare il corpo a posture non estreme.", 
+ rollRequired: "Infilarsi in spazi estremamente ristretti, liberarsi da catene o manette, mantenere posizioni innaturali a lungo sotto stress.", 
+ sequences: "Una serie di piccoli movimenti articolari coordinati per liberarsi da una costrizione complessa (dislocare pollice > sfilare mano > recuperare chiave)." 
+}},
+ { 
+ name: "Corpo a corpo", 
+ description: "L'applicazione marziale della biomeccanica. È l'attitudine a usare il peso, le leve articolari e la tecnica pulita per neutralizzare un avversario in modo efficiente. A differenza di [Rissa], qui si parla di tecnica interiorizzata: parate, proiezioni e sottomissioni eseguite con controllo e precisione. Questa abilità permette al personaggio di essere naturalmente efficiente in uno stile di combattimento (o misto, come MMA) specifico e più raffinato e di utilizzarlo con perizia.", 
+ type: "combattimento", 
+ level: 0, 
+ icon: "fa-solid fa-hand-fist", 
+ examples: { 
+ noRoll: "Eseguire attacchi contro bersagli non resistenti in situazioni non contestate (es. allenamento) oppure di completo vantaggio (es. contro qualcuno immobilizzato).", 
+ rollRequired: "Manovre tecniche, prese complesse, lotta contro avversari capaci, azioni che richiedono tempismo (disarmare, immobilizzare, proiettare).", 
+ sequences: "Tecniche specifiche (presa > leva > immobilizzazione); serie di colpi rapidi per creare un'apertura; sequenza di disarmo (blocco > torsione > sottrazione arma)." 
+}},
+ { 
+ name: "Costituzione", 
+ description: "Rappresenta il motore biologico: il sistema immunitario, la tolleranza al dolore e la capacità di operare in condizioni avverse. È quanto il personaggio è difficile da spegnere. Determina la resistenza a veleni, malattie, droghe e la capacità di restare coscienti dopo traumi massicci o sforzi prolungati. Viene usata con un tiro anche per determinare il recupero di Energia durante le azioni di recupero.", 
+ type: "tratti", 
+ level: 0, 
+ icon: "fa-solid fa-shield", 
+ examples: { 
+ noRoll: "Sopportare sforzi minori, resistere a fatica normale in un contesto non estremo.", 
+ rollRequired: "Resistere a un avvelenamento, esposizione prolungata a condizioni estreme (caldo/freddo), rischio di annegamento, esposizione a gas tossici, procedure mediche rischiose, sostenere sforzi estremi prolungati, recupero di Energia.", 
+ sequences: "Solitamente usata come resistenza passiva prolungata durante una scena di sopravvivenza (es. trattenere il fiato mentre si nuota e si resiste al freddo contemporaneamente)." 
+}},
+ { 
+ name: "Equitazione *", 
+ description: "La connessione fisica ed empatica con la cavalcatura. Non è solo tecnica di guida, ma l'istinto di restare in sella con le gambe lasciando le mani libere, e la capacità di imporre la propria calma all'animale in situazioni di caos (spari, fuoco), facendolo agire contro il suo istinto di fuga. Si applica ai cavalli da sella, agli asini o ai muli. La gestione di base dell'animale o l'andare a passo in condizioni normali non richiede un tiro. È in sinergia con [Addestrare animali: cavalli]. Si utilizza insieme a [Armi da fuoco]/[Mirare] in caso di combattimento a cavallo e [Agilità] per eseguire manovre complesse o salite/discese in corsa. <br>Può essere specializzata, ad esempio, in: combattimento a cavallo (con armi da fuoco o archi, con cui sarà in sinergia [Armi da fuoco]/[Mirare]); acrobatica equestre; dressage; cross country/endurance.", 
+ type: "movimenti", 
+ level: 0, 
+ icon: "fa-solid fa-horse", 
+ examples: { 
+ noRoll: "Condurre al passo su terreno piano, cura dell'igiene, monta e smonta in condizioni normali.", 
+ rollRequired: "Manovre ad alta velocità, galoppo su terreno accidentato, calmare un animale spaventato, combattimento a cavallo, salti o acrobazie.", 
+ sequences: "Serie di azioni in un percorso a ostacoli (controllo > salto > atterraggio > stabilizzazione); comandi e manovre fisiche per recuperare il controllo di un cavallo imbizzarrito." 
+}},
+ { 
+ name: "Forza", 
+ description: "Definisce la potenza muscolare, la capacità di esercitare pressione fisica sull'ambiente e l'esplosività cinetica. Non riguarda solo il combattimento, ma la capacità del corpo di imporre la propria massa sulla realtà: sollevare carichi, sfondare barriere, trattenere oggetti o avversari.", 
+ type: "tratti", 
+ level: 0, 
+ icon: "fa-solid fa-dumbbell", 
+ examples: { 
+ noRoll: "Azioni fisiche semplici come aprire una porta non bloccata, sollevare oggetti leggeri per il PG o spingere mobili di peso medio-basso in condizioni normali (a meno che il PG abbia [Forza] 0 o 1).", 
+ rollRequired: "Sollevare o trascinare carichi pesanti, tirare leve incastrate, sfondare porte o oggetti robusti, aggrapparsi a superfici scivolose, compiere lanci potenti, contrastare fisicamente un avversario in lotta.", 
+ sequences: "Tentativi ripetuti di sfondare una porta blindata; più trascinamenti per spostare un corpo pesante per una lunga distanza; applicare forza su punti multipli per rimuovere ostacoli in successione (leva > sollevamento > blocco)." 
+}},
+ { 
+ name: "Furtività", 
+ description: "La disciplina dell'invisibilità. È il controllo assoluto del baricentro, del respiro e del passo per azzerare il rumore. Include l'istinto di sfruttare le ombre, gli angoli ciechi e i momenti di distrazione altrui per sparire alla vista (o all'udito), fondendosi con l'ambiente o con la folla. Include il tempismo e il saper sfruttare elementi dello scenario per ridurre la propria visibilità. Usata insieme a [Corpo a corpo] permette di compiere attacchi furtivi. Usata insieme a [Corpo a corpo] o [Rissa] permette di compiere attacchi a sorpresa non tecnici.", 
+ type: "movimenti", 
+ level: 1, 
+ icon: "fa-solid fa-user-ninja", 
+ examples: { 
+ noRoll: "Muoversi in luoghi vuoti o nascondersi dietro coperture ovvie quando nessuno osserva.", 
+ rollRequired: "Infiltrarsi in aree sorvegliate, evitare osservatori attivi, muoversi silenziosamente vicino ad avversari, compiere azioni furtive con tempismo preciso.", 
+ sequences: "Muoversi da una copertura all'altra in sequenza (evitare luce > passare sentinella > silenziare porta); coprire rapidamente una serie di tracce lasciate in precedenza." 
+}},
+ { 
+ name: "Guidare *", 
+ description: "I riflessi e la sensibilità meccanica. È l'attitudine a sentire l'aderenza del mezzo, calcolare traiettorie in frazioni di secondo e mantenere il controllo del veicolo al limite della fisica. Riguarda la gestione della macchina sotto stress (inseguimenti, manovre evasive) più che il codice della strada. Può essere utilizzata anche per pilotare veicoli d'aria e acqua (e mezzi pesanti), sarà necessario specializzarla. Non è necessario tirare se si guida in condizioni normali, a velocità media, quando non ci sono ostacoli o imprevisti significativi lungo il percorso (si considera alta velocità andare a più di 80km/h in veicoli di terra). <br>Può essere specializzata, ad esempio, in: guida operativa, guida sportiva, mezzi pesanti, aviazione, nautica, motociclismo, mezzi corazzati, remoto (es. droni). In questo caso un [Guidare] specializzato comprende comunque anche una guida base standard di auto.", 
+ type: "movimenti", 
+ level: 1, 
+ icon: "fa-solid fa-car", 
+ examples: { 
+ noRoll: "Guidare a velocità moderata in condizioni normali o su strade conosciute.", 
+ rollRequired: "Emergenze, inseguimenti, manovre evasive, terreno scivoloso, alta velocità (> 80 km/h), guida sotto fuoco nemico, drift o acrobazie.", 
+ sequences: "Serie di manovre evasive (es. sorpassi, testacoda, sterzate); movimenti per stabilizzarsi in corsa (schivare ostacolo > superare buca > recuperare controllo); manovre sincronizzate per seminare inseguitori." 
+}},
+ { 
+ name: "Informatica *", 
+ description: "Il pensiero digitale rapido. È la velocità di digitazione, la capacità di visualizzare architetture di rete astratte e l'istinto nel trovare vulnerabilità logiche (backdoor) in tempo reale. È l'attitudine a navigare il cyberspazio reagendo alle contromisure attive come in un duello. Naturalmente non è necessario fare un tiro in per azioni banali come accendere un computer funzionante. L'utilizzo di sistemi tipo Arduino (es. microcontrollori, IoT, automazione fai-da-te) ricade in [Manualità: elettronica] con cui [Informatica] ha sinergia. <br>Può essere specializzata, ad esempio, in: hacking offensivo, cyber security, coding, OSINT & digital forensics, guerra elettronica. In questo caso un [Informatica] specializzato comprende comunque anche un uso informatico base.", 
+ type: "tecniche", 
+ level: 1, 
+ icon: "fa-solid fa-computer", 
+ examples: { 
+ noRoll: "Accendere computer, operazioni base, ricerche semplici.", 
+ rollRequired: "Hacking di sistemi protetti, decriptare dati, difesa da intrusioni, exploit, riparazione software, OSINT complesso.", 
+ sequences: "Breaching rapido (scouting > exploit > escalation privilegiata > pulizia tracce); difesa attiva (identificare > isolare > ripristinare); recupero dati massivo (scansione > estrazione > decompressione)." 
+}},
+ { 
+ name: "Ingannare", 
+ description: "L'arte della recitazione e della manipolazione in tempo reale. Non riguarda la pianificazione di una truffa, ma la capacità di mantenere la faccia di bronzo, controllare il tono di voce e adattare la menzogna alle reazioni dell'interlocutore istante per istante. È l'istinto a dire la cosa giusta per distrarre o confondere senza tradirsi con il linguaggio del corpo. L'effetto è spesso (non sempre) temporaneo; dopo un breve periodo di tempo, di solito quando la persona ingannata si rende conto dell'inganno e l'effetto svanisce. Può essere usata anche per assumere fisicamente un'altra identità cambiando voce e postura o anche il bluff durante il gioco d'azzardo.", 
+ type: "sociali", 
+ level: 1, 
+ icon: "fa-solid fa-masks-theater", 
+ examples: { 
+ noRoll: "Raccontare una piccola bugia innocua in conversazioni informali, distrarre con un pretesto banale, fingere una reazione semplice se l'altro non è attento.", 
+ rollRequired: "Inventare storie complesse che devono reggere a controlli, convincere persone sospettose, manipolare autorità, ingannare esperti, o quando l'inganno ha conseguenze gravi se scoperto.", 
+ sequences: "Assumere l'atteggiamento e i dettagli di un'identità falsa in tempo reale; allestire una breve scena (simulare una lite) per catalizzare l'attenzione e sfruttare la distrazione per rubare o entrare." 
+}},
+ { 
+ name: "Intimidire", 
+ description: "La capacità di proiettare una presenza minacciosa o autoritaria. Non serve essere grossi, serve saper usare lo sguardo, il silenzio o la violenza controllata per spezzare la volontà altrui. È l'attitudine a dominare lo spazio psicologico di una stanza, costringendo gli altri alla sottomissione o alla fuga attraverso la paura pura. Si può far leva anche sulla propria posizione, ruolo o su caratteristiche fisiche che possono suscitare inquietudine negli altri. Quando si utilizza la forza fisica, per esempio usando la tortura o un pestaggio, va utilizzata in sequenza insieme a quella necessaria per compiere l'azione fisica.", 
+ type: "sociali", 
+ level: 0, 
+ icon: "fa-solid fa-volume-high", 
+ examples: { 
+ noRoll: "Assumere un atteggiamento minaccioso verso chi è già sottomesso, avere un'aria dura passiva senza intenzione specifica.", 
+ rollRequired: "Imporre la volontà su ostili, costringere qualcuno ad agire controvoglia, ottenere informazioni con la minaccia, dominare situazioni dove è probabile la resistenza.", 
+ sequences: "Escalation di minacce (verbale > fisica > dimostrazione di forza) per spezzare la resistenza di un gruppo; interrogatorio pressante con alternanza rapida di minacce e silenzi." 
+ 
+}},
+ { 
+ name: "Intuizione", 
+ description: "L'istinto sociale e la lettura a freddo. Non è sapere cosa pensa l'altro, ma la capacità inconscia di notare micro-segnali: un tic nervoso, un cambio di tono, uno sguardo sfuggente. È l'attitudine a intuire quando qualcosa non quadra in una conversazione, a percepire le intenzioni ostili prima che diventino azioni, a capire lo stato emotivo di un bersaglio prima di tentare di manipolarlo o calmarlo. L'intuizione può essere applicata per rilevare la presenza di una menzogna, la manipolazione o le intenzioni nascoste di un individuo. Non è un potere soprannaturale e non garantisce una precisione del 100%. Non serve per raccogliere dati sensoriali evidenti (si usa [Percezione]) né per compiti tecnici oggettivi o per sapere informazioni fattuali che richiedono indagine o documentazione. Può essere usata anche per avvertire che qualcosa non va a livello sovrannaturale.", 
+ type: "sociali", 
+ level: 1, 
+ icon: "fa-solid fa-lightbulb", 
+ examples: { 
+ noRoll: "Cogliere segnali sociali evidenti o impressioni generali da un comportamento palese.", 
+ rollRequired: "Interpretare microespressioni, capire intenzioni mascherate, distinguere menzogne sofisticate, rilevare manipolazioni sottili o intuire fenomeni nascosti/sovrannaturali.", 
+ sequences: "Analisi comportamentale continua durante un dialogo (osservare reazione > incalzare > osservare nuova reazione); profilazione rapida di un gruppo di persone in una stanza." 
+}},
+ { 
+ name: "Manualità *", 
+ description: "L'intelligenza delle mani. È la sensibilità tattile e la precisione millimetrica nel manipolare componenti fisici. Riguarda la capacità di diagnosticare un guasto dal suono o dalle vibrazioni, assemblare meccanismi complessi e riparare oggetti con strumenti di fortuna. L'abilità generica senza specializzazione è considerata come manualità generica (es: tuttofare). Non serve per manipolazioni rapide/furtive per cui si usa [Rapidità di mano], [Manualità] è per lavori tecnici più lenti e metodici. <br>Può essere specializzata, ad esempio, in: elettronica (in sinergia con [Informatica]), meccanica (in sinergia con [Guidare]), scasso tecnico (es. per aprire caveau di banche, è in sinergia con [Rapidità di mano: scasso]), armaiolo, falsificazione, artigianato & carpenteria, demolizioni (in sinergia con [Chimica: esplosivistica]).", 
+ type: "tecniche", 
+ level: 0, 
+ icon: "fa-solid fa-hammer", 
+ examples: { 
+ noRoll: "Compiti manuali semplici, riparazioni banali senza stress.", 
+ rollRequired: "Riparazioni complesse, assemblaggi sotto stress/tempo, creare oggetti, diagnosi guasti difficili.", 
+ sequences: "Assemblaggi complessi (preparazione > fissaggio > saldatura); riparazioni d'emergenza (diagnosi > sostituzione > test); smontaggio metodico di un apparato." 
+}},
+ { 
+ name: "Medicina *", 
+ description: "La mano ferma e il sangue freddo clinico. Non è la diagnosi da libro, ma la capacità operativa di eseguire procedure complesse su tessuti vivi. È l'attitudine a incidere, cucire e manipolare organi con la delicatezza o la forza necessaria, prendendo decisioni irreversibili in secondi. Utilizzando l'abilità in [Medicina], il personaggio può fornire cure mediche a coloro che ne hanno bisogno. Può essere specializzata, l'abilità [Medicina] generica sarà considerata come medicina di base. È in sinergia con [Primo soccorso]. <br>Può essere specializzata, ad esempio, in: traumatologia/chirurgia d'urgenza, chirurgia specialistica (specificare quale), interna, legale, psichiatria. In questo caso un [Medico] specializzato comprende comunque anche medicina di base.", 
+ type: "tecniche", 
+ level: 0, 
+ icon: "fa-solid fa-user-doctor", 
+ examples: { 
+ noRoll: "Medicare graffi in condizioni favorevoli, procedure semplici in contesti senza stress.", 
+ rollRequired: "Interventi chirurgici, procedure invasive, uso di farmaci pericolosi, trattamenti avanzati.", 
+ sequences: "Procedure chirurgiche combinate (incidere > drenare > suturare); gestione crisi medica complessa, procedure complesse in generale." 
+}},
+ { 
+ name: "Mirare *", 
+ description: "Consente a un personaggio di mirare con precisione a un bersaglio. La disciplina della stasi e del calcolo balistico. È la capacità di rallentare il battito cardiaco, compensare istintivamente variabili come vento e gravità, e isolare il mondo esterno per focalizzarsi su un singolo punto. Si applica a tutto ciò che richiede precisione chirurgica a distanza. Questa abilità viene utilizzata nello specifico anche per il tiro di precisione dei cecchini. <br>Può essere specializzata, ad esempio, in: cecchinaggio (sinergia con [Armi da fuoco]), tiro con l'arco/balestra, lancio tattico, sistemi di puntamento (es. SOFLAM, droni, etc). In questo caso un [Mirare] specializzato comprende comunque anche la mira base.", 
+ type: "combattimento", 
+ level: 0, 
+ icon: "fa-solid fa-crosshairs", 
+ examples: { 
+ noRoll: "Mirare in condizioni favorevoli (bersaglio immobile e vicino) senza stress o difficoltà ambientali.", 
+ rollRequired: "Tiri di precisione a lunga distanza, compensare vento/gravità, colpire bersagli piccoli o in movimento, lanci tecnici.", 
+ sequences: "Aggiustamenti tecnici (posizionamento > respirazione > tiro); ingaggio sequenziale di bersagli multipli statici con precisione assoluta." 
+}},
+ { 
+ name: "Nuotare *", 
+ description: "L'efficienza acquatica. È la capacità di muoversi nell'acqua riducendo l'attrito, gestire le riserve di ossigeno sotto sforzo e mantenere la calma in condizioni di soffocamento o disorientamento. È l'attitudine a operare in un ambiente ostile alla vita umana. Un tiro si fa solo in momenti di crisi o pericolo, nuotare in piscina o al mare in condizioni normali non comporta un tiro. È necessario in presenza di forti correnti o acqua in tempesta, per aiutare qualcuno che sta annegando, fare movimenti particolari in acqua e così via. Per quanto riguarda i tiri ripetuti, per immersioni di durata standard e profondità moderata, si considera un tiro ogni 15-20 minuti di immersione o ogni 10-15 metri di profondità. <br>Può essere specializzata, ad esempio, in: scuba, free diving, salvataggio in acqua, nuoto di fondo. In questo caso un [Nuotare] specializzato comprende comunque anche il nuoto base.", 
+ type: "movimenti", 
+ level: 1, 
+ icon: "fa-solid fa-person-swimming", 
+ examples: { 
+ noRoll: "Nuotare in piscina o acque calme senza pressione, spostarsi in acque basse.", 
+ rollRequired: "Correnti forti, onde alte, tempesta, recuperare qualcuno che annega, nuotare sott'acqua per lunghe distanze, immergersi/risalire velocemente.", 
+ sequences: "Traversata complessa (ingresso > onde > gestione carico > uscita); recupero vittima (raggiungere > sostenere > riportare a riva); immersione operativa (discendere > cercare > risalire)." 
+}},
+ { 
+ name: "Percezione", 
+ description: "La larghezza di banda sensoriale per tutti i sensi (vista, udito, olfatto, tatto, gusto). È l'attitudine a mantenere un livello di allerta costante, filtrando il rumore di fondo per isolare dettagli anomali nell'ambiente fisico. Non è solo vista acuta, ma la capacità del cervello di notare schemi rotti, movimenti periferici o suoni fuori posto. Può essere usata anche per le perquisizioni corporali per sentire attraverso il tatto se c'è qualcosa di anomalo addosso a un'altra persona. Non è necessario un tiro per percepire elementi già palesi.", 
+ type: "sociali", 
+ level: 2, 
+ icon: "fa-solid fa-eye", 
+ examples: { 
+ noRoll: "Notare ciò che è chiaramente visibile o a portata di sguardo, azioni che non richiedono attenzione (es: camminare in un corridoio vuoto).", 
+ rollRequired: "Trovare indizi nascosti, ascoltare suoni deboli nel rumore, percepire odori sfumati, individuare trappole camuffate o presenze nascoste.", 
+ sequences: "Ispezione completa di una stanza usando più sensi in rapida successione (vista > ascolto > olfatto > tatto); controllo rapido di oggetti multipli e segni sul terreno per ricostruire una traccia." 
+}},
+ { 
+ name: "Primo soccorso *", 
+ description: "La reazione all'emergenza. È l'automatismo di bloccare un'emorragia, rianimare un cuore o steccare un arto nel fango e sotto il fuoco nemico. Non cura, stabilizza. È l'attitudine a non bloccarsi davanti al sangue e agire immediatamente per comprare tempo prezioso. [Primo soccorso] è limitato al trattamento di lesioni traumatiche e non può essere impiegato per affrontare malattie, poiché queste richiedono l'abilità [Medicina]. È in sinergia con [Medicina]. <br>Può essere specializzata, ad esempio, in: TCCC, ALS, W-EMT, triage & maxiemergenza.", 
+ type: "tecniche", 
+ level: 1, 
+ icon: "fa-solid fa-kit-medical", 
+ examples: { 
+ noRoll: "Tamponare un sanguinamento leggero, steccare in condizioni di tranquillità.", 
+ rollRequired: "Rianimazione (CPR), fermare emorragie massicce, stabilizzare feriti gravi, suture d'emergenza.", 
+ sequences: "Protocollo rianimazione (compressioni > respirazione > defibrillazione); stabilizzazione tattica (laccio emostatico > bendaggio compressivo > trasporto)." 
+}},
+ { 
+ name: "Rapidità di mano *", 
+ description: "La destrezza invisibile. È la velocità pura delle dita e la capacità di dissimulare il movimento. Riguarda scippare, nascondere oggetti, barare al gioco, scassinare o manipolare meccanismi piccoli senza che l'occhio umano possa seguire l'azione. Se [Manualità] è precisione, questa è velocità ingannevole. Differisce anche da [Agilità] che misura come ci si muove nello spazio mentre [Rapidità di mano] misura cosa si fa con le mani che sia in moto o fermo, e senza che gli altri se ne accorgano. <br>Può essere specializzata, ad esempio, in: borseggio, prestigiazione & occultamento (in sinergia con [Contorsionismo: escapologia]), scasso rapido (in sinergia con [Manualità: scasso tecnico]), gambling. In questo caso un [Rapidità di mano] specializzato comprende comunque anche la rapidità di mano base.", 
+ type: "tecniche", 
+ level: 0, 
+ icon: "fa-solid fa-hands-bubbles", 
+ examples: { 
+ noRoll: "Gesti semplici non sorvegliati (mettere oggetto in tasca), trucchi banali.", 
+ rollRequired: "Scassinare serrature, borseggiare sotto osservazione, manipolazioni rapide con allarmi o pressione, giochi di prestigio.", 
+ sequences: "Scippo complesso (mano rapida > distrazione > occultamento); serie di manipolazioni per aprire una serratura a scatto; esecuzione di trucchi in sequenza per distrarre." 
+}},
+ { 
+ name: "Rissa", 
+ description: "L'istinto della violenza stradale. È la capacità di usare l'ambiente come arma, incassare colpi senza fermarsi e combattere sporco. Non c'è stile, solo l'attitudine brutale a sopravvivere in uno scontro caotico usando morsi, testate, bottiglie rotte e pura ferocia.", 
+ type: "combattimento", 
+ level: 1, 
+ icon: "fa-solid fa-baseball-bat-ball", 
+ examples: { 
+ noRoll: "Eseguire attacchi contro bersagli non resistenti in situazioni non contestate o contro persone immobilizzate.", 
+ rollRequired: "Lotta caotica, usare armi improvvisate, combattere in inferiorità numerica o spazi stretti, resistere al dolore per continuare a colpire.", 
+ sequences: "Scambio di colpi e strattoni in rapida successione; spinte e colpi per aprirsi un varco nella folla; utilizzo frenetico di oggetti ambientali (lancio sedia > colpo bottiglia)." 
+}},
+ { 
+ name: "Sopravvivenza *", 
+ description: "L'istinto di conservazione ambientale. È la capacità di adattarsi a condizioni ostili, trovare risorse dove non sembrano esserci e leggere i segni del territorio (tracce, meteo). È l'attitudine a sopportare privazioni estreme e usare la natura a proprio vantaggio.<br>Può essere specializzata, ad esempio, in: tracciamento (in sinergia con [Percezione]), urbana, SERE. In questo caso un [Sopravvivenza] specializzato comprende comunque anche bushcraft, foraging e navigazione.", 
+ type: "tecniche", 
+ level: 1, 
+ icon: "fa-solid fa-campground", 
+ examples: { 
+ noRoll: "Seguire tracce molto visibili in condizioni buone.", 
+ rollRequired: "Orientamento con meteo avverso, tracciare su terreni difficili, recuperare risorse scarse, accendere fuoco sotto la pioggia.", 
+ sequences: "Ricerca a zona (esplorare > individuare > raccogliere in serie); costruzione campo base rapido (riparo > fuoco > sicurezza); tracciamento veloce su terreno misto." 
+}},
+ { 
+ name: "Stregoneria", 
+ description: "La canalizzazione della volontà. È la capacità di sopportare il flusso di potere, eseguire gesti rituali con precisione assoluta e mantenere la focalizzazione mentale mentre la realtà si distorce. È l'attitudine a fungere da condotto stabile per forze che vorrebbero consumare l'utilizzatore. Effettuando tiri in [Stregoneria] può preparare/improvvisare atti sovrannaturali, praticare divinazione, creare oggettistica sovrannaturale, così come analizzarla e analizzare atti sovrannaturali che vede con i propri occhi o di cui può leggere un rituale/ricetta. Ogni livello aumenta di 5 <i class='fa-solid fa-bolt'></i> il totale di Energia.", 
+ type: "tecniche", 
+ level: 0, 
+ icon: "fa-solid fa-wand-sparkles", 
+ examples: { 
+ noRoll: "Nessuna (la stregoneria attiva richiede sempre un'attivazione).", 
+ rollRequired: "Utilizzare atti sovrannaturali, rituali, divinazione, creazione oggetti magici.", 
+ sequences: "Esecuzione di un rituale complesso (preparazione cerchio > invocazione > canalizzazione > chiusura) conta come un flusso unico se non interrotto." 
+}},
+ { 
+ name: "Tenacia", 
+ description: "Riflette la densità spirituale e la forza di volontà. È la capacità di mantenere la lucidità nel caos, resistere alla paura primordiale e opporsi alla manipolazione mentale. È il parametro difensivo contro lo stress psicologico e il tratto fondamentale per gestire la stregoneria formulaica", 
+ type: "tratti", 
+ level: 0, 
+ icon: "fa-solid fa-hand-holding-heart", 
+ examples: { 
+ noRoll: "Mantenere la concentrazione in compiti rilassanti, continuare azioni abituali in condizioni favorevoli o sopportare fastidi lievi.", 
+ rollRequired: "Resistere a stress psicologico intenso, rimanere lucidi sotto tortura, mantenere il controllo nel panico, resistere ad allucinazioni o influenze sovrannaturali, attivare sigilli o eseguire riti.", 
+ sequences: "Mantenere attivo un rituale mentre si resiste a disturbi esterni; sequenza di focalizzazione per recuperare da uno shock emotivo mentre si continua ad agire fisicamente." 
+}},
+ ]; 
+ /* SLV-SKILLS-END */ 
+ 
+ // --- helpers: riferimenti [Skill] e sinergie --- 
+ const baseName = n => n.split('*')[0].trim(); 
+ const skillByBase = {}; 
+ skills.forEach(s => { skillByBase[baseName(s.name).toLowerCase()] = s.name; }); 
+ 
+ function linkifyRefs(html) { 
+ return html.replace(/\[([^\]\[<>]{2,60})\]/g, (m, inner) => { 
+ const base = inner.split(':')[0].trim().toLowerCase(); 
+ const target = skillByBase[base]; 
+ return target ? '<a class="skill-ref" data-ref="' + target + '">[' + inner + ']</a>' : m; 
+ }); 
+ } 
+ 
+ function extractSynergies(skill) { 
+ const text = skill.description; 
+ const self = baseName(skill.name).toLowerCase(); 
+ const found = []; 
+ const re = /sinergia/gi; let m; 
+ while ((m = re.exec(text))) { 
+ const win = text.slice(Math.max(0, m.index - 100), m.index + 120); 
+ (win.match(/\[([^\]\[<>]+)\]/g) || []).forEach(r => { 
+ const inner = r.slice(1, -1).trim(); 
+ const base = inner.split(':')[0].trim().toLowerCase(); 
+ if (skillByBase[base] && base !== self && !found.some(f => f.toLowerCase() === inner.toLowerCase())) found.push(inner); 
+ }); 
+ } 
+ return found; 
+ } 
+ 
+ function createSkillCard(skill) { 
+ const card = document.createElement('div'); 
+ card.className = 'skill-card'; 
+ card.dataset.type = skill.type; 
+ card.dataset.name = skill.name; 
+ card.dataset.special = skill.name.includes('*') ? '1' : ''; 
+ 
+ const levelDots = Array(5).fill('').map((_, i) => 
+ '<div class="level-dot' + (i < skill.level ? ' filled' : '') + '"></div>' 
+ ).join(''); 
+ 
+ const synergies = extractSynergies(skill); 
+ const synHtml = synergies.length ? 
+ '<div class="skill-syn"><span class="skill-syn-label">Sinergie</span>' + 
+ synergies.map(s => '<a class="skill-ref" data-ref="' + skillByBase[s.split(':')[0].trim().toLowerCase()] + '">' + s + '</a>').join('') + 
+ '</div>' : ''; 
+ 
+ card.innerHTML = 
+ '<div class="skill-header">' + 
+ '<div class="skill-icon"><i class="' + skill.icon + '"></i></div>' + 
+ '<div class="skill-name">' + skill.name + '</div>' + 
+ (skill.examples ? '<button class="examples-btn" data-skill="' + skill.name + '" title="Esempi d\'uso"><i class="fa-solid fa-lightbulb"></i></button>' : '') + 
+ '</div>' + 
+ '<div class="skill-description">' + linkifyRefs(skill.description) + '</div>' + 
+ synHtml + 
+ '<div class="skill-footer">' + 
+ '<div class="skill-type">' + skill.type + '</div>' + 
+ '<div class="skill-level-container">' + 
+ '<div class="skill-level-text">livello standard <i class="fa-solid fa-arrow-right"></i></div>' + 
+ '<div class="skill-level">' + 
+ levelDots + 
+ '</div>' + 
+ '</div>' + 
+ '</div>'; 
+ 
+ return card; 
+} 
+ 
+ let onlySpecial = false; 
+ 
+ function filterSkills() { 
+ const searchTerm = document.getElementById('searchInput').value.toLowerCase(); 
+ const activeType = document.querySelector('.filter-btn.active[data-type]').dataset.type; 
+ let visible = 0; 
+ 
+ const cards = document.querySelectorAll('.skill-card'); 
+ cards.forEach(card => { 
+ const skillName = card.querySelector('.skill-name').textContent.toLowerCase(); 
+ const skillDesc = card.querySelector('.skill-description').textContent.toLowerCase(); 
+ const skillType = card.dataset.type; 
+ 
+ const matchesSearch = skillName.includes(searchTerm) || skillDesc.includes(searchTerm); 
+ const matchesType = activeType === 'all' || skillType === activeType; 
+ const matchesSpecial = !onlySpecial || card.dataset.special === '1'; 
+ 
+ const show = matchesSearch && matchesType && matchesSpecial; 
+ card.style.display = show ? '' : 'none'; 
+ if (show) visible++; 
+ }); 
+ 
+ document.getElementById('noResults').style.display = visible === 0 ? '' : 'none'; 
+ 
+ const label = visible === 1 ? 'abilità mostrata' : 'abilità mostrate'; 
+ document.getElementById('resultsCounter').textContent = visible + ' ' + label + ' su ' + cards.length; 
+ } 
+ 
+ function updateCategoryCounts() { 
+ const counts = {}; 
+ skills.forEach(skill => { 
+ counts[skill.type] = (counts[skill.type] || 0) + 1; 
+ }); 
+ 
+ document.querySelectorAll('.filter-btn[data-type]').forEach(btn => { 
+ const type = btn.dataset.type; 
+ const count = type === 'all' ? skills.length : (counts[type] || 0); 
+ const countSpan = document.createElement('span'); 
+ countSpan.className = 'count'; 
+ countSpan.textContent = count; 
+ btn.appendChild(countSpan); 
+ }); 
+ 
+ const specialCount = skills.filter(s => s.name.includes('*')).length; 
+ const specialSpan = document.createElement('span'); 
+ specialSpan.className = 'count'; 
+ specialSpan.textContent = specialCount; 
+ document.getElementById('specialBtn').appendChild(specialSpan); 
+ } 
+ 
+ function jumpToSkill(name) { 
+ const card = [...document.querySelectorAll('.skill-card')].find(c => c.dataset.name === name); 
+ if (!card) return; 
+ if (card.style.display === 'none') { 
+ document.getElementById('searchInput').value = ''; 
+ onlySpecial = false; 
+ document.getElementById('specialBtn').classList.remove('active'); 
+ document.querySelectorAll('.filter-btn[data-type]').forEach(b => b.classList.remove('active')); 
+ document.querySelector('.filter-btn[data-type="all"]').classList.add('active'); 
+ filterSkills(); 
+ } 
+ if (document.getElementById('skillsContainer').classList.contains('compact')) card.classList.add('expanded'); 
+ card.scrollIntoView({behavior: 'smooth', block: 'center'}); 
+ card.classList.add('highlight'); 
+ setTimeout(() => card.classList.remove('highlight'), 1800); 
+ } 
+ 
+ document.addEventListener('DOMContentLoaded', () => { 
+ const container = document.getElementById('skillsContainer'); 
+ skills.forEach(skill => { 
+ container.appendChild(createSkillCard(skill)); 
+ }); 
+ 
+ updateCategoryCounts(); 
+ filterSkills(); 
+ 
+ document.querySelectorAll('.filter-btn[data-type]').forEach(btn => { 
+ btn.addEventListener('click', (e) => { 
+ document.querySelectorAll('.filter-btn[data-type]').forEach(b => b.classList.remove('active')); 
+ e.currentTarget.classList.add('active'); 
+ filterSkills(); 
+ }); 
+ }); 
+ 
+ document.getElementById('specialBtn').addEventListener('click', (e) => { 
+ onlySpecial = !onlySpecial; 
+ e.currentTarget.classList.toggle('active', onlySpecial); 
+ filterSkills(); 
+ }); 
+ 
+ document.getElementById('viewBtn').addEventListener('click', (e) => { 
+ const container = document.getElementById('skillsContainer'); 
+ const compact = container.classList.toggle('compact'); 
+ e.currentTarget.classList.toggle('active', compact); 
+ if (!compact) container.querySelectorAll('.skill-card.expanded').forEach(c => c.classList.remove('expanded')); 
+ }); 
+ 
+document.getElementById('searchInput').addEventListener('input', filterSkills); 
+ 
+document.querySelector('.close').addEventListener('click', closeModal); 
+window.addEventListener('click', (e) => { 
+ if (e.target === document.getElementById('examplesModal')) { 
+ closeModal(); 
+ } 
+}); 
+document.getElementById('modalPrev').addEventListener('click', () => modalStep(-1)); 
+document.getElementById('modalNext').addEventListener('click', () => modalStep(1)); 
+document.addEventListener('keydown', (e) => { 
+ if (e.key === 'Escape') closeModal(); 
+ if (document.getElementById('examplesModal').style.display === 'block') { 
+ if (e.key === 'ArrowLeft') modalStep(-1); 
+ if (e.key === 'ArrowRight') modalStep(1); 
+ } 
+}); 
+ 
+let modalIndex = -1; 
+ 
+function openModal(skillName) { 
+ const i = skills.findIndex(s => s.name === skillName); 
+ if (i < 0 || !skills[i].examples) return; 
+ modalIndex = i; 
+ const skill = skills[i]; 
+ 
+ document.getElementById('modalIcon').className = skill.icon; 
+ document.getElementById('modalTitle').textContent = skill.name; 
+ document.getElementById('modalCount').textContent = (i + 1) + ' / ' + skills.length; 
+ document.getElementById('noRollExamples').textContent = skill.examples.noRoll; 
+ document.getElementById('rollRequiredExamples').textContent = skill.examples.rollRequired; 
+ document.getElementById('sequenceExamples').textContent = skill.examples.sequences || 'Nessun esempio di sequenza disponibile.'; 
+ 
+ document.getElementById('examplesModal').style.display = 'block'; 
+} 
+ 
+function modalStep(dir) { 
+ if (modalIndex < 0) return; 
+ openModal(skills[(modalIndex + dir + skills.length) % skills.length].name); 
+} 
+ 
+function closeModal() { 
+ document.getElementById('examplesModal').style.display = 'none'; 
+} 
+ 
+document.getElementById('skillsContainer').addEventListener('click', (e) => { 
+ const ref = e.target.closest('.skill-ref'); 
+ if (ref) { 
+ jumpToSkill(ref.dataset.ref); 
+ return; 
+ } 
+ if (e.target.closest('.examples-btn')) { 
+ const skillName = e.target.closest('.examples-btn').dataset.skill; 
+ openModal(skillName); 
+ return; 
+ } 
+ const desc = e.target.closest('.skill-description'); 
+ if (desc && document.getElementById('skillsContainer').classList.contains('compact')) { 
+ desc.closest('.skill-card').classList.toggle('expanded'); 
+ } 
+ }); 
+ }); 
+ </script>

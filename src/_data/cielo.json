@@ -1,0 +1,11 @@
+[
+  { "nome": "Apparizione di una nuova cometa", "hex": "#e8e2c8", "testo": "Un presagio di grande importanza: cambiamenti epocali, l'ascesa o la caduta di imperi, l'arrivo di figure leggendarie." },
+  { "nome": "Aurora rossa", "hex": "#9a1e24", "testo": "Guerra, spargimento di sangue, pericolo imminente." },
+  { "nome": "Aurora verde o blu", "hex": "#4a9d6a", "testo": "Mistero, magia, natura, pace o guarigione." },
+  { "nome": "Costellazione che si illumina", "hex": "#d99a3f", "testo": "La fortuna o l'influenza del principio associato a quella costellazione sta crescendo." },
+  { "nome": "Meteora singola e luminosa", "hex": "#e8e2c8", "testo": "Un evento improvviso e rapido, una notizia inaspettata o un'opportunità fugace." },
+  { "nome": "Sciame meteorico", "hex": "#d99a3f", "testo": "Un periodo di rapidi cambiamenti, caos, molteplici eventi, o una pioggia di benedizioni e maledizioni." },
+  { "nome": "Stella che pulsa, cambia colore", "hex": "#8e93a3", "testo": "Instabilità, cambiamento imminente, un conflitto nascosto o una magia in atto." },
+  { "nome": "Stella insolitamente brillante", "hex": "#e8e2c8", "testo": "Un evento significativo in arrivo, spesso positivo. La sua posizione può indicare l'area geografica o l'ambito di influenza." },
+  { "nome": "Un \"buco\" nel cielo notturno", "hex": "#3a1418", "testo": "Un'area di vuoto, un mistero profondo, o una minaccia incomprensibile." }
+]

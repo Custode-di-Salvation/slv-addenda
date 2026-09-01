@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "comuni",
+    "nome": "Sigilli comuni",
+    "badge": "Comune",
+    "sintesi": "Simboli tradizionali di uso diffuso, dal campo semantico stabile e dagli effetti contenuti.",
+    "icona": "fa-solid fa-yin-yang",
+    "categorie": [
+      {
+        "slug": "manipolazione",
+        "nome": "Manipolazione",
+        "sigilli": [
+          { "slug": "triskelion", "nome": "Triskelion", "stato": "live" },
+          { "slug": "yin-yang", "nome": "Yin-yang", "stato": "live" }
+        ]
+      },
+      {
+        "slug": "percezione",
+        "nome": "Percezione",
+        "sigilli": [
+          { "slug": "occhio-di-horus", "nome": "Occhio di Horus (Udjat)", "stato": "live" },
+          { "slug": "vegvisir", "nome": "Vegvísir", "stato": "live" }
+        ]
+      },
+      {
+        "slug": "protezione",
+        "nome": "Protezione",
+        "sigilli": [
+          { "slug": "croce-celtica", "nome": "Croce celtica", "stato": "live" },
+          { "slug": "hamsa", "nome": "Hamsa", "stato": "live" },
+          { "slug": "mjolnir", "nome": "Mjölnir", "stato": "live" },
+          { "slug": "pentagramma", "nome": "Pentagramma", "stato": "live" }
+        ]
+      },
+      {
+        "slug": "vincoli",
+        "nome": "Vincoli",
+        "sigilli": [
+          { "slug": "nodo-di-salomone", "nome": "Nodo di Salomone", "stato": "live" },
+          { "slug": "triquetra", "nome": "Triquetra", "stato": "live" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "rari",
+    "nome": "Sigilli rari",
+    "badge": "Raro",
+    "sintesi": "Sigilli compositi, con più simboli sovrapposti, radici storiche e meccaniche elaborate.",
+    "icona": "fa-solid fa-circle-nodes",
+    "categorie": [
+      {
+        "slug": "manipolazione",
+        "nome": "Manipolazione",
+        "sigilli": [
+          { "slug": "clipeus-solis-invicti", "nome": "Clipeus Solis Invicti", "stato": "live" },
+          { "slug": "coagulationis-rubrae", "nome": "Coagulationis Rubrae", "stato": "live" },
+          { "slug": "feng-ling-fu", "nome": "Fēng-líng Fú", "stato": "live" },
+          { "slug": "hermeticum-fixitatis", "nome": "Hermēticum Fixitātis", "stato": "live" },
+          { "slug": "lustrationis-et-vacuum-spiritualis", "nome": "Lustrationis et Vacuum Spiritualis", "stato": "live" },
+          { "slug": "pranadana", "nome": "Prāṇadāna", "stato": "live" },
+          { "slug": "psychopompikon-sema", "nome": "Psychopompikon Sēma", "stato": "live" },
+          { "slug": "sigillum-ecdysis-violentae", "nome": "Sigillum Ecdysis Violentae", "stato": "live" },
+          { "slug": "wepet-ba", "nome": "Wp.t-Bꜣ (Wepet-Ba)", "stato": "live" }
+        ]
+      },
+      {
+        "slug": "percezione",
+        "nome": "Percezione",
+        "sigilli": [
+          { "slug": "hekates-phos", "nome": "Hekátēs phōs", "stato": "live" },
+          { "slug": "speculi-veritatis", "nome": "Speculi Veritatis", "stato": "live" }
+        ]
+      },
+      {
+        "slug": "protezione",
+        "nome": "Protezione",
+        "sigilli": [
+          { "slug": "circulus-protectionis-salomonis", "nome": "Circulus Protectionis Salomonis", "stato": "live" },
+          { "slug": "diabolus-in-musica", "nome": "Diabolus in Musica", "stato": "live" },
+          { "slug": "kisib-bar-ra", "nome": "Kišib-bar-ra", "stato": "live" },
+          { "slug": "nodus-qui-deum-ligat", "nome": "Nodus Qui Deum Ligat", "stato": "live" },
+          { "slug": "pentaculum-clausum", "nome": "Pentaculum Clausum", "stato": "live" },
+          { "slug": "quadratum-sator", "nome": "Quadratum Sator", "stato": "live" },
+          { "slug": "sigillum-nullius", "nome": "Sigillum Nullius", "stato": "live" }
+        ]
+      },
+      {
+        "slug": "vincoli",
+        "nome": "Vincoli",
+        "sigilli": [
+          { "slug": "clavus-manium", "nome": "Clavus Manium", "stato": "live" },
+          { "slug": "hexagramma-fixationis", "nome": "Hexagramma Fixationis", "stato": "live" },
+          { "slug": "laqueus-diaboli", "nome": "Laqueus Diaboli", "stato": "live" },
+          { "slug": "sigillum-imperii", "nome": "Sigillum Imperii", "stato": "live" },
+          { "slug": "tlachinollan-xipe", "nome": "Tlachinollan-Xipe", "stato": "live" }
+        ]
+      }
+    ]
+  }
+]

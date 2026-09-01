@@ -1,0 +1,106 @@
+/* ═══════════════════════════════════════════
+   WIDGET "Osserva il cielo": Àuguri
+   ═══════════════════════════════════════════ */
+
+.sky-widget {
+  display: grid;
+  grid-template-columns: minmax(260px, 380px) 1fr;
+  align-items: center;
+  gap: 32px;
+  padding: 32px;
+  background: radial-gradient(ellipse at top, rgba(154, 30, 36, .08), transparent 65%), var(--panel-dark);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.sky-ask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.sky-stage {
+  position: relative;
+  width: 100%;
+  height: 130px;
+  overflow: hidden;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  background: radial-gradient(ellipse at 50% 120%, rgba(255, 255, 255, .03), transparent 70%);
+}
+
+.sky-bird {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1.3rem;
+  color: var(--gold);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.sky-bird.fly-destra { animation: fly-destra 2.2s ease-in-out forwards; }
+.sky-bird.fly-sinistra { animation: fly-sinistra 2.2s ease-in-out forwards; }
+.sky-bird.fly-alto { animation: fly-alto 2.2s ease-in-out forwards; }
+.sky-bird.fly-cerchio { animation: fly-cerchio 2.4s ease-in-out forwards; }
+.sky-bird.fly-via { animation: fly-via 2s ease-in forwards; }
+
+@keyframes fly-destra {
+  0% { left: 100%; top: 55%; opacity: 0; transform: translate(-50%, -50%) scaleX(-1); }
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { left: 0%; top: 45%; opacity: 0; transform: translate(-50%, -50%) scaleX(-1); }
+}
+@keyframes fly-sinistra {
+  0% { left: 0%; top: 45%; opacity: 0; transform: translate(-50%, -50%) scaleX(1); }
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { left: 100%; top: 55%; opacity: 0; transform: translate(-50%, -50%) scaleX(1); }
+}
+@keyframes fly-alto {
+  0% { left: 10%; top: 100%; opacity: 0; transform: translate(-50%, -50%) scaleX(1); }
+  20% { opacity: 1; }
+  100% { left: 90%; top: -10%; opacity: 0; transform: translate(-50%, -50%) scaleX(1); }
+}
+@keyframes fly-cerchio {
+  0% { left: 50%; top: 90%; opacity: 0; transform: translate(-50%, -50%) scaleX(1); }
+  15% { opacity: 1; }
+  30% { left: 75%; top: 55%; transform: translate(-50%, -50%) scaleX(-1); }
+  50% { left: 50%; top: 20%; transform: translate(-50%, -50%) scaleX(-1); }
+  70% { left: 25%; top: 55%; transform: translate(-50%, -50%) scaleX(1); }
+  85% { opacity: 1; }
+  100% { left: 50%; top: 90%; opacity: 0; transform: translate(-50%, -50%) scaleX(1); }
+}
+@keyframes fly-via {
+  0% { left: 45%; top: 55%; opacity: 1; transform: translate(-50%, -50%) scale(1) scaleX(1); }
+  100% { left: 105%; top: -20%; opacity: 0; transform: translate(-50%, -50%) scale(.5) scaleX(1); }
+}
+
+.sky-result {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding-left: 30px;
+  border-left: 1px solid var(--border);
+}
+.sky-result[hidden] { display: none; }
+.sky-result strong {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: #e4e4e5;
+}
+.sky-result p { color: var(--text-soft); font-size: .9rem; line-height: 1.55; }
+
+@media (max-width: 800px) {
+  .sky-widget { grid-template-columns: 1fr; }
+  .sky-result {
+    padding-left: 0;
+    padding-top: 22px;
+    border-left: none;
+    border-top: 1px solid var(--border);
+  }
+}
