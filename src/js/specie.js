@@ -16,18 +16,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const tipo = activeBtn ? activeBtn.dataset.tipo : 'all';
 
     let visible = 0;
+    const sectionCounts = new Map();
     items.forEach((el) => {
       const matchesTipo = tipo === 'all' || el.dataset.tipo === tipo;
       const matchesTerm = !term || el.dataset.search.indexOf(term) !== -1;
       const show = matchesTipo && matchesTerm;
       el.style.display = show ? '' : 'none';
       if (show) visible++;
+
+      const section = el.closest('section');
+      if (section) sectionCounts.set(section, (sectionCounts.get(section) || 0) + (show ? 1 : 0));
     });
 
     if (counter) {
       const label = visible === 1 ? 'voce trovata' : 'voci trovate';
       counter.textContent = term || tipo !== 'all' ? visible + ' ' + label : '';
     }
+
+    // Nasconde l'intera sezione (titolo, intro, note) quando la ricerca/filtro
+    // non lascia nessuna voce visibile al suo interno, per non lasciare un
+    // titolo di sezione "orfano" sopra a un blocco vuoto.
+    sectionCounts.forEach((count, section) => {
+      section.style.display = count > 0 ? '' : 'none';
+    });
 
     // Nasconde i sotto-titoli di gruppo (es. "Solo per angeli custodi") quando
     // il filtro/ricerca nasconde tutte le card sottostanti, per non lasciare
