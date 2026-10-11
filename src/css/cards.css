@@ -1,4 +1,4 @@
-/* Shared card layout: two readable columns, consistent heights, complete text. */
+/* Two readable columns; cards stretch within each row, without empty fixed heights. */
 .card-grid, .card-grid-wide, .method-grid, .medium-grid,
 .effetti-grid, .creatures-grid, .creature-threat-grid, .potere-cards {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -8,22 +8,23 @@
 .medium-card, .method-card, .effetti-grid .method-card {
   display: flex;
   flex-direction: column;
-  height: 25rem;
+  height: auto;
   min-width: 0;
   min-height: 0;
 }
 
 .medium-card > h4, .method-card > h4 {
   flex: 0 0 auto;
-  min-height: 2.8em;
+  min-height: 0;
   line-height: 1.4;
   margin: 0 0 12px;
   overflow-wrap: anywhere;
 }
 
 .card-scroll-body {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   min-height: 0;
+  max-height: 18rem;
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-gutter: stable;
@@ -35,16 +36,18 @@
   line-height: 1.65;
   margin-bottom: 12px;
 }
+.card-scroll-body > :last-child { margin-bottom: 0; }
 
 .card-grid > .card {
-  height: 15rem;
+  height: auto;
+  max-height: 15rem;
   overflow-y: auto;
   scrollbar-gutter: stable;
 }
-.card-grid > .card h3 { min-height: 2.7em; line-height: 1.35; }
+.card-grid > .card h3 { min-height: 0; line-height: 1.35; }
 
-.creature-card { height: 23rem; overflow-y: auto; }
-.creature-threat-card { height: 20rem; overflow-y: auto; }
+.creature-card { height: auto; max-height: 23rem; overflow-y: auto; }
+.creature-threat-card { height: auto; max-height: 20rem; overflow-y: auto; }
 
 :is(.card, .medium-card, .method-card, .creature-card, .creature-threat-card, .potere-card)
 :is(p, li, dd) { text-align: left; overflow-wrap: anywhere; }
