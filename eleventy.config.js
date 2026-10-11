@@ -5,6 +5,11 @@ const sigilliFlat = require("./src/_data/sigilliFlat.js");
 const specie = require("./src/_data/specie.json");
 
 module.exports = function (eleventyConfig) {
+  // Keep narrative card headings visible while long bodies scroll.
+  eleventyConfig.addFilter("uniformCards", (content) => String(content).replace(
+    /(<div class="(?:medium-card|method-card)">\s*<h4\b[^>]*>[\s\S]*?<\/h4>)([\s\S]*?)(<\/div>)/g,
+    (_, heading, body, close) => `${heading}<div class="card-scroll-body" tabindex="0" role="region" aria-label="Contenuto del riquadro">${body}</div>${close}`
+  ));
   // Copia le cartelle statiche nella build finale
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
