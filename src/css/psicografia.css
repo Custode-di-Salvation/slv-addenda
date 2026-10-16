@@ -1,0 +1,8 @@
+.psychography-guide > h3 {
+  font: 700 17px 'Cinzel', serif;
+  color: var(--text);
+  line-height: 1.4;
+  margin: 28px 0 14px;
+}
+.psychography-guide .medium-card p:last-child,
+.psychography-guide .step-content p:last-child { margin-bottom: 0; }

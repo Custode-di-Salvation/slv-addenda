@@ -25,6 +25,10 @@ module.exports = async ({ results, dir }) => {
     if (!page.url?.startsWith('/') || !page.outputPath?.endsWith('.html')) continue;
     const html = typeof page.content === 'string' ? page.content : await fs.readFile(page.outputPath, 'utf8');
     const doc = parseDocument(html);
+    const noindex = DomUtils.findOne((node) => node.name === 'meta'
+      && node.attribs?.name?.toLowerCase() === 'robots'
+      && /\bnoindex\b/i.test(node.attribs?.content || ''), doc.children, true);
+    if (noindex) continue;
     const main = DomUtils.findOne((node) => node.name === 'main', doc.children, true);
     const heading = main && DomUtils.findOne((node) => node.name === 'h1', [main], true);
     if (!heading) continue;
