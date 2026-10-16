@@ -4,6 +4,14 @@ title: "Triskelion"
 rarita: comuni
 categoria: manipolazione
 ---
+<section class="prose" id="limiti">
+<div class="section-head"><h2>Limiti</h2></div>
+
+1. Non può invertire o fermare processi, solo accelerarli o liberarli. Non può guarire una malattia che non guarisce naturalmente, solo velocizzare la risposta immunitaria.
+2. Non può creare movimento dal nulla. Se una cosa è completamente immobile il sigillo fallisce o genera un effetto minimo.
+3. Pericoloso se usato su processi distruttivi.
+
+</section>
 <section class="prose" id="campo-semantico">
 <div class="section-head"><h2>Campo semantico</h2></div>
 
@@ -18,7 +26,6 @@ Nella filosofia celtica, era associato al sole (che si muove nel cielo), alle on
 Agisce come catalizzatore di processi già in corso. Non crea energia dal nulla, ma accelera, amplifica e libera ciò che è già latente o bloccato.
 
 </section>
-
 <section class="prose" id="effetti-coerenti">
 <div class="section-head"><h2>Esempi di effetti coerenti</h2></div>
 <div class="effetti-grid">
@@ -39,13 +46,4 @@ Agisce come catalizzatore di processi già in corso. Non crea energia dal nulla,
 <p>Se un'energia sovrannaturale è stata sigillata o compressa (es. in un oggetto, in un luogo), il triskelion può tentare di liberarla violentemente, causando un'esplosione di potere.</p>
 </div>
 </div>
-</section>
-
-<section class="prose" id="limiti">
-<div class="section-head"><h2>Limiti</h2></div>
-
-1. Non può invertire o fermare processi, solo accelerarli o liberarli. Non può guarire una malattia che non guarisce naturalmente, solo velocizzare la risposta immunitaria.
-2. Non può creare movimento dal nulla. Se una cosa è completamente immobile il sigillo fallisce o genera un effetto minimo.
-3. Pericoloso se usato su processi distruttivi.
-
 </section>

@@ -75,9 +75,9 @@ La codifica del rito come antifona processionale obbligatoria si consolida nel X
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
 <li>Messale Romano pre-1970, prime pagine (rito d'ingresso della messa solenne).</li>
-<li>Liber Usualis (edizione Solesmes, 1961), pp. 11-12 – versione con notazione gregoriana.</li>
-<li>Salmo 50, 9 (Vulgata) / 51, 9 (numerazione ebraica) – testo biblico dell'antifona.</li>
-<li>Levitico 14 e Numeri 19 – riti biblici di purificazione con issopo, sostrato veterotestamentario del gesto.</li>
+<li>Liber Usualis (edizione Solesmes, 1961), pp. 11-12, versione con notazione gregoriana.</li>
+<li>Salmo 50, 9 (Vulgata) / 51, 9 (numerazione ebraica), testo biblico dell'antifona.</li>
+<li>Levitico 14 e Numeri 19, riti biblici di purificazione con issopo, sostrato veterotestamentario del gesto.</li>
 <li>Leone IV, disposizione IX sec. sull'aspersione domenicale (cfr. Catholic Encyclopedia, voce "Asperges").</li>
 </ul>
 </section>

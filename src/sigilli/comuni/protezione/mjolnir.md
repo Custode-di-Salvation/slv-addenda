@@ -4,6 +4,13 @@ title: "Mjölnir"
 rarita: comuni
 categoria: protezione
 ---
+<section class="prose" id="limiti">
+<div class="section-head"><h2>Limiti</h2></div>
+
+1. Efficace contro il caos e il sovrannaturale ostile ma richiede coraggio: se il portatore è in preda al panico o alla paura, il sigillo perde potenza.
+2. Poco efficace contro bersagli che risuonano con il concetto di ordine.
+
+</section>
 <section class="prose" id="campo-semantico">
 <div class="section-head"><h2>Campo semantico</h2></div>
 
@@ -14,7 +21,6 @@ Nel mito, Mjölnir ha tre poteri: torna sempre in mano a Thor dopo essere stato 
 Culturalmente, i vichinghi portavano amuleti a forma di martello come i cristiani portano la croce: è un simbolo di protezione contro il caos primordiale (i giganti del gelo, Jörmungandr il serpente del mondo, le forze della dissoluzione). È la promessa che l'ordine, per quanto fragile, resiste attraverso la forza e il coraggio.
 
 </section>
-
 <section class="prose" id="effetti-coerenti">
 <div class="section-head"><h2>Esempi di effetti coerenti</h2></div>
 <div class="effetti-grid">
@@ -31,12 +37,4 @@ Culturalmente, i vichinghi portavano amuleti a forma di martello come i cristian
 <p>Può attenuare venti violenti o proteggere da grandine; non ferma la tempesta, ma crea una "bolla" di calma. Simbolicamente protegge anche da attacchi caotici e sovrannaturali che metaforicamente "sommergono".</p>
 </div>
 </div>
-</section>
-
-<section class="prose" id="limiti">
-<div class="section-head"><h2>Limiti</h2></div>
-
-1. Efficace contro il caos e il sovrannaturale ostile ma richiede coraggio: se il portatore è in preda al panico o alla paura, il sigillo perde potenza.
-2. Poco efficace contro bersagli che risuonano con il concetto di ordine.
-
 </section>

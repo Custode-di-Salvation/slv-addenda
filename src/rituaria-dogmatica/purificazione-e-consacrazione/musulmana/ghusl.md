@@ -102,12 +102,7 @@ Il Ghusl eseguito al venerdì mattina (uso codificato: <em>Ghusl al-jumu'ah</em>
 <p>L'operatore esce dall'acqua, si asciuga solo lievemente (l'acqua residua sulla pelle completa il rito, come per il <a href="/rituaria-dogmatica/purificazione-e-consacrazione/ebraica/tevilat-kelim/">tevilat kelim</a>), indossa la vestizione pulita.</p>
 </div>
 </div>
-<div class="step-item">
-<div class="step-number">9</div>
-<div class="step-content">
-<p>Modifica della formula. Adattare la <em>niyyah</em> al tipo specifico di Ghusl è previsto e obbligatorio. Tradurre le invocazioni in altra lingua è tollerato con –1 al tiro (l'arabo coranico è pattern denso, la sua sostituzione riduce l'ancoraggio). Sostituire i nomi di Allah, omettere la <em>niyyah</em>, invertire la sequenza destra-sinistra, saltare il <em>wudu</em> preliminare, usare acqua non idonea: il rito fallisce silenziosamente, l'operatore si sente pulito ma non lo è sul piano dogmatico, e gli atti successivi partono da falsa base. Questo è uno dei falsi negativi più insidiosi della tradizione islamica.</p>
-</div>
-</div>
+
 </div>
 </section>
 
@@ -131,10 +126,10 @@ Nella prassi islamica contemporanea globale, il Ghusl rimane obbligatorio in un 
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Corano, Sura 5 (al-Ma'idah), v. 6 e Sura 4 (an-Nisa'), v. 43 – fondamento scritturale.</li>
-<li>Sahih al-Bukhari e Sahih Muslim, capitoli sulla purezza rituale (Kitab al-Tahara) – descrizioni testimoniali della procedura profetica.</li>
-<li>Al-Nawawi, al-Majmu' Sharh al-Muhadhdhab – trattazione classica del rito nella scuola shafi'ita.</li>
-<li>Ibn Abidin, Radd al-Muhtar – trattazione classica hanafita.</li>
-<li>Al-Kulayni, al-Kafi, Kitab al-Tahara – codificazione ja'farita sciita.</li>
+<li>Corano, Sura 5 (al-Ma'idah), v. 6 e Sura 4 (an-Nisa'), v. 43, fondamento scritturale.</li>
+<li>Sahih al-Bukhari e Sahih Muslim, capitoli sulla purezza rituale (Kitab al-Tahara), descrizioni testimoniali della procedura profetica.</li>
+<li>Al-Nawawi, al-Majmu' Sharh al-Muhadhdhab, trattazione classica del rito nella scuola shafi'ita.</li>
+<li>Ibn Abidin, Radd al-Muhtar, trattazione classica hanafita.</li>
+<li>Al-Kulayni, al-Kafi, Kitab al-Tahara, codificazione ja'farita sciita.</li>
 </ul>
 </section>

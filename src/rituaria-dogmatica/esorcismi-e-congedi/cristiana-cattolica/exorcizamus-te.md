@@ -92,9 +92,9 @@ La riforma liturgica del 1998 ne ha ristretto l'uso ai soli esorcisti nominati, 
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Rituale Romanum (edizione di Leone XIII, 1890), Titulus XII – testo integrale.</li>
-<li>Leone XIII, Depuis le jour (enciclica 1899) – contesto teologico del suo pontificato antidemoniaco.</li>
+<li>Rituale Romanum (edizione di Leone XIII, 1890), Titulus XII, testo integrale.</li>
+<li>Leone XIII, Depuis le jour (enciclica 1899), contesto teologico del suo pontificato antidemoniaco.</li>
 <li>Testimonianze sull'esperienza mistica del 13 ottobre 1884 raccolte da testimoni coevi (Cardinale Rampolla, Padre Domenico Pechenino).</li>
-<li>Gabriele Amorth, Un esorcista racconta, Dehoniane, 1990 – uso operativo contemporaneo.</li>
+<li>Gabriele Amorth, Un esorcista racconta, Dehoniane, 1990, uso operativo contemporaneo.</li>
 </ul>
 </section>

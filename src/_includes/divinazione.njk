@@ -1,0 +1,19 @@
+---
+layout: base.njk
+styles:
+  - /css/divinazione-guide.css
+---
+<div class="divination-guide">
+  {{ content | safe }}
+  <nav class="guide-catalog" aria-label="Tutte le guide di divinazione">
+    <h2>Guide di divinazione</h2>
+    <p class="guide-catalog-count">{{ metodi.length }} metodi</p>
+    <div class="guide-catalog-links">
+      {% for metodo in metodi %}
+      <a href="/divinazione/{{ metodo.slug }}/"{% if metodo.slug == page.fileSlug %} aria-current="page"{% endif %}>
+        <i class="{{ metodo.icona }}" aria-hidden="true"></i><span>{{ metodo.titolo }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </nav>
+</div>

@@ -113,7 +113,7 @@ Il rito è strutturalmente diverso dagli esorcismi cristiani per la sua natura c
 
 Il celebre dramma <em>Il Dybbuk</em> (<em>Der Dibek</em>, 1914) di Sh. An-sky documenta la sopravvivenza operativa del rito nell'Europa orientale immediatamente prima della Shoah. An-sky, che condusse ricerche etnografiche in Volinia e Podolia tra il 1912 e il 1914, raccolse testimonianze dirette di esorcismi di <em>dybbuk</em> eseguiti con struttura di ibbur: la scena centrale del dramma, in cui il rabbi Ezriel di Miropol conduce l'esorcismo della giovane Leah posseduta dal <em>dybbuk</em> di Channon con l'assistenza di un minyan, è ricostruzione fedele della prassi cabalistica pratica del tempo.
 
-La Shoah ha distrutto quasi completamente le comunità chassidiche dell'Europa orientale, e con esse la trasmissione pratica ininterrotta del rito. Nel dopoguerra la conoscenza è stata trasmessa in ambienti chassidici sopravvissuti (soprattutto negli Stati Uniti, Brooklyn, Monsey, e in Israele – Mea Shearim, Bnei Brak), ma la prassi operativa è rara: pochi rabbini contemporanei si sentono qualificati a eseguire il rito, e la maggior parte dei casi di sospetto <em>dybbuk</em> nell'ebraismo ortodosso contemporaneo viene trattata con esorcismi meno rischiosi (formule della <em>Kabbalah Ma'asit</em> più leggere, riti di <a href="/rituaria-dogmatica/esorcismi-e-congedi/ebraica/vidui/">Vidui</a> vicario, o rinvio a specialisti quando disponibili).
+La Shoah ha distrutto quasi completamente le comunità chassidiche dell'Europa orientale, e con esse la trasmissione pratica ininterrotta del rito. Nel dopoguerra la conoscenza è stata trasmessa in ambienti chassidici sopravvissuti (soprattutto negli Stati Uniti, Brooklyn, Monsey, e in Israele, Mea Shearim, Bnei Brak), ma la prassi operativa è rara: pochi rabbini contemporanei si sentono qualificati a eseguire il rito, e la maggior parte dei casi di sospetto <em>dybbuk</em> nell'ebraismo ortodosso contemporaneo viene trattata con esorcismi meno rischiosi (formule della <em>Kabbalah Ma'asit</em> più leggere, riti di <a href="/rituaria-dogmatica/esorcismi-e-congedi/ebraica/vidui/">Vidui</a> vicario, o rinvio a specialisti quando disponibili).
 
 Nella prassi contemporanea, gli esorcismi di ibbur sono documentati sporadicamente in ambienti chassidici Chabad e Breslov, con rabbini specialisti che tentano il rito su richiesta di famiglie coinvolte. Nel 1999 un caso ampiamente mediatizzato in Israele (esorcismo del <em>dybbuk</em> di un giovane ucciso in guerra dal corpo di una donna anziana, eseguito da un rabbino di Dimona) ha portato attenzione internazionale sulla sopravvivenza di questi riti anche nel XXI secolo.
 
@@ -122,12 +122,12 @@ Nella prassi contemporanea, gli esorcismi di ibbur sono documentati sporadicamen
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Chaim Vital, Sha'ar ha-Gilgulim ("Porta delle Reincarnazioni"), XVI-XVII sec. – codificazione lurianica della dottrina di ibbur, gilgul, dybbuk.</li>
-<li>Isaac Luria (Ari), tramite Vital, Sefer ha-Kavvanot – istruzioni cabalistiche pratiche.</li>
-<li>Israel Baal Shem Tov, tramite raccolte hasidiche (Shivchei ha-Besht, 1815) – episodi di esorcismi di dybbuk con struttura di ibbur.</li>
-<li>Sh. An-sky, Der Dibek (Il Dybbuk), 1914 – documentazione letteraria della prassi cabalistica dell'Europa orientale.</li>
-<li>Gershom Scholem, On the Kabbalah and Its Symbolism, 1965, e Sabbatai Sevi, 1973 – trattazioni accademiche della cabala pratica e dei fenomeni di possessione ebraica.</li>
-<li>Yoram Bilu, The Dybbuk in Judaism, in Journal of Psychoanalytic Anthropology, 1985 – studio antropologico moderno del fenomeno.</li>
-<li>J. H. Chajes, Between Worlds: Dybbuks, Exorcists, and Early Modern Judaism, University of Pennsylvania Press, 2003 – trattazione storica accademica dell'esorcismo di dybbuk in età moderna.</li>
+<li>Chaim Vital, Sha'ar ha-Gilgulim ("Porta delle Reincarnazioni"), XVI-XVII sec., codificazione lurianica della dottrina di ibbur, gilgul, dybbuk.</li>
+<li>Isaac Luria (Ari), tramite Vital, Sefer ha-Kavvanot, istruzioni cabalistiche pratiche.</li>
+<li>Israel Baal Shem Tov, tramite raccolte hasidiche (Shivchei ha-Besht, 1815), episodi di esorcismi di dybbuk con struttura di ibbur.</li>
+<li>Sh. An-sky, Der Dibek (Il Dybbuk), 1914, documentazione letteraria della prassi cabalistica dell'Europa orientale.</li>
+<li>Gershom Scholem, On the Kabbalah and Its Symbolism, 1965, e Sabbatai Sevi, 1973, trattazioni accademiche della cabala pratica e dei fenomeni di possessione ebraica.</li>
+<li>Yoram Bilu, The Dybbuk in Judaism, in Journal of Psychoanalytic Anthropology, 1985, studio antropologico moderno del fenomeno.</li>
+<li>J. H. Chajes, Between Worlds: Dybbuks, Exorcists, and Early Modern Judaism, University of Pennsylvania Press, 2003, trattazione storica accademica dell'esorcismo di dybbuk in età moderna.</li>
 </ul>
 </section>

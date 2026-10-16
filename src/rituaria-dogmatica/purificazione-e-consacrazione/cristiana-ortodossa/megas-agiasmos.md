@@ -97,9 +97,9 @@ Nella prassi ortodossa quotidiana viene bevuta a digiuno in casi di malattia, in
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Euchologion to Mega – il grande libro liturgico ortodosso, sezione Akolouthia tou Megalou Agiasmou ("Ufficio del Grande Agiasmo").</li>
-<li>Menaion di gennaio, giorno 6 – festa della Teofania.</li>
-<li>Sofronio di Gerusalemme (VII sec.) – attribuzione tradizionale della composizione delle preghiere centrali.</li>
-<li>Matteo 3, 13-17 · Marco 1, 9-11 · Luca 3, 21-22 · Giovanni 1, 29-34 – battesimo di Cristo nel Giordano, modello scritturale del rito.</li>
+<li>Euchologion to Mega, il grande libro liturgico ortodosso, sezione Akolouthia tou Megalou Agiasmou ("Ufficio del Grande Agiasmo").</li>
+<li>Menaion di gennaio, giorno 6, festa della Teofania.</li>
+<li>Sofronio di Gerusalemme (VII sec.), attribuzione tradizionale della composizione delle preghiere centrali.</li>
+<li>Matteo 3, 13-17 · Marco 1, 9-11 · Luca 3, 21-22 · Giovanni 1, 29-34, battesimo di Cristo nel Giordano, modello scritturale del rito.</li>
 </ul>
 </section>

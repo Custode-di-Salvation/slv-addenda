@@ -7,17 +7,19 @@ crumb:
   label: Home
 ---
 <div class="page-hero">
+  <p class="eyebrow section-eyebrow">Formule e liturgie</p>
   <h1>Rituaria Dogmatica</h1>
   <p>Il formulario dei rituali dogmatici: formule tratte da tradizioni religiose reali (cristiana cattolica, ortodossa, ebraica, musulmana) e non, catalogate per tipo e tradizione. Ogni rituale ha componenti, tempo di lancio, effetti e la formula completa, in lingua originale e tradotta.</p>
 </div>
 
-<section>
+<section class="ritual-catalog">
   <div class="card-grid card-grid-wide">
     {% for t in rituaria %}
-    <a class="card" href="/rituaria-dogmatica/{{ t.slug }}/">
-      <span class="icon"><i class="{{ t.icona }}"></i></span>
+    <a class="card catalog-card divination-card ritual-card" href="/rituaria-dogmatica/{{ t.slug }}/">
+      <div class="catalog-card-top"><span class="icon" aria-hidden="true"><i class="{{ t.icona }}"></i></span></div>
       <h3{% if t.nome.length > 25 %} class="tight"{% endif %}>{{ t.nome }}</h3>
       <p>{{ t.sintesi }}</p>
+      <span class="catalog-card-action">Esplora i rituali <span aria-hidden="true">↗</span></span>
     </a>
     {% endfor %}
   </div>

@@ -24,11 +24,9 @@ Sul piano dogmatico, la potenza del rito deriva dalla combinazione tra il testo 
 
 Il rito ha tre modalità operative distinte. L'operatore sceglie al momento della recitazione quale modalità attivare, e può combinarne due (o tre) con recitazioni successive o con costo maggiorato.
 
-**Modalità A – Inchiodare**: blocco totale del bersaglio anche contro entità di rango altissimo (es. demoni progenitori) per 3 turni. L'entità non può fuggire, dissolversi, teletrasportarsi, passare attraverso pareti o soglie, sottrarsi al piano fisico, delegare ad altre entità la propria fuga; subisce svantaggio e -10 a ogni tentativo durante la recitazione continua del rito.
-
-**Modalità B – Autorità di comando**: l'entità può mentire con estrema difficoltà; la menzogna esplicita è quasi impossibile per la durata della modalità attiva. Può ancora tacere completamente, essere ambigua nelle risposte, dare risposte tecnicamente vere ma fuorvianti, rifiutarsi di rispondere. Ma se pronuncia una parola, quella parola non può essere falsa direttamente. Inoltre l'entità deve obbedire a comandi diretti che rientrino nella sua natura di creatura sottoposta all'Ordine, con tiri contrapposti standard in [Tenacia] (es. rivelare il proprio nome vero demoniaco o umano, dichiarare i propri patti attivi con esseri umani, dichiarare il proprio rango nella gerarchia infernale, dichiarare gli scopi operativi in corso, lasciare un corpo posseduto, ecc.). Non può essere comandata a compiere azioni contro la sua natura fondamentale.
-
-**Modalità C – Ricaccio**: se il tiro dell'operatore riesce con margine di successo elevato, l'entità viene costretta a lasciare il piano fisico e a tornare nel proprio dominio d'origine in un vero e proprio esorcismo finale, con però un obbligo temporale di permanenza nel piano originale (decretato dal master a seconda del tiro).
+* **Modalità A, Inchiodare**: blocco totale del bersaglio anche contro entità di rango altissimo (es. demoni progenitori) per 3 turni. L'entità non può fuggire, dissolversi, teletrasportarsi, passare attraverso pareti o soglie, sottrarsi al piano fisico, delegare ad altre entità la propria fuga; subisce svantaggio e -10 a ogni tentativo durante la recitazione continua del rito.
+* **Modalità B, Autorità di comando**: l'entità può mentire con estrema difficoltà; la menzogna esplicita è quasi impossibile per la durata della modalità attiva. Può ancora tacere completamente, essere ambigua nelle risposte, dare risposte tecnicamente vere ma fuorvianti, rifiutarsi di rispondere. Ma se pronuncia una parola, quella parola non può essere falsa direttamente. Inoltre l'entità deve obbedire a comandi diretti che rientrino nella sua natura di creatura sottoposta all'Ordine, con tiri contrapposti standard in [Tenacia] (es. rivelare il proprio nome vero demoniaco o umano, dichiarare i propri patti attivi con esseri umani, dichiarare il proprio rango nella gerarchia infernale, dichiarare gli scopi operativi in corso, lasciare un corpo posseduto, ecc.). Non può essere comandata a compiere azioni contro la sua natura fondamentale.
+* **Modalità C, Ricaccio**: se il tiro dell'operatore riesce con margine di successo elevato, l'entità viene costretta a lasciare il piano fisico e a tornare nel proprio dominio d'origine in un vero e proprio esorcismo finale, con però un obbligo temporale di permanenza nel piano originale (decretato dal master a seconda del tiro).
 
 In caso di fallimento del tiro, l'entità bersaglio ottiene automaticamente vantaggio a tutti i suoi attacchi contro l'operatore per i successivi 3 turni. In caso di fallimento del tiro Modalità C (tentativo di ricaccio fallito), l'entità reagisce con violenza amplificata: attacchi contro l'operatore con vantaggio e +5.
 
@@ -73,12 +71,7 @@ In caso di fallimento del tiro, l'entità bersaglio ottiene automaticamente vant
 <p>Al termine della recitazione, se le modalità attivate sono A o B, l'effetto è immediato e visibile: l'entità appare "inchiodata" (Modalità A, con manifestazioni fisiche di resistenza al movimento) o "sottomessa" (Modalità B, l'entità visibilmente meno arrogante, più rispondente alle domande). Se la Modalità C è attivata e il tiro ha successo con margine sufficiente, l'entità si dissolve dal piano fisico con manifestazione visibile (spesso descritta come "risucchio" verso il basso o vortice d'aria fredda) e sparisce.</p>
 </div>
 </div>
-<div class="step-item">
-<div class="step-number">7</div>
-<div class="step-content">
-<p>Modifica della formula. Il testo lungo della versione originale è rigidamente non modificabile: qualsiasi alterazione volontaria, omissione, inversione, sostituzione di nomi divini invalida il rito e attiva automaticamente le penalità del fallimento critico. Traduzioni sono ammesse solo in latino (la lingua originale) e italiano (traduzione ufficiale approvata). Recitare in altre lingue: rito non funzionante. La rigidità del testo è considerata parte della sua potenza: la sua stabilità nei secoli lo rende ancorato al pattern dogmatico in modo particolarmente denso.</p>
-</div>
-</div>
+
 </div>
 </section>
 
@@ -104,12 +97,12 @@ Nella cornice dogmatica operativa contemporanea, l'<em>Exorcismus in Satanam et 
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Papa Leone XIII, Rituale Romanum (edizione riveduta 1890, sezione De exorcizandis obsessis a daemonio) – prima pubblicazione ufficiale del testo integrale.</li>
-<li>Congregazione del Sant'Uffizio, disposizione del 1925 – restrizione della recitazione ai soli vescovi o sacerdoti autorizzati.</li>
-<li>Congregazione per il Culto Divino, Rituale Romanum: De Exorcismis et Supplicationibus Quibusdam (1998) – versione riformata post-conciliare che sostituisce ufficialmente il testo di Leone XIII.</li>
-<li>Archivio della Congregazione per la Dottrina della Fede, sezione Rituali antichi – copie autenticate del testo del 1890, accessibili solo ad autorizzazione formale.</li>
-<li>Padre Gabriele Amorth, Un esorcista racconta (1990) e Nuovi racconti di un esorcista (1992) – testimonianze di uso operativo della versione lunga da parte dell'esorcista ufficiale della diocesi di Roma per oltre trent'anni.</li>
-<li>Padre José Antonio Fortea, Summa Daemoniaca (2003) – trattazione teologica e operativa dell'esorcismo cattolico contemporaneo con riferimenti alla versione lunga di Leone XIII.</li>
+<li>Papa Leone XIII, Rituale Romanum (edizione riveduta 1890, sezione De exorcizandis obsessis a daemonio), prima pubblicazione ufficiale del testo integrale.</li>
+<li>Congregazione del Sant'Uffizio, disposizione del 1925, restrizione della recitazione ai soli vescovi o sacerdoti autorizzati.</li>
+<li>Congregazione per il Culto Divino, Rituale Romanum: De Exorcismis et Supplicationibus Quibusdam (1998), versione riformata post-conciliare che sostituisce ufficialmente il testo di Leone XIII.</li>
+<li>Archivio della Congregazione per la Dottrina della Fede, sezione Rituali antichi, copie autenticate del testo del 1890, accessibili solo ad autorizzazione formale.</li>
+<li>Padre Gabriele Amorth, Un esorcista racconta (1990) e Nuovi racconti di un esorcista (1992), testimonianze di uso operativo della versione lunga da parte dell'esorcista ufficiale della diocesi di Roma per oltre trent'anni.</li>
+<li>Padre José Antonio Fortea, Summa Daemoniaca (2003), trattazione teologica e operativa dell'esorcismo cattolico contemporaneo con riferimenti alla versione lunga di Leone XIII.</li>
 <li>Tradizione orale di alcune Congreghe di cacciatori esoterici cattolici (XX-XXI sec.), non pubblicata.</li>
 </ul>
 </section>

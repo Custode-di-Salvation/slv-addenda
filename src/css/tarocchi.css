@@ -220,7 +220,7 @@
   display: block;
   margin-bottom: 10px;
 }
-.arcano-detail p { color: var(--text-soft); font-size: .88rem; white-space: pre-line; text-align: justify; }
+.arcano-detail p { color: var(--text-soft); font-size: .88rem; white-space: pre-line; text-align: left; }
 .arcano-detail-lore {
   margin-top: 18px;
   padding-top: 16px;
@@ -298,7 +298,7 @@
   font-size: .88rem;
   color: var(--text-soft);
   margin: 0 0 10px 0;
-  text-align: justify;
+  text-align: left;
 }
 .stesa-text li { font-size: .88rem; margin-bottom: 4px; }
 .stesa-text strong { color: var(--text-soft); }

@@ -97,10 +97,10 @@ Nella pratica ordinaria dei secoli XIV-XX, il rito è stato uno dei più eseguit
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Rituale Romanum (Paolo V, 1614), Titulus VIII, cap. II – Ordo ad faciendam aquam benedictam.</li>
-<li>Sacramentario Gelasiano (Vaticanus Reginensis 316, fine VII sec.) – Benedictio salis dandi Catechumenis.</li>
+<li>Rituale Romanum (Paolo V, 1614), Titulus VIII, cap. II, Ordo ad faciendam aquam benedictam.</li>
+<li>Sacramentario Gelasiano (Vaticanus Reginensis 316, fine VII sec.), Benedictio salis dandi Catechumenis.</li>
 <li>Leone IV, Homilia (IX sec.); Incmaro di Reims, Capitula presbyteris data (852 ca.).</li>
-<li>2 Re 2, 19-22 – episodio della sorgente di Gerico risanata da Eliseo con il sale.</li>
+<li>2 Re 2, 19-22, episodio della sorgente di Gerico risanata da Eliseo con il sale.</li>
 <li>Catholic Encyclopedia (1907-12), voci "Asperges" e "Ritual"; Adoremus Bulletin, "The Asperges Rite" (2020).</li>
 </ul>
 </section>

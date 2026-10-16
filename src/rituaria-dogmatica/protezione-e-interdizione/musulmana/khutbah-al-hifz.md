@@ -89,7 +89,7 @@ La configurazione specifica del versetto come strumento di protezione dal sonno 
 
 Da questo nucleo scritturale è nata la tradizione universale islamica di recitare l'Ayat al-Kursi prima del sonno come protezione notturna. La configurazione più tecnica del rito, con l'aggiunta del soffio finale e dell'uso operativo su bersagli specifici in condizioni di minaccia acuta, è invece formalizzazione sufi: la si trova documentata in ambienti Naqshbandi (fondata da Baha' al-Din Naqshband, XIV sec.) e Shadhili (fondata da Abu l-Hasan al-Shadhili, XIII sec.), che ne trasmettono la forma operativa nella catena iniziatica (<em>silsila</em>) da maestro a discepolo. I trattati di <em>ruqya</em> sufi la classificano come una delle tecniche più raffinate di protezione dal sonno indotto.
 
-Il nome <em>khutbah al-hifz</em> ("discorso di protezione") non compare nei manuali di Fiqh classici e non è riconosciuto dalle grandi scuole sunnite come rito autonomo: è termine tecnico interno alle confraternite sufi che lo praticano. Nella tradizione ortodossa sunnita ogni tentativo di codificare una versione "operativa" della recitazione dell'Ayat al-Kursi è visto con sospetto, come rischio di scivolamento verso pratiche magiche estranee alla purezza dogmatica. Le confraternite sufi lo praticano comunque, difendendo la sua legittimità sulla base della hadith di Abu Hurayra e sulla continuità della catena iniziatica.
+Il nome <em>khutbah al-hifz</em> ("discorso di protezione") non compare nei manuali di Fiqh classici e non è riconosciuto dalle grandi scuole sunnite come rito autonomo: è termine tecnico interno alle confraternite sufi che lo praticano. Nella tradizione ortodossa sunnita ogni tentativo di codificare una versione "operativa" della recitazione dell'Ayat al-Kursi è visto con sospetto, come rischio di scivolamento verso pratiche sovrannaturali estranee alla purezza dogmatica. Le confraternite sufi lo praticano comunque, difendendo la sua legittimità sulla base della hadith di Abu Hurayra e sulla continuità della catena iniziatica.
 
 La configurazione specifica del rito come protezione dal sonno sovrannaturale (non genericamente contro <em>sihr</em> o entità) sfrutta la corrispondenza semantica diretta tra il testo del versetto ("non Lo prendono mai né sonnolenza né sonno") e l'effetto operativo desiderato. Questa corrispondenza è probabilmente l'esempio più elegante di rito dogmatico islamico costruito per replicazione della qualità divina descritta: chi recita affermando che Dio non dorme mai, ottiene per il tempo del rito una partecipazione tecnica a quella qualità di veglia assoluta.
 
@@ -100,11 +100,11 @@ Nella prassi contemporanea il rito è praticato in ambienti sufi occidentali (co
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Corano, Sura 2 (al-Baqarah), versetto 255 – Ayat al-Kursi, testo integrale.</li>
-<li>Sahih al-Bukhari, Kitab al-Wakala – hadith di Abu Hurayra sul jinn e la protezione notturna dell'Ayat al-Kursi.</li>
-<li>Sahih Muslim, Kitab Salat al-Musafirin – hadith di Ubayy ibn Ka'b sulla supremazia del versetto tra tutti quelli del Corano.</li>
+<li>Corano, Sura 2 (al-Baqarah), versetto 255, Ayat al-Kursi, testo integrale.</li>
+<li>Sahih al-Bukhari, Kitab al-Wakala, hadith di Abu Hurayra sul jinn e la protezione notturna dell'Ayat al-Kursi.</li>
+<li>Sahih Muslim, Kitab Salat al-Musafirin, hadith di Ubayy ibn Ka'b sulla supremazia del versetto tra tutti quelli del Corano.</li>
 <li>Baha' al-Din Naqshband e successori, trattati manoscritti della silsila Naqshbandi sulle tecniche di hifz (in ambienti privati, in parte pubblicati da Osman Nuri Topbaş, XX-XXI sec.).</li>
-<li>Ibn 'Ata Allah al-Iskandari, Hikam e trattati collaterali della scuola Shadhili – riferimenti indiretti all'uso operativo dei versetti coranici come protezione tecnica.</li>
-<li>Al-Ghazali, Ihya' 'Ulum ad-Din, sezione Kitab al-Adhkar wa-d-Da'awat – trattazione classica dell'uso protettivo dei versetti coranici, compreso l'Ayat al-Kursi.</li>
+<li>Ibn 'Ata Allah al-Iskandari, Hikam e trattati collaterali della scuola Shadhili, riferimenti indiretti all'uso operativo dei versetti coranici come protezione tecnica.</li>
+<li>Al-Ghazali, Ihya' 'Ulum ad-Din, sezione Kitab al-Adhkar wa-d-Da'awat, trattazione classica dell'uso protettivo dei versetti coranici, compreso l'Ayat al-Kursi.</li>
 </ul>
 </section>

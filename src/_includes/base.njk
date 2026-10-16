@@ -8,21 +8,48 @@
   <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
   <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon-192.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="/css/addenda.css?v=1">
-  {% for href in styles %}<link rel="stylesheet" href="{{ href }}?v=1">{% endfor %}
+  <meta name="theme-color" content="#131417">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/addenda.css?v=42">
+  {% for href in styles %}<link rel="stylesheet" href="{{ href }}?v=42">{% endfor %}
+  <link rel="stylesheet" href="/css/reading.css?v=45">
 </head>
-<body>
+<body class="has-archive-layout{% if page.url == '/' %} is-home{% elif page.url == '/abilita/' %} is-section-home is-skills{% elif page.url == '/bestiario/' or page.url == '/rituaria-dogmatica/' or page.url == '/sigilli/' or page.url == '/specie/' %} is-section-home{% elif page.url == '/divinazione/' %} is-section-home is-divination{% elif page.url.startsWith('/abilita/') %} is-skills{% elif page.url.startsWith('/divinazione/') %} is-method{% endif %}">
+  <a class="skip-link" href="#main-content">Vai al contenuto</a>
 
   <header class="site-header">
     <div class="header-inner">
       <a class="site-title" href="/">
-        <span class="mark"><i class="fa-solid fa-crow"></i></span>
+        <span class="mark" aria-hidden="true"><i class="fa-solid fa-crow"></i></span>
         <span class="titles">
           <span class="name">{{ site.name }}</span>
           <span class="subname">Salvation &middot; GDR</span>
         </span>
       </a>
-      <nav class="site-nav">
+      <form class="site-search" role="search" aria-label="Ricerca nell’Addenda">
+        <label class="site-search-label" for="globalSearch">Cerca in tutta l’Addenda</label>
+        <i class="fa-solid fa-magnifying-glass site-search-icon" aria-hidden="true"></i>
+        <input id="globalSearch" type="search" placeholder="Cerca nell’Addenda…" autocomplete="off" aria-controls="globalSearchResults">
+        <section class="site-search-results" id="globalSearchResults" aria-label="Risultati della ricerca" hidden>
+          <div class="site-search-results-head">
+            <p class="site-search-status" role="status" aria-live="polite"></p>
+            <button class="site-search-close" type="button" aria-label="Chiudi risultati"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+          </div>
+          <ul class="site-search-list"></ul>
+        </section>
+      </form>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" hidden>
+        <span>Menu</span><i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+      <span class="header-caption">Salvation &middot; GDR</span>
+    </div>
+  </header>
+
+  <div class="site-layout">
+    <aside class="site-sidebar">
+      <p class="sidebar-label">Archivio</p>
+      <nav class="site-nav" id="site-nav" aria-label="Navigazione principale">
         <ul>
           <li><a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
           <li><a href="/abilita/" {% if page.url.startsWith('/abilita/') %}class="active"{% endif %}>Abilità e Tratti</a></li>
@@ -33,23 +60,36 @@
           <li><a href="/specie/" {% if page.url.startsWith('/specie/') %}class="active"{% endif %}>Poteri di specie</a></li>
         </ul>
       </nav>
-    </div>
-  </header>
-
-  <main class="main-content">
+    </aside>
+  <main class="main-content" id="main-content" tabindex="-1">
+    <div class="page-content">
     {% if crumbs %}
     <p class="crumb">{% for c in crumbs %}{% if c.label %}<a href="{{ c.href }}">{{ c.label }}</a> <span>/</span> {% endif %}{% endfor %}{{ title }}</p>
     {% elif crumb %}
     <p class="crumb"><a href="{{ crumb.href }}">{{ crumb.label }}</a> <span>/</span> {{ title }}</p>
     {% endif %}
     {{ content | safe }}
+    </div>
+    <aside class="page-index" hidden aria-label="Indice della pagina">
+      <details class="page-index-details" open>
+        <summary>In questa pagina <i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+        <nav class="page-index-links" aria-label="Sezioni della pagina"></nav>
+      </details>
+    </aside>
+    <a class="back-to-top" href="#main-content" hidden>Torna all’inizio <span aria-hidden="true">↑</span></a>
   </main>
+  </div>
 
   <footer class="site-footer">
-    <p>Addenda al regolamento &middot; materiale integrativo, non sostituisce il regolamento ufficiale &middot; <a href="{{ site.forumUrl }}" target="_blank" rel="noopener">Torna al forum</a></p>
+    <div class="footer-inner">
+      <div><span class="footer-brand">Addenda SLV</span><p>Materiale integrativo &middot; non sostituisce il regolamento ufficiale.</p></div>
+      <a href="{{ site.forumUrl }}" target="_blank" rel="noopener">Torna al forum <span aria-hidden="true">↗</span></a>
+    </div>
   </footer>
 
-  <script src="/js/skill-ref.js?v=1" defer></script>
-  {% for src in scripts %}<script src="{{ src }}?v=1" defer></script>{% endfor %}
+  <script src="/js/skill-ref.js?v=2" defer></script>
+  {% for src in scripts %}<script src="{{ src }}?v=6" defer></script>{% endfor %}
+  <script src="/js/navigation.js?v=6" defer></script>
+  <script src="/js/global-search.js?v=2" defer></script>
 </body>
 </html>

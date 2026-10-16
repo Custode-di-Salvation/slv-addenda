@@ -110,11 +110,11 @@ Sul piano dogmatico, la formula funziona come diagnostico proprio perché la sua
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Deuteronomio 6, 4-9; 11, 13-21; Numeri 15, 37-41 – testo biblico dello Shema.</li>
-<li>Mishnah, Berakhot 1, 1-4 – codificazione dell'obbligo di recitazione mattutina e serale.</li>
-<li>Talmud Babilonese, Berakhot 4b-5a – struttura della Ma'ariv con l'Hashkiveinu codificato come seconda benedizione post-Shema.</li>
-<li>Sefer Chasidim di Yehudah ha-Chasid (XII-XIII sec.) – codificazione dell'uso mistico e introspettivo della sequenza.</li>
-<li>Eleazar di Worms, Sodei Razaya – trattazione esoterica del potere diagnostico della kavvanah nella recitazione dello Shema.</li>
-<li>Siddur di Rav Amram Gaon (IX sec.) e Siddur di Saadya Gaon (X sec.) – prime redazioni sistematiche del libro di preghiere quotidiano.</li>
+<li>Deuteronomio 6, 4-9; 11, 13-21; Numeri 15, 37-41, testo biblico dello Shema.</li>
+<li>Mishnah, Berakhot 1, 1-4, codificazione dell'obbligo di recitazione mattutina e serale.</li>
+<li>Talmud Babilonese, Berakhot 4b-5a, struttura della Ma'ariv con l'Hashkiveinu codificato come seconda benedizione post-Shema.</li>
+<li>Sefer Chasidim di Yehudah ha-Chasid (XII-XIII sec.), codificazione dell'uso mistico e introspettivo della sequenza.</li>
+<li>Eleazar di Worms, Sodei Razaya, trattazione esoterica del potere diagnostico della kavvanah nella recitazione dello Shema.</li>
+<li>Siddur di Rav Amram Gaon (IX sec.) e Siddur di Saadya Gaon (X sec.), prime redazioni sistematiche del libro di preghiere quotidiano.</li>
 </ul>
 </section>

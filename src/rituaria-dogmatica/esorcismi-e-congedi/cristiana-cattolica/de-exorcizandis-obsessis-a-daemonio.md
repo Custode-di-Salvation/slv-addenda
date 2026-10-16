@@ -94,10 +94,10 @@ Nella cornice ambientale contemporanea, la <em>De exorcizandis obsessis</em> res
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Rituale Romanum (Paolo V, 1614), Titulus X – De exorcizandis obsessis a daemonio.</li>
-<li>De exorcismis et supplicationibus quibusdam (Giovanni Paolo II, 1998) – revisione moderna del rito.</li>
-<li>Marco 5, 1-20; Matteo 8, 28-34; Luca 8, 26-39 – episodi evangelici di scaccia demoni, fondamento scritturale.</li>
-<li>Gabriele Amorth, Un esorcista racconta (1990) e Nuovi racconti di un esorcista (1992) – testimonianze operative dell'esorcista ufficiale di Roma.</li>
+<li>Rituale Romanum (Paolo V, 1614), Titulus X, De exorcizandis obsessis a daemonio.</li>
+<li>De exorcismis et supplicationibus quibusdam (Giovanni Paolo II, 1998), revisione moderna del rito.</li>
+<li>Marco 5, 1-20; Matteo 8, 28-34; Luca 8, 26-39, episodi evangelici di scaccia demoni, fondamento scritturale.</li>
+<li>Gabriele Amorth, Un esorcista racconta (1990) e Nuovi racconti di un esorcista (1992), testimonianze operative dell'esorcista ufficiale di Roma.</li>
 <li>Francesco Bamonte, La Chiesa e il demonio, San Paolo, 2013.</li>
 </ul>
 </section>

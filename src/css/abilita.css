@@ -210,7 +210,7 @@ main.main-content {
     padding: 16px 18px;
     color: var(--text-soft);
     font: .88rem/1.55 var(--font-sans);
-    text-align: justify;
+    text-align: left;
 }
 .skill-ref {
     font-family: var(--font-mono);
@@ -403,7 +403,7 @@ main.main-content {
 .example-section p, .sequence-section p {
     color: var(--text-soft);
     line-height: 1.6;
-    text-align: justify;
+    text-align: left;
     font-size: .9rem;
     margin: 0;
 }

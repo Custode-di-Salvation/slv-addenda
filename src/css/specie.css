@@ -8,7 +8,7 @@
 
 main.main-content { max-width: 1400px; }
 .specie-container { max-width: 1400px; margin: 0 auto; }
-.specie-intro { color: var(--text-soft); text-align: justify; margin-top: 16px; }
+.specie-intro { color: var(--text-soft); text-align: left; margin-top: 16px; }
 
 /* ── Link nel corpo del testo: stesso trattino punteggiato usato
    altrove nell'addenda (.prose a), qui non ereditato di default ── */
@@ -213,8 +213,8 @@ main.main-content { max-width: 1400px; }
   padding: 16px 20px;
   margin: 20px 0 28px;
 }
-.potere-nota i { color: var(--gold); font-size: 1rem; margin-top: 3px; flex-shrink: 0; }
-.potere-nota-body { font-size: .87rem; color: var(--text-soft); line-height: 1.65; text-align: justify; }
+.potere-nota > i { color: var(--gold); font-size: 1rem; margin-top: 3px; flex-shrink: 0; }
+.potere-nota-body { font-size: .87rem; color: var(--text-soft); line-height: 1.65; text-align: left; }
 .potere-nota-body p { margin-bottom: 10px; }
 .potere-nota-body p:last-child { margin-bottom: 0; }
 
@@ -306,7 +306,7 @@ main.main-content { max-width: 1400px; }
 .potere-item[open] .potere-item-chevron { transform: rotate(180deg); }
 
 .potere-item-body { padding: 0 20px 18px 54px; }
-.potere-item-body p, .potere-item-body .potere-lore { color: var(--text-soft); font-size: .9rem; line-height: 1.7; text-align: justify; margin-bottom: 12px; }
+.potere-item-body p, .potere-item-body .potere-lore { color: var(--text-soft); font-size: .9rem; line-height: 1.7; text-align: left; margin-bottom: 12px; }
 .potere-item-body p:last-child, .potere-item-body .potere-lore:last-child { margin-bottom: 0; }
 
 .potere-mech {
@@ -387,7 +387,7 @@ main.main-content { max-width: 1400px; }
   margin-left: 0;
   padding-right: 8px;
 }
-.potere-card-body p { color: var(--text-soft); font-size: .9rem; line-height: 1.7; text-align: justify; margin-bottom: 12px; }
+.potere-card-body p { color: var(--text-soft); font-size: .9rem; line-height: 1.7; text-align: left; margin-bottom: 12px; }
 .potere-card-body p:last-child { margin-bottom: 0; }
 .potere-card-body li, .potere-eredita-sezione li { font-size: .9rem; line-height: 1.7; }
 
@@ -423,7 +423,7 @@ main.main-content { max-width: 1400px; }
 .potere-eredita { margin: 20px 0 8px; }
 .potere-eredita-sezione { margin-top: 30px; }
 .potere-eredita-sezione:first-child { margin-top: 0; }
-.potere-eredita-sezione p { color: var(--text-soft); text-align: justify; margin-bottom: 12px; }
+.potere-eredita-sezione p { color: var(--text-soft); text-align: left; margin-bottom: 12px; }
 .potere-eredita-sezione ul { margin: 10px 0 14px !important; }
 
 /* ── Navigazione tra specie ── */

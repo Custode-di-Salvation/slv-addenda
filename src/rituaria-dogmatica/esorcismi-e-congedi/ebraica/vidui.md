@@ -108,13 +108,13 @@ Nella prassi contemporanea, il Vidui come rito per <em>dybbuk</em> è tramandato
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Levitico 5, 5; 16, 21; Numeri 5, 7 – radice biblica della confessione ebraica.</li>
-<li>Talmud Babilonese, Shabbat 32a, Yoma 87b – codificazione talmudica del Vidui per morenti e per Yom Kippur.</li>
-<li>Shulchan Arukh di Yosef Karo, Yoreh De'ah 338 – normativa halakhica sulla confessione del morente.</li>
-<li>Maimonide, Mishneh Torah, Hilkhot Teshuvah 1-2 – trattazione classica della penitenza ebraica.</li>
-<li>Sh. An-sky, Der Dibek (Il Dybbuk), 1914 – dramma yiddish che cristallizza la tradizione operativa dell'esorcismo di dybbuk con formule confessionali.</li>
-<li>Martin Buber, Die Erzählungen der Chassidim, 1949 – raccolta di racconti chassidici con episodi di pacificazione di anime attraverso intercessione vicaria.</li>
-<li>Gershom Scholem, On the Kabbalah and Its Symbolism, 1965 – trattazione accademica della cabala pratica e del tikkun ha-nefesh.</li>
-<li>Yoram Bilu, The Dybbuk in Judaism, in Journal of Psychoanalytic Anthropology, 1985 – studio antropologico moderno del fenomeno.</li>
+<li>Levitico 5, 5; 16, 21; Numeri 5, 7, radice biblica della confessione ebraica.</li>
+<li>Talmud Babilonese, Shabbat 32a, Yoma 87b, codificazione talmudica del Vidui per morenti e per Yom Kippur.</li>
+<li>Shulchan Arukh di Yosef Karo, Yoreh De'ah 338, normativa halakhica sulla confessione del morente.</li>
+<li>Maimonide, Mishneh Torah, Hilkhot Teshuvah 1-2, trattazione classica della penitenza ebraica.</li>
+<li>Sh. An-sky, Der Dibek (Il Dybbuk), 1914, dramma yiddish che cristallizza la tradizione operativa dell'esorcismo di dybbuk con formule confessionali.</li>
+<li>Martin Buber, Die Erzählungen der Chassidim, 1949, raccolta di racconti chassidici con episodi di pacificazione di anime attraverso intercessione vicaria.</li>
+<li>Gershom Scholem, On the Kabbalah and Its Symbolism, 1965, trattazione accademica della cabala pratica e del tikkun ha-nefesh.</li>
+<li>Yoram Bilu, The Dybbuk in Judaism, in Journal of Psychoanalytic Anthropology, 1985, studio antropologico moderno del fenomeno.</li>
 </ul>
 </section>

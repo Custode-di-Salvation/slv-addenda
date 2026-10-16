@@ -2,7 +2,7 @@
   {
     "slug": "esorcismi-e-congedi",
     "nome": "Esorcismi e Congedi",
-    "sintesi": "Rituali che scacciano presenze ostili o accompagnano gli spiriti al congedo finale.",
+    "sintesi": "Rituali per scacciare presenze ostili, proteggere il luogo e accompagnare gli spiriti al congedo finale.",
     "icona": "fa-solid fa-hand-fist",
     "sottotipi": [
       {
@@ -76,7 +76,7 @@
   {
     "slug": "evocazioni-e-vincoli",
     "nome": "Evocazioni e Vincoli",
-    "sintesi": "Rituali che chiamano ed evocano presenze, cercando di vincolarle o controllarle.",
+    "sintesi": "Rituali per chiamare presenze, stabilire un contatto e provare a vincolarle o controllarle.",
     "icona": "fa-solid fa-circle-nodes",
     "sottotipi": [
       {
@@ -120,7 +120,7 @@
   {
     "slug": "percezioni",
     "nome": "Percezioni",
-    "sintesi": "Rituali che aprono i sensi al sovrannaturale, rivelando ciò che resta nascosto.",
+    "sintesi": "Rituali che aprono i sensi al sovrannaturale e rivelano ciò che resta nascosto oltre la percezione.",
     "icona": "fa-solid fa-eye",
     "sottotipi": [
       {
@@ -152,7 +152,7 @@
   {
     "slug": "protezione-e-interdizione",
     "nome": "Protezione e Interdizione",
-    "sintesi": "Rituali che proteggono luoghi e persone dall'accesso di presenze indesiderate.",
+    "sintesi": "Rituali per proteggere luoghi e persone, impedendo l'accesso a presenze indesiderate o ostili.",
     "icona": "fa-solid fa-shield-halved",
     "sottotipi": [
       {
@@ -173,18 +173,7 @@
           }
         ]
       },
-      {
-        "slug": "cristiana-ortodossa",
-        "nome": "Cristiana ortodossa",
-        "rituali": [
-          {
-            "slug": "marginalia-sw-maksyma",
-            "nome": "Marginalia św. Maksyma",
-            "stato": "live",
-            "rarita": "Raro"
-          }
-        ]
-      },
+
       {
         "slug": "ebraica",
         "nome": "Ebraica",
@@ -214,13 +203,55 @@
             "rarita": "Comune"
           }
         ]
+      },
+      {
+        "slug": "anglosassone",
+        "nome": "Anglosassone",
+        "rituali": [
+          {
+            "slug": "wit-ymbe",
+            "nome": "Wiþ ymbe",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "germanica",
+        "nome": "Germanica",
+        "rituali": [
+          {
+            "slug": "losesegen",
+            "nome": "Lösesegen",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "gallo-romana",
+        "nome": "Gallo-romana",
+        "rituali": [
+          {
+            "slug": "chamalieres",
+            "nome": "Chamalières",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "brictom-bnanom",
+            "nome": "Brictom bnanom",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
       }
     ]
   },
   {
     "slug": "purificazione-e-consacrazione",
     "nome": "Purificazione e Consacrazione",
-    "sintesi": "Rituali che benedicono, esorcizzano e consacrano acqua, sale, luoghi e persone.",
+    "sintesi": "Rituali per benedire, esorcizzare e consacrare acqua, sale, luoghi e persone attraverso formule sacre.",
     "icona": "fa-solid fa-droplet",
     "sottotipi": [
       {
@@ -302,6 +333,128 @@
           {
             "slug": "ghusl",
             "nome": "Ghusl",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "anglosassone",
+        "nome": "Anglosassone",
+        "rituali": [
+          {
+            "slug": "aecerbot",
+            "nome": "Æcerbot",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cura-e-rimedio",
+    "nome": "Cura e Rimedio",
+    "sintesi": "Rituali medico-magici contro dolore, febbre, veleni, ferite e affaticamento, attraverso formule tradizionali.",
+    "icona": "fa-solid fa-mortar-pestle",
+    "sottotipi": [
+      {
+        "slug": "cristiana-ortodossa",
+        "nome": "Cristiana ortodossa",
+        "rituali": [
+          {
+            "slug": "marginalia-sw-maksyma",
+            "nome": "Marginalia św. Maksyma",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "latina",
+        "nome": "Latina",
+        "rituali": [
+          {
+            "slug": "abracadabra",
+            "nome": "Abracadabra",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "carmen-ad-luxum",
+            "nome": "Carmen ad luxum",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "sicycuma",
+            "nome": "Sicycuma",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "anglosassone",
+        "nome": "Anglosassone",
+        "rituali": [
+          {
+            "slug": "nigon-wyrta-galdor",
+            "nome": "Nigon Wyrta Galdor",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "wid-faerstice",
+            "nome": "Wið færstice",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "tollam-te-artemisia",
+            "nome": "Tollam te, Artemisia",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "wid-wennum",
+            "nome": "Wið wennum",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "gallo-romana",
+        "nome": "Gallo-romana",
+        "rituali": [
+          {
+            "slug": "albula-glandula",
+            "nome": "Albula glandula",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "alabanda",
+            "nome": "Alabanda",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "exucricone",
+            "nome": "Exucricone",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "crissi-crasi-cancrasi",
+            "nome": "Crissi crasi cancrasi",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "in-mon-dercomarcos-axatison",
+            "nome": "In mon dercomarcos axatison",
             "stato": "live",
             "rarita": "Comune"
           }

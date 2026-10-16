@@ -4,6 +4,14 @@ title: "Hamsa"
 rarita: comuni
 categoria: protezione
 ---
+<section class="prose" id="limiti">
+<div class="section-head"><h2>Limiti</h2></div>
+
+1. Protezione passiva, non attiva: non rende immuni ma deflette o attenua.
+2. È efficace contro malevolenza umana, molto meno contro specie sovrannaturali o rituali complessi.
+3. Non protegge da violenza fisica (un pugno passa senza problemi) né da stregoneria neutra.
+
+</section>
 <section class="prose" id="campo-semantico">
 <div class="section-head"><h2>Campo semantico</h2></div>
 
@@ -21,7 +29,6 @@ La Hamsa è particolarmente efficace contro l'invidia e la malevolenza umana. No
 È un sigillo deflettivo: non assorbe il male, lo respinge e lo rimanda al mittente.
 
 </section>
-
 <section class="prose" id="effetti-coerenti">
 <div class="section-head"><h2>Esempi di effetti coerenti</h2></div>
 <div class="effetti-grid">
@@ -42,13 +49,4 @@ La Hamsa è particolarmente efficace contro l'invidia e la malevolenza umana. No
 <p>Se tracciata su una soglia (porta, cancello), benedice chi entra con buone intenzioni e respinge chi entra con intenzioni malevole, che avverte un senso di disagio crescente, come se camminasse contro un vento invisibile. Non impedisce fisicamente l'ingresso ma lo rende spiacevole.</p>
 </div>
 </div>
-</section>
-
-<section class="prose" id="limiti">
-<div class="section-head"><h2>Limiti</h2></div>
-
-1. Protezione passiva, non attiva: non rende immuni ma deflette o attenua.
-2. È efficace contro malevolenza umana, molto meno contro specie sovrannaturali o rituali complessi.
-3. Non protegge da violenza fisica (un pugno passa senza problemi) né da stregoneria neutra.
-
 </section>

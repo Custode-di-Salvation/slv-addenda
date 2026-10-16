@@ -5,50 +5,39 @@ title: "Home"
 ---
 <div class="hero-banner">
   <div class="hero-banner-title">
-    <h1>Addenda SLV</h1>
-    <div class="hero-rule"></div>
-    <p class="hero-subtitle">Materiale integrativo del regolamento</p>
+    <p class="hero-eyebrow"><span></span> Salvation &middot; Compendio di gioco</p>
+    <h1>Addenda SLV<span class="hero-title-dot">.</span></h1>
+    <p class="hero-subtitle">Ogni storia ha i suoi segreti.</p>
+    <p class="hero-description">Guide, creature e conoscenze per dare profondità alle tue scene. Il materiale integrativo al regolamento di Salvation, raccolto in un unico luogo.</p>
+    <div class="hero-actions">
+      <a class="hero-primary" href="#esplora">Esplora il compendio <span aria-hidden="true">↓</span></a>
+      <a class="hero-secondary" href="{{ site.forumUrl }}" target="_blank" rel="noopener">Vai al forum <span aria-hidden="true">↗</span></a>
+    </div>
   </div>
+  <div class="hero-caption" aria-hidden="true">Salvation<br>Oltre ciò che conosci.</div>
 </div>
 
-<div class="page-hero">
-  <p>Qui trovi gli addendum e gli approfondimenti che si aggiungono al regolamento ufficiale del forum.</p>
-</div>
-
-<section>
-  <div class="section-head">
-    <h2>Blocchi disponibili</h2>
+<section class="home-catalog" id="esplora" aria-labelledby="catalog-title">
+  <div class="catalog-heading">
+    <div><p class="eyebrow">L’archivio di Salvation</p><h2 id="catalog-title">Esplora il compendio</h2></div>
   </div>
-  <div class="card-grid">
-    <a class="card" href="/abilita/">
-      <span class="icon"><i class="fa-solid fa-star"></i></span>
-      <h3>Abilità e Tratti</h3>
-      <p>L'elenco completo delle Abilità e dei Tratti disponibili per i Personaggi Giocanti.</p>
+  <div class="card-grid home-grid">
+    {% set sezioni = [
+      { href: "/abilita/", icon: "fa-star", title: "Abilità e Tratti", description: "Competenze, specializzazioni e sinergie dei personaggi giocanti.", action: "Consulta le abilità" },
+      { href: "/bestiario/", icon: "fa-paw", title: "Bestiario", description: "Creature conosciute, caratteristiche e poteri. Ogni minaccia, classificata.", action: "Apri il bestiario" },
+      { href: "/divinazione/", icon: "fa-wand-sparkles", title: "Divinazione", description: "Undici metodi per leggere i segni, con guide e strumenti per le tue scene.", action: "Scopri i metodi" },
+      { href: "/rituaria-dogmatica/", icon: "fa-scroll", title: "Rituaria Dogmatica", description: "Formule, componenti ed effetti dei rituali, raccolti per tipo e tradizione.", action: "Consulta i rituali" },
+      { href: "/sigilli/", icon: "fa-yin-yang", title: "Sigilli", description: "Simboli comuni e rari: campi d’azione, effetti coerenti e limiti.", action: "Esplora i sigilli" },
+      { href: "/specie/", icon: "fa-dna", title: "Poteri di specie", description: "Caratteristiche, poteri e vulnerabilità delle specie giocabili non umane.", action: "Scopri le specie" }
+    ] %}
+    {% for s in sezioni %}
+    <a class="card catalog-card home-card" href="{{ s.href }}">
+      <div class="catalog-card-top"><span class="icon" aria-hidden="true"><i class="fa-solid {{ s.icon }}"></i></span></div>
+      <h3>{{ s.title }}</h3>
+      <p>{{ s.description }}</p>
+      <span class="catalog-card-action">{{ s.action }} <span aria-hidden="true">↗</span></span>
     </a>
-    <a class="card" href="/bestiario/">
-      <span class="icon"><i class="fa-solid fa-paw"></i></span>
-      <h3>Bestiario</h3>
-      <p>L'archivio delle creature conosciute, classificate per tipo e livello di pericolosità.</p>
-    </a>
-    <a class="card" href="/divinazione/">
-      <span class="icon"><i class="fa-solid fa-wand-sparkles"></i></span>
-      <h3>Guide di Divinazione</h3>
-      <p>Undici metodi divinatori, dai Tarocchi alla Capnomanzia, con strumenti pensati per le scene di gioco.</p>
-    </a>
-    <a class="card" href="/rituaria-dogmatica/">
-      <span class="icon"><i class="fa-solid fa-scroll"></i></span>
-      <h3>Rituaria Dogmatica</h3>
-      <p>Formulario dei rituali dogmatici: cristiani, ebraici, musulmani e non, con formula originale, traduzione ed effetti.</p>
-    </a>
-    <a class="card" href="/sigilli/">
-      <span class="icon"><i class="fa-solid fa-yin-yang"></i></span>
-      <h3>Sigilli</h3>
-      <p>Sigilli (comuni e rari) divisi per campo d'azione: manipolazione, protezione, percezione, vincoli.</p>
-    </a>
-    <a class="card" href="/specie/">
-      <span class="icon"><i class="fa-solid fa-dna"></i></span>
-      <h3>Specie</h3>
-      <p>Caratteristiche, poteri e avversioni delle specie giocabili non umane.</p>
-    </a>
+    {% endfor %}
   </div>
+  <div class="home-note"><i class="fa-solid fa-book-open" aria-hidden="true"></i><p>Questi approfondimenti affiancano il regolamento ufficiale del forum.</p></div>
 </section>

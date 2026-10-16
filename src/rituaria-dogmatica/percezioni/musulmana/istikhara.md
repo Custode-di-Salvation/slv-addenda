@@ -86,9 +86,9 @@ Tuttavia, gli operatori moderni sanno che abusarne (usandola per indagini trivia
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Sahih al-Bukhari (Libro 21, Hadith 263) – La testimonianza principale di Jabir bin 'Abdullah che codifica l'origine e la formula del rito.</li>
-<li>Al-Nawawi, "Al-Adhkar" – Trattato sulle invocazioni che delinea le disposizioni giurisprudenziali su come, quando e quante volte ripetere il rito.</li>
-<li>Al-Ghazali, "Ihya' 'Ulum al-Din" (La rinascita delle scienze religiose) – Per la contestualizzazione dell'Inshirah as-Sadr (espansione del petto) e della purificazione del cuore prima del rito.</li>
+<li>Sahih al-Bukhari (Libro 21, Hadith 263), La testimonianza principale di Jabir bin 'Abdullah che codifica l'origine e la formula del rito.</li>
+<li>Al-Nawawi, "Al-Adhkar", Trattato sulle invocazioni che delinea le disposizioni giurisprudenziali su come, quando e quante volte ripetere il rito.</li>
+<li>Al-Ghazali, "Ihya' 'Ulum al-Din" (La rinascita delle scienze religiose), Per la contestualizzazione dell'Inshirah as-Sadr (espansione del petto) e della purificazione del cuore prima del rito.</li>
 <li>Prassi sufi sulle tipologie di sogni (Ru'ya divina, Hulum demoniaco, Adghathu Ahlam dell'ego) come strumento diagnostico.</li>
 </ul>
 </section>

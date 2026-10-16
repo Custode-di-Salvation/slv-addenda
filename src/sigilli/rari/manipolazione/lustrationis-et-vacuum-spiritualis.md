@@ -18,7 +18,6 @@ Se il luogo è afflitto da uno status territoriale negativo (es. maledizione, te
 Entità energetiche maggiori (es. demoni, fantasmi vendicativi, angeli, qualsiasi essere dotato di volontà cosciente) non vengono espulse dal sigillo (sono troppo "pesanti" per il vortice). Tuttavia, il campo di neutralità forzata sottrae loro l'ambiente come risorsa: qualsiasi potere che sfrutti l'ambiente circostante (assorbire energia dal luogo, manipolare ombre, abbassare la temperatura, far tremare i muri) subisce svantaggio finché l'entità resta nell'area del sigillo. Il sigillo non combatte l'entità, le toglie il terreno sotto i piedi.
 
 </section>
-
 <section class="prose" id="limiti">
 <div class="section-head"><h2>Limiti</h2></div>
 
@@ -28,7 +27,6 @@ Entità energetiche maggiori (es. demoni, fantasmi vendicativi, angeli, qualsias
 4. **Reazione territoriale**: luoghi con status antichi (50+ anni) o profondamente stratificati reagiscono al sigillo come a un'invasione. La terra stessa (o più precisamente, la stratificazione di significato accumulata nel luogo) tenta di espellere il sigillo attraverso fenomeni fisici: crepe nel pavimento che corrono verso il disegno, crollo di intonaco sopra il sigillo, rottura spontanea di vetri nelle vicinanze, infiltrazioni d'acqua che colano sulla spirale. Questi fenomeni non sono sovrannaturali in senso stretto, sono la realtà fisica che risponde alla pressione ontologica. Più il luogo è antico e contaminato, più violenta la reazione. In luoghi con status secolari (es. un cimitero sconsacrato da 300 anni, un sito di massacro), la reazione può essere strutturalmente pericolosa: pavimenti che cedono, travi che scricchiolano, muri che si fessurano.
 
 </section>
-
 <section class="prose" id="struttura-simbolica">
 <div class="section-head"><h2>Struttura simbolica e tracciamento</h2></div>
 
@@ -46,7 +44,6 @@ Il tracciamento richiede ~10-20 minuti. La spirale centrale deve seguire la prop
 - **Anello di fiamme stilizzate**: dodici fiamme stilizzate circondano il perimetro del sigillo, il numero apostolico, dodici come i discepoli, le tribù d'Israele, i mesi dell'anno. Rappresentano il fuoco purificatore dello Spirito Santo che brucia le scorie metafisiche espulse dal vortice. Sono la valvola di sfogo: senza le fiamme, le impurità espulse si accumulerebbero lungo il bordo del sigillo come detriti lungo un argine, e alla prima rottura rientrerebbero tutte in una volta. Il numero deve essere esattamente dodici, più o meno fiamme alterano la simmetria della combustione e riducono l'efficacia.
 
 </section>
-
 <section class="prose" id="origine-storia">
 <div class="section-head"><h2>Origine e storia</h2></div>
 

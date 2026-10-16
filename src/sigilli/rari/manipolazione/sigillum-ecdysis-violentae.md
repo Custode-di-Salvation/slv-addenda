@@ -20,7 +20,6 @@ L'effetto varia drasticamente in base alla natura del bersaglio, alcuni esempi s
 - **Su posseduti**: se l'entità è un "pilota" interno, il corpo inizia a convulsionare, cercando di vomitare fuori lo spirito (causa danni da stress fisico all'ospite, ma l'entità deve fare un tiro in [Tenacia] per non essere espulsa).
 
 </section>
-
 <section class="prose" id="limiti">
 <div class="section-head"><h2>Limiti</h2></div>
 
@@ -30,7 +29,6 @@ L'effetto varia drasticamente in base alla natura del bersaglio, alcuni esempi s
 4. **Resistenza naturale**: specie con rigenerazione accelerata se colpite subiscono solo metà danno, e su specie con pelle corazzata naturalmente o in modo sovrannaturale il sigillo impiega 2-3 volte più tempo (1-2 minuti invece di 30 secondi).
 
 </section>
-
 <section class="prose" id="struttura-simbolica">
 <div class="section-head"><h2>Struttura simbolica</h2></div>
 
@@ -42,7 +40,6 @@ Il disegno richiede precisione chirurgica (13 denti esatti, glifi alchemici), ne
 - **Linee di Ecdisi**: il bordo esterno è frastagliato, imitando la pelle secca che si stacca. Deve avere esattamente 13 "denti" (numero di morte e trasformazione).
 
 </section>
-
 <section class="prose" id="origine-storia">
 <div class="section-head"><h2>Origine e storia</h2></div>
 

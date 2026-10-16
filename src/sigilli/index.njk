@@ -7,17 +7,19 @@ crumb:
   label: Home
 ---
 <div class="page-hero">
+  <p class="eyebrow section-eyebrow">Simboli e vincoli</p>
   <h1>Sigilli</h1>
   <p>Un catalogo di sigilli utilizzabili nelle scene: simboli tradizionali e sigilli compositi, divisi per rarità e per campo d'azione (Manipolazione, Percezione, Protezione, Vincoli). Ogni voce spiega il campo semantico del simbolo, gli effetti coerenti che può produrre e i suoi limiti.</p>
 </div>
 
-<section>
+<section class="sigil-catalog">
   <div class="card-grid">
     {% for r in sigilli %}
-    <a class="card" href="/sigilli/{{ r.slug }}/">
-      <span class="icon"><i class="{{ r.icona }}"></i></span>
+    <a class="card catalog-card divination-card sigil-card" href="/sigilli/{{ r.slug }}/">
+      <div class="catalog-card-top"><span class="icon" aria-hidden="true"><i class="{{ r.icona }}"></i></span></div>
       <h3>{{ r.nome }}</h3>
       <p>{{ r.sintesi }}</p>
+      <span class="catalog-card-action">Apri i sigilli <span aria-hidden="true">↗</span></span>
     </a>
     {% endfor %}
   </div>

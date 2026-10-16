@@ -109,12 +109,12 @@ Nella prassi contemporanea, il Lýsis è ancora eseguito occasionalmente, in par
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Euchologion to Mega – sezione delle Euchai Sygchoretikai (preghiere di assoluzione) e delle preghiere per i defunti.</li>
-<li>Matteo 16, 19; Giovanni 20, 23 – fondamento scritturale della potestà sacerdotale di sciogliere.</li>
-<li>Michele Psello (?), Nomocanone, XI-XII sec. – codificazione bizantina medievale del rito di scioglimento.</li>
-<li>Simeone di Tessalonica, De sacris ordinationibus et exorcismis, XV sec. – trattazione bizantina classica.</li>
-<li>Père François Richard, Relation de ce qui s'est passé de plus remarquable à Sant-Erini, île de l'archipel (1657) – testimonianze gesuitiche sui vrykolakas nelle Cicladi.</li>
-<li>Léon Allacci, De Graecorum hodie quorundam opinationibus (1645) – trattazione erudita seicentesca dei costumi funerari e infestativi ortodossi.</li>
-<li>Nicodemo l'Aghiorita, Pedalion, XVIII sec. – commentario ortodosso classico sulla prassi funeraria.</li>
+<li>Euchologion to Mega, sezione delle Euchai Sygchoretikai (preghiere di assoluzione) e delle preghiere per i defunti.</li>
+<li>Matteo 16, 19; Giovanni 20, 23, fondamento scritturale della potestà sacerdotale di sciogliere.</li>
+<li>Michele Psello (?), Nomocanone, XI-XII sec., codificazione bizantina medievale del rito di scioglimento.</li>
+<li>Simeone di Tessalonica, De sacris ordinationibus et exorcismis, XV sec., trattazione bizantina classica.</li>
+<li>Père François Richard, Relation de ce qui s'est passé de plus remarquable à Sant-Erini, île de l'archipel (1657), testimonianze gesuitiche sui vrykolakas nelle Cicladi.</li>
+<li>Léon Allacci, De Graecorum hodie quorundam opinationibus (1645), trattazione erudita seicentesca dei costumi funerari e infestativi ortodossi.</li>
+<li>Nicodemo l'Aghiorita, Pedalion, XVIII sec., commentario ortodosso classico sulla prassi funeraria.</li>
 </ul>
 </section>

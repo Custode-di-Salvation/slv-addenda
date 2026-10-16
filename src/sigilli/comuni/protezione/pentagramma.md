@@ -4,6 +4,13 @@ title: "Pentagramma"
 rarita: comuni
 categoria: protezione
 ---
+<section class="prose" id="limiti">
+<div class="section-head"><h2>Limiti</h2></div>
+
+1. La punta in basso genera sempre Dissonanza.
+2. Non funziona contro la tecnologia o la violenza fisica umana (un proiettile passa, un'esplosione lo distrugge).
+
+</section>
 <section class="prose" id="campo-semantico">
 <div class="section-head"><h2>Campo semantico</h2></div>
 
@@ -15,7 +22,6 @@ Il pentagramma rappresenta l'uomo vitruviano: testa (spirito) e quattro arti (i 
 Il pentagramma è anche un sigillo geometrico perfetto: le proporzioni tra i segmenti seguono il rapporto aureo (φ), rendendolo un simbolo di armonia matematica.
 
 </section>
-
 <section class="prose" id="effetti-coerenti">
 <div class="section-head"><h2>Esempi di effetti coerenti</h2></div>
 <div class="effetti-grid">
@@ -32,12 +38,4 @@ Il pentagramma è anche un sigillo geometrico perfetto: le proporzioni tra i seg
 <p>Se tracciato attorno a un'entità energetica già presente può intrappolarla temporaneamente: l'entità è fisicamente bloccata e deve lottare per uscire.</p>
 </div>
 </div>
-</section>
-
-<section class="prose" id="limiti">
-<div class="section-head"><h2>Limiti</h2></div>
-
-1. La punta in basso genera sempre Dissonanza.
-2. Non funziona contro la tecnologia o la violenza fisica umana (un proiettile passa, un'esplosione lo distrugge).
-
 </section>

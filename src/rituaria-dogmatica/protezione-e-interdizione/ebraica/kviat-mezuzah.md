@@ -83,12 +83,7 @@ Una mezuzah rubata, danneggiata volontariamente da un residente, o affissa con i
 <p>Immediatamente dopo la benedizione, fissa fisicamente la mezuzah allo stipite con chiodi o adesivo forte. L'affissione deve essere solida: una mezuzah che cade poco dopo l'affissione va rifissata, ma se questo capita ripetutamente è segno che il rito ha problemi (spesso la pergamena è problematica).</p>
 </div>
 </div>
-<div class="step-item">
-<div class="step-number">7</div>
-<div class="step-content">
-<p>Modifica della formula. Tradurre la benedizione è tollerato con –1 al tiro. Cambiare lo stipite (sinistro invece che destro), invertire l'inclinazione, affiggerla nel terzo inferiore o centrale, saltare la benedizione: il rito fallisce silenziosamente, la mezuzah è affissa ma non attiva. Sostituire la pergamena scritta a mano con stampa o riproduzione: rito completamente inefficace anche se la benedizione è recitata correttamente.</p>
-</div>
-</div>
+
 </div>
 </section>
 
@@ -112,10 +107,10 @@ Nella cultura ebraica moderna la mezuzah è anche marcatore identitario: apporla
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Deuteronomio 6, 4-9 e 11, 13-21 – testo biblico che viene fisicamente scritto sulla pergamena.</li>
-<li>Talmud Babilonese, Menachot 33a-34b – codificazione rabbinica del rito.</li>
-<li>Shulchan Arukh di Yosef Karo, Yoreh De'ah 285-291 – normativa halakhica definitiva.</li>
-<li>Maimonide, Mishneh Torah, Hilkhot Mezuzah – trattazione sistematica precedente.</li>
-<li>Reperti di Qumran (I sec. a.C.), Grotte 4 e 8 – mezuzot archeologiche più antiche conservate.</li>
+<li>Deuteronomio 6, 4-9 e 11, 13-21, testo biblico che viene fisicamente scritto sulla pergamena.</li>
+<li>Talmud Babilonese, Menachot 33a-34b, codificazione rabbinica del rito.</li>
+<li>Shulchan Arukh di Yosef Karo, Yoreh De'ah 285-291, normativa halakhica definitiva.</li>
+<li>Maimonide, Mishneh Torah, Hilkhot Mezuzah, trattazione sistematica precedente.</li>
+<li>Reperti di Qumran (I sec. a.C.), Grotte 4 e 8, mezuzot archeologiche più antiche conservate.</li>
 </ul>
 </section>

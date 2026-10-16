@@ -6,6 +6,7 @@ categoria: manipolazione
 ---
 <section class="prose" id="effetto">
 <div class="section-head"><h2>Effetto</h2></div>
+<img src="/img/coagulationis.jpg" alt="Sigillo Coagulationis Rubrae" style="float: right; width: 280px; margin: 0 0 15px 20px; border: 1px solid var(--border); border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
 
 Il sigillo altera la viscosità e la struttura chimica del sangue se impresso su un bersaglio o sulla sostanza stessa, anche fuori da un corpo.
 
@@ -22,7 +23,6 @@ Se usato offensivamente contro una specie che ha del veleno nel sangue o un viru
 Può essere usato su un umano morente per dissanguamento per salvargli la vita. Blocca istantaneamente tutte le emorragie (anche di arterie recise). È dolorosissimo ma stabilizza subito.
 
 </section>
-
 <section class="prose" id="limiti">
 <div class="section-head"><h2>Limiti</h2></div>
 
@@ -31,7 +31,6 @@ Può essere usato su un umano morente per dissanguamento per salvargli la vita. 
 3. **Durata della chimica**: una volta che il sigillo viene rotto o disattivato il sangue torna liquido immediatamente.
 
 </section>
-
 <section class="prose" id="struttura-simbolica">
 <div class="section-head"><h2>Struttura simbolica</h2></div>
 
@@ -44,7 +43,6 @@ Richiede circa ~10-15 minuti per essere disegnato correttamente, poiché deve es
 - **Pellicano soffocato**: un piccolo dettaglio iconografico in un angolo mostra un pellicano (simbolo del sacrificio di sangue) con il collo annodato. È la chiave di lettura, il nutrimento è negato. Il pellicano è simbolo di sacrificio e nutrimento; secondo la leggenda, si becca il petto per nutrire i pulcini col proprio sangue. Rappresenta Cristo che offre il suo sangue (Eucaristia). In alchimia il Vas Pelicani è un distillatore che nutre il processo.
 
 </section>
-
 <section class="prose" id="origine-storia">
 <div class="section-head"><h2>Origine e storia</h2></div>
 

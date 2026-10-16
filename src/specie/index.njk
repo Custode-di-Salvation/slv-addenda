@@ -3,37 +3,30 @@ layout: base.njk
 title: "Specie"
 permalink: "/specie/index.html"
 styles: ["/css/specie.css"]
-scripts: ["/js/specie-hub.js"]
 ---
 <div class="page-hero">
+  <p class="eyebrow section-eyebrow">Poteri e avversioni</p>
   <h1>Specie</h1>
   <p>Caratteristiche, poteri e avversioni delle specie giocabili non umane: una scheda per specie, con la stessa struttura del regolamento.</p>
 </div>
 
-<div class="specie-hub-search">
-  <input type="text" class="search-input" id="specieSearch" placeholder="Cerca un potere, una caratteristica, un'avversione, in tutte le specie...">
-  <div class="counter-row">
-    <div class="results-counter" id="specieCounter"></div>
-  </div>
-  <div class="specie-results" id="specieResults"></div>
-</div>
 
 <div id="specieCards">
   {% set categorie = [
-    { titolo: "Entità energetiche", slugs: ["demoni", "angeli", "fantasmi", "caduti"] },
+    { titolo: "Entità energetiche", slugs: ["demoni", "angeli", "fantasmi", "caduti", "djinn"] },
     { titolo: "Ibridi", slugs: ["nephilim", "cambion"] },
     { titolo: "Teriantropi", slugs: ["wendigo", "licantropi", "skinwalkers"] },
     { titolo: "Non-morti", slugs: ["vampiri"] },
     { titolo: "Chimere", slugs: ["gorgoni", "maridi", "arachne", "faelan", "arpie"] },
     { titolo: "Metaumani", slugs: ["medium", "chiaroveggenti", "lettori-empatici", "lettori-telepatici", "lettori-animici", "riemersi", "aoristi", "artefici"] },
-    { titolo: "Esseri primordiali", slugs: ["fenici", "djinn", "mietitori"] }
+    { titolo: "Esseri primordiali", slugs: ["fenici", "mietitori", "fae"] }
   ] %}
 
   {% for cat in categorie %}
-  <div class="specie-group-title" style="margin-top: 3rem; margin-bottom: 1.5rem;">
-    <h2 style="font-size: 1.5rem; font-family: 'Cinzel', serif; color: var(--text-color); border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">{{ cat.titolo }}</h2>
+  <div class="specie-group-title">
+    <h2>{{ cat.titolo }}</h2>
   </div>
-  <div class="card-grid">
+  <div class="card-grid{% if cat.titolo == "Entità energetiche" %} energetic-species-grid{% endif %}">
     {% for slug in cat.slugs %}
       {% set sp = null %}
       {% for item in specie %}
@@ -41,27 +34,28 @@ scripts: ["/js/specie-hub.js"]
       {% endfor %}
       
       {% if sp %}
-      <a class="card" href="/specie/{{ sp.slug }}/">
-        <span class="icon"><i class="{{ sp.icona }}"></i></span>
+      <a class="card catalog-card divination-card species-card" href="/specie/{{ sp.slug }}/">
+        <div class="catalog-card-top"><span class="icon" aria-hidden="true"><i class="{{ sp.icona }}"></i></span></div>
         <h3>{{ sp.nome }}</h3>
         <p>{{ sp.tagline }}</p>
+        <span class="catalog-card-action">Apri la specie <span aria-hidden="true">↗</span></span>
       </a>
       {% elif slug == "djinn" %}
-      <div class="card" style="opacity: 0.6; cursor: not-allowed;">
-        <span class="icon"><i class="fa-solid fa-fire-flame-curved"></i></span>
+      <div class="card catalog-card divination-card species-card" style="opacity: 0.6; cursor: not-allowed;">
+        <div class="catalog-card-top"><span class="icon" aria-hidden="true"><i class="fa-solid fa-fire-flame-curved"></i></span></div>
         <h3>Djinn</h3>
-        <p>Caratteristiche, poteri di specie, avversioni e debolezze dei djinn. <em>(In arrivo)</em></p>
+        <p>Caratteristiche, poteri di specie, avversioni e debolezze dei djinn.</p>
+        <span class="catalog-card-action" style="color: var(--text-soft)">In arrivo</span>
       </div>
       {% elif slug == "mietitori" %}
-      <div class="card" style="opacity: 0.6; cursor: not-allowed;">
-        <span class="icon"><i class="fa-solid fa-skull"></i></span>
+      <div class="card catalog-card divination-card species-card" style="opacity: 0.6; cursor: not-allowed;">
+        <div class="catalog-card-top"><span class="icon" aria-hidden="true"><i class="fa-solid fa-skull"></i></span></div>
         <h3>Mietitori</h3>
-        <p>Caratteristiche, poteri di specie, avversioni e debolezze dei mietitori. <em>(In arrivo)</em></p>
+        <p>Caratteristiche, poteri di specie, avversioni e debolezze dei mietitori.</p>
+        <span class="catalog-card-action" style="color: var(--text-soft)">In arrivo</span>
       </div>
       {% endif %}
     {% endfor %}
   </div>
   {% endfor %}
 </div>
-
-<script>window.SPECIE = {{ specie | dump | safe }};</script>

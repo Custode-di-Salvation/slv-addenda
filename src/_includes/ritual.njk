@@ -21,14 +21,22 @@ styles:
 </div>
 
 <dl class="ritual-stats">
-  <dt>Rarità</dt>
-  <dd><span class="rarity-badge{% if rarita != 'Comune' %} {{ rarita | lower | replace(" ", "-") }}{% endif %}">{{ rarita }}</span></dd>
-  <dt>Tempo di lancio</dt>
-  <dd>{{ tempo | safe }}</dd>
-  <dt>Componenti</dt>
-  <dd>{{ componenti | safe }}{% if "*" in componenti %}<br><span class="ritual-note">* componente facoltativo</span>{% endif %}</dd>
-  <dt>Costo</dt>
-  <dd>{{ costo | safe }}</dd>
+  <div class="ritual-stat">
+    <dt>Rarità</dt>
+    <dd><span class="rarity-badge{% if rarita != 'Comune' %} {{ rarita | lower | replace(" ", "-") }}{% endif %}">{{ rarita }}</span></dd>
+  </div>
+  <div class="ritual-stat">
+    <dt>Tempo di lancio</dt>
+    <dd>{{ tempo | safe }}</dd>
+  </div>
+  <div class="ritual-stat ritual-stat-cost">
+    <dt>Costo</dt>
+    <dd>{{ costo | safe }}</dd>
+  </div>
+  <div class="ritual-stat ritual-stat-components">
+    <dt>Componenti</dt>
+    <dd>{{ componenti | safe }}{% if "*" in componenti %}<br><span class="ritual-note">* componente facoltativo</span>{% endif %}</dd>
+  </div>
 </dl>
 
 {{ content | safe }}

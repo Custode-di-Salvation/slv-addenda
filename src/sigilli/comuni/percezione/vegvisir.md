@@ -4,6 +4,16 @@ title: "Vegvísir"
 rarita: comuni
 categoria: percezione
 ---
+<section class="prose" id="limiti">
+<div class="section-head"><h2>Limiti</h2></div>
+
+1. Il raggio di base è 5 m, ma con un risultato di Maestria può aumentare.
+2. Il Vegvísir mostra che esiste una via ma non dice qual è la migliore: potrebbe indicare un sentiero che porta fuori dal labirinto ma attraverso un pericolo.
+3. Se il portatore ignora deliberatamente i segnali o si lancia volutamente in situazioni senza uscita, il Vegvísir non può proteggerlo dalle conseguenze.
+4. Funziona meglio se il portatore ha un luogo o una persona a cui tornare (casa, un caro, un obiettivo chiaro); senza un ancoraggio emotivo/spirituale, l'effetto si indebolisce.
+5. L'efficacia è ridotta contro prigionie volontarie, sia mentali che fisiche. Il Vegvísir non combatte la volontà dell'utilizzatore.
+
+</section>
 <section class="prose" id="campo-semantico">
 <div class="section-head"><h2>Campo semantico</h2></div>
 
@@ -16,7 +26,6 @@ Gli otto bracci rappresentano le otto direzioni (i quattro punti cardinali più 
 È un simbolo di protezione contro lo smarrimento ontologico: non solo perdersi fisicamente, ma perdersi mentalmente (follia, confusione), spiritualmente (perdita di identità), o "dimensionalmente" (finire nell'Altrove senza poter tornare).
 
 </section>
-
 <section class="prose" id="effetti-coerenti">
 <div class="section-head"><h2>Esempi di effetti coerenti</h2></div>
 <div class="effetti-grid">
@@ -41,15 +50,4 @@ Gli otto bracci rappresentano le otto direzioni (i quattro punti cardinali più 
 <p>In luoghi dove esistono passaggi segreti, porte dimensionali, o vie occulte, il portatore avverte un formicolio quando si avvicina. Non vede effettivamente, ma sa che "c'è qualcosa qui".</p>
 </div>
 </div>
-</section>
-
-<section class="prose" id="limiti">
-<div class="section-head"><h2>Limiti</h2></div>
-
-1. Il raggio di base è 5 m, ma con un risultato di Maestria può aumentare.
-2. Il Vegvísir mostra che esiste una via ma non dice qual è la migliore: potrebbe indicare un sentiero che porta fuori dal labirinto ma attraverso un pericolo.
-3. Se il portatore ignora deliberatamente i segnali o si lancia volutamente in situazioni senza uscita, il Vegvísir non può proteggerlo dalle conseguenze.
-4. Funziona meglio se il portatore ha un luogo o una persona a cui tornare (casa, un caro, un obiettivo chiaro); senza un ancoraggio emotivo/spirituale, l'effetto si indebolisce.
-5. L'efficacia è ridotta contro prigionie volontarie, sia mentali che fisiche. Il Vegvísir non combatte la volontà dell'utilizzatore.
-
 </section>

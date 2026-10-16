@@ -4,6 +4,14 @@ title: "Nodo di Salomone"
 rarita: comuni
 categoria: vincoli
 ---
+<section class="prose" id="limiti">
+<div class="section-head"><h2>Limiti</h2></div>
+
+1. Il legame funziona in entrambe le direzioni: non è possibile legare qualcuno senza legare sé stessi.
+2. Se una delle due parti cerca attivamente di spezzare il Nodo, entrambe subiscono dolore energetico (il legame si strappa violentemente).
+3. Il Nodo non può forzare azioni, vincola percezioni e conseguenze, non la volontà. Non è possibile usarlo per "comandare" qualcuno.
+
+</section>
 <section class="prose" id="campo-semantico">
 <div class="section-head"><h2>Campo semantico</h2></div>
 
@@ -16,7 +24,6 @@ Il Nodo ha anche una valenza di protezione reciproca: se due persone sono legate
 Geometricamente, il Nodo è una topologia impossibile da sciogliere senza tagliare: non ci sono "capi" da cui tirare. Questo lo rende un simbolo di permanenza attraverso la complessità, di legame che resiste proprio perché è intricato.
 
 </section>
-
 <section class="prose" id="effetti-coerenti">
 <div class="section-head"><h2>Esempi di effetti coerenti</h2></div>
 <div class="effetti-grid">
@@ -29,13 +36,4 @@ Geometricamente, il Nodo è una topologia impossibile da sciogliere senza taglia
 <p>Se due parti tracciano insieme il Nodo segnandolo con il loro sangue creano un giuramento vincolante: chi viola il patto subisce una ritorsione immediata. Il patto deve essere specifico, semplice e dichiarato ad alta voce.</p>
 </div>
 </div>
-</section>
-
-<section class="prose" id="limiti">
-<div class="section-head"><h2>Limiti</h2></div>
-
-1. Il legame funziona in entrambe le direzioni: non è possibile legare qualcuno senza legare sé stessi.
-2. Se una delle due parti cerca attivamente di spezzare il Nodo, entrambe subiscono dolore energetico (il legame si strappa violentemente).
-3. Il Nodo non può forzare azioni, vincola percezioni e conseguenze, non la volontà. Non è possibile usarlo per "comandare" qualcuno.
-
 </section>

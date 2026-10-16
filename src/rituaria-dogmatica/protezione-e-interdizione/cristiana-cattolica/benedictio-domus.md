@@ -75,12 +75,7 @@ Se al termine del rito l'operatore appone sulla porta d'ingresso la scritta C+M+
 <p>Se richiesto, apposizione della scritta 20 + C + M + B + XX sulla porta esterna con gesso benedetto (dove 20XX è l'anno corrente).</p>
 </div>
 </div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Modifica della formula. Adattare le preghiere alla lingua locale è tollerato e diffuso (il rito è normalmente eseguito in volgare nella prassi moderna, con la formula latina mantenuta o tradotta). Omettere l'aspersione, saltare stanze, invertire la sequenza trinitaria: il rito non funziona correttamente e produce solo effetto simbolico senza potenza dogmatica reale.</p>
-</div>
-</div>
+
 </div>
 </section>
 
@@ -100,9 +95,9 @@ Nella prassi contemporanea, la Benedictio domus sopravvive con vigore in Germani
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Rituale Romanum (Paolo V, 1614), Titulus IX, cap. V – Benedictio domus.</li>
-<li>Vangelo di Luca 10, 5-6 – fondamento scritturale ("Entrando in una casa, dite prima: Pace a questa casa").</li>
-<li>Salmo 121 (Vulgata 120), Laetatus sum – spesso incluso nel rito solenne.</li>
-<li>Pontificale Romano-Germanico di Magonza (X sec.) – prime forme strutturate di visita pastorale.</li>
+<li>Rituale Romanum (Paolo V, 1614), Titulus IX, cap. V, Benedictio domus.</li>
+<li>Vangelo di Luca 10, 5-6, fondamento scritturale ("Entrando in una casa, dite prima: Pace a questa casa").</li>
+<li>Salmo 121 (Vulgata 120), Laetatus sum, spesso incluso nel rito solenne.</li>
+<li>Pontificale Romano-Germanico di Magonza (X sec.), prime forme strutturate di visita pastorale.</li>
 </ul>
 </section>

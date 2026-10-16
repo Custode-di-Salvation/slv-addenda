@@ -6,6 +6,7 @@ categoria: manipolazione
 ---
 <section class="prose" id="effetto">
 <div class="section-head"><h2>Effetto</h2></div>
+<img src="/img/clipeus.jpg" alt="Sigillo Clipeus Solis Invicti" style="float: right; width: 280px; margin: 0 0 15px 20px; border: 1px solid var(--border); border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
 
 Il sigillo genera un campo di risonanza solare che emula la presenza metafisica dell'alba, creando condizioni letali per entità fotofobiche.
 
@@ -22,7 +23,6 @@ Per gli umani, è solo luce forte, mentre per specie fotofobiche viene considera
 All'interno dell'area del Clipeus, la rigenerazione delle creature fotofobiche non funziona. Le ferite inferte mentre sono nella luce non si chiudono. Se un vampiro venisse portato a 0 PV dentro il sigillo, rischierebbe di morire definitivamente senza bisogno di paletto o decapitazione.
 
 </section>
-
 <section class="prose" id="limiti">
 <div class="section-head"><h2>Limiti</h2></div>
 
@@ -32,7 +32,6 @@ All'interno dell'area del Clipeus, la rigenerazione delle creature fotofobiche n
 4. **Immobilità**: il sigillo stabilisce un punto fisso nello spazio, se il supporto viene spostato violentemente (es. lanciato come un frisbee o agitato su uno scudo mentre si corre), la geometria della luce si spezza e l'effetto termina. Deve rimanere relativamente stazionario.
 
 </section>
-
 <section class="prose" id="struttura-simbolica">
 <div class="section-head"><h2>Struttura simbolica</h2></div>
 
@@ -49,7 +48,6 @@ Il disegno richiede simmetria radiale perfetta (12 raggi), necessita di almeno ~
   - Il Tauroctono è la scena centrale dei Misteri, Mitra che uccide il toro cosmico dal cui sangue nasce il grano (vita vegetale), dalla cui colonna vertebrale nasce la vite (vita spirituale/vino), dal cui seme nasce tutta la vita terrestre. Rappresenta trasformazione sacrificale: morte che diventa vita.
 
 </section>
-
 <section class="prose" id="origine-storia">
 <div class="section-head"><h2>Origine e storia</h2></div>
 

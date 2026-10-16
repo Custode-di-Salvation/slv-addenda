@@ -99,12 +99,12 @@ L'uso operativo del rito nella prassi ortodossa contemporanea è concentrato nei
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Euchologion to Mega – grande libro liturgico ortodosso, sezione delle Akolouthiai di esorcismo.</li>
-<li>Basilio Magno, Preghiere di esorcismo (IV sec.) – le preghiere più antiche e potenti del rito ortodosso, tramandate nell'Euchologion.</li>
-<li>Giovanni Crisostomo, preghiere di esorcismo attribuite (V sec.) – corredo delle preghiere di Basilio.</li>
-<li>Salmi 6, 50 (51), 142 (143) – testi biblici recitati come apertura del rito.</li>
-<li>Simeone di Tessalonica (XV sec.), De sacris ordinationibus et exorcismis – trattazione bizantina classica del rito.</li>
-<li>Nicodemo l'Aghiorita, Pedalion (XVIII sec.) – commentario ortodosso classico sui canoni ecclesiastici relativi all'esorcismo.</li>
-<li>Padre Athanasios Simonopetritis, Pnevmatikoi Logoi – testimonianze contemporanee sulla prassi atonita.</li>
+<li>Euchologion to Mega, grande libro liturgico ortodosso, sezione delle Akolouthiai di esorcismo.</li>
+<li>Basilio Magno, Preghiere di esorcismo (IV sec.), le preghiere più antiche e potenti del rito ortodosso, tramandate nell'Euchologion.</li>
+<li>Giovanni Crisostomo, preghiere di esorcismo attribuite (V sec.), corredo delle preghiere di Basilio.</li>
+<li>Salmi 6, 50 (51), 142 (143), testi biblici recitati come apertura del rito.</li>
+<li>Simeone di Tessalonica (XV sec.), De sacris ordinationibus et exorcismis, trattazione bizantina classica del rito.</li>
+<li>Nicodemo l'Aghiorita, Pedalion (XVIII sec.), commentario ortodosso classico sui canoni ecclesiastici relativi all'esorcismo.</li>
+<li>Padre Athanasios Simonopetritis, Pnevmatikoi Logoi, testimonianze contemporanee sulla prassi atonita.</li>
 </ul>
 </section>

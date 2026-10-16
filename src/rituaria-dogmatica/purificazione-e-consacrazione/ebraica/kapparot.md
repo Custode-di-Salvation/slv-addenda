@@ -100,10 +100,10 @@ Negli ultimi decenni la versione con pollo ha subito una forte contestazione anc
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Machzor ashkenazita per Yom Kippur – sezione della vigilia (Erev Yom Kippur).</li>
-<li>Sefer ha-Ittur di Isaac ben Abba Mari (XII sec.) – prima descrizione dettagliata europea.</li>
-<li>Moses Isserles (Rema), note allo Shulchan Arukh, Orach Chayim 605 – codificazione ashkenazita normativa.</li>
-<li>Yosef Karo, Shulchan Arukh, Orach Chayim 605 – voce contraria autorevole ("minhag she-yesh li-mno'o", "usanza da abolire").</li>
-<li>Isaac Luria, Sha'ar ha-Kavvanot – reinterpretazione cabalistica del rito che ne consolidò la diffusione.</li>
+<li>Machzor ashkenazita per Yom Kippur, sezione della vigilia (Erev Yom Kippur).</li>
+<li>Sefer ha-Ittur di Isaac ben Abba Mari (XII sec.), prima descrizione dettagliata europea.</li>
+<li>Moses Isserles (Rema), note allo Shulchan Arukh, Orach Chayim 605, codificazione ashkenazita normativa.</li>
+<li>Yosef Karo, Shulchan Arukh, Orach Chayim 605, voce contraria autorevole ("minhag she-yesh li-mno'o", "usanza da abolire").</li>
+<li>Isaac Luria, Sha'ar ha-Kavvanot, reinterpretazione cabalistica del rito che ne consolidò la diffusione.</li>
 </ul>
 </section>

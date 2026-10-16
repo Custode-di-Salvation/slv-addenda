@@ -13,6 +13,22 @@ module.exports = function (eleventyConfig) {
   // Serializza un dato Eleventy in JSON da incollare in uno <script> inline
   eleventyConfig.addFilter("dump", (obj) => JSON.stringify(obj));
 
+  // La scheda indica già la specie; il requisito completo resta nella targhetta.
+  eleventyConfig.addFilter("requisitoBreve", (value) => {
+    const text = String(value || "").trim();
+    const age = text.match(/^Solo per .+? da (.+)$/i);
+    if (age) return age[1];
+    const angel = text.match(/^Solo per angeli (.+)$/i);
+    if (angel) return angel[1][0].toUpperCase() + angel[1].slice(1);
+    const moreDeaths = text.match(/^Per riemersi con più di (\d+) morti alle spalle$/i);
+    if (moreDeaths) return `Più di ${moreDeaths[1]} morti`;
+    const deaths = text.match(/^Per riemersi con almeno (\d+) morti alle spalle$/i);
+    if (deaths) return `${deaths[1]}+ morti`;
+    const rebirths = text.match(/^Solo dopo almeno (\d+) rigenerazioni completate$/i);
+    if (rebirths) return `${rebirths[1]}+ rigenerazioni`;
+    return text;
+  });
+
   // Helper per le pagine dei singoli rituali (Rituaria Dogmatica): risalgono
   // l'albero rituaria.json per ricavare nomi/posizione senza doverli ripetere
   // nel front matter di ogni rituale.
@@ -44,6 +60,8 @@ module.exports = function (eleventyConfig) {
       (s) => s.raritaSlug === raritaSlug && s.categoriaSlug === categoriaSlug && s.slug === slug
     )
   );
+
+  eleventyConfig.on("eleventy.after", require("./scripts/build-search-index.js"));
 
   // Collezione delle guide di divinazione, nell'ordine dato dal campo "ordine"
   eleventyConfig.addCollection("divinazione", (collectionApi) => {

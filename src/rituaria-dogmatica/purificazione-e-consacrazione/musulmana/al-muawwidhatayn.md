@@ -15,7 +15,7 @@ L'operatore tenta di spezzare un'influenza attiva leggera che sta agendo su un b
 
 A differenza dei riti di purificazione (<a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/asperges-me/">Asperges</a>, <a href="/rituaria-dogmatica/purificazione-e-consacrazione/musulmana/ghusl/">Ghusl</a>), che lavano residui passivi, e a differenza degli esorcismi maggiori (<em>ruqya</em> estesa), che scacciano presenze radicate, le Mu'awwidhatayn agiscono su un piano intermedio: spezzano il legame tra chi ha lanciato un'influenza e chi la sta subendo, purché quel legame sia ancora fresco e non abbia messo radici. Le due sure sono progettate proprio per questo scopo dalla tradizione islamica, e quattordici secoli di uso quotidiano hanno consolidato il pattern in modo che siano una delle formule più affidabili in assoluto contro <em>sihr</em> e <em>hasad</em>.
 
-Sul piano dogmatico, la potenza delle Mu'awwidhatayn deriva da una combinazione unica: sono testo coranico (quindi dogmaticamente inattaccabili), sono state rivelate specificamente come antidoto alla stregoneria (funzione contro-magica esplicita), e sono state recitate innumerevoli volte al giorno da oltre un miliardo di persone per quattordici secoli (accumulo di significato).
+Sul piano dogmatico, la potenza delle Mu'awwidhatayn deriva da una combinazione unica: sono testo coranico (quindi dogmaticamente inattaccabili), sono state rivelate specificamente come antidoto alla stregoneria (funzione contro-sovrannaturale esplicita), e sono state recitate innumerevoli volte al giorno da oltre un miliardo di persone per quattordici secoli (accumulo di significato).
 
 </section>
 
@@ -75,7 +75,7 @@ Recitate a voce alta in presenza di jinn o altre entità di basso rango della tr
 <div class="step-item">
 <div class="step-number">4</div>
 <div class="step-content">
-<p>Al termine, l'operatore soffia leggermente sulle mani (per uso su di sé) o direttamente sul bersaglio (per uso su altri), poi passa le mani sul proprio corpo o sul corpo del bersaglio partendo dalla testa e scendendo. Il gesto del soffio (<em>nafth</em>) è tecnicamente parte del rito e non solo simbolico: senza soffio finale il rito è incompleto e l'effetto è ridotto (–1 al tiro).</p>
+<p>Al termine, l'operatore soffia leggermente sulle mani (per uso su di sé) o direttamente sul bersaglio (per uso su altri), poi passa le mani sul proprio corpo o sul corpo del bersaglio partendo dalla testa e scendendo. Il gesto del soffio (<em>nafth</em>) è tecnicamente parte del rito e non solo simbolico: senza soffio finale il rito è incompleto e l'effetto è ridotto (,1 al tiro).</p>
 </div>
 </div>
 <div class="step-item">
@@ -84,12 +84,7 @@ Recitate a voce alta in presenza di jinn o altre entità di basso rango della tr
 <p>Ripetizione tradizionale: la Sunnah prescrive di recitare le due sure tre volte consecutive ogni mattina all'alba e ogni sera al tramonto, per protezione quotidiana ordinaria. Per uso operativo (rottura di influenza attiva) basta una recitazione completa, ma la triplice recitazione aumenta la potenza (+1 al tiro, costo aumentato a <strong>75 <i class="fa-solid fa-bolt"></i></strong> per la versione triplice).</p>
 </div>
 </div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Modifica della formula. Recitare in traduzione (senza l'arabo) è ammesso ma con –2 al tiro: la lingua originale è densamente parte del pattern. Omettere versetti, storpiare gravemente la pronuncia (errori di <em>tajwid</em> significativi), invertire l'ordine delle due sure (An-Nas prima di Al-Falaq), saltare il soffio finale: il rito ha attrito violento e un fallimento genera contraccolpo diretto sull'operatore (assorbe piccola parte dell'influenza che stava cercando di spezzare). Recitare le sure senza <em>niyyah</em> di protezione (recitazione meramente devozionale) non attiva il rito operativo, funziona solo come atto di devozione ordinaria senza effetti sistemici.</p>
-</div>
-</div>
+
 </div>
 </section>
 
@@ -98,13 +93,13 @@ Recitate a voce alta in presenza di jinn o altre entità di basso rango della tr
 
 Le due sure sono conosciute collettivamente come al-Mu'awwidhatayn, "le due che chiedono rifugio" (dalla radice <em>'awdha</em>, "cercare protezione"), e occupano una posizione unica nel Corano: sono le due sure finali, le ultime che il lettore incontra scorrendo il libro dall'inizio alla fine. Sono anche tra le più brevi (cinque versetti Al-Falaq, sei versetti An-Nas).
 
-La tradizione islamica attribuisce a queste due sure un'origine specificatamente contro-magica. Diversi hadith riportano che il Profeta Muhammad fu vittima di un incantesimo di <em>sihr</em> eseguito su un pettine con capelli e denti caduti, legato con undici nodi e nascosto in un pozzo: il maleficio, opera del rabbino ebreo Labid ibn al-A'sam di Medina secondo la narrazione, gli causò sintomi di malattia e confusione mentale per giorni. L'arcangelo Gabriele rivelò allora al Profeta le due Mu'awwidhatayn: recitandole versetto per versetto, ogni versetto scioglieva un nodo, finché al termine tutti gli undici nodi si sciolsero e il Profeta guarì (hadith riportato in Sahih al-Bukhari, Sahih Muslim e altrove, con variazioni minori).
+La tradizione islamica attribuisce a queste due sure un'origine specificatamente contro-sovrannaturale. Diversi hadith riportano che il Profeta Muhammad fu vittima di un incantesimo di <em>sihr</em> eseguito su un pettine con capelli e denti caduti, legato con undici nodi e nascosto in un pozzo: il maleficio, opera del rabbino ebreo Labid ibn al-A'sam di Medina secondo la narrazione, gli causò sintomi di malattia e confusione mentale per giorni. L'arcangelo Gabriele rivelò allora al Profeta le due Mu'awwidhatayn: recitandole versetto per versetto, ogni versetto scioglieva un nodo, finché al termine tutti gli undici nodi si sciolsero e il Profeta guarì (hadith riportato in Sahih al-Bukhari, Sahih Muslim e altrove, con variazioni minori).
 
 Questa cornice narrativa ha fatto delle Mu'awwidhatayn la formula anti-<em>sihr</em> per eccellenza dell'intera tradizione islamica. La <em>ruqya shar'iyyah</em> (esorcismo ortodosso islamico) le include obbligatoriamente in ogni sua versione, insieme al Ayat al-Kursi (Sura 2, v. 255) e alla Fatiha (Sura 1). I manuali di Fiqh raccomandano la loro recitazione quotidiana come protezione ordinaria, e la Sunnah profetica prescrive esplicitamente la triplice recitazione mattutina e serale come pratica raccomandata (<em>sunnah mu'akkadah</em>).
 
 L'uso quotidiano da parte di oltre un miliardo di musulmani per quattordici secoli ha accumulato sulle due sure una densità dogmatica probabilmente senza pari: sono forse la formula anti-influenza più potente e più affidabile dell'intera rituaria dogmatica mondiale, per il semplice fatto della densità di esecuzione cumulata. Nella tradizione dogmatica moderna funzionano quasi automaticamente per chiunque le reciti correttamente in arabo, indipendentemente dalla profondità della fede o dalla preparazione teologica dell'operatore.
 
-Una curiosità testuale rilevante per la storia interna del Corano: alcuni compagni del Profeta, in particolare Ibn Mas'ud, in un primo momento non inclusero le due Mu'awwidhatayn nel loro codice personale del Corano, considerandole formule di protezione più che rivelazione ordinaria. La versione ufficiale del Corano codificata sotto il califfo Uthman le include, e questa è la versione universalmente accettata da tutte le tradizioni islamiche successive. Il fatto stesso che siano state raccolte "a parte" nella memoria di alcuni compagni conferma la loro percezione originaria come formule tecnicamente contro-magiche, distinte per funzione dal resto del testo.
+Una curiosità testuale rilevante per la storia interna del Corano: alcuni compagni del Profeta, in particolare Ibn Mas'ud, in un primo momento non inclusero le due Mu'awwidhatayn nel loro codice personale del Corano, considerandole formule di protezione più che rivelazione ordinaria. La versione ufficiale del Corano codificata sotto il califfo Uthman le include, e questa è la versione universalmente accettata da tutte le tradizioni islamiche successive. Il fatto stesso che siano state raccolte "a parte" nella memoria di alcuni compagni conferma la loro percezione originaria come formule tecnicamente contro-sovrannaturali, distinte per funzione dal resto del testo.
 
 Nella prassi contemporanea le due sure sono recitate innumerevoli volte al giorno da ogni musulmano praticante: dopo ogni <em>salat</em> obbligatoria (aggiunte al <em>dhikr</em> post-preghiera), all'alba e al tramonto come protezione quotidiana, prima del sonno, prima di viaggi, in presenza di persone sospettate di <em>hasad</em> o di attività di <em>sihr</em>, sopra i figli ammalati o inquieti, in situazioni di stress o pericolo. La loro brevità (recitabili in meno di un minuto) e la loro portabilità (nessun componente, nessun luogo richiesto) le rendono la protezione islamica più diffusa in assoluto.
 
@@ -113,11 +108,11 @@ Nella prassi contemporanea le due sure sono recitate innumerevoli volte al giorn
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Corano, Sure 113 (Al-Falaq) e 114 (An-Nas) – testo integrale, ultime due sure del libro.</li>
+<li>Corano, Sure 113 (Al-Falaq) e 114 (An-Nas), testo integrale, ultime due sure del libro.</li>
 <li>Sahih al-Bukhari, Kitab at-Tibb (Libro della medicina), hadith sull'incantesimo di Labid ibn al-A'sam e la rivelazione delle due sure.</li>
 <li>Sahih Muslim, Kitab al-Salam, sezione parallela sull'episodio.</li>
-<li>Sunan Abu Dawud e Sunan at-Tirmidhi – raccolte complementari di hadith sulla triplice recitazione mattutina e serale.</li>
-<li>Ibn Kathir, Tafsir al-Qur'an al-Azim, commento alle Sure 113 e 114 – esegesi classica.</li>
-<li>Ibn Taymiyyah, Majmu' al-Fatawa, sezione su sihr e ruqya – trattazione giuridica dell'uso contro-magico delle due sure.</li>
+<li>Sunan Abu Dawud e Sunan at-Tirmidhi, raccolte complementari di hadith sulla triplice recitazione mattutina e serale.</li>
+<li>Ibn Kathir, Tafsir al-Qur'an al-Azim, commento alle Sure 113 e 114, esegesi classica.</li>
+<li>Ibn Taymiyyah, Majmu' al-Fatawa, sezione su sihr e ruqya, trattazione giuridica dell'uso contro-sovrannaturale delle due sure.</li>
 </ul>
 </section>

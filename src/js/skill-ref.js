@@ -41,7 +41,8 @@
     }
     if (node.nodeType !== Node.ELEMENT_NODE) return;
     var tag = node.tagName;
-    if (tag === "SCRIPT" || tag === "STYLE" || tag === "TEXTAREA" || node.classList.contains("skill-ref")) {
+    // I collegamenti mantengono il proprio aspetto anche fra parentesi quadre.
+    if (tag === "A" || tag === "SCRIPT" || tag === "STYLE" || tag === "TEXTAREA" || node.classList.contains("skill-ref")) {
       return;
     }
     // snapshot dei figli: wrapTextNode sostituisce nodi durante il giro

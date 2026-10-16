@@ -85,10 +85,10 @@ Nel XIX e XX secolo la medaglia si è affermata come esorcismo fai-da-te per lai
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Manoscritto dell'abbazia di Metten (Baviera), 1415 – codificazione medievale della croce con iniziali.</li>
-<li>Marco 8, 33; Matteo 4, 10 – fondamento scritturale della formula "Vade Retro Satana".</li>
-<li>Regola di San Benedetto (VI sec.), capitoli 4 e 7 – contesto monastico originario delle formule.</li>
-<li>Benedetto XIV, breve di approvazione della medaglia, 1742 – codificazione ufficiale della devozione.</li>
-<li>Prosper Guéranger, La Médaille de Saint Benoît, 1862 – trattazione classica moderna della devozione.</li>
+<li>Manoscritto dell'abbazia di Metten (Baviera), 1415, codificazione medievale della croce con iniziali.</li>
+<li>Marco 8, 33; Matteo 4, 10, fondamento scritturale della formula "Vade Retro Satana".</li>
+<li>Regola di San Benedetto (VI sec.), capitoli 4 e 7, contesto monastico originario delle formule.</li>
+<li>Benedetto XIV, breve di approvazione della medaglia, 1742, codificazione ufficiale della devozione.</li>
+<li>Prosper Guéranger, La Médaille de Saint Benoît, 1862, trattazione classica moderna della devozione.</li>
 </ul>
 </section>

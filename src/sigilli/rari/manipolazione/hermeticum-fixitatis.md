@@ -6,6 +6,7 @@ categoria: manipolazione
 ---
 <section class="prose" id="effetto">
 <div class="section-head"><h2>Effetto</h2></div>
+<img src="/img/hermeticum.jpg" alt="Sigillo Hermēticum Fixitātis" style="float: right; width: 280px; margin: 0 0 15px 20px; border: 1px solid var(--border); border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
 
 Il sigillo crea un campo di stasi "temporale" biologica che congela tutti i processi di decomposizione, mantenendo il materiale organico morto in stato di freschezza perpetua post-mortem.
 
@@ -18,7 +19,6 @@ Qualsiasi cadavere, organo espiantato o porzione di tessuto (pelle) posto all'in
 Sui mutaforma permette di conservare pelli scorticate in armadi, valigie o nascondigli per anni; applicato a non-morti che deperiscono o tramiti morti, impedisce che si sfaldino o che puzzino.
 
 </section>
-
 <section class="prose" id="limiti">
 <div class="section-head"><h2>Limiti</h2></div>
 
@@ -27,7 +27,6 @@ Sui mutaforma permette di conservare pelli scorticate in armadi, valigie o nasco
 3. **Fragilità alla cancellazione**: se il sigillo viene interrotto, il tempo arretrato colpisce l'oggetto tutto in una volta. Un cadavere conservato per 10 anni non marcisce lentamente, ma si trasforma in polvere e ossa (o liquame putrido) istantaneamente appena il sigillo si rompe.
 
 </section>
-
 <section class="prose" id="struttura-simbolica">
 <div class="section-head"><h2>Struttura simbolica</h2></div>
 
@@ -39,7 +38,6 @@ Richiede materiali stabili (gesso, inchiostro indelebile, incisione) e ~10 minut
 - **Glifo di Saturnus Vinctus**: spesso inscritto sul "tappo" del vaso, richiama il dio del Tempo (Saturno/Crono) in aspetto di "colui che è incatenato": il simbolo infatti appare circondato da catene stilizzate, fermando la clessidra.
 
 </section>
-
 <section class="prose" id="origine-storia">
 <div class="section-head"><h2>Origine e storia</h2></div>
 

@@ -23,10 +23,9 @@ eleventyComputed:
 
 <div class="specie-container">
   <div class="specie-header">
-    <div class="specie-icon"><i class="{{ sp.icona }}"></i></div>
     <div class="specie-header-text">
-      <span class="eyebrow">Scheda specie</span>
-      <h1 class="specie-name">{{ sp.nome }}</h1>
+      <span class="eyebrow">Scheda di specie</span>
+      <h1 class="specie-name"><i class="{{ sp.icona }} specie-name-icon" aria-hidden="true"></i><span>{{ sp.nome }}</span></h1>
       <p class="specie-tagline">{{ sp.tagline }}</p>
     </div>
   </div>
@@ -38,18 +37,12 @@ eleventyComputed:
   </div>
   {% else %}
 
-  {% if sp.caratteristiche or sp.avversioni or sp.poteri %}
-  <div class="potere-search">
-    <input type="text" class="search-input" id="potereSearch" placeholder="Cerca un potere, una caratteristica, un'avversione...">
-    <div class="filters">
-      <button class="filter-btn active" data-tipo="all">Tutte le voci</button>
-      {% if sp.caratteristiche %}<button class="filter-btn" data-tipo="caratteristica">Caratteristiche</button>{% endif %}
-      {% if sp.avversioni %}<button class="filter-btn" data-tipo="avversione">Avversioni</button>{% endif %}
-      {% if sp.poteri %}<button class="filter-btn" data-tipo="potere">Poteri</button>{% endif %}
-    </div>
-    <div class="counter-row">
-      <div class="results-counter" id="potereCounter"></div>
-    </div>
+
+  {% if sp.caratteristiche or sp.avversioni or sp.poteri or sp.introPoteri or sp.eredita %}
+  <div class="specie-tabs" role="tablist" aria-label="Sezioni della scheda {{ sp.nome }}" hidden>
+    {% if sp.caratteristiche %}<button type="button" id="tab-caratteristiche" role="tab" aria-controls="caratteristiche" aria-selected="false" data-tipo="caratteristica">Caratteristiche</button>{% endif %}
+    {% if sp.avversioni %}<button type="button" id="tab-avversioni" role="tab" aria-controls="avversioni" aria-selected="false" data-tipo="avversione">Avversioni</button>{% endif %}
+    {% if sp.poteri or sp.introPoteri or sp.eredita %}<button type="button" id="tab-poteri" role="tab" aria-controls="{% if sp.poteri or sp.introPoteri %}poteri{% if sp.eredita %} {% endif %}{% endif %}{% if sp.eredita %}poteri-ereditati{% endif %}" aria-selected="false" data-tipo="potere">Poteri</button>{% endif %}
   </div>
   {% endif %}
 
@@ -60,7 +53,7 @@ eleventyComputed:
   {% endif %}
 
   {% if sp.caratteristiche %}
-  <section id="caratteristiche">
+  <section id="caratteristiche" class="specie-tab-panel" role="tabpanel" aria-labelledby="tab-caratteristiche" data-panel-tipo="caratteristica">
     <div class="section-head"><h2>Caratteristiche di specie</h2></div>
     <div class="specie-intro">{{ sp.introCaratteristiche | safe }}</div>
 
@@ -90,7 +83,7 @@ eleventyComputed:
   {% endif %}
 
   {% if sp.avversioni %}
-  <section id="avversioni">
+  <section id="avversioni" class="specie-tab-panel" role="tabpanel" aria-labelledby="tab-avversioni" data-panel-tipo="avversione">
     <div class="section-head"><h2>Vulnerabilità e avversioni</h2></div>
     <div class="specie-intro">{{ sp.introAvversioni | safe }}</div>
 
@@ -120,14 +113,19 @@ eleventyComputed:
   {% endif %}
 
   {% if sp.poteri or sp.introPoteri %}
-  <section id="poteri">
+  <section id="poteri" class="specie-tab-panel" role="tabpanel" aria-labelledby="tab-poteri" data-panel-tipo="potere">
     <div class="section-head"><h2>Poteri di specie</h2></div>
+    {% if sp.introPoteri or sp.notaPoteri %}
+    <div class="specie-power-guide">
+      <div class="specie-power-guide-body">
     {% if sp.introPoteri %}<div class="specie-intro">{{ sp.introPoteri | safe }}</div>{% endif %}
 
     {% if sp.notaPoteri %}
     <div class="potere-nota">
-      <i class="fa-solid fa-masks-theater"></i>
       <div class="potere-nota-body">{{ sp.notaPoteri | safe }}</div>
+    </div>
+    {% endif %}
+      </div>
     </div>
     {% endif %}
 
@@ -141,15 +139,15 @@ eleventyComputed:
         <div class="potere-card-header">
           <span class="potere-icon"><i class="{{ p.icona }}"></i></span>
           <span class="potere-card-title">{{ p.nome }}</span>
-          {% if p.requisito %}<span class="potere-card-requisito"><i class="fa-solid fa-triangle-exclamation"></i> {{ p.requisito }}</span>{% endif %}
+          {% if p.requisito %}<span class="potere-card-requisito" title="{{ p.requisito }}" aria-label="Requisito: {{ p.requisito }}">{{ p.requisito | requisitoBreve }}</span>{% endif %}
         </div>
-        <div class="potere-card-body">{{ p.body | safe }}</div>
-        <div class="potere-card-stats">
-          <span class="potere-stat"><i class="fa-solid fa-crosshairs"></i> {{ p.stats.gittata | safe }}</span>
-          <span class="potere-stat"><i class="fa-solid fa-hourglass-start"></i> {{ p.stats.durata | safe }}</span>
-          <span class="potere-stat"><i class="fa-solid fa-bolt"></i> {{ p.stats.costo | safe }}</span>
-          <span class="potere-stat"><i class="fa-solid fa-hand-fist"></i> {{ p.stats.abilita | safe }}</span>
-        </div>
+        <dl class="potere-card-stats">
+          <div class="potere-stat"><dt><i class="fa-solid fa-crosshairs" aria-hidden="true"></i> Gittata</dt><dd>{{ p.stats.gittata | safe }}</dd></div>
+          <div class="potere-stat"><dt><i class="fa-solid fa-hourglass-start" aria-hidden="true"></i> Durata</dt><dd>{{ p.stats.durata | safe }}</dd></div>
+          <div class="potere-stat"><dt><i class="fa-solid fa-bolt" aria-hidden="true"></i> Energia</dt><dd>{{ p.stats.costo | safe }}</dd></div>
+          <div class="potere-stat"><dt><i class="fa-solid fa-hand-fist" aria-hidden="true"></i> Prova</dt><dd>{{ p.stats.abilita | safe }}</dd></div>
+        </dl>
+        <div class="potere-card-body" role="region" aria-label="Regole complete di {{ p.nome }}" tabindex="0">{{ p.body | safe }}</div>
       </div>
       {% endfor %}
     </div>
@@ -158,7 +156,7 @@ eleventyComputed:
   {% endif %}
 
   {% if sp.eredita %}
-  <section id="poteri">
+  <section id="poteri-ereditati" class="specie-tab-panel" role="tabpanel" aria-labelledby="tab-poteri" data-panel-tipo="potere">
     <div class="section-head"><h2>{{ sp.eredita.titolo }}</h2></div>
     <div class="specie-intro">{{ sp.eredita.intro | safe }}</div>
 

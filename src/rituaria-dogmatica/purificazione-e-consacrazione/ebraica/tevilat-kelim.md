@@ -107,9 +107,9 @@ Nella prassi contemporanea, ogni città con presenza ebraica osservante ha almen
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Numeri 31, 21-24 – radice biblica del rito (purificazione degli utensili di guerra).</li>
-<li>Talmud Babilonese, Avodah Zarah 75b e Chullin passim – codificazione rabbinica.</li>
-<li>Shulchan Arukh di Yosef Karo, Yoreh De'ah 120 – normativa halakhica definitiva, con glosse ashkenazite di Moses Isserles (Rema).</li>
-<li>Maimonide, Mishneh Torah, Hilkhot Ma'akhalot Assurot 17 – trattazione sistematica precedente allo Shulchan Arukh.</li>
+<li>Numeri 31, 21-24, radice biblica del rito (purificazione degli utensili di guerra).</li>
+<li>Talmud Babilonese, Avodah Zarah 75b e Chullin passim, codificazione rabbinica.</li>
+<li>Shulchan Arukh di Yosef Karo, Yoreh De'ah 120, normativa halakhica definitiva, con glosse ashkenazite di Moses Isserles (Rema).</li>
+<li>Maimonide, Mishneh Torah, Hilkhot Ma'akhalot Assurot 17, trattazione sistematica precedente allo Shulchan Arukh.</li>
 </ul>
 </section>

@@ -57,6 +57,14 @@
   },
   {
     "ordine": 8,
+    "slug": "psicografia",
+    "titolo": "Psicografia",
+    "sintesi": "Parole e segni emergono attraverso la scrittura, lasciando una traccia materiale del responso.",
+    "icona": "fa-solid fa-feather-pointed",
+    "stato": "live"
+  },
+  {
+    "ordine": 9,
     "slug": "scrying",
     "titolo": "Scrying",
     "sintesi": "Sfere, specchi e acque calme come portali per visioni e verità nascoste.",
@@ -64,7 +72,7 @@
     "stato": "live"
   },
   {
-    "ordine": 9,
+    "ordine": 10,
     "slug": "sideromanzia",
     "titolo": "Sideromanzia",
     "sintesi": "Stelle, comete e aurore osservate nel cielo notturno per leggere il destino.",
@@ -72,7 +80,7 @@
     "stato": "live"
   },
   {
-    "ordine": 10,
+    "ordine": 11,
     "slug": "tarocchi",
     "titolo": "Tarocchi",
     "sintesi": "Le 22 carte degli Arcani Maggiori, lette dritte o rovesciate in una stesa.",
@@ -80,7 +88,7 @@
     "stato": "live"
   },
   {
-    "ordine": 11,
+    "ordine": 12,
     "slug": "tasseomanzia",
     "titolo": "Tasseomanzia",
     "sintesi": "I fondi di tè o caffè, letti nella forma che assumono in fondo alla tazza.",

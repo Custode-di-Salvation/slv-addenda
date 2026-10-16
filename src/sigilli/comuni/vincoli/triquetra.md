@@ -4,6 +4,14 @@ title: "Triquetra"
 rarita: comuni
 categoria: vincoli
 ---
+<section class="prose" id="limiti">
+<div class="section-head"><h2>Limiti</h2></div>
+
+1. Funziona solo con triadi: due elementi o quattro non beneficiano del sigillo. Se manca una delle tre componenti, la Triquetra è incompleta e l'effetto non parte.
+2. L'equilibrio tripartito è delicato: se una delle tre forze è significativamente più forte delle altre, la Triquetra può collassare o generare Dissonanza.
+3. Non ha potere offensivo diretto, è un simbolo di armonia, non di attacco.
+
+</section>
 <section class="prose" id="campo-semantico">
 <div class="section-head"><h2>Campo semantico</h2></div>
 
@@ -13,12 +21,11 @@ Ciò che rende la Triquetra unica è che i tre archi sono intrecciati senza inte
 
 Il cerchio esterno che spesso circonda la Triquetra rappresenta l'eternità e l'unità che contiene la triade. È il principio dell'Uno che è Tre e Tre che sono Uno: un paradosso mistico che riflette la natura complessa della realtà.
 
-Nella magia celtica, la Triquetra era usata per intrecciare tre intenzioni o tre energie in un'unica manifestazione. È il simbolo della sinergia: quando tre forze si uniscono correttamente, il risultato è maggiore della somma delle parti.
+Nella pratica sovrannaturale celtica, la Triquetra era usata per intrecciare tre intenzioni o tre energie in un'unica manifestazione. È il simbolo della sinergia: quando tre forze si uniscono correttamente, il risultato è maggiore della somma delle parti.
 
 Nel contesto della stregoneria, la Triquetra unifica, integra e armonizza triadi. È il sigillo della collaborazione, della completezza e dell'equilibrio tripartito.
 
 </section>
-
 <section class="prose" id="effetti-coerenti">
 <div class="section-head"><h2>Esempi di effetti coerenti</h2></div>
 <div class="effetti-grid">
@@ -39,13 +46,4 @@ Nel contesto della stregoneria, la Triquetra unifica, integra e armonizza triadi
 <p>Se tracciata durante una negoziazione tra tre fazioni crea un'area di neutralità forzata dove le tre parti possono comunicare sentendo una forte spinta a non attaccarsi. Chi viola la tregua subisce un contraccolpo energetico.</p>
 </div>
 </div>
-</section>
-
-<section class="prose" id="limiti">
-<div class="section-head"><h2>Limiti</h2></div>
-
-1. Funziona solo con triadi: due elementi o quattro non beneficiano del sigillo. Se manca una delle tre componenti, la Triquetra è incompleta e l'effetto non parte.
-2. L'equilibrio tripartito è delicato: se una delle tre forze è significativamente più forte delle altre, la Triquetra può collassare o generare Dissonanza.
-3. Non ha potere offensivo diretto, è un simbolo di armonia, non di attacco.
-
 </section>

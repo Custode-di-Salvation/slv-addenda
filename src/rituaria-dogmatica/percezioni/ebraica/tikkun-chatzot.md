@@ -109,10 +109,10 @@ Nella cornice ambientale contemporanea, il rito è utile a operatori che devono 
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Talmud Babilonese, Berakhot 3a-b – fondamento aggadico delle veglie notturne di lamentazione per il Tempio.</li>
-<li>Isaac Luria (Ari), tramite Chaim Vital, Sha'ar ha-Kavvanot – codificazione cabalistica lurianica del rito con orario, postura, testi.</li>
-<li>Sefer ha-Kavvanot attribuito a Luria, sezione sul Tikkun Chatzot – istruzioni operative dettagliate.</li>
-<li>Nachman di Breslov, Likutei Moharan – rielaborazione chassidica breslover del rito come pratica di hitbodedut.</li>
-<li>Salmo 137 (Al naharot Bavel), Salmo 79, Salmo 42, Salmo 43; Lamentazioni (Eikha) 1 e 5 – testi biblici usati nel rito.</li>
+<li>Talmud Babilonese, Berakhot 3a-b, fondamento aggadico delle veglie notturne di lamentazione per il Tempio.</li>
+<li>Isaac Luria (Ari), tramite Chaim Vital, Sha'ar ha-Kavvanot, codificazione cabalistica lurianica del rito con orario, postura, testi.</li>
+<li>Sefer ha-Kavvanot attribuito a Luria, sezione sul Tikkun Chatzot, istruzioni operative dettagliate.</li>
+<li>Nachman di Breslov, Likutei Moharan, rielaborazione chassidica breslover del rito come pratica di hitbodedut.</li>
+<li>Salmo 137 (Al naharot Bavel), Salmo 79, Salmo 42, Salmo 43; Lamentazioni (Eikha) 1 e 5, testi biblici usati nel rito.</li>
 </ul>
 </section>

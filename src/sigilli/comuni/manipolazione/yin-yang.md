@@ -4,6 +4,14 @@ title: "Yin-yang"
 rarita: comuni
 categoria: manipolazione
 ---
+<section class="prose" id="limiti">
+<div class="section-head"><h2>Limiti</h2></div>
+
+1. Non crea energia, riequilibra ciò che già esiste.
+2. Non funziona se non c'è un conflitto/squilibrio da risolvere.
+3. Non può bilanciare squilibri troppo estremi.
+
+</section>
 <section class="prose" id="campo-semantico">
 <div class="section-head"><h2>Campo semantico</h2></div>
 
@@ -16,7 +24,6 @@ Il movimento circolare suggerisce il ciclo perpetuo, dove ogni fase culmina e si
 Richiama la legge della realtà che tende naturalmente a correggere gli squilibri. Questo sigillo amplifica questa tendenza naturale in un'area ristretta.
 
 </section>
-
 <section class="prose" id="effetti-coerenti">
 <div class="section-head"><h2>Esempi di effetti coerenti</h2></div>
 <div class="effetti-grid">
@@ -30,20 +37,11 @@ Richiama la legge della realtà che tende naturalmente a correggere gli squilibr
 </div>
 <div class="method-card">
 <h4>Annullamento parziale</h4>
-<p>Se tracciato su un altro sigillo attivo, può neutralizzare temporaneamente un effetto sovrannaturale che genera squilibrio (es. un incendio magico che brucia senza consumarsi). Non elimina l'effetto, ma introduce la sua controforza.</p>
+<p>Se tracciato su un altro sigillo attivo, può neutralizzare temporaneamente un effetto sovrannaturale che genera squilibrio (es. un incendio sovrannaturale che brucia senza consumarsi). Non elimina l'effetto, ma introduce la sua controforza.</p>
 </div>
 <div class="method-card">
 <h4>Mediazione tra forze</h4>
 <p>Se due soggetti opposti a livello energetico (es. un demone e un angelo, o due stregoni in conflitto sovrannaturale) si scontrano nell'area, il sigillo può creare una zona neutra temporanea dove nessuna delle due può prevalere completamente.</p>
 </div>
 </div>
-</section>
-
-<section class="prose" id="limiti">
-<div class="section-head"><h2>Limiti</h2></div>
-
-1. Non crea energia, riequilibra ciò che già esiste.
-2. Non funziona se non c'è un conflitto/squilibrio da risolvere.
-3. Non può bilanciare squilibri troppo estremi.
-
 </section>

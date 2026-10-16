@@ -1,0 +1,298 @@
+/* Guida continua: contenuti aperti, righe sobrie, nessuno scorrimento interno. */
+.has-archive-layout .divination-guide {
+  font: 400 13px/1.8 var(--font-sans);
+  color: var(--text-soft);
+  min-width: 0;
+}
+.has-archive-layout .divination-guide .page-hero {
+  margin: 0 0 18px;
+  padding: 0 0 20px;
+}
+.has-archive-layout .divination-guide .page-hero h1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font: 400 32px/1.35 var(--font-display);
+  text-align: left;
+  hyphens: none;
+}
+.has-archive-layout .divination-guide .page-hero h1 i {
+  flex: none;
+  width: 24px;
+  color: var(--accent);
+  font-size: 24px;
+  text-align: center;
+}
+.has-archive-layout .divination-guide .page-hero .section-eyebrow {
+  color: var(--accent);
+  margin: 0 0 10px;
+  font-size: 11.2px;
+  letter-spacing: .14em;
+}
+.has-archive-layout .divination-guide .page-hero > p:last-child {
+  font: 400 14px/1.75 var(--font-sans);
+  padding-top: 10px;
+}
+.has-archive-layout .divination-guide :is(p, li, dd, td, th[scope="row"]) {
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--text-soft);
+  overflow-wrap: break-word;
+}
+.has-archive-layout .divination-guide :is(strong, b, th[scope="row"]) {
+  color: var(--text-emphasis);
+  font-weight: 600;
+}
+.has-archive-layout .divination-guide :is(p, ul, ol, dl) { margin-block: 0; }
+.has-archive-layout .divination-guide .guide-section {
+  margin: 24px 0 0;
+  padding: 0;
+  border: 0;
+}
+.has-archive-layout .divination-guide .guide-section .section-head { margin: 0 0 12px; }
+.has-archive-layout .divination-guide .guide-section h2 {
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  padding: 0 0 8px;
+  margin: 0 0 12px;
+  font: 400 20px/1.4 var(--font-display);
+  color: var(--text);
+  text-align: left;
+  hyphens: none;
+}
+.has-archive-layout .divination-guide h3 {
+  margin: 0 0 4px;
+  padding: 0;
+  color: var(--text-emphasis);
+  font: 600 13px/1.6 var(--font-sans);
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: left;
+  hyphens: none;
+}
+.has-archive-layout .divination-guide h3::before { content: none; }
+.has-archive-layout .divination-guide :is(p, ul, ol, table) + h3 { margin-top: 18px; }
+.has-archive-layout .divination-guide .guide-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 22px;
+  padding: 0 0 12px;
+  border-bottom: 1px solid var(--border);
+}
+.has-archive-layout .divination-guide .guide-index a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+  color: var(--gold);
+  font: 400 11px/1.8 var(--font-mono);
+  text-align: left;
+  hyphens: none;
+}
+.has-archive-layout .divination-guide .guide-index a:hover { color: var(--text); }
+.has-archive-layout .divination-guide .guide-index-number { color: var(--accent); }
+.has-archive-layout .divination-guide :is(.method-grid, .medium-grid, .category-grid) {
+  display: block;
+}
+.has-archive-layout .divination-guide .guide-block {
+  height: auto;
+  max-height: none;
+  overflow: visible;
+  padding: 12px 0;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--border-soft);
+  border-radius: 0;
+}
+.has-archive-layout .divination-guide .guide-block:first-child { padding-top: 0; }
+.has-archive-layout .divination-guide .guide-block:last-child { padding-bottom: 0; border-bottom: 0; }
+.has-archive-layout .divination-guide .category-grid > div + div {
+  padding-top: 14px;
+  margin-top: 14px;
+}
+.has-archive-layout .divination-guide .medium-pros-cons {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  gap: 2px 14px;
+  padding-top: 5px;
+}
+.has-archive-layout .divination-guide .medium-pros-cons dt {
+  padding: 0;
+  font: 400 11px/1.8 var(--font-mono);
+  color: var(--gold);
+}
+.has-archive-layout .divination-guide .tool-list { margin: 14px 0 0; gap: 0; }
+.has-archive-layout .divination-guide .tool-list-item {
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-soft);
+}
+.has-archive-layout .divination-guide .tool-list-item:last-child { border: 0; }
+.has-archive-layout .divination-guide .tool-icon {
+  width: 18px;
+  height: 22px;
+  margin: 0;
+  color: var(--accent);
+  font-size: 14px;
+}
+.has-archive-layout .divination-guide .guide-steps { list-style: none; padding: 0; }
+.has-archive-layout .divination-guide .guide-step {
+  position: static;
+  display: grid;
+  grid-template-columns: 25px minmax(0, 1fr);
+  gap: 11px;
+  padding: 9px 0;
+  margin: 0;
+}
+.has-archive-layout .divination-guide .guide-step::before { content: none; }
+.has-archive-layout .divination-guide .guide-step-number {
+  color: var(--accent);
+  font: 400 12px/1.8 var(--font-mono);
+  padding-top: 1px;
+}
+.has-archive-layout .divination-guide .guide-reading-group {
+  margin: 18px 0 0;
+  padding: 0;
+  border: 0;
+}
+.has-archive-layout .divination-guide .guide-reading-group:first-child { margin-top: 0; }
+.has-archive-layout .divination-guide .guide-table,
+.has-archive-layout .divination-guide .term-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 0;
+  background: none;
+}
+.has-archive-layout .divination-guide .term-table-wrap { border: 0; border-radius: 0; margin: 10px 0; overflow: visible; }
+.has-archive-layout .divination-guide :is(.guide-table, .term-table) :is(td, th) {
+  padding: 9px 0;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: none;
+  text-align: left;
+  white-space: normal;
+  vertical-align: top;
+  overflow-wrap: break-word;
+}
+.has-archive-layout .divination-guide :is(.guide-table, .term-table) thead th {
+  color: var(--gold);
+  font: 400 11px/1.8 var(--font-mono);
+  letter-spacing: .025em;
+}
+.has-archive-layout .divination-guide :is(.guide-table, .term-table) :is(td, th):first-child {
+  width: 35%;
+  padding-right: 18px;
+}
+.has-archive-layout .divination-guide .term-table td:first-child { color: var(--text-emphasis); font-weight: 600; }
+.has-archive-layout .divination-guide :is(.guide-table, .term-table) tbody tr:nth-child(even) { background: none; }
+.has-archive-layout .divination-guide p.guide-note {
+  border-left: 2px solid var(--accent);
+  padding: 5px 0 5px 13px;
+  font-size: 11.5px;
+}
+.has-archive-layout .divination-guide .guide-catalog {
+  border-top: 1px solid var(--border);
+  padding-top: 17px;
+  margin-top: 26px;
+}
+.has-archive-layout .divination-guide .guide-catalog h2 {
+  margin: 0 0 5px;
+  color: var(--text);
+  font: 400 17px/1.5 var(--font-display);
+  text-align: left;
+}
+.has-archive-layout .divination-guide p.guide-catalog-count {
+  font: 400 11px/1.8 var(--font-mono);
+  color: var(--gold);
+  padding-bottom: 8px;
+}
+.has-archive-layout .divination-guide .guide-catalog-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0 20px;
+}
+.has-archive-layout .divination-guide .guide-catalog-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-soft);
+  color: var(--text-soft);
+  font-size: 12px;
+  text-align: left;
+  hyphens: none;
+}
+.has-archive-layout .divination-guide .guide-catalog-links a i { width: 16px; flex: none; color: var(--accent); text-align: center; }
+.has-archive-layout .divination-guide .guide-catalog-links a:is(:hover, [aria-current]) { color: var(--text); }
+.has-archive-layout .divination-guide .guide-section a { color: var(--accent); }
+
+/* Stese statiche, con le posizioni originali e tutte le spiegazioni visibili. */
+.has-archive-layout .divination-guide .guide-spread {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  align-items: center;
+  gap: 24px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--border-soft);
+}
+.has-archive-layout .divination-guide .guide-spread:first-child { padding-top: 0; }
+.has-archive-layout .divination-guide .guide-spread:last-child { border: 0; }
+.has-archive-layout .divination-guide .stesa-diagram { display: grid; place-items: center; min-height: 110px; }
+.has-archive-layout .divination-guide .stesa-diagram-card {
+  width: 36px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--panel-dark);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--accent);
+  font: 400 12px/1 var(--font-mono);
+}
+.has-archive-layout .divination-guide .layout-singola { grid-template-areas: 'c'; }
+.has-archive-layout .divination-guide :is(.layout-linea3, .layout-due, .layout-ventaglio7, .layout-specchio6, .layout-celtic10) { display: flex; justify-content: center; gap: 10px; }
+.has-archive-layout .divination-guide :is(.layout-croce5, .stesa-cross) {
+  display: grid;
+  grid-template-columns: repeat(3, 36px);
+  grid-template-rows: repeat(3, 50px);
+  grid-template-areas: '. top .' 'left center right' '. bottom .';
+  gap: 8px;
+  justify-content: center;
+}
+.has-archive-layout .divination-guide .layout-quattro { grid-template-columns: repeat(2, 36px); grid-template-rows: repeat(2, 50px); gap: 8px; justify-content: center; }
+.has-archive-layout .divination-guide .layout-ventaglio7 { gap: 0; }
+.has-archive-layout .divination-guide .layout-ventaglio7 .stesa-diagram-card { margin-left: -10px; position: relative; }
+.has-archive-layout .divination-guide .layout-ventaglio7 .stesa-diagram-card:first-child { margin-left: 0; }
+.has-archive-layout .divination-guide :is(.stesa-diagram-side, .stesa-staff) { display: flex; flex-direction: column; gap: 6px; }
+.has-archive-layout .divination-guide .stesa-diagram-vs { color: var(--gold); font: 400 11px var(--font-mono); }
+.has-archive-layout .divination-guide .layout-celtic10 { gap: 22px; }
+.has-archive-layout .divination-guide .crossing { position: relative; transform: rotate(90deg); z-index: 1; }
+
+/* Il compendio degli Arcani resta completo, senza selettori o pannelli nascosti. */
+.has-archive-layout .divination-guide .guide-arcano { padding: 18px 0; border-bottom: 1px solid var(--border-soft); }
+.has-archive-layout .divination-guide .guide-arcano:first-child { padding-top: 0; }
+.has-archive-layout .divination-guide .guide-arcano h3 { font: 400 17px/1.5 var(--font-display); color: var(--text); margin-bottom: 12px; }
+.has-archive-layout .divination-guide .guide-arcano-number { color: var(--accent); margin-right: 8px; }
+.has-archive-layout .divination-guide .guide-arcano-readings { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.has-archive-layout .divination-guide .guide-arcano h4 { font: 400 11px/1.8 var(--font-mono); text-transform: uppercase; color: var(--gold); margin: 0 0 5px; }
+.has-archive-layout .divination-guide .guide-arcano-lore { padding-top: 12px; margin-top: 12px; border-top: 1px solid var(--border-soft); }
+.has-archive-layout .divination-guide :is(.guide-spread, .guide-arcano) { scroll-margin-top: calc(var(--header-height) + 24px); }
+@media(max-width:700px) {
+  .has-archive-layout .divination-guide .guide-spread { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .has-archive-layout .divination-guide .guide-arcano-readings { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .has-archive-layout .divination-guide .guide-catalog-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .has-archive-layout .divination-guide .guide-index a { min-height: 44px; }
+}
+@media(max-width:600px) {
+  .has-archive-layout .divination-guide .page-hero h1 { font-size: 27px; }
+  .has-archive-layout .divination-guide .page-hero > p:last-child { font-size: 13px; }
+  .has-archive-layout .divination-guide .guide-section h2 { font-size: 18px; }
+  .has-archive-layout .divination-guide :is(.guide-table, .term-table) :is(td, th):first-child { width: 39%; padding-right: 12px; }
+}
+@media(max-width:380px) {
+  .has-archive-layout .divination-guide .guide-catalog-links { grid-template-columns: minmax(0, 1fr); }
+}

@@ -6,7 +6,7 @@ sottotipo: cristiana-cattolica
 rarita: Raro
 tempo: "1 ora (versione presbiterale ridotta) · 3-4 ore (rito solenne episcopale completo con litanie estese, unzioni multiple e canto)"
 componenti: "Simboli sacri (crocifisso o croce processionale, portati lungo il perimetro); olio benedetto (in ampolla dedicata); sale benedetto e acqua santa (base: <a href=\"/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/benedictio-aquae-et-salis/\">Benedictio aquae et salis</a>); stola bianca*. Senza olio benedetto degrada da <em>consecratio</em> a semplice <em>benedictio</em>: svantaggio al tiro e effetti dimezzati (vedi sotto)."
-costo: "<strong>100 <i class=\"fa-solid fa-bolt\"></i></strong> (versione presbiterale, area fino a 200 m² / 500 m³)<br><strong>150 <i class=\"fa-solid fa-bolt\"></i></strong> (area fino a 500 m² / 1500 m³ – edificio medio)<br><strong>200 <i class=\"fa-solid fa-bolt\"></i></strong> (area fino a 2000 m² – chiesa, complesso, ampio giardino)<br><em>Oltre i 2000 m² richiede il rito solenne e più operatori (costo ×2 per operatore).</em>"
+costo: "<strong>100 <i class=\"fa-solid fa-bolt\"></i></strong> (versione presbiterale, area fino a 200 m² / 500 m³)<br><strong>150 <i class=\"fa-solid fa-bolt\"></i></strong> (area fino a 500 m² / 1500 m³, edificio medio)<br><strong>200 <i class=\"fa-solid fa-bolt\"></i></strong> (area fino a 2000 m², chiesa, complesso, ampio giardino)<br><em>Oltre i 2000 m² richiede il rito solenne e più operatori (costo ×2 per operatore).</em>"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
@@ -104,9 +104,9 @@ L'effetto giuridico e simbolico più notevole del rito era il diritto d'asilo: i
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Pontificale Romanum (Clemente VIII, 1595), Pars II – De Ecclesiae Dedicatione et Consecratione.</li>
-<li>Pontificale Romano-Germanico di Magonza (metà X sec.) – prima redazione strutturata del rito medievale di consacrazione.</li>
-<li>Eusebio di Cesarea, Historia Ecclesiastica X, 4 – descrizione della dedicazione della basilica di Tiro (315 ca.), il più antico resoconto pervenuto.</li>
-<li>Codex Iuris Canonici (1917, cann. 1154-1187 e 1160 sull'asilo) – regolazione classica dello statuto dei luoghi sacri.</li>
+<li>Pontificale Romanum (Clemente VIII, 1595), Pars II, De Ecclesiae Dedicatione et Consecratione.</li>
+<li>Pontificale Romano-Germanico di Magonza (metà X sec.), prima redazione strutturata del rito medievale di consacrazione.</li>
+<li>Eusebio di Cesarea, Historia Ecclesiastica X, 4, descrizione della dedicazione della basilica di Tiro (315 ca.), il più antico resoconto pervenuto.</li>
+<li>Codex Iuris Canonici (1917, cann. 1154-1187 e 1160 sull'asilo), regolazione classica dello statuto dei luoghi sacri.</li>
 </ul>
 </section>

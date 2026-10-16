@@ -1,7 +1,7 @@
 ---
 layout: ritual.njk
 title: "Marginalia św. Maksyma"
-tipo: protezione-e-interdizione
+tipo: cura-e-rimedio
 sottotipo: cristiana-ortodossa
 rarita: Raro
 tempo: "Circa 1 ora (non utilizzabile in combattimento né sotto stress diretto sull'esecutore)."
@@ -80,11 +80,11 @@ Diffusa in ambito monastico ruteno tra il XVIII e il XIX secolo presso confrater
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Manoscritto anonimo Marginalia św. Maksyma (fine XVII sec., copia settecentesca) – conservato presso il monastero basiliano di San Onofrio a Jabłeczna (Podlachia, oggi Polonia orientale) fino alla dispersione della biblioteca nel corso del XIX secolo; oggi noto solo attraverso fogli sciolti sopravvissuti in collezioni private della confraternita degli esorcisti ruteni.</li>
-<li>Frammenti attribuiti al Codex Komańcensis (originale perduto) – redatto presso il monastero di San Massimo di Komańcza (Bieszczady) nella seconda metà del XVII secolo, dal quale il manoscritto di Jabłeczna deriva per copia diretta.</li>
-<li>Vita manoscritta dello ieromonaco Maksym di Komańcza (Житіє іеромонаха Максима Команчанскаго), redazione anonima del XVIII secolo – conservata frammentariamente presso l'Archivio dell'Eparchia greco-cattolica di Przemyśl fino al 1946, oggi in gran parte dispersa.</li>
-<li>Antonyj Petruszewycz, Свод русских летописей (Leopoli, 1874), vol. III – brevi riferimenti indiretti alla confraternita degli esorcisti-copisti ruteni e alle loro pratiche marginali sui corpi degli infermi.</li>
-<li>Studi paleografici moderni: Aleksander Naumow, Wiara i historia. Z dziejów literatury cerkiewnosłowiańskiej na ziemiach polsko-litewskich (Cracovia, 1996) – cenni al fenomeno delle marginalia teologico-mediche nella tradizione monastica ruteno-carpatica.</li>
-<li>Tradizione orale delle comunità lemke sopravvissute alla deportazione dell'Akcja Wisła (1947) – raccolta frammentariamente da etnografi polacchi e ucraini nella seconda metà del XX secolo, non pubblicata sistematicamente.</li>
+<li>Manoscritto anonimo Marginalia św. Maksyma (fine XVII sec., copia settecentesca), conservato presso il monastero basiliano di San Onofrio a Jabłeczna (Podlachia, oggi Polonia orientale) fino alla dispersione della biblioteca nel corso del XIX secolo; oggi noto solo attraverso fogli sciolti sopravvissuti in collezioni private della confraternita degli esorcisti ruteni.</li>
+<li>Frammenti attribuiti al Codex Komańcensis (originale perduto), redatto presso il monastero di San Massimo di Komańcza (Bieszczady) nella seconda metà del XVII secolo, dal quale il manoscritto di Jabłeczna deriva per copia diretta.</li>
+<li>Vita manoscritta dello ieromonaco Maksym di Komańcza (Житіє іеромонаха Максима Команчанскаго), redazione anonima del XVIII secolo, conservata frammentariamente presso l'Archivio dell'Eparchia greco-cattolica di Przemyśl fino al 1946, oggi in gran parte dispersa.</li>
+<li>Antonyj Petruszewycz, Свод русских летописей (Leopoli, 1874), vol. III, brevi riferimenti indiretti alla confraternita degli esorcisti-copisti ruteni e alle loro pratiche marginali sui corpi degli infermi.</li>
+<li>Studi paleografici moderni: Aleksander Naumow, Wiara i historia. Z dziejów literatury cerkiewnosłowiańskiej na ziemiach polsko-litewskich (Cracovia, 1996), cenni al fenomeno delle marginalia teologico-mediche nella tradizione monastica ruteno-carpatica.</li>
+<li>Tradizione orale delle comunità lemke sopravvissute alla deportazione dell'Akcja Wisła (1947), raccolta frammentariamente da etnografi polacchi e ucraini nella seconda metà del XX secolo, non pubblicata sistematicamente.</li>
 </ul>
 </section>

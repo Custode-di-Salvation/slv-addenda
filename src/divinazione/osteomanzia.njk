@@ -1,176 +1,95 @@
 ---
-layout: base.njk
+layout: divinazione.njk
 permalink: /divinazione/osteomanzia/
 title: "Osteomanzia"
 tags: ["metodo-divinazione"]
 ordine: 5
-description: "Guida all'osteomanzia per le scene di divinazione: tipi di ossa, metodi di lancio e interpretazione, con un widget per lanciare le ossa."
-crumb:
-  href: /divinazione/
-  label: Divinazione
-styles:
-  - /css/osteomanzia.css
-scripts:
-  - /js/interp-tabs.js
-  - /js/osteomanzia.js
+description: "Osteomanzia: strumenti, metodi e interpretazione per le scene di divinazione."
+crumbs:
+  - href: /
+    label: Home
+  - href: /divinazione/
+    label: Divinazione
 ---
-<div class="page-hero">
-  <h1>Osteomanzia</h1>
-  <p>L'osteomanzia si basa sull'uso di ossa, denti o piccoli frammenti ossei, preferibilmente provenienti da animali con simbolismi particolari. Le ossa si caricano di significato in base all'animale da cui provengono o al modo in cui vengono gettate.</p>
+<div class="page-hero"><p class="eyebrow section-eyebrow">L’arte di leggere i segni</p>
+<h1><i aria-hidden="true" class="fa-solid fa-bone"></i>Osteomanzia</h1>
+<p>L'osteomanzia si basa sull'uso di ossa, denti o piccoli frammenti ossei, preferibilmente provenienti da animali con simbolismi particolari. Le ossa si caricano di significato in base all'animale da cui provengono o al modo in cui vengono gettate.</p>
+</div><nav aria-label="Indice della guida" class="guide-index"><a href="#intro"><span aria-hidden="true" class="guide-index-number">01</span>Introduzione</a><a href="#tipi"><span aria-hidden="true" class="guide-index-number">02</span>Tipi di ossa</a><a href="#metodi"><span aria-hidden="true" class="guide-index-number">03</span>Metodi di lancio</a><a href="#interpretazione"><span aria-hidden="true" class="guide-index-number">04</span>Interpretazione</a></nav>
+<section class="prose guide-section" id="intro">
+<div class="section-head">
+<h2>Introduzione</h2>
 </div>
-
-<section class="prose" id="intro">
-  <div class="section-head">
-    <h2>Introduzione</h2>
-  </div>
-  <p>L'osteomanzia si basa sull'osservazione e l'intuizione. La lettura delle ossa dipende da:</p>
-  <ul>
-    <li><strong>Forma e contorno</strong>: la sagoma dell'osso può richiamare figure (un animale, una montagna, un volto), suggerendo persone, luoghi o concetti.</li>
-    <li><strong>Posizione e orientamento</strong>: come le ossa cadono rispetto al divinatore o l'una rispetto all'altra. Un osso puntato in una direzione specifica può indicare un percorso.</li>
-    <li><strong>Prossimità</strong>: la vicinanza tra diverse ossa può indicare una connessione tra gli eventi o le influenze che esse rappresentano.</li>
-    <li><strong>Scheggiature e fratture</strong>: possono indicare rotture, divisioni, debolezze o conflitti. Una scheggia acuta è un pericolo, una rottura netta un taglio con il passato.</li>
-    <li><strong>Colore e superficie</strong>: ossa bianche e lisce indicano purezza o chiarezza; ossa macchiate o scure suggeriscono corruzione, segreti o difficoltà. Ossa annerite dal fuoco indicano distruzione o purificazione.</li>
-    <li><strong>Rumore</strong>: il suono che fanno le ossa cadendo può avere un significato, un tonfo sordo, un tintinnio acuto.</li>
-  </ul>
+<p>L'osteomanzia si basa sull'osservazione e l'intuizione. La lettura delle ossa dipende da:</p>
+<ul>
+<li><strong>Forma e contorno</strong>: la sagoma dell'osso può richiamare figure (un animale, una montagna, un volto), suggerendo persone, luoghi o concetti.</li>
+<li><strong>Posizione e orientamento</strong>: come le ossa cadono rispetto al divinatore o l'una rispetto all'altra. Un osso puntato in una direzione specifica può indicare un percorso.</li>
+<li><strong>Prossimità</strong>: la vicinanza tra diverse ossa può indicare una connessione tra gli eventi o le influenze che esse rappresentano.</li>
+<li><strong>Scheggiature e fratture</strong>: possono indicare rotture, divisioni, debolezze o conflitti. Una scheggia acuta è un pericolo, una rottura netta un taglio con il passato.</li>
+<li><strong>Colore e superficie</strong>: ossa bianche e lisce indicano purezza o chiarezza; ossa macchiate o scure suggeriscono corruzione, segreti o difficoltà. Ossa annerite dal fuoco indicano distruzione o purificazione.</li>
+<li><strong>Rumore</strong>: il suono che fanno le ossa cadendo può avere un significato, un tonfo sordo, un tintinnio acuto.</li>
+</ul>
 </section>
-
-<section class="prose" id="tipi">
-  <div class="section-head">
-    <h2>Tipi di ossa</h2>
-    <p>Non tutte le ossa sono uguali per l'osteomanzia. Il tipo di osso influenza la sua "voce" e il suo ambito di rivelazione. Un set tipico potrebbe includere:</p>
-  </div>
-  <div class="term-table-wrap">
-    <table class="term-table">
-      <thead><tr><th>Tipo</th><th>Cosa rivela</th></tr></thead>
-      <tbody>
-        <tr><td>Piccole creature</td><td>Questioni quotidiane, sussurri, eventi veloci, viaggi brevi, fortuna o sfortuna minore (es. uccelli, lepri, piccoli mammiferi).</td></tr>
-        <tr><td>Grandi creature</td><td>Eventi significativi, sfide importanti, caccia, protezione, forza, territori o grandi spiriti (es. cervi, lupi, cinghiali, orsi).</td></tr>
-        <tr><td>Creature predatrici</td><td>Pericoli, conflitti, nemici, tradimenti, astuzia o caccia (es. artigli, zanne, costole di lupo o felino).</td></tr>
-        <tr><td>Creature erbivore</td><td>Abbondanza, fertilità, sicurezza, viaggi pacifici, radici, legami familiari o sostentamento (es. corna di cervo, ossa lunghe di mucca).</td></tr>
-        <tr><td>Antenati o creature mitiche</td><td>Se trovate o tramandate, sono le più potenti: misteri profondi, connessioni col passato remoto, profezie epocali. Estremamente rare, il loro uso può avere gravi conseguenze.</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p>Le ossa non vengono raccolte a caso. Spesso sono pulite, lucidate, incise con simboli o trattate con oli sacri o sangue. Possono essere anche essiccate al sole o affumicate.</p>
+<section class="prose guide-section" id="tipi">
+<div class="section-head">
+<h2>Tipi di ossa</h2>
+<p>Non tutte le ossa sono uguali per l'osteomanzia. Il tipo di osso influenza la sua "voce" e il suo ambito di rivelazione. Un set tipico potrebbe includere:</p>
+</div>
+<div class="term-table-wrap">
+<table class="term-table">
+<thead><tr><th>Tipo</th><th>Cosa rivela</th></tr></thead>
+<tbody>
+<tr><td>Piccole creature</td><td>Questioni quotidiane, sussurri, eventi veloci, viaggi brevi, fortuna o sfortuna minore (es. uccelli, lepri, piccoli mammiferi).</td></tr>
+<tr><td>Grandi creature</td><td>Eventi significativi, sfide importanti, caccia, protezione, forza, territori o grandi spiriti (es. cervi, lupi, cinghiali, orsi).</td></tr>
+<tr><td>Creature predatrici</td><td>Pericoli, conflitti, nemici, tradimenti, astuzia o caccia (es. artigli, zanne, costole di lupo o felino).</td></tr>
+<tr><td>Creature erbivore</td><td>Abbondanza, fertilità, sicurezza, viaggi pacifici, radici, legami familiari o sostentamento (es. corna di cervo, ossa lunghe di mucca).</td></tr>
+<tr><td>Antenati o creature mitiche</td><td>Se trovate o tramandate, sono le più potenti: misteri profondi, connessioni col passato remoto, profezie epocali. Estremamente rare, il loro uso può avere gravi conseguenze.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Le ossa non vengono raccolte a caso. Spesso sono pulite, lucidate, incise con simboli o trattate con oli sacri o sangue. Possono essere anche essiccate al sole o affumicate.</p>
 </section>
-
-<section id="metodi">
-  <div class="section-head">
-    <h2>Metodi di lancio</h2>
-    <p>L'osteomanzia ha diversi metodi di lancio.</p>
-  </div>
-  <div class="method-grid">
-    <div class="method-card">
-      <h4>Il lancio singolo</h4>
-      <p><strong>Come si fa:</strong> il divinatore prende un singolo osso (o un piccolo gruppo significativo) e lo lancia su una superficie designata (panno, cerchio di terra).</p>
-      <p><strong>Quando usarlo:</strong> per risposte semplici e dirette, un "sì/no" a seconda di come cade, o un singolo indizio su una domanda specifica.</p>
-    </div>
-    <div class="method-card">
-      <h4>Lancio diffuso</h4>
-      <p><strong>Come si fa:</strong> il divinatore prende una manciata di ossa (un mix di tipi) e le lancia su un panno o un'area consacrata. L'interpretazione è basata sulle relazioni tra le ossa.</p>
-      <p><strong>Quando usarlo:</strong> per avere una visione più complessa di una situazione, per capire le forze in gioco, le relazioni tra personaggi o eventi.</p>
-    </div>
-    <div class="method-card">
-      <h4>Combustione ossea</h4>
-      <p><strong>Come si fa:</strong> un osso viene posto in un fuoco sacro. Il divinatore osserva come brucia, il fumo che emette, le ceneri che lascia e le crepe che si formano sulla superficie bruciata.</p>
-      <p><strong>Quando usarlo:</strong> per visioni più profonde o per presagi di grande importanza. Un metodo spesso più esauriente, ma anche più rischioso.</p>
-    </div>
-  </div>
+<section class="guide-section prose" id="metodi">
+<div class="section-head">
+<h2>Metodi di lancio</h2>
+<p>L'osteomanzia ha diversi metodi di lancio.</p>
+</div>
+<div class="method-grid">
+<article class="guide-block">
+<h3>Il lancio singolo</h3>
+<p><strong>Come si fa:</strong> il divinatore prende un singolo osso (o un piccolo gruppo significativo) e lo lancia su una superficie designata (panno, cerchio di terra).</p>
+<p><strong>Quando usarlo:</strong> per risposte semplici e dirette, un "sì/no" a seconda di come cade, o un singolo indizio su una domanda specifica.</p>
+</article>
+<article class="guide-block">
+<h3>Lancio diffuso</h3>
+<p><strong>Come si fa:</strong> il divinatore prende una manciata di ossa (un mix di tipi) e le lancia su un panno o un'area consacrata. L'interpretazione è basata sulle relazioni tra le ossa.</p>
+<p><strong>Quando usarlo:</strong> per avere una visione più complessa di una situazione, per capire le forze in gioco, le relazioni tra personaggi o eventi.</p>
+</article>
+<article class="guide-block">
+<h3>Combustione ossea</h3>
+<p><strong>Come si fa:</strong> un osso viene posto in un fuoco sacro. Il divinatore osserva come brucia, il fumo che emette, le ceneri che lascia e le crepe che si formano sulla superficie bruciata.</p>
+<p><strong>Quando usarlo:</strong> per visioni più profonde o per presagi di grande importanza. Un metodo spesso più esauriente, ma anche più rischioso.</p>
+</article>
+</div>
 </section>
-
-<section id="interpretazione">
-  <div class="section-head">
-    <h2>Interpretazione</h2>
-    <p>Il divinatore legge insieme più elementi: posizione, relazione tra le ossa, superficie e suono raramente vanno interpretati da soli.</p>
-  </div>
-
-  <div class="interp-tabs" id="interpTabs">
-    <div class="interp-tab-nav">
-      <button type="button" class="interp-tab is-active" data-tab="0">Orientamento</button>
-      <button type="button" class="interp-tab" data-tab="1">Prossimità</button>
-      <button type="button" class="interp-tab" data-tab="2">Schemi</button>
-      <button type="button" class="interp-tab" data-tab="3">Superficie</button>
-      <button type="button" class="interp-tab" data-tab="4">Suoni</button>
-    </div>
-
-    <div class="interp-tab-panels">
-      <div class="interp-panel is-active" data-tab="0">
-        <p>Ogni osso, nel momento in cui si posa, assume un orientamento che può essere significativo. La direzione in cui punta è un indicatore cruciale quanto la sua posa.</p>
-        <ul>
-          <li><strong>Dritto, in piedi</strong>: forza, stabilità, affermazione, successo, superamento di ostacoli. Una situazione chiara, una verità che si manifesta.</li>
-          <li><strong>Rovesciato, piatto</strong>: debolezza, fallimento, rovesciamento delle fortune, ostacoli insormontabili, ciò che è nascosto o calpestato.</li>
-          <li><strong>Punta verso il divinatore</strong>: la questione riguarda direttamente chi ha richiesto la lettura.</li>
-          <li><strong>Punta lontano dal divinatore</strong>: qualcosa di esterno, una partenza, un allontanamento.</li>
-          <li><strong>Punta verso un altro osso</strong>: una connessione diretta, o un conflitto se le punte si scontrano.</li>
-          <li><strong>Punti cardinali (N/S/E/O)</strong>: nord il passato, sud ciò che deve venire, est un inizio, ovest una fine.</li>
-        </ul>
-      </div>
-
-      <div class="interp-panel" data-tab="1">
-        <p>Quando più ossa sono lanciate insieme, le loro interazioni sono fondamentali.</p>
-        <ul>
-          <li><strong>Vicine, toccanti</strong>: connessione forte, alleanza, interdipendenza, convergenza di forze.</li>
-          <li><strong>Lontane, separate</strong>: separazione, eventi distinti, percorsi divergenti.</li>
-          <li><strong>Sovrapposte</strong>: un elemento domina l'altro; forse un segreto nascosto sotto.</li>
-          <li><strong>Allineate</strong>: un percorso, una sequenza di eventi, una progressione logica.</li>
-        </ul>
-      </div>
-
-      <div class="interp-panel" data-tab="2">
-        <p>Le ossa possono formare disegni riconoscibili che hanno un significato collettivo.</p>
-        <ul>
-          <li><strong>In cerchio</strong>: un ciclo, protezione, unità, un confine sacro.</li>
-          <li><strong>A linea, a percorso</strong>: un viaggio, un processo, una via chiara da seguire.</li>
-          <li><strong>A croce</strong>: un dilemma, una scelta difficile, un crocevia.</li>
-          <li><strong>A triangolo</strong>: punta in alto, crescita e aspirazione; punta in basso, caduta e problemi materiali.</li>
-          <li><strong>A gruppo, cumulo</strong>: un accumulo di problemi, risorse o eventi simultanei.</li>
-        </ul>
-      </div>
-
-      <div class="interp-panel" data-tab="3">
-        <p>Le caratteristiche fisiche di un osso, oltre alla sua forma intrinseca, aggiungono ulteriori dettagli.</p>
-        <ul>
-          <li><strong>Incrinato, scheggiato</strong>: rottura, conflitto, ferita, una verità scomoda.</li>
-          <li><strong>Annerito, bruciato</strong>: distruzione, purificazione, una profonda trasformazione.</li>
-          <li><strong>Liscio, lucido</strong>: chiarezza, verità, pace, scorrimento fluido degli eventi.</li>
-          <li><strong>Grezzo, sporco</strong>: difficoltà, ostacoli, qualcosa non ancora risolto.</li>
-          <li><strong>Vibrante, caldo al tatto</strong>: un'energia attiva, un messaggio urgente.</li>
-        </ul>
-      </div>
-
-      <div class="interp-panel" data-tab="4">
-        <p>Il suono che le ossa producono cadendo sulla superficie designata è un elemento divinatorio a sé stante.</p>
-        <ul>
-          <li><strong>Tonfo sordo, pesante</strong>: gravità, un presagio importante, qualcosa di ineluttabile.</li>
-          <li><strong>Tintinnio acuto, leggero</strong>: leggerezza, velocità, un evento improvviso.</li>
-          <li><strong>Crepitio, frattura</strong>: rottura, conflitto, tensione imminente.</li>
-          <li><strong>Silenzioso, muffato</strong>: segreti, cose nascoste, una verità non ancora rivelata.</li>
-          <li><strong>Armonico, risonante</strong>: equilibrio, chiarezza, una benedizione.</li>
-          <li><strong>Stridulo, dissonante</strong>: discordia, allarme, energie ostili.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="lancio">
-  <div class="section-head">
-    <h2>Lancia le ossa</h2>
-    <p>Uno strumento rapido per un lancio singolo: genera una lettura composita, posizione, relazione con le altre ossa, superficie e suono, da usare come spunto per l'interpretazione.</p>
-  </div>
-
-  <div class="bones-widget">
-    <div class="bones-throw">
-      <div class="bones-tray" id="bonesTray"></div>
-      <button class="btn-draw" id="throwBtn" type="button">Lancia le ossa</button>
-    </div>
-    <div class="bones-reading" id="bonesReading" hidden>
-      <div class="bones-reading-row"><span class="bones-tag">Posizione</span><span id="readPosizione"></span></div>
-      <div class="bones-reading-row"><span class="bones-tag">Relazione</span><span id="readRelazione"></span></div>
-      <div class="bones-reading-row"><span class="bones-tag">Superficie</span><span id="readSuperficie"></span></div>
-      <div class="bones-reading-row"><span class="bones-tag">Suono</span><span id="readSuono"></span></div>
-    </div>
-  </div>
-</section>
-
-<script>window.OSSA = {{ ossa | dump | safe }};</script>
+<section class="guide-section prose" id="interpretazione">
+<div class="section-head">
+<h2>Interpretazione</h2>
+<p>Il divinatore legge insieme più elementi: posizione, relazione tra le ossa, superficie e suono raramente vanno interpretati da soli.</p>
+</div>
+<div class="guide-readings"><section class="guide-reading-group"><h3>Orientamento</h3>
+<p>Ogni osso, nel momento in cui si posa, assume un orientamento che può essere significativo. La direzione in cui punta è un indicatore cruciale quanto la sua posa.</p>
+<table class="guide-table"><thead><tr><th scope="col">Segno</th><th scope="col">Possibile lettura</th></tr></thead><tbody><tr><th scope="row">Dritto, in piedi</th><td>forza, stabilità, affermazione, successo, superamento di ostacoli. Una situazione chiara, una verità che si manifesta.</td></tr><tr><th scope="row">Rovesciato, piatto</th><td>debolezza, fallimento, rovesciamento delle fortune, ostacoli insormontabili, ciò che è nascosto o calpestato.</td></tr><tr><th scope="row">Punta verso il divinatore</th><td>la questione riguarda direttamente chi ha richiesto la lettura.</td></tr><tr><th scope="row">Punta lontano dal divinatore</th><td>qualcosa di esterno, una partenza, un allontanamento.</td></tr><tr><th scope="row">Punta verso un altro osso</th><td>una connessione diretta, o un conflitto se le punte si scontrano.</td></tr><tr><th scope="row">Punti cardinali (N/S/E/O)</th><td>nord il passato, sud ciò che deve venire, est un inizio, ovest una fine.</td></tr></tbody></table>
+</section><section class="guide-reading-group"><h3>Prossimità</h3>
+<p>Quando più ossa sono lanciate insieme, le loro interazioni sono fondamentali.</p>
+<table class="guide-table"><thead><tr><th scope="col">Segno</th><th scope="col">Possibile lettura</th></tr></thead><tbody><tr><th scope="row">Vicine, toccanti</th><td>connessione forte, alleanza, interdipendenza, convergenza di forze.</td></tr><tr><th scope="row">Lontane, separate</th><td>separazione, eventi distinti, percorsi divergenti.</td></tr><tr><th scope="row">Sovrapposte</th><td>un elemento domina l'altro; forse un segreto nascosto sotto.</td></tr><tr><th scope="row">Allineate</th><td>un percorso, una sequenza di eventi, una progressione logica.</td></tr></tbody></table>
+</section><section class="guide-reading-group"><h3>Schemi</h3>
+<p>Le ossa possono formare disegni riconoscibili che hanno un significato collettivo.</p>
+<table class="guide-table"><thead><tr><th scope="col">Segno</th><th scope="col">Possibile lettura</th></tr></thead><tbody><tr><th scope="row">In cerchio</th><td>un ciclo, protezione, unità, un confine sacro.</td></tr><tr><th scope="row">A linea, a percorso</th><td>un viaggio, un processo, una via chiara da seguire.</td></tr><tr><th scope="row">A croce</th><td>un dilemma, una scelta difficile, un crocevia.</td></tr><tr><th scope="row">A triangolo</th><td>punta in alto, crescita e aspirazione; punta in basso, caduta e problemi materiali.</td></tr><tr><th scope="row">A gruppo, cumulo</th><td>un accumulo di problemi, risorse o eventi simultanei.</td></tr></tbody></table>
+</section><section class="guide-reading-group"><h3>Superficie</h3>
+<p>Le caratteristiche fisiche di un osso, oltre alla sua forma intrinseca, aggiungono ulteriori dettagli.</p>
+<table class="guide-table"><thead><tr><th scope="col">Segno</th><th scope="col">Possibile lettura</th></tr></thead><tbody><tr><th scope="row">Incrinato, scheggiato</th><td>rottura, conflitto, ferita, una verità scomoda.</td></tr><tr><th scope="row">Annerito, bruciato</th><td>distruzione, purificazione, una profonda trasformazione.</td></tr><tr><th scope="row">Liscio, lucido</th><td>chiarezza, verità, pace, scorrimento fluido degli eventi.</td></tr><tr><th scope="row">Grezzo, sporco</th><td>difficoltà, ostacoli, qualcosa non ancora risolto.</td></tr><tr><th scope="row">Vibrante, caldo al tatto</th><td>un'energia attiva, un messaggio urgente.</td></tr></tbody></table>
+</section><section class="guide-reading-group"><h3>Suoni</h3>
+<p>Il suono che le ossa producono cadendo sulla superficie designata è un elemento divinatorio a sé stante.</p>
+<table class="guide-table"><thead><tr><th scope="col">Segno</th><th scope="col">Possibile lettura</th></tr></thead><tbody><tr><th scope="row">Tonfo sordo, pesante</th><td>gravità, un presagio importante, qualcosa di ineluttabile.</td></tr><tr><th scope="row">Tintinnio acuto, leggero</th><td>leggerezza, velocità, un evento improvviso.</td></tr><tr><th scope="row">Crepitio, frattura</th><td>rottura, conflitto, tensione imminente.</td></tr><tr><th scope="row">Silenzioso, muffato</th><td>segreti, cose nascoste, una verità non ancora rivelata.</td></tr><tr><th scope="row">Armonico, risonante</th><td>equilibrio, chiarezza, una benedizione.</td></tr><tr><th scope="row">Stridulo, dissonante</th><td>discordia, allarme, energie ostili.</td></tr></tbody></table>
+</section></div>
+<h3>Altri segni</h3><table class="guide-table"><thead><tr><th scope="col">Segno</th><th scope="col">Possibile lettura</th></tr></thead><tbody><tr><th scope="row">Punta a est</th><td>Un inizio, un'alba, qualcosa che si apre.</td></tr><tr><th scope="row">Punta a nord</th><td>Il passato, o il freddo che avanza.</td></tr><tr><th scope="row">Punta a ovest</th><td>Una fine, un tramonto, qualcosa che si chiude.</td></tr><tr><th scope="row">Punta a sud</th><td>Il calore, o ciò che deve ancora venire.</td></tr><tr><th scope="row">A linea o percorso</th><td>Un viaggio, un processo, una via chiara da seguire.</td></tr><tr><th scope="row">A triangolo, punta in basso</th><td>Caduta, declino, problemi materiali.</td></tr><tr><th scope="row">Silenzio muffato</th><td>Segreti, cose nascoste, una verità non ancora rivelata.</td></tr></tbody></table></section>

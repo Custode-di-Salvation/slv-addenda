@@ -38,7 +38,7 @@ Il campo dura fino a quando l'operatore lascia la posizione originaria di recita
 
 Se l'operatore continua a recitare a bassa voce le strofe centrali della lorica per tutto il tempo che desidera mantenere il campo attivo (senza interruzione superiore a 30 secondi), il rito può essere esteso al costo di <strong>20 <i class="fa-solid fa-bolt"></i></strong> per ogni ora aggiuntiva. La recitazione continua è impegnativa (l'operatore non può fare altro contemporaneamente che azioni molto semplici e a bassa concentrazione), ma permette di mantenere una posizione difensiva prolungata.
 
-Il campo della Lorica potenzia i riti di consacrazione eseguiti al suo interno. Un rito di <a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/de-benedictione-et-consecratione-loci/">De benedictione et consecratione loci</a> eseguito dentro una Lorica attiva riceve vantaggio al tiro e –10% <i class="fa-solid fa-bolt"></i> di costo. Analogamente, riti di esorcismo eseguiti sui bordi del perimetro (dove il campo agisce come "spingente" verso l'esterno) sono più efficaci.
+Il campo della Lorica potenzia i riti di consacrazione eseguiti al suo interno. Un rito di <a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/de-benedictione-et-consecratione-loci/">De benedictione et consecratione loci</a> eseguito dentro una Lorica attiva riceve vantaggio al tiro e ,10% <i class="fa-solid fa-bolt"></i> di costo. Analogamente, riti di esorcismo eseguiti sui bordi del perimetro (dove il campo agisce come "spingente" verso l'esterno) sono più efficaci.
 
 </section>
 
@@ -79,12 +79,7 @@ Il campo della Lorica potenzia i riti di consacrazione eseguiti al suo interno. 
 <p>Durante la durata, l'operatore non deve necessariamente restare in silenzio (può parlare, dare istruzioni, combattere), ma non deve spostarsi dal punto di recitazione oltre il raggio del campo, altrimenti il rito decade. Per estendere la durata oltre la scena, deve mantenere la recitazione continua delle strofe centrali a bassa voce.</p>
 </div>
 </div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Modifica della formula. Adattare la strofa alle circostanze (aggiungere invocazioni personali dopo l'elenco trinitario, personalizzare gli elementi geografici enumerati) è tollerato dalla tradizione celtica ed è documentato in varianti manoscritte. Omettere l'enumerazione delle direzioni (che è il cuore geometrico del rito), sostituire il Nome della Trinità con altro, recitare in silenzio anziché a voce alta: il rito fallisce e non si stabilisce alcun campo.</p>
-</div>
-</div>
+
 </div>
 </section>
 
@@ -108,10 +103,10 @@ Un uso storico documentato che sopravvive nelle comunità irlandesi tradizionali
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Liber Hymnorum (Trinity College Dublin, MS 1441, secoli XI-XII), fol. 15v-16r – testo integrale della Faeth Fiada.</li>
-<li>Bethu Phátraic (Vita tripartita di San Patrizio, IX-X sec.) – narrazione leggendaria dell'origine del canto e dell'episodio dei cervi.</li>
-<li>J. H. Bernard e R. Atkinson (a cura di), The Irish Liber Hymnorum, Henry Bradshaw Society, 1898 – edizione critica moderna del testo.</li>
-<li>Cecil Frances Alexander, St Patrick's Breastplate, 1889 – traduzione inglese classica che ha diffuso il testo nel mondo anglofono.</li>
-<li>Thomas O'Loughlin, Celtic Theology, Continuum, 2000 – analisi teologica del testo nel contesto della spiritualità celtica cristiana.</li>
+<li>Liber Hymnorum (Trinity College Dublin, MS 1441, secoli XI-XII), fol. 15v-16r, testo integrale della Faeth Fiada.</li>
+<li>Bethu Phátraic (Vita tripartita di San Patrizio, IX-X sec.), narrazione leggendaria dell'origine del canto e dell'episodio dei cervi.</li>
+<li>J. H. Bernard e R. Atkinson (a cura di), The Irish Liber Hymnorum, Henry Bradshaw Society, 1898, edizione critica moderna del testo.</li>
+<li>Cecil Frances Alexander, St Patrick's Breastplate, 1889, traduzione inglese classica che ha diffuso il testo nel mondo anglofono.</li>
+<li>Thomas O'Loughlin, Celtic Theology, Continuum, 2000, analisi teologica del testo nel contesto della spiritualità celtica cristiana.</li>
 </ul>
 </section>

@@ -84,10 +84,10 @@ Nella prassi pastorale ordinaria pre-Concilio Vaticano II (fino al 1965), l'<em>
 <section id="fonti">
 <div class="section-head"><h2>Fonti</h2></div>
 <ul class="ritual-sources">
-<li>Rituale Romanum (Paolo V, 1614), Titulus V – Ordo commendationis animae, contenente le invocazioni imperative contro Satana al capezzale del morente.</li>
-<li>Ars moriendi (XV sec.) – trattatistica medievale sull'arte del ben morire, con iconografia della battaglia finale per l'anima.</li>
-<li>Efesini 6, 12; Apocalisse 12, 7-12; 1 Pietro 5, 8 – fondamenti scritturali della concezione della morte come lotta.</li>
-<li>Gabriele Amorth, Un esorcista racconta, Dehoniane, 1990 – riferimenti alla prassi contemporanea in casi di morenti posseduti.</li>
-<li>Concilio Vaticano II, Sacrosanctum Concilium (1963) – riforma liturgica che ha rielaborato la prassi dell'accompagnamento ai morenti.</li>
+<li>Rituale Romanum (Paolo V, 1614), Titulus V, Ordo commendationis animae, contenente le invocazioni imperative contro Satana al capezzale del morente.</li>
+<li>Ars moriendi (XV sec.), trattatistica medievale sull'arte del ben morire, con iconografia della battaglia finale per l'anima.</li>
+<li>Efesini 6, 12; Apocalisse 12, 7-12; 1 Pietro 5, 8, fondamenti scritturali della concezione della morte come lotta.</li>
+<li>Gabriele Amorth, Un esorcista racconta, Dehoniane, 1990, riferimenti alla prassi contemporanea in casi di morenti posseduti.</li>
+<li>Concilio Vaticano II, Sacrosanctum Concilium (1963), riforma liturgica che ha rielaborato la prassi dell'accompagnamento ai morenti.</li>
 </ul>
 </section>
