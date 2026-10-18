@@ -15,7 +15,7 @@ Albula glandula è un carmen tramandato da Marcellus Empiricus per tumefazioni e
 
 La formula parla direttamente al gonfiore e gli impartisce quattro istruzioni: non dolere, non nuocere, non produrre ulteriori noduli e soprattutto sciogliersi come il sale nell'acqua.
 
-A differenza di Wið wennum, che tratta una formazione come escrescenza destinata a diventare progressivamente nulla, Albula glandula agisce meglio su qualcosa che è aumentato di volume per congestione, infiammazione o accumulo e che può quindi essere simbolicamente "sciolto".
+A differenza di <a href="/rituaria-dogmatica/cura-e-rimedio/anglosassone/wid-wennum/">Wið wennum</a>, che tratta una formazione come escrescenza destinata a diventare progressivamente nulla, Albula glandula agisce meglio su qualcosa che è aumentato di volume per congestione, infiammazione o accumulo e che può quindi essere simbolicamente "sciolto".
 
 </section>
 

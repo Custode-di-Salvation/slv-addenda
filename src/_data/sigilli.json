@@ -76,13 +76,46 @@
         "slug": "protezione",
         "nome": "Protezione",
         "sigilli": [
-          { "slug": "circulus-protectionis-salomonis", "nome": "Circulus Protectionis Salomonis", "stato": "live" },
-          { "slug": "diabolus-in-musica", "nome": "Diabolus in Musica", "stato": "live" },
-          { "slug": "kisib-bar-ra", "nome": "Kišib-bar-ra", "stato": "live" },
-          { "slug": "nodus-qui-deum-ligat", "nome": "Nodus Qui Deum Ligat", "stato": "live" },
-          { "slug": "pentaculum-clausum", "nome": "Pentaculum Clausum", "stato": "live" },
-          { "slug": "quadratum-sator", "nome": "Quadratum Sator", "stato": "live" },
-          { "slug": "sigillum-nullius", "nome": "Sigillum Nullius", "stato": "live" }
+          {
+            "slug": "circulus-protectionis-salomonis",
+            "nome": "Circulus Protectionis Salomonis",
+            "stato": "live"
+          },
+          {
+            "slug": "khatam-sulayman",
+            "nome": "Khātam Sulaymān (خاتم سليمان)",
+            "stato": "live"
+          },
+          {
+            "slug": "diabolus-in-musica",
+            "nome": "Diabolus in Musica",
+            "stato": "live"
+          },
+          {
+            "slug": "kisib-bar-ra",
+            "nome": "Kišib-bar-ra",
+            "stato": "live"
+          },
+          {
+            "slug": "nodus-qui-deum-ligat",
+            "nome": "Nodus Qui Deum Ligat",
+            "stato": "live"
+          },
+          {
+            "slug": "pentaculum-clausum",
+            "nome": "Pentaculum Clausum",
+            "stato": "live"
+          },
+          {
+            "slug": "quadratum-sator",
+            "nome": "Quadratum Sator",
+            "stato": "live"
+          },
+          {
+            "slug": "sigillum-nullius",
+            "nome": "Sigillum Nullius",
+            "stato": "live"
+          }
         ]
       },
       {

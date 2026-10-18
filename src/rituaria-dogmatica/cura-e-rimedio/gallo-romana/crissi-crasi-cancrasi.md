@@ -34,7 +34,7 @@ In un grave edema delle vie aeree non sostituisce un intervento medico: riduce t
 
 Può agire anche su equivalenti sovrannaturali: gola che si chiude per una maledizione, tumefazione sovrannaturale, costrizione prodotta da energia o un effetto che simuli anatomicamente un edema.
 
-Non funziona contro strangolamento meccanico, un oggetto fisicamente bloccato nella gola (per il quale è più adatto Exucricone) paralisi respiratoria o mancanza d'aria priva di un'effettiva costrizione locale.
+Non funziona contro strangolamento meccanico, un oggetto fisicamente bloccato nella gola (per il quale è più adatto <a href="/rituaria-dogmatica/cura-e-rimedio/gallo-romana/exucricone/">Exucricone</a>) paralisi respiratoria o mancanza d'aria priva di un'effettiva costrizione locale.
 
 </section>
 

@@ -11,7 +11,7 @@ costo: "<strong>70 <i class=\"fa-solid fa-bolt\"></i></strong>"
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
 
-Brictom bnanom è la formalizzazione dogmatica del cosiddetto Piombo di Larzac. A differenza di Chamalières, non corregge ciò che è stato fatto. Risponde.
+Brictom bnanom è la formalizzazione dogmatica del cosiddetto Piombo di Larzac. A differenza di <a href="/rituaria-dogmatica/protezione-e-interdizione/gallo-romana/chamalieres/">Chamalières</a>, non corregge ciò che è stato fatto. Risponde.
 
 Il testo di Larzac riguarda praticanti di pratica sovrannaturale contrapposte e utilizza per l'azione compiuta contro le avversarie gli stessi campi lessicali impiegati per descrivere ciò che le avversarie avrebbero fatto per prime.
 

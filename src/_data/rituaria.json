@@ -32,6 +32,12 @@
             "nome": "Exorcizamus te",
             "stato": "live",
             "rarita": "Raro"
+          },
+          {
+            "slug": "ossa-comburantur",
+            "nome": "Ossa comburantur",
+            "stato": "live",
+            "rarita": "Raro"
           }
         ]
       },
@@ -70,6 +76,18 @@
             "rarita": "Comune"
           }
         ]
+      },
+      {
+        "slug": "egizia-antica",
+        "nome": "Egizia antica",
+        "rituali": [
+          {
+            "slug": "r-n-irt-khprw-m-bnw",
+            "nome": "r n irt ḫprw m bnw",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
       }
     ]
   },
@@ -100,6 +118,18 @@
             "nome": "Ars Goetia",
             "stato": "live",
             "rarita": "Comune"
+          },
+          {
+            "slug": "qumqum-sulayman",
+            "nome": "Qumqum Sulaymān",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "rabt-al-jinn-bi-khatam-sulayman",
+            "nome": "Rabṭ al-Jinn bi-Khātam Sulaymān (ربط الجن بخاتم سليمان)",
+            "stato": "live",
+            "rarita": "Raro"
           }
         ]
       },
@@ -112,6 +142,18 @@
             "nome": "Crossroads Deal",
             "stato": "live",
             "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "egizia-antica",
+        "nome": "Egizia antica",
+        "rituali": [
+          {
+            "slug": "wpt-r",
+            "nome": "Wpt-r",
+            "stato": "live",
+            "rarita": "Raro"
           }
         ]
       }
@@ -173,7 +215,18 @@
           }
         ]
       },
-
+      {
+        "slug": "cristiana-anglicana",
+        "nome": "Cristiana anglicana",
+        "rituali": [
+          {
+            "slug": "passing-bell",
+            "nome": "Passing Bell",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
       {
         "slug": "ebraica",
         "nome": "Ebraica",
@@ -243,6 +296,48 @@
             "nome": "Brictom bnanom",
             "stato": "live",
             "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "folklore-inglese",
+        "nome": "Folklore inglese",
+        "rituali": [
+          {
+            "slug": "turning-the-coat",
+            "nome": "Turning the Coat",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "folklore-persiano",
+        "nome": "Folklore persiano",
+        "rituali": [
+          {
+            "slug": "dud-e-esfand",
+            "nome": "Dūd-e Esfand (دود اسپند)",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "hesarkashi",
+            "nome": "Ḥeṣārkašī (حصارکشی)",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "latina",
+        "nome": "Latina",
+        "rituali": [
+          {
+            "slug": "lemuria",
+            "nome": "Lemuria",
+            "stato": "live",
+            "rarita": "Comune"
           }
         ]
       }

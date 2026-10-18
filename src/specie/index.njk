@@ -13,20 +13,20 @@ styles: ["/css/specie.css"]
 
 <div id="specieCards">
   {% set categorie = [
-    { titolo: "Entità energetiche", slugs: ["demoni", "angeli", "fantasmi", "caduti", "djinn"] },
-    { titolo: "Ibridi", slugs: ["nephilim", "cambion"] },
-    { titolo: "Teriantropi", slugs: ["wendigo", "licantropi", "skinwalkers"] },
+    { titolo: "Entità energetiche", slugs: ["angeli", "caduti", "demoni", "djinn", "fantasmi"] },
+    { titolo: "Ibridi", slugs: ["cambion", "nephilim"] },
+    { titolo: "Teriantropi", slugs: ["licantropi", "skinwalkers", "wendigo"] },
     { titolo: "Non-morti", slugs: ["vampiri"] },
-    { titolo: "Chimere", slugs: ["gorgoni", "maridi", "arachne", "faelan", "arpie"] },
-    { titolo: "Metaumani", slugs: ["medium", "chiaroveggenti", "lettori-empatici", "lettori-telepatici", "lettori-animici", "riemersi", "aoristi", "artefici"] },
-    { titolo: "Esseri primordiali", slugs: ["fenici", "mietitori", "fae"] }
+    { titolo: "Chimere", slugs: ["arachne", "arpie", "faelan", "gorgoni", "maridi"] },
+    { titolo: "Metaumani", slugs: ["aoristi", "artefici", "chiaroveggenti", "lettori-animici", "lettori-empatici", "lettori-telepatici", "medium", "riemersi"] },
+    { titolo: "Esseri primordiali", slugs: ["fae", "fenici", "mietitori"] }
   ] %}
 
   {% for cat in categorie %}
   <div class="specie-group-title">
     <h2>{{ cat.titolo }}</h2>
   </div>
-  <div class="card-grid{% if cat.titolo == "Entità energetiche" %} energetic-species-grid{% endif %}">
+  <div class="card-grid{% if cat.titolo == "Entità energetiche" or cat.titolo == "Chimere" %} energetic-species-grid{% endif %}">
     {% for slug in cat.slugs %}
       {% set sp = null %}
       {% for item in specie %}
