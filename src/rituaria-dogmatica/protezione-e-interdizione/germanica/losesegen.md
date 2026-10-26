@@ -22,7 +22,7 @@ Non distrugge genericamente oggetti né apre qualsiasi cosa sia chiusa. Agisce s
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Su vincoli fisici il rito può: sciogliere corde e nodi; far cedere lacci e legature; aprire manette, ceppi o altri dispositivi di costrizione; spezzare il punto funzionale di una catena che trattiene direttamente una persona; liberare qualcuno immobilizzato da reti o analoghi strumenti.
+Scioglie costrizioni fisiche e vincoli soprannaturali compatibili. Su vincoli fisici il rito può: sciogliere corde e nodi; far cedere lacci e legature; aprire manette, ceppi o altri dispositivi di costrizione; spezzare il punto funzionale di una catena che trattiene direttamente una persona; liberare qualcuno immobilizzato da reti o analoghi strumenti.
 
 Non apre una porta semplicemente perché è chiusa, non scassina una cassaforte e non disassembla un oggetto che non stia svolgendo una funzione di prigionia.
 
@@ -71,7 +71,6 @@ Non può sciogliere patti demoniaci, legami tra famiglio e praticante, Costanti 
 <p>Se il vincolo è metafisico, il praticante deve toccare il bersaglio o la manifestazione del legame, se questa è materialmente percepibile. Per agire a distanza valgono normalmente le regole del focus.</p>
 </div>
 </div>
-
 </div>
 </section>
 

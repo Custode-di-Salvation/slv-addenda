@@ -4,8 +4,8 @@ title: "Wið færstice"
 tipo: cura-e-rimedio
 sottotipo: anglosassone
 rarita: Comune
-tempo: "10 minuti"
-componenti: "Partenio (feferfuige), ortica rossa (reade netele), piantaggine (wegbrade), burro; coltello o lama."
+tempo: "1–2 minuti con preparato pronto; ~10 minuti se preparato nella scena."
+componenti: "Preparato di erbe comuni e burro secondo una recensione appresa; lama utilizzabile con piatto o dorso. Ricetta botanica completa con partenio, ortica rossa e piantaggine*."
 costo: "<strong>25 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
@@ -22,7 +22,7 @@ Nel sistema dogmatico questa struttura permette al rito di distinguere efficacem
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Il rito elimina o riduce drasticamente un dolore acuto, localizzato e penetrante: fitte improvvise, spasmi, dolori neuropatici brevi, dolore prodotto da un morso, una puntura o una piccola ferita. Per il resto della scena il bersaglio ignora i malus (Condizioni o altri status persistenti) dovuti esclusivamente al dolore trattato.
+Attenua un dolore acuto localizzato e può espellere l’intrusione soprannaturale che lo provoca. Il rito elimina o riduce drasticamente un dolore acuto, localizzato e penetrante: fitte improvvise, spasmi, dolori neuropatici brevi, dolore prodotto da un morso, una puntura o una piccola ferita. Per il resto della scena viene sospesa la <strong>Condizione dovuta esclusivamente al dolore trattato</strong>. Stati persistenti, shock, sfinimento e impedimenti anatomici mantengono le conseguenze non dipendenti da quel dolore.
 
 Se la fitta è causata da un effetto sovrannaturale rappresentabile come intrusione (un "dardo" energetico, una maledizione minore puntiforme, una spina animica o un residuo penetrato nel corpo) un successo completo espelle la componente estranea. Gli effetti già prodotti rimangono.
 
@@ -69,14 +69,13 @@ Non funziona su dolore diffuso privo di localizzazione, dolore psicogeno, esauri
 <p>La formula viene conclusa mantenendo il punto di contatto finché il dolore non comincia a recedere.</p>
 </div>
 </div>
-
 </div>
 </section>
 
 <section class="prose" id="storia">
 <div class="section-head"><h2>Storia</h2></div>
 
-Wið færstice è conservato anch'esso in Harley MS 585, il Lacnunga, ai ff. 175r-176v circa. La struttura è nettamente bipartita: istruzioni prosastiche prescrivono partenio, ortica rossa e piantaggine bolliti nel burro; tra queste istruzioni è inserita una lunga composizione metrica. Al termine, il manoscritto ordina di prendere il coltello e immergerlo nel liquido.
+Wið færstice è conservato anch'esso in Harley MS 585, il Lacnunga, ai ff. ~175r-176v. La struttura è nettamente bipartita: istruzioni prosastiche prescrivono partenio, ortica rossa e piantaggine bolliti nel burro; tra queste istruzioni è inserita una lunga composizione metrica. Al termine, il manoscritto ordina di prendere il coltello e immergerlo nel liquido.
 
 Questa integrazione tra ricetta e poesia è stata a lungo discussa: alcuni studi più antichi tendevano a separare il "bel poema" dal rimedio pratico, mentre gli studi sulla performance hanno sottolineato che proprio l'unione tra parola, sostanza e gesto spiega la funzione originaria del testo.
 

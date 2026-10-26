@@ -22,14 +22,14 @@ La formula viene accompagnata da uno schema manuale preciso che collega dorso e 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Il rito riduce o interrompe:
+Interrompe crampi e spasmi addominali e ne attenua le conseguenze. Il rito riduce o interrompe:
 - crampi addominali;
 - spasmi intestinali;
 - contrazioni viscerali dolorose;
 - tensioni muscolari profonde dell'addome;
 - dolore prodotto da una contrazione involontaria.
 
-Elimina per la scena eventuali malus prodotti esclusivamente dallo spasmo trattato.
+Per la scena sospende la <strong>Condizione prodotta esclusivamente dallo spasmo trattato</strong>. Dolore o difficoltà dovuti ad altre cause ancora attive restano pertinenti.
 
 Può essere utilizzato anche sugli animali.
 
@@ -41,48 +41,9 @@ Non cura perforazioni, emorragie, avvelenamenti, infezioni, danni agli organi o 
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'esecutore dispone entrambe le mani piatte sulla regione lombare del bersaglio.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Pronuncia tre volte:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Disporre le mani sulla regione lombare e recitare tre volte la formula.</p><div class="ritual-verse">
 <p class="latin">"Alabanda, alabandi, alambo."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Porta le mani sotto l'addome con i palmi rivolti verso l'alto e ripete tre volte la formula.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Le mani tornano sulla regione lombare e la formula viene recitata altre tre volte.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>L'intero movimento costituisce una sequenza unica: dorso → ventre → dorso.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Se il rito viene utilizzato su un animale la procedura rimane identica, adattando soltanto la posizione delle mani alla sua anatomia.</p>
-</div>
-</div>
-
-</div>
+</div></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Passare sotto l’addome e ripetere tre volte, poi tornare alla regione lombare per le ultime tre recitazioni.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Concludere il gesto unitario; su un animale adattare la posizione delle mani alla sua anatomia.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

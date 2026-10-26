@@ -5,7 +5,7 @@ tipo: "protezione-e-interdizione"
 sottotipo: "folklore-persiano"
 rarita: "Comune"
 tempo: "1 minuto · mantenibile continuando la fumigazione"
-componenti: "Semi essiccati di esfand (Peganum harmala); carbone acceso, brace o altra fonte capace di far fumigare rapidamente i semi; un recipiente resistente al calore; una piccola quantità di sale*."
+componenti: "Semi essiccati di esfand (<em>Peganum harmala</em>), reperibili come risorsa erboristica o rituale ordinaria; brace; recipiente resistente al calore. Sale*."
 costo: "<strong>20 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 
@@ -18,11 +18,12 @@ costo: "<strong>20 <i class=\"fa-solid fa-bolt\"></i></strong>"
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-<p>Al termine della prima recitazione l'operatore effettua una prova in [Tenacia], oppure [Stregoneria] se utilizza la propria competenza rituale. Il risultato viene mantenuto come <strong>valore rituale</strong> del Dūd-e Esfand per tutta la durata della fumigazione. Il fumo forma una zona di circa <strong>3 metri di raggio</strong> attorno al recipiente o al punto nel quale viene continuamente diffuso.</p>
+<p>Crea una fumigazione protettiva che ostacola il mārij e le capacità dei Djinn. La fumigazione conserva il risultato dell’attivazione come riferimento per le opposizioni successive, finché il fumo viene mantenuto. Il fumo forma una zona di ~<strong>3 metri di raggio</strong> attorno al recipiente o al punto nel quale viene continuamente diffuso.</p>
 <p>Ogni Djinn sufficientemente esposto al fumo subisce gli effetti previsti dalla <a href="/specie/djinn/#fumigazione-di-esfand">propria avversione all'esfand</a>. In aggiunta, finché il rito rimane attivo:</p>
-<ul><li>Un Djinn che tenti di attraversare volontariamente il margine della zona effettua un confronto in [Tenacia] contro il <strong>valore rituale</strong> dell'operatore. <strong>Un fallimento arresta il movimento al margine per quel turno</strong>;</li><li>Chi si trova all'interno della fumigazione ottiene <strong>vantaggio al primo tiro in [Tenacia]</strong> effettuato contro <a href="/specie/djinn/#wasl">Waṣl</a> o <a href="/specie/djinn/#takhayyul">Takhayyul</a> provenienti da un Djinn esposto allo stesso fumo;</li><li>Un Djinn già presente nell'area manifesta più facilmente l'instabilità del mārij: pattern cutanei, iridi luminose, aumento della temperatura corporea e altre caratteristiche normalmente mantenute in quiescenza possono emergere;</li><li>Le capacità di specie che richiedono mantenimento continuativo risentono per tutta la durata dell'esposizione delle penalità previste dall'avversione materiale.</li></ul>
+<ul><li>Un Djinn che tenti di attraversare volontariamente il margine della zona effettua un confronto contro il <strong>valore rituale</strong> dell'operatore. <strong>Un fallimento arresta il movimento al margine per quel turno</strong>;</li><li>Chi si trova all'interno della fumigazione ottiene <strong>vantaggio al primo tiro in [Tenacia]</strong> effettuato contro <a href="/specie/djinn/#wasl">Waṣl</a> o <a href="/specie/djinn/#takhayyul">Takhayyul</a> provenienti da un Djinn esposto allo stesso fumo;</li><li>Un Djinn già presente nell'area manifesta più facilmente l'instabilità del mārij: pattern cutanei, iridi luminose, aumento della temperatura corporea e altre caratteristiche normalmente mantenute in quiescenza possono emergere;</li><li>Le capacità di specie che richiedono mantenimento continuativo risentono per tutta la durata dell'esposizione delle penalità previste dall'avversione materiale.</li></ul>
 <p>Il confronto necessario per attraversare la fumigazione viene effettuato ogni volta che il Djinn tenta di entrare dopo esserne completamente uscito.</p>
 <p>Il Dūd-e Esfand rimane attivo <strong>finché la fumigazione produce una quantità significativa di fumo</strong>. L'operatore deve aggiungere nuovi semi quando quelli precedenti terminano la combustione e ripetere periodicamente la formula utilizzata per l'attivazione. Un recipiente portatile permette di spostare lentamente la zona protetta. Durante il movimento il fumo deve continuare a raggiungere l'area occupata dai soggetti che beneficiano della protezione. Vento forte, ventilazione meccanica intensa e ambienti molto aperti possono ridurre il raggio effettivo o disperdere completamente la fumigazione.</p>
+<p>Il vantaggio alla resistenza riguarda <strong>il primo confronto di ciascun soggetto protetto durante una stessa attivazione</strong>. Aggiungere semi o ripetere la formula per mantenere il fumo non rinnova il beneficio consumato. I semi specifici restano il veicolo dell’avversione: un incenso qualsiasi non li sostituisce.</p>
 </section>
 
 <section class="prose" id="limitazioni">
@@ -35,13 +36,13 @@ costo: "<strong>20 <i class=\"fa-solid fa-bolt\"></i></strong>"
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>L'operatore prepara una brace viva all'interno di un recipiente resistente al calore.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Una quantità sufficiente di semi di esfand viene tenuta pronta accanto al braciere.</p><p>Il sale, quando utilizzato, viene mescolato ai semi o gettato sul fuoco insieme a essi.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>I semi vengono posti sulla brace e lasciati crepitare fino alla produzione di un fumo continuo.</p></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Il recipiente viene mosso lentamente attorno alla persona, all'oggetto o all'area da proteggere, oppure lasciato in posizione centrale quando si vuole mantenere una zona fissa.</p></div></div><div class="step-item"><div class="step-number">5</div><div class="step-content"><p>Durante la fumigazione viene recitata una formula tradizionale.</p><p>Le varianti regionali sono numerose. Una struttura ampiamente documentata utilizza il motivo dell'esfand composto da trentatré semi e termina con l'augurio che l'occhio invidioso scoppi. Encyclopaedia Iranica registra questo schema durante Čahāršanba-sūrī e sottolinea esplicitamente la variabilità dialettale delle formule.</p><p>Una variante attestata nell'area di Najafābād può essere resa:</p><div class="ritual-verse"><p class="latin">Espand o espand-dūne,<br>
-espand sī-o-se dūne,<br>
-be ḥaqq-e Ḵodā-ye yegūne,<br>
-Moḥammad kāšteš, ʿAlī čideš,<br>
-Fāṭeme barā-ye Ḥasan o Ḥoseyn-eš dūd kardeš,<br>
-nām-e Ḵodā, nām-e Rasūl,<br>
-betereke češm-e ḥasūd o ḥasad.</p></div><p>Il senso generale richiama l'esfand dai trentatré semi, l'Unico Dio, Muḥammad, ʿAlī, Fāṭema, Ḥasan e Ḥoseyn, concludendo con la richiesta che scoppi l'occhio dell'invidia. Varianti raccolte in altre regioni conservano soltanto alcuni di questi elementi e possono rivolgersi al parente, allo straniero, a chi conosce il nome del protetto o a chi lo ignora.</p></div></div><div class="step-item"><div class="step-number">6</div><div class="step-content"><p>Al termine della prima recitazione viene effettuata la prova rituale.</p><p>La formula viene ripetuta durante il mantenimento ogni volta che viene aggiunta una nuova quantità significativa di semi.</p></div></div></div>
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Preparare recipiente, brace e semi; il sale è facoltativo.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Produrre una fumigazione continua e disporla attorno alla persona o nell’area da proteggere.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Recitare la formula della recensione appresa durante la fumigazione.</p><div class="ritual-verse"><p class="latin">Espand o espand-dūne,<br/>
+espand sī-o-se dūne,<br/>
+be ḥaqq-e Ḵodā-ye yegūne,<br/>
+Moḥammad kāšteš, ʿAlī čideš,<br/>
+Fāṭeme barā-ye Ḥasan o Ḥoseyn-eš dūd kardeš,<br/>
+nām-e Ḵodā, nām-e Rasūl,<br/>
+betereke češm-e ḥasūd o ḥasad.</p></div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Aggiungere semi e riprendere periodicamente la formula per mantenere l’effetto; un’aggiunta non costituisce una nuova protezione gratuita.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

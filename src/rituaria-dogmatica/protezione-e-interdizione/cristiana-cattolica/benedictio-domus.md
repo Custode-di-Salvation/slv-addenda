@@ -5,7 +5,7 @@ tipo: protezione-e-interdizione
 sottotipo: cristiana-cattolica
 rarita: Comune
 tempo: "15 minuti (rito completo) · 5 minuti (versione ridotta, solo aspersione e formula chiave)"
-componenti: "Acqua santa (base: <a href=\"/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/benedictio-aquae-et-salis/\">Benedictio aquae et salis</a>); crocifisso o croce processionale portata a mano; stola bianca o violacea; gesso benedetto se si vuole apporre la scritta C+M+B sulla porta d'ingresso. Rametto d'issopo o aspersorio per la migliore distribuzione dell'acqua*; incenso per la versione solenne."
+componenti: "Acqua benedetta; croce o crocifisso; accesso alle stanze e assenso dei residenti. Stola, issopo o aspersorio, incenso e scritta C+M+B con gesso benedetto*."
 costo: "<strong>30 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(fino a 150 m²)</em> · <strong>45 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(150-300 m²)</em> · <strong>60 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(300-500 m²)</em> · <em>oltre i 500 m² il rito richiede più operatori o va rieseguito per settori</em>"
 ---
 <section class="prose" id="descrizione">
@@ -21,21 +21,10 @@ Sul piano dogmatico, funziona per densità di ripetizione storica: milioni di ca
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Purifica l'intera abitazione (fino a 150 m²) da residui passivi: tracce lasciate da proprietari precedenti, umori psichici cristallizzati, tracce di stregoneria non attiva, contaminazioni minori da esposizione a luoghi energetici. Non tocca infestazioni con ancoraggio, cicatrici di Dissonanza radicata, presenze attive.
-
-Conferisce a tutti i residenti abituali dell'abitazione benedetta un vantaggio ai tiri in [Tenacia] per resistere a influenze attive esterne, finché si trovano all'interno delle mura. Il bonus vale solo per chi abita realmente e continuativamente nel luogo (non per visitatori occasionali, non per chi vi soggiorna meno di 7 giorni). Un residente che si allontana per lunghi periodi (oltre 3 mesi) perde il beneficio al rientro finché non trascorre almeno 7 giorni di residenza continuativa.
-
-Le entità energetiche di basso rango (es. presenze appena consolidate) tendono a evitare l'ingresso senza invito esplicito da parte di chi vi abita. Non è un divieto assoluto (come per la consacrazione), ma resistenza percepibile: le entità che entrano lo fanno con fatica e si trattengono poco. Entità di rango medio o alto entrano senza problemi, ma con svantaggio nei loro tentativi di ancoraggio permanente. I demoni possono entrare e sostare all'interno, ma ricevono svantaggio per ogni azione.
-
-Chi dorme in una casa benedetta per almeno tre notti consecutive è immune a incubi sovrannaturali indotti da entità esterne. L'immunità non copre incubi radicati in traumi personali o marchi già presenti sul soggetto.
-
-L'effetto dura finché il luogo non viene profanato: sacrilegio grave (omicidio doloso, rito di sangue, patto demoniaco stipulato all'interno), sconsacrazione formale, abbandono prolungato oltre un anno.
-
-Nella prassi tradizionale, la benedizione viene rinnovata ogni anno tra Natale ed Epifania. Un rinnovo annuale mantiene la piena potenza.
-
-Se al termine del rito l'operatore appone sulla porta d'ingresso la scritta C+M+B (<em>Christus Mansionem Benedicat</em>, "Cristo benedica questa dimora") con gesso benedetto, la benedizione acquisisce un ancoraggio visibile che rinforza la protezione: con un +5 aggiuntivo alla resistenza dei residenti, e le entità ostili che attraversano la soglia percepiscono chiaramente la scritta come segnale di appartenenza (alcune si allontanano senza tentare l'ingresso). La scritta va rinnovata ogni anno.
-
+<p>Purifica la casa e rafforza le resistenze dei suoi residenti alle influenze ostili. Purifica un’abitazione da residui passivi e contaminazioni minori, senza eliminare presenze ancorate, maledizioni attive o cicatrici radicate. La superficie coperta segue le fasce di costo: fino a 150, 300 o 500 m²; oltre occorre dividere l’area in settori o impiegare più officianti.</p>
+<p>I residenti abituali ricevono vantaggio alle resistenze contro influenze soprannaturali ostili che tentino di raggiungerli dall’esterno, finché si trovano nell’abitazione. Non si estende a ogni azione o a ogni attacco fisico; visitatori e soggiornanti occasionali non acquisiscono automaticamente il rapporto di residenza.</p>
+<p>Le presenze avverse possono avvertire la dedicazione e incontrano opposizione quando tentano un ancoraggio o una contaminazione. La sola presenza di un demone non gli impone svantaggio a tutte le azioni. Le interazioni avverse richiedono risonanza effettiva e compatibilità con le vulnerabilità della creatura.</p>
+<p>La protezione dura fino a un anno, salvo profanazione sostanziale, abbandono prolungato o distruzione del luogo, e può essere rinnovata. Dormire nel luogo può sostenere le resistenze agli incubi indotti, senza produrre un’immunità assoluta. Scritta, incenso e paramenti facilitano il rito ma non aggiungono +5 o vantaggi cumulativi.</p>
 </section>
 
 <section class="prose" id="procedura">
@@ -75,7 +64,6 @@ Se al termine del rito l'operatore appone sulla porta d'ingresso la scritta C+M+
 <p>Se richiesto, apposizione della scritta 20 + C + M + B + XX sulla porta esterna con gesso benedetto (dove 20XX è l'anno corrente).</p>
 </div>
 </div>
-
 </div>
 </section>
 

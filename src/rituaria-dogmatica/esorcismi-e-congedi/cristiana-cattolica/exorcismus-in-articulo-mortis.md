@@ -4,8 +4,8 @@ title: "Exorcismus in articulo mortis"
 tipo: esorcismi-e-congedi
 sottotipo: cristiana-cattolica
 rarita: Comune
-tempo: "5 minuti (rito completo)"
-componenti: "Acqua santa (base: <a href=\"/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/benedictio-aquae-et-salis/\">Benedictio aquae et salis</a>); olio degli infermi (oleum infirmorum, consacrato dal vescovo nella Messa Crismale del Giovedì Santo, distribuito annualmente alle parrocchie); crocifisso di legno o metallo benedetto. Stola violacea*."
+tempo: "1 turno; preparazione estesa di 5 minuti*."
+componenti: "Acqua benedetta; croce o crocifisso. Olio degli infermi consacrato e stola violacea*; preparazione estesa di cinque minuti*."
 costo: "<strong>50 <i class=\"fa-solid fa-bolt\"></i></strong> (fase unica). Se ripetuto costo pieno per ogni tentativo."
 ---
 <section class="prose" id="descrizione">
@@ -21,51 +21,18 @@ Non è rito da usare come alternativa a <a href="/rituaria-dogmatica/esorcismi-e
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Tenta un'espulsione d'emergenza del demone dal posseduto morente. Tiro contrapposto in [Tenacia] tra esorcista e demone, con bonus proporzionale alla condizione del morente:
-
-- **Sotto 5 <i class="fa-solid fa-heart-pulse"></i> (morente):** vantaggio e +10 al tiro dell'esorcista.
-- **Tra 5 e 15 <i class="fa-solid fa-heart-pulse"></i> (grave ma non moribondo):** vantaggio al tiro.
-- **Oltre 15 <i class="fa-solid fa-heart-pulse"></i> (non realmente in fine vita):** nessun bonus, il rito funziona come <a href="/rituaria-dogmatica/esorcismi-e-congedi/cristiana-cattolica/esorcismo-minore-di-san-benedetto/">esorcismo minore</a> attenuato.
-
-Se ha effetto il demone è espulso dal corpo del morente. L'anima passa libera al piano post-mortem che le compete poiché il rito non salva la vita fisica del morente: se le ferite sono mortali, muore comunque.
-
-Il morente non può eseguire il rito su sé stesso: la formula richiede autorità sacerdotale esterna e/o presenza attiva di un operatore lucido.
-
+<p>Tenta di liberare un morente dalla possessione demoniaca. Tenta di espellere un demone da un tramite in una reale condizione di agonia o collasso vitale, secondo le normali regole di morte. La preparazione estesa e gli elementi facoltativi sostengono il rito, senza cumulare più vantaggi.</p>
+<p>La condizione di soglia deve derivare dalla situazione effettiva del morente: infliggere intenzionalmente nuove ferite non aumenta la potenza del rito. Non si usano soglie fisse di 5 o 15 PV come moltiplicatori dell’efficacia.</p>
+<p>Se prevale l’esorcismo, l’entità viene espulsa. Il rito non cura le ferite né salva automaticamente la vita: il tramite può essere stabilizzato con mezzi appropriati prima della morte definitiva. L’eventuale passaggio dell’anima segue le normali regole.</p>
+<p>Richiede un operatore esterno capace di eseguire la formula. Fuori da una vera condizione di agonia non sostituisce l’esorcismo maggiore.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'esorcista si avvicina al capezzale del morente. Se possibile ottiene lucidità dal morente stesso (consenso, contrizione, invocazione del nome di Cristo, anche una parola o un cenno del capo bastano); se il morente è incosciente, procede comunque.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Unge il moribondo con olio degli infermi sulla fronte, tracciando il segno della croce. Asperge con acqua santa la fronte e il petto. Pone il crocifisso sul petto del moribondo, tenendolo fermo con la propria mano.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Recita la formula abbreviata con urgenza e autorità:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Raggiungere il morente e riconoscere la possessione; raccogliere il suo assenso quando possibile, senza richiedere che sia cosciente.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Aspergere fronte e petto e porre la croce presso il tramite. L’olio consacrato, quando disponibile, accompagna il gesto.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Recitare la formula d’espulsione senza interrompere il sostegno necessario al corpo.</p><div class="ritual-verse">
 <p class="latin">"Exorcizo te, immundissime spiritus, omnis incursio adversarii, omne phantasma, omnis legio, in nomine Domini nostri Jesu Christi: eradicare et effugare ab hoc plasmate Dei. Imperat tibi Dominus Deus, qui venturus est judicare vivos et mortuos. Vade satana! Dimitte hanc animam ut libera transeat ad Dominum!"</p>
 <p class="translation">"Ti esorcizzo, spirito immondissimo, ogni assalto dell'avversario, ogni fantasma, ogni legione, nel nome del Signore nostro Gesù Cristo: sii sradicato e fuggi da questa creatura di Dio. Te lo comanda il Signore Dio, che verrà a giudicare i vivi e i morti. Vattene satana! Lascia quest'anima affinché passi libera al Signore!"</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Tiro contrapposto. In caso di effetto, l'esorcista percepisce il momento dell'espulsione (leggero cambiamento nell'aria, il morente si distende improvvisamente, il crocifisso sul petto diventa momentaneamente più caldo o più freddo). Segna la fronte del morente con l'olio residuo formulando la benedizione finale.</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Conclusa l’espulsione, benedire il tramite e consentire gli interventi di stabilizzazione; il rito non modifica da solo il suo esito biologico.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

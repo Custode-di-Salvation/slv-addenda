@@ -4,9 +4,9 @@ title: "Akolouthia tou Exorkismou"
 tipo: esorcismi-e-congedi
 sottotipo: cristiana-ortodossa
 rarita: Raro
-tempo: "Minimo 1 ora per fase. Un esorcismo completo può durare intere giornate distribuite su più sessioni."
-componenti: "Icona di Cristo (tenuta in mano o posta di fronte al posseduto); agiasmos (base: <a href=\"/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-ortodossa/megas-agiasmos/\">Megas Agiasmos</a>); epitrachelion (stola sacerdotale)*."
-costo: "<strong>65 <i class=\"fa-solid fa-bolt\"></i></strong> per ogni ora di rituale (una fase = ciclo di 60 minuti di rito attivo, più lungo delle fasi cattoliche perché la struttura liturgica ortodossa non ammette abbreviazioni). Un esorcismo tipico consuma 2-4 fasi per sessione (<strong>130-260 <i class=\"fa-solid fa-bolt\"></i></strong>); possessioni di Stadio 3 richiedono sessioni multiple distribuite su settimane."
+tempo: "10 minuti di apertura; fasi successive di 10 minuti."
+componenti: "Icona di Cristo; agiasmos; testo della formula. Digiuno, veglia, epitrachelion e vestizione completa*."
+costo: "<strong>65 <i class=\"fa-solid fa-bolt\"></i></strong> + <strong>20 <i class=\"fa-solid fa-bolt\"></i></strong> × fase successiva"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
@@ -21,66 +21,19 @@ Sul piano dogmatico funziona per la densità di quindici secoli di uso ininterro
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Struttura analoga alla <a href="/rituaria-dogmatica/esorcismi-e-congedi/cristiana-cattolica/de-exorcizandis-obsessis-a-daemonio/">De exorcizandis obsessis</a>, con successi cumulativi necessari per l'espulsione, in tiri contrapposti in [Tenacia]. Nella prima fase l'esorcista tira in per stabilire il campo di battaglia spirituale, mentre nelle fasi successive l'esorcista mantiene il rito e indebolisce il demone.
-
-L'esorcista "brucia" letteralmente l'entità con la preghiera stessa: nella percezione del posseduto e dei presenti, il demone urla come se fosse ustionato dall'interno (danni di Fascia 2-3). Le avversioni contro il demone (agiasmos, icona, formule) diventano più efficaci per il resto della sessione (danno aumentato di ⅓).
-
-Al termine di ogni fase riuscita, l'esorcista soffia sul viso del posseduto tracciando il segno della croce con il fiato. Il soffio è simbolo dello Spirito Santo e componente tecnica del rito: senza soffio la fase riuscita conta solo per 0,5 successi (arrotondato per difetto). La tradizione atonita è rigida su questo punto: il rito senza soffio è considerato incompleto.
-
-L'aspersione periodica di agiasmos sul posseduto durante il rito produce reazioni visibili proporzionali all'intensità della possessione (bruciore, vomito, contorsioni).
-
-Il costo per la vittima è analogo al rito cattolico: convulsioni, vomito, prostrazione, debilitazione per settimane. La versione ortodossa può essere leggermente più pesante per la vittima per il maggior danno inflitto al demone, che si trasmette in parte al corpo che lo ospita.
-
-Dopo l'espulsione si canta il Tropario della Teofania ("En Iordane baptizomenou sou, Kyrie...") per sigillare la purificazione dell'anima liberata, più aspersione finale con agiasmos e consacrazione dell'ambiente con incenso. La vittima riceve digiuno raccomandato per tre giorni e comunione ricevuta alla prima liturgia possibile.
-
+<p>Allenta progressivamente una possessione demoniaca fino all’espulsione. La formula indebolisce una possessione attraverso fasi successive. Occorrono <strong>1, 2 o 3 successi</strong> rispettivamente contro possessioni di Stadio 1, 2 o 3. L’apertura comprende la prima fase.</p>
+<p>Ogni fase riuscita allenta il legame. Il soffio cruciforme conclude il passaggio rituale: non si conteggiano mezzi successi. Una fase interrotta prima del soffio non è conclusa, ma i successi precedenti non vengono automaticamente annullati.</p>
+<p>Aspersione, icona e preghiera producono la pressione rituale appropriata alla natura dell’entità. Non si applicano incrementi di un terzo ai danni o danni fissi per ogni recitazione. Raggiunta la soglia, il demone viene espulso secondo le normali regole.</p>
+<p>Prostrazione e Condizioni del tramite dipendono dallo sforzo e dalla scena; lesioni gravi non sono un esito obbligatorio. Sessioni ulteriori sono possibili dopo riposo e nuova preparazione quando il legame non è stato spezzato.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'esorcista si prepara con digiuno prolungato (minimo 24 ore) e preghiera notturna. Prepara la stanza: icona di Cristo posta di fronte al posseduto, agiasmos pronto, candele accese, incenso nel turibolo, Euchologion aperto alle preghiere.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Il rito comincia con una lunga serie di salmi, recitati o cantati a voce piena. La tradizione codifica in particolare i Salmi 6, 50 (51 nell'ebraico) e 142 (143): salmi penitenziali densi di invocazione alla misericordia divina e di rimprovero contro il nemico spirituale. Il canto dura almeno 20-30 minuti, con cadenza liturgica lenta.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>L'esorcista legge le preghiere di rimprovero (<em>epitimiai</em>) direttamente al demone, guardando il posseduto negli occhi (o sopra la testa se il posseduto ha lo sguardo distolto). Le preghiere sono di Basilio Magno (le più antiche e potenti, IV sec.) e di Giovanni Crisostomo (V sec.), tramandate integralmente:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Predisporre icona, agiasmos e formula; digiuno, veglia e paramenti sono facoltativi.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Aprire con i salmi penitenziali della recensione appresa, senza venti o trenta minuti obbligatori di canto.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Recitare le preghiere di rimprovero mantenendo la concentrazione sul legame.</p><div class="ritual-verse">
 <p class="latin">"Ὁ Θεὸς τῶν θεῶν καὶ Κύριος τῶν κυρίων... ἐπιτίμησον, ἀπαγόρευσον, διάστησον τὸν δαίμονα τοῦτον τὸν ἀκάθαρτον... Δέομαί σου, ὁ Μονογενὴς Υἱός, ὁ ἐκ τῶν κόλπων τοῦ Πατρός... ἐξέλασον αὐτόν!"</p>
 <p class="transliteration">"O Theós tōn theōn, kai Kýrios tōn kyríōn... epitímison, apagórevson, diástison ton daímona toúton ton akátharton... Déomaí sou, o Monogenís Yiós, o ek tōn kólpon toú Patrós... exélason aftón!"</p>
 <p class="translation">"O Dio degli dèi e Signore dei signori... rimprovera, proibisci, scaccia questo demone impuro... Ti prego, Figlio Unigenito, che sei nel seno del Padre... espellilo!"</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>La recitazione delle preghiere di rimprovero è ciclica: la stessa preghiera viene ripetuta più volte, con leggere variazioni di intonazione, per ogni ciclo di dieci minuti fino al tiro contrapposto orario.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Al termine di ogni fase riuscita, l'esorcista soffia sul viso del posseduto tracciando il segno della croce con il fiato, e comanda l'uscita del demone con formula imperativa. Alterna aspersione di agiasmos, imposizione dell'icona sulla fronte o sul petto, incensazione.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Il rito procede finché i successi cumulativi non raggiungono la soglia. All'espulsione, si canta il Tropario della Teofania e si consacra l'ambiente.</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Per ogni fase di dieci minuti alternare aspersione, icona e preghiera; completare il passaggio con il soffio cruciforme.</p></div></div><div class="step-item"><div class="step-number">5</div><div class="step-content"><p>All’espulsione chiudere con il Tropario della Teofania, aspersione e benedizione dell’ambiente.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

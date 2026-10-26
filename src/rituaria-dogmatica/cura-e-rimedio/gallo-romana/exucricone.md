@@ -4,7 +4,7 @@ title: "Exucricone"
 tipo: cura-e-rimedio
 sottotipo: gallo-romana
 rarita: Comune
-tempo: "1 minuto"
+tempo: "~1 minuto; 1 azione su un’ostruzione semplice già identificata."
 componenti: "Nessuna. È necessario poter toccare o frizionare la zona nella quale è presente il corpo estraneo."
 costo: "<strong>25 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
@@ -22,7 +22,7 @@ Nel formulario il rito conserva questa funzione anche oltre la gola, purché il 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Può espellere:
+Espelle corpi estranei accessibili e intrusioni soprannaturali localizzate. Può espellere:
 - cibo o piccoli oggetti bloccati in gola;
 - schegge superficiali;
 - spine;
@@ -39,6 +39,7 @@ Su condizioni sovrannaturali può espellere:
 
 Non può “espellere” un'entità che possiede autonomamente l'intero corpo, una maledizione astratta, un'anima, un ricordo o una componente strutturale del Ren.
 
+<p>La forma rapida è limitata a un’ostruzione semplice già localizzata e con via d’uscita materialmente praticabile. Non permette estrazioni profonde, lesive o di oggetti che mantengano chiusa una lesione maggiore.</p>
 </section>
 
 <section class="prose" id="procedura">
@@ -80,7 +81,6 @@ Non può “espellere” un'entità che possiede autonomamente l'intero corpo, u
 <p>L'oggetto viene spinto sovrannaturalmente verso la via di uscita soltanto se questa può accoglierlo senza produrre una lesione più grave di quella esistente.</p>
 </div>
 </div>
-
 </div>
 </section>
 

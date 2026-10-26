@@ -4,83 +4,29 @@ title: "Crissi crasi cancrasi"
 tipo: cura-e-rimedio
 sottotipo: gallo-romana
 rarita: Comune
-tempo: "1 minuto"
+tempo: "1 azione per la triplice formula."
 componenti: "Nessuna."
 costo: "<strong>25 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
-
-<i>Crissi crasi cancrasi</i> è un carmen di Marcellus per dolore e tumefazione dell'ugola.
-
-La sua caratteristica più insolita è che deve essere recitato dalla persona stessa che soffre, accompagnando la formula con un movimento delle mani dalla gola verso la testa.
-
-Nel formulario il rito agisce sulle strutture superiori della gola quando il problema fondamentale è gonfiarsi o costringersi fino a ostacolare il passaggio dell'aria.
-
+<p><i>Crissi crasi cancrasi</i> è un carmen di Marcellus per dolore e tumefazione dell'ugola.</p>
+<p>La forma tradizionale è un auto-rimedio accompagnato dal movimento delle mani dalla gola verso la testa. La versione operativa dell’Addenda permette anche a un officiante di recitarlo su una persona presente che non riesca più a pronunciare la formula.</p>
+<p>Nel formulario il rito agisce sulle strutture superiori della gola quando il problema fondamentale è gonfiarsi o costringersi fino a ostacolare il passaggio dell'aria.</p>
 </section>
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Riduce:
-- gonfiore dell'ugola;
-- edema della faringe;
-- tumefazione locale delle vie aeree superiori;
-- costrizione della gola dovuta a edema o infiammazione.
-
-In casi lievi o moderati può riportare la respirazione a condizioni normali.
-
-In un grave edema delle vie aeree non sostituisce un intervento medico: riduce temporaneamente il gonfiore e rallenta la chiusura, concedendo tempo per intervenire.
-
-Può agire anche su equivalenti sovrannaturali: gola che si chiude per una maledizione, tumefazione sovrannaturale, costrizione prodotta da energia o un effetto che simuli anatomicamente un edema.
-
-Non funziona contro strangolamento meccanico, un oggetto fisicamente bloccato nella gola (per il quale è più adatto <a href="/rituaria-dogmatica/cura-e-rimedio/gallo-romana/exucricone/">Exucricone</a>) paralisi respiratoria o mancanza d'aria priva di un'effettiva costrizione locale.
-
+<p>Attenua un gonfiore delle vie aeree superiori, facilitando una respirazione ancora recuperabile. Riduce un edema o gonfiore locale delle vie aeree superiori. Nei casi lievi o moderati può ristabilire una respirazione possibile; nei casi gravi può attenuare temporaneamente la chiusura e concedere tempo per intervenire.</p>
+<p>Il destinatario può eseguire il rito su di sé finché riesce a parlare. Un officiante può pronunciare la formula su un soggetto consenziente o incapacitato, adattando il riferimento personale e compiendo il gesto presso la gola.</p>
+<p>La formula non contrasta strangolamento meccanico, oggetti bloccati, paralisi respiratoria o mancanza d’aria priva di costrizione locale. La causa del gonfiore resta presente se non viene trattata; non si ripara automaticamente il danno già prodotto.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>Il rito deve essere pronunciato dal bersaglio stesso, finché è ancora capace di parlare. Un'altra persona non può sostituirlo nella forma comune del rito.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Il soggetto unisce le mani con le dita congiunte.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Con i palmi rivolti verso l'alto porta le mani dalla gola verso la parte superiore della testa.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Durante il movimento dice:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Riconoscere la costrizione locale e scegliere se recitare su sé stessi o su un destinatario presente.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Compiere il movimento delle mani dalla gola verso l’alto, adattandolo alle condizioni del soggetto.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Pronunciare tre volte la formula e completare il gesto, senza richiedere che un soggetto incapacitato riesca a parlare.</p><div class="ritual-verse">
 <p class="latin">"Crissi crasi cancrasi."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>La sequenza viene ripetuta tre volte.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Se il bersaglio è ormai completamente incapace di articolare la formula, il rito non può essere iniziato: la prevenzione e l'esecuzione precoce fanno parte del suo limite dogmatico.</p>
-</div>
-</div>
-</div>
+</div></div></div></div>
 </section>
 
 <section class="prose" id="storia">

@@ -4,78 +4,34 @@ title: "De exorcizandis obsessis a daemonio"
 tipo: esorcismi-e-congedi
 sottotipo: cristiana-cattolica
 rarita: Raro
-tempo: "Minimo 1 ora per fase. Un esorcismo completo può durare intere giornate distribuite su più sessioni, con settimane o mesi tra un incontro e l'altro nei casi di possessione radicata."
-componenti: "Simboli sacri (crocifisso di legno o metallo benedetto, tenuto in mano per tutta la durata); acqua santa (base: <a href=\"/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/benedictio-aquae-et-salis/\">Benedictio aquae et salis</a>), da aspergere sulla vittima e sull'ambiente; stola violacea*."
-costo: "<strong>60 <i class=\"fa-solid fa-bolt\"></i></strong> per ogni fase (una fase = ciclo di 10 minuti di rito attivo). Un esorcismo tipico richiede 4-8 fasi per sessione, con costo totale <strong>240-480 <i class=\"fa-solid fa-bolt\"></i></strong>; possessioni di Stadio 3 possono richiedere sessioni multiple distribuite su settimane."
+tempo: "10 minuti di apertura; ogni fase successiva dura 10 minuti."
+componenti: "Croce o crocifisso; acqua benedetta; testo della formula. Digiuno, confessione preparatoria e stola violacea*."
+costo: "<strong>60 <i class=\"fa-solid fa-bolt\"></i></strong> + <strong>20 <i class=\"fa-solid fa-bolt\"></i></strong> × fase successiva"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
-
-L'esorcista tenta di espellere un'entità demoniaca che ha preso possesso di un soggetto umano vivo. A differenza di <a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/asperges-me/">Asperges</a> (residui passivi) e della <a href="/rituaria-dogmatica/purificazione-e-consacrazione/eterodossa-cristiana/restitutio-humanae-naturae/">Restitutio</a> (riscrittura), l'esorcismo affronta una possessione attiva: entità che ha stabilito un ancoraggio nel corpo e nella coscienza della vittima, coesistendo con l'identità originaria senza cancellarla ma comprimendola e sfruttandola come veicolo.
-
-Il rito funziona come battaglia di volontà prolungata: l'esorcista usa formule imperative (non preghiere di supplica) per costringere il demone a rivelarsi, indebolirlo progressivamente e forzare l'espulsione. La chiave è la cumulatività: un solo comando raramente ottiene qualcosa, la ripetizione insistente delle formule su decine di cicli di dieci minuti erode il legame demoniaco fino alla rottura.
-
-Sul piano dogmatico, funziona per la densità cumulata di quattrocento anni di uso della formula ufficiale, per la struttura imperativa che richiama l'autorità di Cristo sui demoni (episodi evangelici di scaccia demoni), e per il fatto che il pattern cristiano è specificamente costruito come antagonista dogmatico delle entità infernali della cornice occidentale.
-
+<p>L'esorcista tenta di espellere un'entità demoniaca che ha preso possesso di un soggetto umano vivo. A differenza di <a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/asperges-me/">Asperges</a> (residui passivi) e della <a href="/rituaria-dogmatica/purificazione-e-consacrazione/eterodossa-cristiana/restitutio-humanae-naturae/">Restitutio</a> (riscrittura), l'esorcismo affronta una possessione attiva: entità che ha stabilito un ancoraggio nel corpo e nella coscienza della vittima, coesistendo con l'identità originaria senza cancellarla ma comprimendola e sfruttandola come veicolo.</p>
+<p>Il rito procede per fasi: la ripetizione delle formule sostiene un confronto progressivo con il legame demoniaco. Il numero di fasi dipende dalla stabilità della possessione, secondo le soglie indicate negli Effetti.</p>
+<p>Sul piano dogmatico, funziona per la densità cumulata di quattrocento anni di uso della formula ufficiale, per la struttura imperativa che richiama l'autorità di Cristo sui demoni (episodi evangelici di scaccia demoni), e per il fatto che il pattern cristiano è specificamente costruito come antagonista dogmatico delle entità infernali della cornice occidentale.</p>
 </section>
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-L'esorcista deve accumulare un numero di successi cumulativi su tiri contrapposti di [Tenacia] per rompere il legame, tanti quanti sono gli stadi della possessione (quindi 3).
-
-Nei primi dieci minuti l'esorcista tenta di stabilire il campo di battaglia spirituale. Nelle fasi successive (ogni 10 minuti) l'esorcista cerca di mantenere il rito (non può usare azioni per attaccare fisicamente o eseguire altri riti).
-
-Se vince l'esorcista, il legame si indebolisce e il demone subisce danno spirituale (Danni di Fascia 3-4). Le avversioni contro il demone (acqua santa, croce, formule imperative) diventano più efficaci fino alla fine della sessione (effetto maggiorato di ⅓). Fine il demone viene espulso dal corpo dell'ospite e spedito all'Inferno.
-
-L'esorcismo è fisicamente devastante: convulsioni, vomito, dislocazioni articolari, perdita di peso rapida, danni psicologici. La vittima esce dall'esorcismo riuscito debilitata per settimane; da un esorcismo fallito, in condizioni spesso peggiori di prima.
-
-Dopo l'espulsione si compiono preghiere di ringraziamento (Magnificat o Te Deum) che purificano vittima e il luogo. La vittima resta comunque vulnerabile al rientro dello stesso demone per settimane o mesi (soglia biologica ancora fragile), è raccomandata <a href="/rituaria-dogmatica/protezione-e-interdizione/ebraica/kviat-mezuzah/">mezuzah</a> alla porta della sua camera, <a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/asperges-me/">Asperges</a> settimanale, sostegno pastorale prolungato, ecc.
-
+<p>Espelle un demone attraverso un esorcismo progressivo. L’esorcismo affronta una possessione attiva attraverso un confronto prolungato con l’entità. Occorre accumulare <strong>1 successo contro uno Stadio 1, 2 contro uno Stadio 2 e 3 contro uno Stadio 3</strong>. L’apertura comprende la prima fase; ogni fase successiva richiede il mantenimento della recitazione e il relativo costo.</p>
+<p>Ogni fase riuscita indebolisce l’ancoraggio. Un fallimento non cancella i successi già ottenuti, ma permette al demone di reagire secondo le proprie capacità. L’operatore può interrompere la sessione e riprenderla dopo nuova preparazione; il master valuta l’eventuale recupero del legame in base a tempo trascorso e interventi dell’entità, senza un’attesa obbligatoria di settimane.</p>
+<p>Raggiunta la soglia, il demone viene espulso dal tramite e ricacciato nel proprio dominio secondo le normali regole della specie. L’obiettivo è recidere la possessione: non si applicano automaticamente danni di Fascia 3–4 né incrementi frazionari alle avversioni.</p>
+<p>Il tramite può subire prostrazione e Condizioni coerenti con lo sforzo. Lesioni e conseguenze maggiori dipendono da ciò che è realmente accaduto durante l’esorcismo; non sono un costo fisso del successo. Dopo l’espulsione l’operatore benedice vittima e ambiente; una nuova possessione segue le normali protezioni e resistenze del soggetto.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'esorcista si prepara spiritualmente (confessione, digiuno, preghiera prolungata). Prepara la stanza: acqua santa, crocifisso, testo del rituale, ambiente riservato. La vittima è idealmente immobilizzata per proteggere sé stessa e i presenti.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>L'operatore asperge vittima e ambiente con acqua santa. Recita le Litanie dei Santi come apertura, invocando la comunione dogmatica cristiana. Legge un passo del Vangelo, tradizionalmente Giovanni 1, 1-14 ("In principio era il Verbo..."), scelto per la sua densità cristologica e per il pattern di affermazione della luce contro le tenebre.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Comincia la battaglia di volontà. L'esorcista impugna il crocifisso, lo tiene puntato verso la vittima, e recita le formule imperative con voce ferma. Non prega: comanda.</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Preparare il luogo riservato, croce, acqua e formula; gli elementi preparatori facoltativi possono essere già stati compiuti. Mettere il tramite in condizioni di non ferire sé stesso o i presenti.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Aspergere persona e ambiente, aprire con le litanie e il passo evangelico della recensione appresa.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Rivolgere le ingiunzioni al demone, alternando formule, aspersione e imposizione della croce.</p><div class="ritual-verse">
 <p class="latin">"Exi ergo, transgressor. Exi, seductor, plene omni dolo et fallacia, virtutis inimice, innocentium persecutor... Vade, satana, inventor et magister omnis fallaciae..."</p>
 <p class="translation">"Esci dunque, trasgressore. Esci, seduttore, pieno di ogni frode e falsità, nemico della virtù, persecutore degli innocenti... Vattene, satana, inventore e maestro di ogni inganno..."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Ripete le formule con cadenza insistente. Ogni 10 minuti si effettua il tiro contrapposto. L'esorcista alterna comando, aspersione, imposizione del crocifisso sulla fronte o sul petto della vittima. Può interrogare (con cautela):</p>
-<div class="ritual-verse">
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Proseguire per fasi di dieci minuti, mantenendo la concentrazione e l’opposizione all’entità; il nome può essere richiesto con la formula tramandata.</p><div class="ritual-verse">
 <p class="latin">"Praecipio tibi... dic mihi nomen tuum, diem, et horam exitus tui..."</p>
 <p class="translation">"Ti comando... dimmi il tuo nome, il giorno, e l'ora della tua uscita..."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Il rito procede finché i successi cumulativi non raggiungono la soglia. All'espulsione, la vittima crolla in stato di prostrazione. L'esorcista recita preghiere di ringraziamento (Magnificat o Te Deum), asperge nuovamente vittima e ambiente, benedice trinitariamente.</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">5</div><div class="step-content"><p>Raggiunta l’espulsione, concludere con ringraziamento, benedizione e stabilizzazione del tramite.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

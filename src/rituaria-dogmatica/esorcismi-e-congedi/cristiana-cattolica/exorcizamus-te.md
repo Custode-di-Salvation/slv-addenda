@@ -6,7 +6,7 @@ sottotipo: cristiana-cattolica
 rarita: Raro
 tempo: "5-10 minuti (rito completo con recitazione integrale)"
 componenti: "Nessun componente materiale."
-costo: "<strong>50 <i class=\"fa-solid fa-bolt\"></i></strong> per fase (una fase = ciclo completo di recitazione). Un uso operativo tipico consuma 1-2 fasi (<strong>50-100 <i class=\"fa-solid fa-bolt\"></i></strong>)."
+costo: "<strong>100 <i class=\"fa-solid fa-bolt\"></i></strong> × tentativo completo (due sezioni); <strong>50 <i class=\"fa-solid fa-bolt\"></i></strong> × sola prima sezione"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
@@ -21,17 +21,10 @@ Sul piano dogmatico funziona come "versione strada" della formula maggiore: meno
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Forza un demone di Stadio 1 o 2 a lasciare il corpo del posseduto. Sullo Stadio 3 il rito è insufficiente: può solo indebolire brevemente il demone (paralisi di un turno), non espellerlo.
-
-Si effettuano 2 tiri contrapposti di [Tenacia] tra esorcista e demone, in rapida successione.
-
-La vittima subisce danni fisici proporzionali allo stress dell'espulsione rapida: danni di Fascia 2-3 (contusioni, sanguinamento nasale, lividi, occasionalmente costole incrinate o distorsioni articolari), stato di prostrazione prolungata (24-48 ore di debolezza). La vittima resta vulnerabile al rientro del demone per alcuni giorni: raccomandata protezione supplementare.
-
-L'Exorcizamus te è nato ufficialmente come "esorcismo contro Satana" per proteggere la Chiesa o un luogo, non solo per possessioni personali. Recitato in un ambiente infestato da presenze demoniache attive (senza vittima umana specifica, quindi anche in forma energetica), la formula forza le entità presenti in un raggio di ~5 m dall'esorcista a tornare all'Inferno o ad allontanarsi dall'area, a seconda dell'efficacia.
-
-Se l'Exorcizamus te riesce a ottenere 1 successo, il demone può essere trattato con l'<a href="/rituaria-dogmatica/esorcismi-e-congedi/cristiana-cattolica/de-exorcizandis-obsessis-a-daemonio/">esorcismo maggiore</a> con vantaggio da parte dell'esorcista. La combinazione è tecnicamente vantaggiosa ma raramente eseguita perché richiede la disponibilità immediata di un ambiente attrezzato per il rito prolungato.
-
+<p>Frena una presenza demoniaca e può espellerla da un tramite o da un ambiente. Il rito comprende due sezioni consecutive, incluse nei 5–10 minuti complessivi. La prima frena l’entità per <strong>1 turno</strong>; la seconda può espellerla se entrambe le opposizioni vengono superate. Agisce su possessioni di Stadio 1 o 2. Sullo Stadio 3 può soltanto frenare la manifestazione, non sostituire l’esorcismo maggiore.</p>
+<p>La separazione rapida provoca normalmente <strong>danni di Fascia 1</strong> al tramite e prostrazione temporanea. Traumi maggiori richiedono complicazioni effettive o fallimenti particolarmente gravi, non derivano automaticamente dal successo.</p>
+<p>In un ambiente infestato la formula può essere diretta a una presenza demoniaca identificabile entro ~5 metri, anche energetica. L’esito può costringerla ad allontanarsi o ricacciarla secondo la sua natura; ogni presenza conserva la propria opposizione.</p>
+<p>Se la prima sezione ha effettivamente allentato l’ancoraggio, il successivo esorcismo maggiore nella stessa scena può ricevere un <strong>bonus da sfruttamento delle risorse</strong> per l’indebolimento già ottenuto. Il medesimo allentamento non viene contato anche come vantaggio o come secondo fattore. Un fallimento consente all’entità di reagire; ricominciare una sezione richiede il suo costo.</p>
 </section>
 
 <section class="prose" id="procedura">
@@ -56,7 +49,7 @@ Se l'Exorcizamus te riesce a ottenere 1 successo, il demone può essere trattato
 <div class="step-item">
 <div class="step-number">3</div>
 <div class="step-content">
-<p>Primo tiro contrapposto. Se riesce (paralisi), procede immediatamente alla seconda parte. Se fallisce, il demone reagisce e l'esorcista deve decidere se rilanciare o ripiegare.</p>
+<p>Se la prima sezione frena l’entità, proseguire con la seconda; se viene contrastata, il demone può reagire e l’operatore decide se riprendere o ripiegare.</p>
 </div>
 </div>
 <div class="step-item">
@@ -72,7 +65,7 @@ Se l'Exorcizamus te riesce a ottenere 1 successo, il demone può essere trattato
 <div class="step-item">
 <div class="step-number">5</div>
 <div class="step-content">
-<p>Secondo tiro contrapposto. In caso di successo cumulato (2 su 2), il demone è espulso; la vittima crolla. L'esorcista chiude segnando la croce sulla fronte della vittima (o al centro dell'ambiente se rito su luogo).</p>
+<p>Quando entrambe le sezioni prevalgono, l’entità viene espulsa. Chiudere segnando la croce sulla fronte della vittima o al centro dell’ambiente e prestare al tramite l’assistenza necessaria.</p>
 </div>
 </div>
 </div>

@@ -22,7 +22,7 @@ Nel formulario il rito interpreta “qualcosa entrato nell'occhio” anche in se
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Sul piano fisico può:
+Rimuove irritanti oculari e contaminazioni soprannaturali recenti trasmesse attraverso la vista. Sul piano fisico può:
 - espellere polvere, sabbia o piccoli corpuscoli dall'occhio;
 - rimuovere irritanti superficiali;
 - alleviare l'irritazione prodotta dal corpo estraneo.
@@ -44,6 +44,7 @@ Il rito non cancella il normale ricordo di ciò che è stato visto. Se l'immagin
 
 Non può eliminare una conoscenza acquisita, cancellare una testimonianza, far dimenticare volontariamente un volto o rimuovere retroattivamente informazioni.
 
+<p>Se entrambe le parti della vista sono interessate, il gesto viene ripetuto simmetricamente durante la stessa esecuzione. Non occorre un secondo costo per trattare i due occhi della medesima esposizione; il contatto visivo con la fonte deve restare interrotto.</p>
 </section>
 
 <section class="prose" id="procedura">

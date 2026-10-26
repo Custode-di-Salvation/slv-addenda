@@ -5,7 +5,7 @@ tipo: purificazione-e-consacrazione
 sottotipo: musulmana
 rarita: Comune
 tempo: "2 minuti (rito completo con soffio finale) · 30 secondi (recitazione veloce difensiva sotto stress, con effetti dimezzati)"
-componenti: "Nessun componente materiale. Idealmente eseguito da operatore in stato di <em>wudu</em> (abluzione minore recente); senza <em>wudu</em> il rito funziona ma con svantaggio."
+componenti: "Testo appreso e possibilità di compiere il soffio conclusivo. Wudu e preparazione tradizionale*."
 costo: "<strong>50 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(rito completo con effetto pieno)</em> · <strong>25 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(recitazione veloce difensiva)</em>"
 ---
 <section class="prose" id="descrizione">
@@ -21,71 +21,23 @@ Sul piano dogmatico, la potenza delle Mu'awwidhatayn deriva da una combinazione 
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Spezza influenze attive leggere sul bersaglio (sé stesso o altri) purché ancora fresche (imposte da meno di sette giorni): tiri contrapposti tra la [Tenacia] dell'operatore e del mittente dell'influenza. In caso di successo pulito l'influenza si spezza istantaneamente; in caso di successo sporco si indebolisce sensibilmente ma resta parzialmente attiva; in caso di fallimento il rito non ha effetto e l'operatore percepisce la resistenza.
-
-- **Contro hasad e malocchio**: efficacia massima. Il rito è progettato specificamente per questo tipo di influenza (Al-Falaq invoca protezione contro "chi soffia sui nodi" e "l'invidioso quando invidia"). Tiri con vantaggio e +5; anche un successo sporco spezza completamente il malocchio ordinario.
-- **Contro sihr fresco** (stregoneria islamica classica, legamenti con nodi, incantesimi su cera, foto o oggetti simpatetici): efficacia alta se il legame è imposto da meno di sette giorni. Oltre questa finestra il <em>sihr</em> si radica e richiede <em>ruqya</em> estesa.
-- **Contro sussurri di entità esterne** (es. demoni che sussurrano suggestioni, tentativi di suggestione onirica, voci intrusive non ancora consolidate): efficacia alta. An-Nas invoca esplicitamente protezione "contro il male del sussurratore furtivo che si insinua nei petti degli uomini". Tiri con vantaggio.
-- **Contro maledizioni imposte da praticanti di altre tradizioni** (stregoneria non islamica, stregoneria occidentale, riti pagani): efficacia ridotta. Il rito riconosce e disinnesca meglio pattern culturalmente compatibili (<em>sihr</em>, malocchio mediterraneo, invidia); su pattern estranei tira con svantaggio. Funziona comunque, ma con maggiore difficoltà.
-
-Recitato ogni mattina all'alba e ogni sera prima del sonno per 40 giorni consecutivi, stabilizza uno stato di protezione permanente contro l'ingresso di nuove influenze leggere. Chi mantiene la disciplina riceve vantaggio permanente ai tiri contro maledizioni, malocchi e sussurri suggestivi, finché non interrompe la pratica per più di tre giorni consecutivi. Riprendere richiede altri 40 giorni per ristabilire il beneficio.
-
-Il rito è particolarmente efficace su chi sta dormendo (stato di soglia neurologica in cui le difese razionali sono abbassate). Recitare le due sure sopra un bambino o un adulto addormentato che soffra di incubi ricorrenti di natura sospetta rompe l'aggancio dell'entità che li produce (efficacia quasi certa sui bambini piccoli, la cui compromissione è raramente radicata).
-
-Recitate lentamente camminando lungo il perimetro di una stanza, le due sure creano una protezione temporanea (24 ore) contro l'ingresso di entità energetiche di basso rango (es. fantasmi residui e manifestazioni) e di sussurri esterni. Non è una consacrazione (non è permanente, non ricalibra la struttura dogmatica del luogo) ma è uno scudo funzionale utile in situazioni di emergenza, in luoghi nuovi o durante la notte.
-
-Recitate su un bicchiere d'acqua da bere (soffio finale sull'acqua invece che sul corpo), producono un blando corrispettivo islamico dell'acqua benedetta cristiana, utilizzabile per bere e disinnescare influenze interne (es. nausea sovrannaturale, angoscia irrazionale, presenza percepita nel corpo). L'acqua così ottenuta dura 6 ore prima di degradare. Non ha efficacia contro autorigenerazione né effetti diagnostici come l'<a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-ortodossa/megas-agiasmos/">agiasmos ortodosso</a>; è utile solo per uso personale immediato.
-
-Recitate a voce alta in presenza di jinn o altre entità di basso rango della tradizione islamica, forzano l'entità a mantenere la distanza (+2 metri per turno di recitazione) e le impediscono di lanciare influenze suggestive sull'operatore o su chi gli sta vicino. Contro entità di tradizione occidentale (es. demoni, angeli, ecc.) l'effetto è ridotto, con svantaggio, ma esistente.
-
+<p>Purifica una persona da influenze lievi o protegge un ambiente da nuove intrusioni suggestive. L’operatore sceglie una modalità: persona o ambiente. Su una persona presente il rito affronta <strong>un’influenza lieve ancora fresca</strong>, come malocchio, suggestione o maleficio recente. Un successo la scioglie; un esito parziale può attenuarla per la scena. Possessioni radicate, patti e modifiche identitarie richiedono atti specifici.</p>
+<p>La versione rapida attenua l’effetto per <strong>3 turni</strong> invece di rimuoverlo stabilmente. L’efficacia dipende dalla compatibilità dell’influenza, non dall’appartenenza religiosa o dall’età del bersaglio; non esistono successi quasi certi sui bambini.</p>
+<p>Nella modalità ambiente la recitazione percorre il limite di una stanza domestica e sostiene per <strong>24 ore</strong> la resistenza alle nuove influenze suggestive che lo attraversino. Una presenza può opporsi e la formula non espelle automaticamente ogni creatura vicina.</p>
+<p>Le ripetizioni tradizionali e la disciplina di quaranta giorni sono facoltative: possono sostenere l’esecuzione, ma non concedono protezione permanente gratuita o bonus +5/+1 sovrapposti. Il rito non produce dosi illimitate di acqua autonoma né potenzia indistintamente ogni altro atto.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'operatore si volge idealmente verso la <em>qibla</em> (direzione della Kaaba, cioè verso La Mecca) se le circostanze lo permettono; sotto stress o in combattimento il requisito è tollerato assente. Formula mentalmente la <em>niyyah</em> di protezione, specificando il bersaglio (sé stesso o altra persona presente).</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Recita in sequenza le due sure, senza pause significative tra l'una e l'altra. Sura 113 (Al-Falaq, "L'alba nascente"):</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Identificare una persona o una stanza e formulare l’intenzione; il wudu è facoltativo senza penalità per assenza.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Recitare Al-Falaq e An-Nas nella sequenza appresa.</p><div class="ritual-verse">
 <p class="latin" dir="rtl">"قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ. مِن شَرِّ مَا خَلَقَ. وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ. وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ. وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ."</p>
 <p class="transliteration">"Qul a'udhu bi-rabbi 'l-falaq. Min sharri ma khalaq. Wa min sharri ghasiqin idha waqab. Wa min sharri 'n-naffathati fi 'l-'uqad. Wa min sharri hasidin idha hasad."</p>
 <p class="translation">"Dì: 'Mi rifugio nel Signore dell'alba nascente, contro il male di ciò che ha creato, contro il male dell'oscurità quando si stende, contro il male di coloro che soffiano sui nodi, contro il male dell'invidioso quando invidia.'"</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Sura 114 (An-Nas, "Gli uomini"):</p>
-<div class="ritual-verse">
+</div><div class="ritual-verse">
 <p class="latin" dir="rtl">"قُلْ أَعُوذُ بِرَبِّ النَّاسِ. مَلِكِ النَّاسِ. إِلَٰهِ النَّاسِ. مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ. الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ. مِنَ الْجِنَّةِ وَالنَّاسِ."</p>
 <p class="transliteration">"Qul a'udhu bi-rabbi 'n-nas. Maliki 'n-nas. Ilahi 'n-nas. Min sharri 'l-waswasi 'l-khannas. Alladhi yuwaswisu fi suduri 'n-nas. Mina 'l-jinnati wa 'n-nas."</p>
 <p class="translation">"Dì: 'Mi rifugio nel Signore degli uomini, Re degli uomini, Dio degli uomini, contro il male del sussurratore furtivo che si insinua nei petti degli uomini, sia esso dei jinn o degli uomini.'"</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Al termine, l'operatore soffia leggermente sulle mani (per uso su di sé) o direttamente sul bersaglio (per uso su altri), poi passa le mani sul proprio corpo o sul corpo del bersaglio partendo dalla testa e scendendo. Il gesto del soffio (<em>nafth</em>) è tecnicamente parte del rito e non solo simbolico: senza soffio finale il rito è incompleto e l'effetto è ridotto (,1 al tiro).</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Ripetizione tradizionale: la Sunnah prescrive di recitare le due sure tre volte consecutive ogni mattina all'alba e ogni sera al tramonto, per protezione quotidiana ordinaria. Per uso operativo (rottura di influenza attiva) basta una recitazione completa, ma la triplice recitazione aumenta la potenza (+1 al tiro, costo aumentato a <strong>75 <i class="fa-solid fa-bolt"></i></strong> per la versione triplice).</p>
-</div>
-</div>
-
-</div>
+</div></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Compiere il soffio e il gesto sul soggetto, oppure percorrere il limite dell’ambiente.</p></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Concludere la modalità scelta; eventuali ripetizioni tradizionali non moltiplicano l’effetto della stessa esecuzione.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

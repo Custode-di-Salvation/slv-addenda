@@ -106,6 +106,12 @@
             "nome": "Exorcismus in Satanam et angelos apostaticos",
             "stato": "live",
             "rarita": "Raro"
+          },
+          {
+            "slug": "coniuratio-angelorum-diei",
+            "nome": "Coniuratio Angelorum Diei",
+            "stato": "live",
+            "rarita": "Raro"
           }
         ]
       },
@@ -130,6 +136,12 @@
             "nome": "Rabṭ al-Jinn bi-Khātam Sulaymān (ربط الجن بخاتم سليمان)",
             "stato": "live",
             "rarita": "Raro"
+          },
+          {
+            "slug": "ars-almadel",
+            "nome": "Ars Almadel",
+            "stato": "live",
+            "rarita": "Raro"
           }
         ]
       },
@@ -152,6 +164,78 @@
           {
             "slug": "wpt-r",
             "nome": "Wpt-r",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "enochiana",
+        "nome": "Enochiana",
+        "rituali": [
+          {
+            "slug": "48-claves-angelicae",
+            "nome": "48 Claves Angelicae",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "experimenta-medievali",
+        "nome": "Experimenta medievali",
+        "rituali": [
+          {
+            "slug": "sator-arepo",
+            "nome": "Sator Arepo; experimentum ad gratiam obtinendam",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "saturni-anulus",
+            "nome": "Saturni anulus",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "interrogatio-iovis",
+            "nome": "Liber de locutione cum spiritibus planetarum; Interrogatio Iovis",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "cristiana-bizantina",
+        "nome": "Cristiana bizantina",
+        "rituali": [
+          {
+            "slug": "horkos-enopion-eikonos",
+            "nome": "Ὅρκος ἐνώπιον εἰκόνος",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "greca-antica",
+        "nome": "Greca antica",
+        "rituali": [
+          {
+            "slug": "horkion-ton-oikisteron",
+            "nome": "Ὅρκιον τῶν οἰκιστήρων",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "cristiana-occidentale",
+        "nome": "Cristiana occidentale",
+        "rituali": [
+          {
+            "slug": "humiliatio-sancti",
+            "nome": "Humiliatio sancti",
             "stato": "live",
             "rarita": "Raro"
           }
@@ -188,6 +272,42 @@
             "rarita": "Comune"
           }
         ]
+      },
+      {
+        "slug": "cristiana-anglosassone",
+        "nome": "Cristiana anglosassone",
+        "rituali": [
+          {
+            "slug": "crux-christi-reducat",
+            "nome": "Crux Christi reducat",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "experimenta-medievali",
+        "nome": "Experimenta medievali",
+        "rituali": [
+          {
+            "slug": "the-eye-of-abraham",
+            "nome": "The Eye of Abraham",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "de-corio-serpentis",
+            "nome": "De corio serpentis; experimentum ad discernendos amicos ab inimicis",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "ars-sancti-georgii",
+            "nome": "Ars Sancti Georgii",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
       }
     ]
   },
@@ -212,6 +332,24 @@
             "nome": "Lorica di San Patrizio",
             "stato": "live",
             "rarita": "Comune"
+          },
+          {
+            "slug": "mentem-sanctam-spontaneam",
+            "nome": "Mentem sanctam spontaneam / Charm of St Agatha",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "preces-ad-repellendam-tempestatem",
+            "nome": "Preces ad repellendam tempestatem",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "preghiera-del-ribelle",
+            "nome": "Preghiera del Ribelle",
+            "stato": "live",
+            "rarita": "Raro"
           }
         ]
       },
@@ -340,6 +478,84 @@
             "rarita": "Comune"
           }
         ]
+      },
+      {
+        "slug": "experimenta-medievali",
+        "nome": "Experimenta medievali",
+        "rituali": [
+          {
+            "slug": "iesus-autem-transiens-per-medium-illorum-ibat",
+            "nome": "Iesus autem transiens per medium illorum ibat",
+            "stato": "live",
+            "rarita": "Comune"
+          },
+          {
+            "slug": "ligatio-latronum",
+            "nome": "Ligatio latronum",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "imago-iovis-ad-vitam-longam-et-felicem",
+            "nome": "Imago Iovis ad vitam longam et felicem",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "cristiana-anglosassone",
+        "nome": "Cristiana anglosassone",
+        "rituali": [
+          {
+            "slug": "old-english-journey-charm",
+            "nome": "Old English Journey Charm / Lorica itineris",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "cristiana-catara",
+        "nome": "Cristiana catara",
+        "rituali": [
+          {
+            "slug": "consolamentum",
+            "nome": "Consolamentum",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "cristiana-bizantina",
+        "nome": "Cristiana bizantina",
+        "rituali": [
+          {
+            "slug": "exorcismus-sancti-tryphonis",
+            "nome": "Exorcismus sancti Tryphonis",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "euche-tou-hagiou-kyprianou-eis-lysin-mageias",
+            "nome": "Euchē tou hagiou Kyprianou eis lysin mageias",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
+      },
+      {
+        "slug": "cristiana-gallica",
+        "nome": "Cristiana gallica",
+        "rituali": [
+          {
+            "slug": "rogationes",
+            "nome": "Rogationes",
+            "stato": "live",
+            "rarita": "Raro"
+          }
+        ]
       }
     ]
   },
@@ -400,6 +616,18 @@
             "nome": "Tevilat kelim",
             "stato": "live",
             "rarita": "Comune"
+          },
+          {
+            "slug": "shemen-ha-mishhah",
+            "nome": "Shemen ha-Mishḥah (שֶׁמֶן הַמִּשְׁחָה)",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "parah-adumah-e-mei-niddah",
+            "nome": "Parah Adumah e Mei Niddah",
+            "stato": "live",
+            "rarita": "Raro"
           }
         ]
       },
@@ -550,6 +778,24 @@
           {
             "slug": "in-mon-dercomarcos-axatison",
             "nome": "In mon dercomarcos axatison",
+            "stato": "live",
+            "rarita": "Comune"
+          }
+        ]
+      },
+      {
+        "slug": "cristiana-bizantina",
+        "nome": "Cristiana bizantina",
+        "rituali": [
+          {
+            "slug": "euche-epi-degmati-iobolou-theriou",
+            "nome": "Euchē epi dēgmati iobolou thēriou",
+            "stato": "live",
+            "rarita": "Raro"
+          },
+          {
+            "slug": "apomyrisma",
+            "nome": "Ἀπομύρισμα",
             "stato": "live",
             "rarita": "Comune"
           }

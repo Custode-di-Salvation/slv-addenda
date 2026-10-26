@@ -4,8 +4,8 @@ title: "Wpt-r"
 tipo: "evocazioni-e-vincoli"
 sottotipo: "egizia-antica"
 rarita: "Raro"
-tempo: "20-30 minuti di preparazione · 4 turni consecutivi per l'apertura"
-componenti: "Il corpo, la mummia oppure una statua funeraria realizzata per rappresentare il defunto; il nome del defunto; acqua per la purificazione; natron; uno strumento rituale conforme ai tipi attestati per l'Opening of the Mouth, come nua o meskhetyu; offerte di acqua e nutrimento."
+tempo: "10 minuti di preparazione; 4 turni per l’apertura."
+componenti: "Corpo o effigie preparata e identificata con il defunto; nome o riferimento individuale; acqua pulita; strumento rituale semplice; offerta di acqua e nutrimento. Natron e strumenti tradizionali nua o meskhetyu*."
 costo: "<strong>80 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 
@@ -17,9 +17,9 @@ costo: "<strong>80 <i class=\"fa-solid fa-bolt\"></i></strong>"
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-<p>Il Wpt-r crea una continuità sensoriale e comunicativa fra il Ren di un defunto e un supporto funerario materialmente predisposto per rappresentarlo. Il rito utilizza il nome per individuare l'identità, il supporto per conferirle una sede materiale e gli atti di apertura per ristabilire canali attraverso cui il Ba può percepire e manifestarsi.</p>
+<p>Permette a un defunto raggiungibile di percepire e comunicare attraverso un supporto funerario. Il Wpt-r crea una continuità sensoriale e comunicativa fra il Ren di un defunto e un supporto funerario materialmente predisposto per rappresentarlo. Il rito utilizza il nome per individuare l'identità, il supporto per conferirle una sede materiale e gli atti di apertura per ristabilire canali attraverso cui il Ba può percepire e manifestarsi.</p>
 <p>Il <strong>Ren del defunto deve essere ancora raggiungibile</strong>: anima appena separata, fantasma, coscienza presente sulle Spiagge prima del passaggio definitivo o altra configurazione post-mortem ancora accessibile.</p>
-<p>L'operatore effettua una prova in [Tenacia], oppure [Stregoneria] quando possiede competenza rituale appropriata. Un defunto contrario all'apertura può opporre la propria [Tenacia].</p>
+<p>Un defunto contrario all'apertura può opporre la propria [Tenacia].</p>
 <p>In caso di successo, <strong>per il resto della giocata</strong> il corpo, la mummia o la statua preparata diventa un supporto sensoriale del Ren. Il defunto può:</p>
 <ul><li>Vedere e udire dall'area immediatamente circostante il supporto;</li><li>Produrre una voce udibile materialmente attraverso la sua bocca o attraverso il punto corrispondente dell'effigie;</li><li>Percepire odori, offerte, acqua, incenso e sostanze presentate immediatamente davanti al supporto;</li><li>Rendere riconoscibili espressioni del volto, movimento degli occhi e piccoli gesti compatibili con la struttura materiale disponibile;</li><li>Utilizzare il supporto come punto stabile durante interazioni con Medium, Mietitori e capacità rivolte al Ren.</li></ul>
 <p>Il supporto viene considerato <strong>contatto valido con il Ren</strong> per capacità di <a href="/specie/mietitori/#mietitura">Mietitura</a>, <a href="/specie/mietitori/#viatico">Viatico</a> e altre tecniche che richiedano contatto con l'anima, purché il defunto rimanga attivamente collegato al rito. La coerenza fornita dal Wpt-r concede inoltre al defunto <strong>vantaggio alle prove contro disorientamento, frammentazione del Ren e alterazioni dello Shut</strong> per tutta la durata.</p>
@@ -37,10 +37,7 @@ costo: "<strong>80 <i class=\"fa-solid fa-bolt\"></i></strong>"
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Il corpo o la statua viene collocato in posizione rituale e identificato pronunciando il nome del defunto.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>L'operatore effettua la purificazione con acqua e natron.</p>
-<p>Le sequenze conservate nella tomba di Rekhmira comprendono purificazioni ripetute e l'uso di quattro vasi nemset.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Lo strumento rituale viene portato alla bocca e agli occhi del supporto.</p>
-<p>Gli episodi del Nuovo Regno attestano l'impiego di diversi strumenti, fra cui nua e meskhetyu, accompagnati da formule di apertura.</p></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Per <strong>quattro turni consecutivi</strong> l'operatore ripete gli atti di apertura.</p>
-<p>La formula identifica Horus come colui che apre la bocca del defunto secondo il modello dell'apertura compiuta per Osiride.</p></div></div><div class="step-item"><div class="step-number">5</div><div class="step-content"><p>Acqua e nutrimento vengono presentati al supporto.</p></div></div><div class="step-item"><div class="step-number">6</div><div class="step-content"><p>L'ultima apertura stabilisce il collegamento fra Ren e rappresentazione materiale e attiva gli effetti del rito.</p></div></div></div>
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Disporre corpo o effigie, anche di fattura semplice, e identificarlo come supporto di uno specifico defunto.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Purificare il supporto con acqua; natron e strumenti specialistici sono facoltativi.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Per quattro turni accompagnare gli atti di apertura di bocca e occhi con la formula della recensione appresa, presentando acqua e nutrimento.</p></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Completare l’apertura e permettere la comunicazione, mantenendo il supporto integro.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

@@ -6,7 +6,7 @@ sottotipo: cristiana-cattolica
 denominazione: "Benedettina"
 rarita: Comune
 tempo: "1 minuto (rito completo con tutte le formule) · 15 secondi (versione difensiva d'emergenza, solo \"Vade Retro Satana\", con effetti dimezzati)"
-componenti: "Medaglia di San Benedetto autentica (benedetta da un sacerdote cattolico; una medaglia non benedetta funziona ma con svantaggio)."
+componenti: "Una medaglia riconoscibile di san Benedetto; benedizione rituale della medaglia*."
 costo: "<strong>20 <i class=\"fa-solid fa-bolt\"></i></strong> (rito completo) · <strong>10 <i class=\"fa-solid fa-bolt\"></i></strong> (versione difensiva rapida)"
 ---
 <section class="prose" id="descrizione">
@@ -22,15 +22,10 @@ Sul piano dogmatico, la densità della medaglia benedettina non è universale: �
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Rito esorcistico minore, non progettato per possessioni radicate (Stadio 2-3) ma per influenze attive di basso rango (Stadio 1 o precedente) e per impedire a un'entità dissonante di agire in un momento specifico.
-
-Costringe l'entità bersaglio a indietreggiare di alcuni metri e le impedisce di usare poteri offensivi per 1 turno. Tiro contrapposto in [Tenacia] tra operatore ed entità per determinare se il rito ha effetto.
-
-Su oggetti o cibo contaminati da Dissonanza, la medaglia premuta contro il bersaglio li purifica da energie residue passive minori, con effetto analogo a un <a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/asperges-me/">Asperges</a> mirato. Non funziona su oggetti maledetti attivamente né su oggetti consacrati ad altra tradizione.
-
-Come profilassi ambientale, la medaglia posta sopra la porta di casa, sul letto, in cucina o portata in tasca produce protezione blanda ma costante: non equivale a <a href="/rituaria-dogmatica/protezione-e-interdizione/cristiana-cattolica/benedictio-domus/">Benedictio domus</a> né a <a href="/rituaria-dogmatica/protezione-e-interdizione/ebraica/kviat-mezuzah/">mezuzah</a>, ma riduce leggermente la probabilità che entità di basso rango si stabilizzino in ambienti dove è presente.
-
+<p>Respinge una presenza dissonante e ne ostacola temporaneamente i poteri offensivi. La forma completa costringe un’entità dissonante a indietreggiare di alcuni metri e le impedisce di usare poteri offensivi per <strong>1 turno</strong>, se supera la sua opposizione. Agisce su influenze e possessioni iniziali, non espelle automaticamente una possessione radicata di Stadio 2 o 3.</p>
+<p>La versione rapida produce soltanto l’arretramento, senza il blocco dei poteri. In entrambe le forme l’entità conserva la possibilità di opporsi secondo le normali regole.</p>
+<p>Premuta contro un oggetto o cibo, la medaglia può rimuovere un residuo passivo minore di Dissonanza, con funzione analoga a un <a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/asperges-me/">Asperges</a> mirato. Maledizioni attive e consacrazioni richiedono atti appropriati.</p>
+<p>Una medaglia semplicemente collocata sopra una porta non genera un’interdizione permanente. La profilassi narrativa non attribuisce immunità o bonus ulteriori; serve una nuova attivazione per un effetto meccanico.</p>
 </section>
 
 <section class="prose" id="procedura">

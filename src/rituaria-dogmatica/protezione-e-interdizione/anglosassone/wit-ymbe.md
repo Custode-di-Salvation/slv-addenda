@@ -22,7 +22,7 @@ Il rito non impartisce ordini complessi. Richiama il gruppo dalla dispersione, d
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Il rito agisce su un singolo gruppo animale coeso presente entro circa 20 metri dall'operatore. L'esecutore può utilizzarlo per:
+Arresta, raduna o disperde un gruppo animale attraverso il suo comportamento collettivo. Il rito agisce su un singolo gruppo animale coeso presente entro ~20 metri dall'operatore. L'esecutore può utilizzarlo per:
 - interrompere l'avanzata o una carica collettiva;
 - indurre il gruppo a fermarsi e raccogliersi;
 - far posare uno sciame o uno stormo;
@@ -37,6 +37,7 @@ Può agire anche su gruppi di creature sovrannaturali, purché conservino una me
 
 Se il comportamento collettivo è imposto da un altro effetto sovrannaturale, Wiþ ymbe può interrompere comandi o compulsioni di intensità lieve o moderata; contro controlli più potenti produce soltanto esitazione o disorganizzazione temporanea.
 
+<p>Un controllo soprannaturale già attivo viene contrastato attraverso la sua effettiva opposizione. La potenza della fonte orienta l’esito possibile, ma non sostituisce il confronto con un successo o un fallimento automatico.</p>
 </section>
 
 <section class="prose" id="procedura">
@@ -77,7 +78,6 @@ Se il comportamento collettivo è imposto da un altro effetto sovrannaturale, Wi
 <p>L'operatore deve concepire il bersaglio come insieme, non come somma di individui. Concentrarsi deliberatamente su un singolo animale impedisce al pattern collettivo di chiudersi.</p>
 </div>
 </div>
-
 </div>
 </section>
 

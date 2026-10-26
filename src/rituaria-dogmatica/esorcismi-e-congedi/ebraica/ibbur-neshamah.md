@@ -5,9 +5,9 @@ tipo: esorcismi-e-congedi
 sottotipo: ebraica
 denominazione: "Cabalistica"
 rarita: Raro
-tempo: "2 ore (rito completo), la lentezza è tecnica."
-componenti: "Sefer Torah (rotolo della Torah, non versione stampata: solo il rotolo scritto a mano da sofer autorizzato ha densità dogmatica sufficiente per il rito); candele in numero dispari (7 o 9), disposte attorno al posseduto; oggetto appartenuto al tzaddik invocato; tallit (scialle di preghiera)* e tefillin per l'operatore*."
-costo: "<strong>80 <i class=\"fa-solid fa-bolt\"></i></strong> (rito completo). Con minyan, il costo si distribuisce sulla comunità (l'operatore paga solo <strong>30 <i class=\"fa-solid fa-bolt\"></i></strong>, gli altri contribuiscono con <strong>5 <i class=\"fa-solid fa-bolt\"></i></strong> ciascuno)."
+tempo: "20–30 minuti."
+componenti: "Testo leggibile della Torah; candele; riferimento individuale credibile all’anima giusta invocata. Sefer Torah tradizionale, oggetto autentico del giusto, minyan, tallit e tefillin*."
+costo: "<strong>80 <i class=\"fa-solid fa-bolt\"></i></strong> complessivi, eventualmente condivisi fra i partecipanti; ogni contributo è effettivamente speso"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
@@ -24,80 +24,19 @@ Diversamente dal <em>gilgul</em> (reincarnazione), l'ibbur è temporaneo e non s
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Il rito invoca l'anima di uno <em>tzaddik</em> defunto (giusto, generalmente rabbino chassidico o cabalista celebre) perché entri temporaneamente nel corpo del posseduto. Se l'invocazione riesce (tiro dell'operatore per aprire il canale), lo <em>tzaddik</em> si manifesta all'interno del posseduto e ingaggia battaglia spirituale con il <em>dybbuk</em>.
-
-Vengono svolti 3 tiri contrapposti di [Tenacia] tra lo <em>tzaddik</em> invocato e il <em>dybbuk</em>, distribuiti sui 30-40 minuti finali del rito. Il posseduto durante la battaglia mostra segni visibili: alternanza rapida di espressioni facciali contrastanti (una serena e composta, lo <em>tzaddik</em>; una feroce e distorta, il <em>dybbuk</em>), voce che cambia di intonazione, corpo che si contorce quando il <em>dybbuk</em> prevale e si distende quando lo <em>tzaddik</em> prevale.
-
-Se lo <em>tzaddik</em> vince 2 su 3: il <em>dybbuk</em> è espulso. Il posseduto crolla in stato di prostrazione ma cosciente e libero. Lo <em>tzaddik</em> resta nell'ospite per alcune ore ancora (raramente per giorni), fornendo forza spirituale e chiarezza mentale, prima di transitare nuovamente al piano dei giusti. Il posseduto ricorda vagamente la battaglia interna, spesso con gratitudine profonda verso lo <em>tzaddik</em> che è entrato per aiutarlo.
-
-Se il <em>dybbuk</em> vince 2 su 3: lo <em>tzaddik</em> è espulso dal corpo dell'ospite (torna al piano post-mortem senza danno permanente per lui), e il corpo dell'ospite cade in coma. Il coma può durare giorni, settimane, occasionalmente mesi. Il <em>dybbuk</em> resta ancorato al corpo comatoso, non attivo (l'ospite non parla né si muove) ma presente. Solo un successivo esorcismo maggiore può liberare il corpo dal <em>dybbuk</em> radicato.
-
-La tradizione chassidica raccomanda di invocare <em>tzaddikim</em> con caratteristiche specifiche adatte al tipo di <em>dybbuk</em> incontrato: contro <em>dybbuk</em> aggressivi e violenti, <em>tzaddikim</em> noti per la forza spirituale (Baal Shem Tov, Rabbi Nachman di Breslov, Rabbi Elimelech di Lizhensk); contro <em>dybbuk</em> radicati da colpe complesse, <em>tzaddikim</em> noti per la sapienza penitenziale (Isaac Luria stesso, Chaim Vital); contro <em>dybbuk</em> di donne o di bambini, alcune <em>tzaddiket</em> storiche (Chana Rachel Verbermacher, la "Vergine di Ludomir", unica donna chassidica riconosciuta come rebbe).
-
-L'operatore non è combattente diretto, ma è responsabile del canale. Se il rito fallisce catastroficamente, l'operatore può subire l'ingresso incontrollato di un'anima estranea nel proprio corpo (rischio raro ma documentato).
-
-Il minyan che partecipa al rito subisce anch'esso un piccolo carico spirituale. Persone del minyan possono sperimentare stanchezza inspiegabile, sogni densi, sensibilità aumentata al soprannaturale per alcuni giorni dopo il rito. La tradizione chassidica considera questo carico parte del servizio comunitario di <em>tikkun olam</em>.
-
+<p>Richiama un’anima giusta perché aiuti a espellere un dybbuk da un posseduto. Invoca un’anima giusta raggiungibile e disposta ad aiutare il posseduto, affinché sostenga dall’interno la liberazione da un dybbuk. La conoscenza del nome e un riferimento biografico affidabile individuano chi viene chiamato; un oggetto autentico facilita la chiamata senza essere indispensabile.</p>
+<p>Il confronto interno si risolve in <strong>tre fasi</strong>. Due esiti favorevoli al giusto espellono il dybbuk; due contrari lasciano la possessione presente. Il master usa i valori dell’anima già definiti o, per una presenza di supporto priva di scheda, il valore rituale della chiamata, senza attribuirle un’automatica superiorità.</p>
+<p>Dopo un successo il giusto può restare per il congedo e un breve conforto, quindi riprendere il proprio transito. Il fallimento ordinario provoca prostrazione o disorientamento temporaneo, non un coma automatico di settimane. Conseguenze maggiori appartengono a fallimenti eccezionali e alla gestione masterata.</p>
+<p>Il costo complessivo resta 80 Energia anche quando viene condiviso: il contributo dell’operatore e quelli degli assistenti devono sommare effettivamente 80. La partecipazione corale è facoltativa e non moltiplica il vantaggio.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'operatore prepara la stanza. Il posseduto è idealmente immobilizzato con delicatezza (cinghie di stoffa morbida, non catene), disposto su lettino al centro della stanza. Le candele sono accese e disposte in cerchio attorno a lui. Il Sefer Torah è posto su leggìo pulito, pronto per la lettura. L'oggetto del <em>tzaddik</em> è tenuto in mano dall'operatore o posato sul petto del posseduto.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Se disponibile, il minyan si dispone attorno al posseduto, ciascun membro con tallit e tefillin, in raccoglimento silenzioso.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>L'operatore apre il Sefer Torah alla porzione della <em>Akedah</em> (Genesi 22, la Legatura di Isacco). Legge il passo integralmente a voce piena, con cantillazione tradizionale se possibile. Il passaggio è scelto per la sua densità dogmatica: mostra il patriarca Abramo che si sottomette totalmente alla volontà divina, e Dio che salva Isacco all'ultimo istante; pattern di intercessione divina che il rito replica invocando l'intercessione dello <em>tzaddik</em>.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Al termine della lettura, l'operatore prende in mano l'oggetto del <em>tzaddik</em> invocato, lo alza verso l'alto, e recita la preghiera di invocazione, pronunciando il nome vero completo dello <em>tzaddik</em> (nome ebraico + patronimico):</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Preparare il testo, le candele e il riferimento del giusto; assistere il tramite senza danneggiarlo.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Aprire con la Akedah e predisporre l’eventuale partecipazione corale.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Invocare il giusto attraverso nome e riferimento personale, secondo la formula tramandata.</p><div class="ritual-verse">
 <p class="latin" dir="rtl">"נְשָׁמָה קְדוֹשָׁה שֶׁל [Nome del Tzaddik] בֶּן [Nome del padre], אָנוּ קוֹרְאִים לְךָ! בּוֹא נָא, חַזֵּק אֶת הַנֶּפֶשׁ הַזֹּאת, וְגָרֵשׁ אֶת הָרוּחַ הָרָעָה מִבִּפְנִים! בְּשֵׁם רִבּוֹנוֹ שֶׁל עוֹלָם, בְּשֵׁם הַקָּדוֹשׁ בָּרוּךְ הוּא!"</p>
 <p class="transliteration">"Neshamah kedoshah shel [Nome dello Tzaddik] ben [Nome del padre], anu korim lekha! Bo na, chazek et ha-nefesh ha-zot, ve-goresh et ha-ruach ha-ra'ah mibifnim! Be-shem Ribbono shel Olam, be-shem ha-Kadosh Barukh Hu!"</p>
 <p class="translation">"Anima santa di [Nome dello Tzaddik] figlio di [Nome del padre], ti chiamiamo! Vieni, rafforza quest'anima, e caccia lo spirito maligno dall'interno! Nel nome del Signore dell'Universo, nel nome del Santo Benedetto!"</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>L'invocazione va ripetuta con crescente intensità fino a quando l'operatore non percepisce l'ingresso dello <em>tzaddik</em> nel corpo del posseduto. I segni tradizionalmente riconosciuti sono: il posseduto smette temporaneamente di agitarsi (lo <em>tzaddik</em> sta prendendo posizione), un lampo di espressione facciale composta e serena attraversa il volto (lo <em>tzaddik</em> si manifesta brevemente), l'aria della stanza si fa più densa (percettibile a chi ha sensibilità sviluppata). Il minyan percepisce spesso la presenza dello <em>tzaddik</em> come "profumo dolce"; riferimento tradizionale al <em>reiach nichoach</em> delle Scritture.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>A questo punto comincia la battaglia interna. Il posseduto entra in stato di agitazione visibilmente diversa da quella normale del <em>dybbuk</em>: alternanza di espressioni contrastanti, voce che cambia di intonazione, corpo che si contorce con ritmo alternato (contorsione violenta del <em>dybbuk</em>, distensione dello <em>tzaddik</em>). L'operatore accompagna la battaglia con recitazione continua di Salmi (in particolare il Salmo 91, <em>Yoshev be-seter Elyon</em>, salmo di protezione tradizionalmente associato all'intercessione dei giusti). Il minyan prega in silenzio o mormorando salmi.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">7</div>
-<div class="step-content">
-<p>I 3 tiri contrapposti si distribuiscono sui 30-40 minuti finali del rito. Al termine, l'esito si manifesta: successo dello <em>tzaddik</em> → il posseduto crolla in stato di prostrazione consapevole, libero; successo del <em>dybbuk</em> → il posseduto cade in coma silenzioso.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">8</div>
-<div class="step-content">
-<p>In caso di successo, l'operatore ringrazia lo <em>tzaddik</em> con formula tradizionale e lo invita a rimanere per alcune ore prima di transitare, poi al momento del transito lo saluta con una benedizione ("Lekh be-shalom, tzaddik. Ha-Shem yevarechkha"; "Vai in pace, giusto. Il Signore ti benedica").</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Sostenere le tre fasi del confronto interno con i salmi, mantenendo il canale senza introdurre altre presenze.</p></div></div><div class="step-item"><div class="step-number">5</div><div class="step-content"><p>Concluso l’esito, stabilizzare il tramite e congedare il giusto con la benedizione di pace.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

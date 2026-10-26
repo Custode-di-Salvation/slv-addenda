@@ -6,7 +6,7 @@ sottotipo: musulmana
 denominazione: Sufi
 rarita: Comune
 tempo: "2 minuti (rito completo con soffio finale) · 30 secondi (recitazione veloce difensiva sotto stress, con durata dimezzata)"
-componenti: "Nessun componente materiale. Idealmente eseguito in stato di <em>wudu</em> (abluzione minore recente); il <em>wudu</em> fornisce vantaggio al tiro."
+componenti: "Nessun componente materiale obbligatorio; testo appreso e soffio conclusivo. Wudu e predisposizione tradizionale*."
 costo: "<strong>30 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(rito completo)</em> · <strong>15 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(recitazione veloce difensiva)</em>"
 ---
 <section class="prose" id="descrizione">
@@ -24,60 +24,19 @@ Sul piano dogmatico funziona perché l'Ayat al-Kursi è considerato dalla tradiz
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Il bersaglio (l'operatore che ripete la sura) è immune al sonno o alla trance imposti sovrannaturalmente per la durata del rito.
-
-Immunità completa contro: tentativi di ipnosi sovrannaturale, sussurri onirici che tentano di sostituirsi al risveglio, induzione di coma spirituale da entità o praticanti ostili, tentativi di annebbiamento della coscienza in combattimento, stregoneria del sonno, incubi sovrannaturali (chi è protetto o dorme naturalmente senza incubi o non riesce a dormire finché il rito è attivo).
-
-Protezione parziale contro: sedazione naturale amplificata da mezzi sovrannaturali (farmaci potenziati da stregoneria, miscugli, gas rituali). Il bersaglio subisce l'effetto del mezzo fisico ma non l'amplificazione sovrannaturale, il che significa che si addormenta ma non entra nello stato profondo che avrebbe raggiunto senza il rito.
-
-Chi è protetto durante il sonno naturale (recitando il rito prima di dormire per uso profilattico) resta protetto per tutta la durata di quel sonno anche se si addormenta. Entità che tentino di sfruttare il sonno per ancorarsi al bersaglio non trovano appiglio. Il sonno stesso non è impedito, ma è "sigillato" contro invasioni.
-
-Non protegge da: possessione già in corso (le protezioni del rito non funzionano su chi è già compromesso di qualsiasi Stadio); attacchi diretti alla coscienza che non passano dalla soglia del sonno o della trance (per esempio attacchi diretti alla memoria, illusioni percettive imposte a bersaglio sveglio, suggestioni verbali di praticanti umani non amplificate sovrannaturalmente).
-
-Il tiro non funziona su terzi.
-
-La versione veloce d'emergenza (30 secondi, 15 <i class="fa-solid fa-bolt"></i>) è eseguibile durante uno scontro senza interrompere completamente le altre azioni possibili.
-
-Recitato ogni sera prima del sonno per almeno 7 giorni consecutivi, la protezione notturna si stabilizza: chi mantiene la disciplina riceve immunità permanente ai sussurri onirici di entità di basso rango durante il sonno, finché non interrompe la pratica per più di due notti consecutive. È uno degli usi tradizionali dell'Ayat al-Kursi codificato dalla Sunnah.
-
-Chi è protetto dal Khutbah al-Hifz può essere sottoposto ad altri riti che richiedono stati alterati di coscienza (divinazioni in trance, guarigioni meditative profonde) solo se l'operatore del rito consenziente lo permette: il rito ostacola per default anche gli stati indotti benevoli, se sono sovrannaturali. Va disattivato o lasciato decadere prima di sottoporsi a riti che richiedono cedimento della vigilanza.
-
+<p>Protegge la coscienza da trance forzate, sonno indotto e intrusioni soprannaturali collegate. La versione attuale protegge <strong>soltanto l’operatore</strong>. Da sveglio dura fino alla fine della scena; eseguita prima del riposo protegge per quel sonno naturale. Non rende necessario restare svegli né impedisce il normale sonno.</p>
+<p>Il rito oppone la propria protezione a ipnosi soprannaturale, trance forzata, sonno indotto e intrusioni che utilizzino quella soglia. La potenza dell’effetto ostile resta rilevante: non si ottiene un’immunità assoluta a qualunque fonte.</p>
+<p>Farmaci e altre cause materiali mantengono gli effetti ordinari; un’amplificazione soprannaturale può essere contrastata nella sola componente rituale. Memoria, illusioni rivolte a un soggetto sveglio e possessioni già stabilite seguono le proprie regole.</p>
+<p>La versione rapida protegge per <strong>3 turni</strong> e richiede recitazione compatibile con azioni semplici: non è eseguibile contemporaneamente a un’altra formula complessa. Per permettere una trance benevola l’operatore può terminare volontariamente la protezione. La pratica settimanale non produce immunità permanenti gratuite.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'operatore si volge idealmente verso la <em>qibla</em>. Verifica il proprio stato di <em>wudu</em>: se non è in stato di purezza rituale, può procedere comunque ma con svantaggio. Focalizza la mente sulla protezione divina, formulando l'intenzione (<em>niyyah</em>) di generare protezione dal sonno indotto per sé stesso o per il bersaglio designato.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Recita ad alta voce, con pronuncia chiara e fede incrollabile, l'Ayat al-Kursi (Sura 2, versetto 255) integrale:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Raccogliersi e formulare l’intenzione di proteggere la propria coscienza; il wudu è facoltativo e la sua assenza non impone svantaggio.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Recitare integralmente l’Ayat al-Kursi nella recensione appresa.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Completare il soffio sulle proprie mani e il gesto di sigillo sul corpo.</p><div class="ritual-verse">
 <p class="latin" dir="rtl">"اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ. لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ. لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ. مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ. يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ. وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ وَلَا يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ."</p>
 <p class="transliteration">"Allahu la ilaha illa huwa al-Hayyu l-Qayyum. La ta'khudhuhu sinatun wa-la nawm. Lahu ma fi s-samawati wa-ma fi l-ard. Man dha lladhi yashfa'u 'indahu illa bi-idhnih. Ya'lamu ma bayna aydihim wa-ma khalfahum wa-la yuhituna bi-shay'in min 'ilmihi illa bima sha'. Wasi'a kursiyyuhu s-samawati wa-l-arda wa-la ya'uduhu hifzuhuma wa-huwa l-'Aliyyu l-'Azim."</p>
 <p class="translation">"Allah! Non c'è dio all'infuori di Lui, il Vivente, l'Assoluto. Non Lo prendono mai né sonnolenza né sonno. A Lui appartiene tutto ciò che è nei cieli e tutto ciò che è sulla terra. Chi può intercedere presso di Lui senza il Suo permesso? Egli conosce ciò che è davanti a loro e ciò che è dietro di loro, ed essi non abbracciano nulla della Sua scienza tranne ciò che Egli vuole. Il Suo Trono si estende sui cieli e sulla terra, e la loro custodia non Gli è di peso. Egli è l'Altissimo, il Sommo."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Il versetto tecnicamente cruciale del rito è la seconda proposizione (<em>la ta'khudhuhu sinatun wa-la nawm</em>): la sua pronuncia perfetta è la parte più densa dell'intero rito, e alcuni maestri sufi raccomandano di ripeterla mentalmente tre volte dopo aver completato la recitazione integrale, per potenziare l'effetto.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Al termine, l'operatore soffia leggermente sul bersaglio (sulle proprie mani per uso su di sé, direttamente sul volto o sul petto per uso su altri) per "sigillare" la protezione con il proprio respiro. Il soffio (<em>nafth</em>) è parte tecnica del rito: senza di esso l'effetto è ridotto (durata dimezzata).</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Mantenere la durata prevista o interrompere volontariamente; la forma rapida dura tre turni.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

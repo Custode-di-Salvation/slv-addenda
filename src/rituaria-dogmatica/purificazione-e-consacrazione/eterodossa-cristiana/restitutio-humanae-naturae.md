@@ -4,9 +4,9 @@ title: "Restitutio humanae naturae"
 tipo: purificazione-e-consacrazione
 sottotipo: eterodossa-cristiana
 rarita: Raro
-tempo: "8 ore ininterrotte. Qualsiasi interruzione di durata superiore a 15 minuti azzera il progresso e libera parzialmente il demone."
-componenti: "Sigillo per immobilizzare completamente il demone; ossa originali del corpo umano del demone o oggetto autentico di immenso valore emotivo della sua vita passata; fonte viva di risonanza di Creazione presente per tutte le 8 ore; 8 dosi di sangue purificato prelevato da persona confessata sacramentalmente nelle 6 ore precedenti; luogo consacrato attivo."
-costo: "<strong>200 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(distribuiti obbligatoriamente sulle 8 ore: 25 <i class=\"fa-solid fa-bolt\"></i> per ora, l'operatore non può concentrare la spesa)</em>"
+tempo: "45–60 minuti in tre fasi; contenimento e supporti preparabili in precedenza."
+componenti: "Identità umana precedente riconoscibile; ossa autentiche o oggetto di forte valore biografico; contenimento attivo del demone; supporto attivo appropriato di risonanza con la Creazione; sangue destinato al rito e luogo dedicato. Preparazione sacramentale del donatore, osservanze temporali e celebrazione estesa*."
+costo: "<strong>200 <i class=\"fa-solid fa-bolt\"></i></strong> complessivi, distribuiti nelle tre fasi: <strong>60 <i class=\"fa-solid fa-bolt\"></i></strong> / <strong>60 <i class=\"fa-solid fa-bolt\"></i></strong> / <strong>80 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
@@ -23,88 +23,22 @@ Il rito quindi dissolve il demone dall'interno, restituendo l'anima umana origin
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Il rito richiede 8 successi cumulativi su tiri di [Tenacia] distribuiti sulle 8 ore, uno per ogni ora, senza recupero possibile in caso di fallimento parziale. Ogni successo rappresenta un'ora di rito portata a termine correttamente. Alla fine dell'ottava ora, se tutti gli 8 successi sono stati ottenuti, l'anima umana originale si risveglia completamente e la Dissonanza è espulsa: il demone cessa di esistere.
-
-Ogni iniezione di sangue purificato provoca al demone reazioni corrispondenti a ustione da acido solforico: il corpo del tramite si copre di ustioni chimiche visibili, si contorce, urla. Le urla sono in parte del demone e in parte, sempre più intensamente man mano che le ore passano, della persona umana che sta risvegliandosi; molti operatori descrivono l'esperienza di sentire due voci sovrapposte, una che maledice, una che piange di sollievo mescolato a terrore.
-
-L'anima umana risvegliata è cosciente per un breve tempo (minuti, raramente ore) del proprio ritorno alla libertà, poi passa all'aldilà usuale.
-
-Il luogo consacrato in cui il rito si è svolto (successo o fallimento) porta traccia dell'evento per anni. Le zone dove sono cadute gocce di sangue purificato restano leggermente più calde al tatto rispetto al resto del pavimento; chi entra nella stanza con sensitività sovrannaturale sviluppata percepisce un residuo di dolore misto a liberazione. Se il rito è riuscito, il luogo guadagna una piccola sacralità aggiuntiva permanente (vantaggio ai riti di consacrazione futuri eseguiti al suo interno); se è fallito, si apre una cicatrice di Dissonanza.
-
-È un rito irripetibile per lo stesso demone.
-
+<p>Dissolve la configurazione demoniaca e permette il congedo della precedente identità umana. È un rito maggiore da svolgere in <strong>giocata masterata</strong>. Affronta la continuità fra demone e precedente identità umana attraverso tre fasi: riconoscimento, separazione e congedo. La risonanza di Creazione può essere fornita da un supporto effettivamente attivo e compatibile, senza richiedere una persona immobile per otto ore.</p>
+<p>Tre fasi concluse favorevolmente permettono la dissipazione della configurazione demoniaca e il breve risveglio della precedente identità, che può quindi transitare secondo le normali regole. Non si restituisce automaticamente un corpo umano vivente.</p>
+<p>Un esito parziale può allentare la configurazione o rendere accessibile una memoria, senza trasformare il bersaglio in una nuova specie permanente. Una fase non conclusa non cancella automaticamente ogni progresso; il master stabilisce se sia riprendibile dopo stabilizzazione o se il contenimento sia compromesso.</p>
+<p>Il fallimento lascia il demone presente e può provocare reazione, trauma del tramite o contaminazione del luogo secondo gli eventi effettivi. Conseguenze e possibilità di interrompere il rito devono risultare riconoscibili nella scena.</p>
+<p>Lesioni già inflitte e identità dell’eventuale tramite rimangono distinte dal bersaglio demoniaco. Il rito resta irripetibile sul medesimo demone dopo una conclusione definitiva, senza vietare la ripresa di una fase incompleta quando la situazione la consente.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>Nel luogo consacrato attivo, l'operatore prepara la stanza. Al centro traccia il sigillo che immobilizzerà il demone e richiede tempo proprio (dalle 2 alle 6 ore a seconda della complessità e del tipo di demone bersaglio); non è conteggiata nelle 8 ore rituali.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Al centro del vincolo depone le ossa o l'oggetto di ancoraggio identitario, in modo che siano fisicamente vicine al demone quando immobilizzato. La fonte di risonanza di Creazione è disposta a fianco del cerchio.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Il demone viene attirato e immobilizzato con procedure preliminari fuori dal calcolo di questo rito. L'immobilizzazione deve essere completa e verificata: il demone non deve potersi muovere, comunicare all'esterno, usare alcun potere. Il sigillo va controllato ogni ora dall'operatore.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Il donatore di sangue purificato è preparato: ha ricevuto la confessione sacramentale (o rito equivalente di purificazione della coscienza in altre tradizioni) entro le 6 ore precedenti. Il sangue viene prelevato in 8 dosi da 5 ml circa, conservate in siringhe pulite. Il donatore può essere anche l'operatore stesso, ma non è consigliato: il costo fisico del prelievo ripetuto in aggiunta al costo del rito è sostenibile solo da operatori molto resistenti.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Il rito comincia. Ogni ora, per otto ore consecutive, l'operatore inietta una dose di sangue purificato nel corpo del demone, che reagisce con urla, contorsioni e comparsa di ustioni. Depone poi alcune gocce dello stesso sangue direttamente sulle ossa o sull'oggetto identitario: se le ossa/oggetto reagiscono (leggero calore, vibrazione), è segno che l'ancoraggio funziona e il demone sta cominciando a ricordare.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Recita quindi la formula centrale:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Predisporre il contenimento e il supporto di Creazione, verificando il collegamento con l’identità umana del bersaglio.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Nella prima fase richiamare nome e riferimenti biografici attraverso ossa o oggetto autentico.</p><div class="ritual-verse">
 <p class="latin">"Exorcizamus te, omnis immundus spiritus... hanc animam redde..."</p>
 <p class="translation">"Ti esorcizziamo, spirito immondo... restituisci quest'anima..."</p>
-</div>
-<p>La formula è volutamente aperta ("...") perché la maggior parte delle versioni manoscritte contiene inserimenti personalizzati che l'operatore aggiunge in base al demone specifico: chiamata del nome umano originario, evocazione di dettagli della vita passata (es. mestiere, luogo di nascita, nome dei figli, città amata), invocazione di persone care ancora vive che potrebbero ricordarlo. Più l'operatore conosce l'identità originale, più efficacemente può orientare la formula.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">7</div>
-<div class="step-content">
-<p>Durante tutte le 8 ore, la fonte di risonanza di Creazione deve rimanere attiva senza interruzione.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">8</div>
-<div class="step-content">
-<p>Alla fine dell'ottava ora, se sono stati ottenuti tutti gli 8 successi, l'operatore procede alla chiusura. Si taglia il palmo della mano e preme la mano sanguinante contro la bocca del demone, recitando la formula finale:</p>
-<div class="ritual-verse">
+</div></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Nella seconda fase applicare il sangue destinato al rito e sostenere la separazione con la formula; confessione entro un numero rigido di ore e dosi orarie non sono obbligatorie.</p></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Nella terza fase completare il congedo e la liberazione raggiungibile, secondo l’esito delle fasi precedenti.</p><div class="ritual-verse">
 <p class="latin">"Hic sanguis, in aeternum, salvat te. Eiusdem sanguis Iesu Christi... Te absolvo!"</p>
 <p class="translation">"Questo sangue, in eterno, ti salva. Lo stesso sangue di Gesù Cristo... Io ti assolvo!"</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">9</div>
-<div class="step-content">
-<p>In questo momento avviene la dissoluzione. Se il rito ha avuto successo pieno, il pattern demoniaco si "scrosta" letteralmente: chi assiste vede l'entità sfaldarsi come cenere e vapore, mentre l'anima umana originale emerge, spesso con l'aspetto della persona che era in vita, luminosa e coerente per il breve tempo che le resta prima di passare.</p>
-<p>Se il rito ha avuto successo parziale, la chiusura produce un ibrido instabile: entità confusa, di volta in volta demone o umano, che va gestita con estrema cautela.</p>
-<p>Se il rito è fallito, la chiusura non funziona; l'operatore la recita comunque per protezione personale, poi deve procedere immediatamente allo scioglimento controllato del rito e alla ricontenzione del demone.</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">5</div><div class="step-content"><p>Stabilizzare il tramite e chiudere ordinatamente il contenimento, anche in caso di esito parziale.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

@@ -5,8 +5,8 @@ tipo: purificazione-e-consacrazione
 sottotipo: ebraica
 denominazione: Halakhah
 rarita: Comune
-tempo: "10 minuti (rito completo con benedizione) · 3 minuti (immersione senza benedizione, per oggetti dubbi o già usati)"
-componenti: "Accesso a un <em>mikveh</em> (vasca rituale codificata con acqua non attinta) oppure a un corpo d'acqua naturale idoneo: fiume corrente, sorgente attiva, lago naturale, mare. Non validi: rubinetto, piscina, cisterna d'acqua piovana raccolta artificialmente, bacino stagnante. L'acqua deve essere sufficiente a coprire l'oggetto in un'unica immersione senza che alcuna parte resti fuori. L'oggetto deve essere fisicamente pulito e senza ostruzioni (nessuna etichetta, ruggine, sporco, adesivo, colla, residuo di grasso): qualsiasi <em>chatzitzah</em> (barriera) invalida il rito. Copricapo (<em>kippah</em>) per l'operatore*."
+tempo: "3–5 minuti per un oggetto; più oggetti secondo il costo della sessione."
+componenti: "Recipiente con acqua pulita sufficiente a immergere l’oggetto; oggetto pulito dalle incrostazioni rilevanti. Mikveh o acqua naturale idonea e copricapo tradizionale*."
 costo: "<strong>25 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(rito con benedizione, oggetto singolo)</em> · <strong>15 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(immersione senza benedizione, oggetto dubbio)</em> · <strong>+5 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(per ogni oggetto aggiuntivo immerso nella stessa sessione, fino a 5 oggetti per volta)</em>"
 ---
 <section class="prose" id="descrizione">
@@ -22,71 +22,19 @@ Sul piano dogmatico il rito funziona con una struttura peculiare: mille anni di 
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Azzera completamente qualsiasi energia residua passiva su un oggetto: aura del proprietario precedente (compresa quella di un defunto), tracce di stregoneria improvvisata, residui simpatetici di eventi traumatici, "peso" psichico di oggetti ereditati o antichi, contaminazione da esposizione a luoghi Sottili o Dissonanti di bassa intensità. L'oggetto esce dall'acqua neutro: non ricorda più nulla di ciò che ha vissuto.
-
-Contro maledizioni molto leggere attivamente presenti sull'oggetto (es. piccole jinx da malocchio, legamenti minori, marchi di sfortuna imposti a distanza da soggetti non particolarmente potenti) si richiedono tiri contrapposti. In caso di successo netto la maledizione si dissolve nell'acqua; in caso di successo sporco la maledizione si trasferisce all'acqua stessa (che va poi fatta defluire: se in mikveh pubblico può contaminare oggetti immersi successivamente per alcune ore, se in fiume o mare la corrente la disperde immediatamente); in caso di fallimento l'oggetto emerge intatto ma l'operatore percepisce chiaramente la resistenza della maledizione.
-
-Non funziona su: maledizioni di intensità media o alta, oggetti già consacrati ad altro scopo (li desacralizza; attenzione: usarlo per errore su un oggetto sacro cristiano o pagano azzera anche la sua consacrazione), oggetti-vettore di entità come ad esempio un'ancora fantasmica (crea attrito violento con l'entità ospitata, che può reagire aggressivamente prima dell'immersione).
-
-Oggetti passati dal *tevilat kelim* ricevono vantaggio al tiro quando successivamente consacrati con altri riti (cattolici, ortodossi, ebraici o altre tradizioni): partono da uno stato di neutralità perfetta che facilita l'ancoraggio del nuovo pattern dogmatico.
-
-Su utensili da cucina metallici acquistati da non-ebreo (l'uso classico halakhico): 1 immersione con benedizione, effetti standard. Su oggetti dubbi di cui non si conosce esattamente la provenienza o su cui si sospetta contaminazione ma non si è certi: 3 immersioni senza benedizione, effetti attenuati (nessun vantaggio a successiva consacrazione, ma azzeramento residui garantito).
-
-Un oggetto ereditato da un defunto e passato al *tevilat kelim* smette di "trasmettere" al portatore le impressioni residue del morto (es. sogni ricorrenti, sensazioni improvvise): utile per chi eredita gioielli, libri, strumenti da parenti scomparsi in circostanze pesanti.
-
-Il rito eseguito su oggetti che sono stati usati in stregoneria azzera efficacemente il residuo del praticante originale.
-
+<p>Purifica un oggetto da residui soprannaturali e maledizioni minori. Rimuove residui passivi, impronte di contatti ed esposizioni da un oggetto completamente immerso. Un recipiente con acqua pulita è sufficiente nella versione operativa; mikveh e acqua naturale sono aiuti facoltativi.</p>
+<p>Contro maledizioni minori affronta l’effetto presente: un successo lo scioglie, un esito parziale lo attenua senza rendere automaticamente ogni successivo oggetto contaminato. L’acqua usata viene eliminata prima di una nuova purificazione.</p>
+<p>Le consacrazioni attive e gli ancoraggi di entità non sono semplici residui: <strong>non vengono cancellati automaticamente</strong>. Richiedono un atto specifico e l’opposizione appropriata; l’immersione può rendere percepibile la resistenza.</p>
+<p>La prima consacrazione coerente eseguita sull’oggetto purificato può ricevere un <strong>bonus da sfruttamento delle risorse</strong> quando utilizza il supporto ritualmente predisposto. La sola eliminazione di un residuo non conta anche come bonus; preparazioni equivalenti non moltiplicano il medesimo beneficio. La storia materiale dell’oggetto resta integra.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'operatore verifica che l'oggetto sia fisicamente pulito e integro: nessuna ruggine, nessuna etichetta o adesivo residuo, nessuna colla o vernice non originale, nessun grasso o sporco. Qualsiasi barriera (<em>chatzitzah</em>) invalida il rito perché impedisce all'acqua di toccare l'intera superficie. Un'etichetta di prezzo dimenticata è sufficiente a rendere il rito nullo.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Si porta l'oggetto al <em>mikveh</em> o al corpo d'acqua naturale idoneo. Se l'oggetto è troppo grande per la vasca disponibile, il rito non può essere eseguito su di esso (la tradizione ebraica non prevede versioni parziali).</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>L'operatore recita la benedizione prima dell'immersione, oppure (secondo l'uso più diffuso) la comincia e la conclude nel momento esatto in cui l'oggetto è completamente sommerso.</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Pulire l’oggetto dalle barriere significative e predisporre acqua sufficiente; una normale presa delle mani non invalida l’immersione.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Pronunciare la benedizione o la forma appresa e immergere completamente l’oggetto, anche attraverso movimenti compatibili con la presa.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Completare la sequenza della recensione, mantenendo il contatto quando occorre contrastare un effetto attivo.</p><div class="ritual-verse">
 <p class="latin" dir="rtl">"בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ עַל טְבִילַת כֵּלִים."</p>
 <p class="transliteration">"Barukh atah Adonai, Eloheinu Melekh ha-olam, asher kideshanu be-mitzvotav ve-tzivanu al tevilat kelim."</p>
 <p class="translation">"Benedetto sei Tu, Signore nostro Dio, Re dell'universo, che ci hai santificato con i Tuoi comandamenti e ci hai comandato sull'immersione degli utensili."</p>
-</div>
-<p>Per immersione di più oggetti insieme, la benedizione si declina al plurale: <em>al tevilat kelim</em> (già plurale, va bene per uno o più); per un solo utensile in forma tecnica corretta si dice <em>al tevilat keli</em>.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>L'operatore immerge l'oggetto completamente nell'acqua, in un unico movimento fluido. Nessuna parte dell'oggetto deve restare fuori dall'acqua, nemmeno per un istante; l'operatore stesso deve tenere l'oggetto con presa lasca (idealmente lasciandolo momentaneamente andare sott'acqua, se non c'è rischio di perderlo) perché anche la propria mano crea una piccola <em>chatzitzah</em> attorno al punto di presa; per gli oggetti piccoli si usano guanti di rete o si bagna la mano prima di afferrare.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Per utensili da cucina in metallo acquistati nuovi da non-ebreo (uso halakhico classico): 1 sola immersione, con benedizione.</p>
-<p>Per oggetti dubbi (provenienza incerta, sospetto di contaminazione, oggetti trovati o comperati usati in circostanze poco chiare): 3 immersioni consecutive senza benedizione, con brevissima pausa tra una e l'altra per far scorrere l'acqua sull'oggetto.</p>
-<p>Per oggetti maledetti da maledizioni leggere: 1 immersione con benedizione, seguita dai tiri contrapposti descritti sopra. L'operatore deve mantenere fisicamente le mani sull'oggetto durante l'immersione (crea legame diretto per il tiro), accettando la piccola <em>chatzitzah</em>; la Halakhah tollera questa deroga quando l'uso è terapeutico e non ordinario.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Chiusura. L'oggetto va estratto lentamente e lasciato sgocciolare all'aria (non asciugato con panni per almeno un minuto, l'acqua residua che scorre completa il rito). Se il rito era su maledizione, l'operatore controlla lo stato dell'acqua rimasta: acqua che appare torbida, che emette leggero odore anomalo, che genera piccole bollicine sospette è segno che la maledizione si è trasferita e va fatta defluire immediatamente.</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Estrarre e lasciare defluire l’acqua; sostituirla prima di trattare altri oggetti quando ha accolto una contaminazione.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

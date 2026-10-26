@@ -4,8 +4,8 @@ title: "Albula glandula"
 tipo: cura-e-rimedio
 sottotipo: gallo-romana
 rarita: Comune
-tempo: "5 minuti"
-componenti: "Nessuna componente obbligatoria per la formula. È necessario poter toccare direttamente la tumefazione."
+tempo: "3–5 minuti; sequenza tradizionale completa*."
+componenti: "Contatto con la zona tumefatta compatibile con l’anatomia del soggetto. Alba o tramonto e ventisette recitazioni tradizionali complete*."
 costo: "<strong>25 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
@@ -22,7 +22,7 @@ A differenza di <a href="/rituaria-dogmatica/cura-e-rimedio/anglosassone/wid-wen
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Il rito riduce una tumefazione locale come:
+Riduce un gonfiore locale e il dolore o la pressione che ne derivano. Il rito riduce una tumefazione locale come:
 - linfonodi ingrossati;
 - ghiandole infiammate;
 - tonsille aumentate di volume;
@@ -42,47 +42,9 @@ Non annulla l'atto sovrannaturale che continua a rigenerare il sintomo.
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'esecutore prende la tumefazione tra pollice e dito medicinale, oppure fa scorrere le due dita lungo i suoi margini.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Pronuncia la formula:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Riconoscere i margini della tumefazione e raggiungere la zona senza forzare una presa impossibile o dannosa.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Recitare la formula accompagnandola con il gesto delle dita della recensione appresa.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Completare la sequenza abbreviata; le ventisette recitazioni e l’orario tradizionale sono facoltativi e possono essere descritti unitariamente.</p><div class="ritual-verse">
 <p class="latin">"Albula glandula, nec doleas, nec noceas, nec paniculas facias, sed liquescas tamquam salis in aqua."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>La formula deve essere ripetuta ter novies: tre volte nove, per un totale di ventisette recitazioni.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Durante la sequenza l'esecutore continua a far scorrere pollice e dito medicinale sulla zona e, secondo la prescrizione, sputa a terra.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>La forma tradizionale viene praticata in rapporto alla diminuzione del giorno o della notte: prima del sorgere del sole o dopo il tramonto secondo la fase indicata dalla recensione utilizzata.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>La sequenza non deve essere abbreviata. Interrompere il conto delle ventisette recitazioni e riprenderlo senza ricominciare comporta svantaggio.</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Lasciare che il gonfiore si attenui, mantenendo la distinzione fra sintomo e causa ancora attiva.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

@@ -22,70 +22,21 @@ Sul piano dogmatico funziona per la struttura teologica ebraica del Vidui come c
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Recita la confessione ebraica per conto di un <em>dybbuk</em> la cui ancora emotiva sia identificata come colpa o rimpianto. Se il rito ha effetto, il <em>dybbuk</em> è pacificato e transita al post-mortem che gli compete. Tiro contrapposto in [Tenacia] tra l'operatore e la forza del legame di colpa (stabilita dal master) o il <em>dybbuk</em>.
-
-Se ha effetto, il <em>dybbuk</em> percepisce chiaramente l'intercessione. Alcuni testimoni raccontano di sensazioni di grande sollievo emotivo condivise con il defunto liberato; il <em>dybbuk</em> "ringrazia" in modo non verbale. Se fallisce, il <em>dybbuk</em> resta ancorato ma percepisce il tentativo.
-
-Il rito può essere ripetuto dopo almeno 30 giorni.
-
-Efficace contro <em>dybbuk</em> ancorati da colpe non confessate (peccati portati con sé nella morte), rimpianti per parole non dette a persone care, rimpianti per azioni non compiute in vita, morti improvvise senza tempo di riconciliazione con qualcuno, defunti che sentono di aver fallito nei confronti dei propri obblighi religiosi, defunti morti in stato di disperazione morale.
-
-Non funziona su <em>dybbuk</em> ancorati da rabbia (per essere stati assassinati, per ingiustizia subita, per vendetta non compiuta, ecc.); <em>dybbuk</em> ancorati da trauma puro senza colpa (morti violente non elaborate, incidenti); <em>dybbuk</em> ancorati da attaccamento affettivo a persone vive.
-
-Identificare correttamente la natura dell'ancoraggio è precondizione del rito. Se il <em>dybbuk</em> è ancorato dalla rabbia e l'operatore recita il Vidui, il rito fallisce e il <em>dybbuk</em> può reagire con violenza.
-
+<p>Libera dal peso della colpa un defunto ancora trattenuto, favorendone il passaggio. Intercede per un defunto il cui ancoraggio sia costituito da colpa o rimpianto identificati. Il tono e la formula sono di solidarietà, non di comando. Il rito può essere eseguito presso l’ancora o attraverso un riferimento individuale attendibile; raggiungere materialmente l’ancora rende la relazione più diretta.</p>
+<p>Se l’intercessione prevale sul legame, il defunto percepisce il perdono e torna libero di transitare. L’identità e la memoria restano integre. Il rito non risolve automaticamente vendetta, trauma senza colpa o dipendenza affettiva.</p>
+<p>Dopo un fallimento il tentativo può essere rinnovato in seguito a riposo, nuova preparazione e un cambiamento significativo, come una confessione, una riparazione o informazioni nuove. Ripetere identicamente la formula nella stessa situazione non concede nuovi tentativi; non sono necessari trenta giorni d’attesa.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'operatore, avendo verificato con certezza che il <em>dybbuk</em> è ancorato da colpa o rimpianto (non da altre emozioni), si avvicina all'ancora fisica del <em>dybbuk</em> o al luogo delle manifestazioni. Se l'ancora fisica non è raggiungibile, può eseguire il rito in luogo qualsiasi tenendo in mente con concentrazione l'identità del defunto (con svantaggio e -5 al tiro).</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Non usa strumenti aggressivi: nessun aspersorio, nessuna formula di comando, nessuna forma di costrizione. Il tono deve essere calmo, compassionevole, quasi paterno. Se il <em>dybbuk</em> appare o si manifesta in qualsiasi forma durante il rito, l'operatore non lo affronta ma continua tranquillamente la recitazione, come parlando con lui, non a lui.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Recita la formula del Vidui per conto del <em>dybbuk</em>. La versione operativa raccomandata dalla tradizione chassidica è il Vidui breve (<em>Vidui Zutar</em>) recitato dal morente sul letto di morte, integrato da elementi del Vidui di Yom Kippur:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Riconoscere la colpa o il rimpianto e avvicinarsi all’ancora o stabilire il riferimento del defunto.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Recitare il Vidui con intenzione vicaria e compassionevole.</p><div class="ritual-verse">
 <p class="latin" dir="rtl">"אָשַׁמְנוּ, בָּגַדְנוּ, גָּזַלְנוּ, דִּבַּרְנוּ דֹפִי... אָבִינוּ מַלְכֵּנוּ, חָטָאנוּ לְפָנֶיךָ..."</p>
 <p class="transliteration">"Ashamnu, bagadnu, gazalnu, dibarnu dofi... Avinu Malkeinu, chatanu lefanekha..."</p>
 <p class="translation">"Siamo colpevoli, abbiamo tradito, abbiamo rubato, abbiamo parlato falsamente... Padre Nostro, Re Nostro, abbiamo peccato davanti a Te..."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Le formule del Vidui usano il plurale (<em>ashamnu</em>, "abbiamo peccato"): la confessione ebraica è sempre comunitaria, mai puramente individuale. Questo aspetto è tecnicamente cruciale per l'uso operativo: l'operatore che recita il Vidui per conto del <em>dybbuk</em> si include grammaticalmente nella confessione, facendosi carico anche lui delle colpe elencate. È atto di solidarietà spirituale radicale.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Al termine della formula, l'operatore dichiara il debito pagato e invita l'anima ad andare in pace. La dichiarazione va formulata con parole proprie (non c'è formula fissa), in ebraico o nella lingua che l'operatore parla con maggior naturalezza. Esempio tradizionale chassidico:</p>
-<div class="ritual-verse">
+</div></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Dichiarare la possibilità di remissione e invitare l’anima alla pace, con parole proprie o la formula tramandata.</p><div class="ritual-verse">
 <p class="latin">"Lekh be-shalom, neshamah, ha-chov shulam. Ha-Shem yekabel otakh be-rachamim."</p>
 <p class="translation">"Vai in pace, anima, il debito è pagato. Il Signore ti accolga con misericordia."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Tiro contrapposto. Se ha effetto, la manifestazione si affievolisce e cessa. L'operatore chiude con Salmo 23 (<em>Mizmor le-David, Adonai ro'i lo echsar...</em>, "Il Signore è il mio pastore, non manco di nulla...") recitato sottovoce come benedizione conclusiva.</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Concludere con il Salmo 23 e rispettare l’esito senza imporre una confessione.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

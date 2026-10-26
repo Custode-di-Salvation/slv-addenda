@@ -5,8 +5,8 @@ tipo: protezione-e-interdizione
 sottotipo: ebraica
 denominazione: Halakhah
 rarita: Comune
-tempo: "10 minuti (rito completo per una singola porta) · 5 minuti per ogni porta aggiuntiva della stessa abitazione affissa in continuità"
-componenti: "Mezuzah kasher: pergamena (<em>klaf</em>) scritta a mano da un <em>sofer</em> autorizzato in caratteri ebraici quadrati (<em>ktav ashuri</em>) con inchiostro rituale, contenente i versetti di Deuteronomio 6, 4-9 e 11, 13-21. Contenitore protettivo (in legno, metallo, ceramica o vetro), con apertura visibile sulla parola Shaddai (שדי) sul retro della pergamena arrotolata. Copricapo (<em>kippah</em>)*. Piccoli chiodi o adesivo forte per l'affissione."
+tempo: "5 minuti per la soglia principale; 1–2 minuti per ogni soglia successiva della stessa esecuzione."
+componenti: "Trascrizione corretta dei versetti su supporto duraturo; contenitore; chiodi o adesivo per l’affissione. Klaf tradizionale scritto da sofer e copricapo*."
 costo: "<strong>40 <i class=\"fa-solid fa-bolt\"></i></strong> <em>per singola porta principale</em> · <strong>15 <i class=\"fa-solid fa-bolt\"></i></strong> <em>per ogni porta interna aggiuntiva affissa nella stessa abitazione durante lo stesso rito</em>"
 ---
 <section class="prose" id="descrizione">
@@ -22,69 +22,19 @@ Sul piano dogmatico funziona per densità cumulata di uso: oltre due millenni di
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Stabilisce interdizione contro entità dissonanti su un'abitazione delimitata dalle porte con mezuzah affissa. Demoni minori non possono attraversare la soglia protetta a meno che non vengano invitati esplicitamente da un residente (l'invito deve essere pronunciato coscientemente, non basta lasciare la porta aperta). Un invito una volta pronunciato resta valido finché il residente non lo revoca formalmente.
-
-Demoni superiori e progenitori devono superare un tiro di [Tenacia] (contro la forza della mezuzah, stabilita dal master) ogni volta che tentano di attraversare la soglia. Anche in caso di successo, subiscono un lieve danno spirituale (danni di Fascia 1-2, cumulabile per ogni soglia attraversata all'interno della stessa casa).
-
-Entità risonanti con il Caos sono fortemente respinte ugualmente: tiri contrapposti con svantaggio, danno energetico severo (danni di Fascia 3-4 per soglia) anche in caso di successo.
-
-Chi vive in una casa completamente protetta da mezuzot per almeno 30 giorni consecutivi riceve vantaggio permanente ai tiri di [Tenacia] contro la suggestione sovrannaturale finché mantiene la residenza. Il beneficio decade dopo 3 mesi consecutivi di assenza dall'abitazione.
-
-L'effetto è permanente finché le pergamene restano integre e affisse. Le mezuzot vanno controllate ogni 3 anni e mezzo (prassi halakhica standard, <em>bedikat mezuzah</em>) da un <em>sofer</em> autorizzato per verificare che le lettere non si siano sbiadite o danneggiate. Una mezuzah danneggiata perde ogni efficacia protettiva: la protezione della relativa soglia cade istantaneamente al momento del danno, spesso senza segnali visibili.
-
-Non funziona su: bagni, ripostigli minori di certe dimensioni codificate, stanze temporanee (soggiorni sotto i 30 giorni), stanze prive di soglia formale (aperture senza stipite completo). Non protegge contro attacchi che non attraversano le soglie: colpi da distanza, influenze veicolate da oggetti già presenti in casa prima dell'affissione, entità già presenti al momento del rito (queste vanno prima scacciate con altri metodi).
-
-Una mezuzah rubata, danneggiata volontariamente da un residente, o affissa con intenzione contraria al patto (per esempio da un ebreo apostata che intenda profanare) perde efficacia. La protezione è legata all'integrità sia fisica della pergamena sia intenzionale del rito.
-
+<p>Protegge una soglia dall’ingresso di presenze e influenze avverse alla sua risonanza. La mezuzah dedicata protegge la soglia alla quale è affissa. Una presenza direttamente avversa alla sua risonanza deve superare l’opposizione rituale per attraversarla deliberatamente. Il rango non determina da solo blocco assoluto o danni automatici.</p>
+<p>La protezione agisce contro influenze ostili che debbano attraversare il limite. Un eventuale danno avverso richiede che la creatura possieda una vulnerabilità compatibile e una vera esposizione alla risonanza; non vengono inflitte automaticamente Fasce 3–4 a qualunque essere associato genericamente al Caos.</p>
+<p>La soglia non protegge da attacchi materiali a distanza né da presenze già interne. Un invito cosciente di un residente permette l’accesso al soggetto invitato finché non viene revocato; non annulla la dedicazione per tutti gli altri.</p>
+<p>L’effetto resta finché testo e affissione rimangono integri. La verifica periodica della pergamena è manutenzione materiale, non un obbligo di certificazione a una scadenza esatta. I residenti possono beneficiare della protezione in casa, senza acquisire vantaggio permanente anche quando si trovano altrove.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'operatore verifica che la pergamena sia <em>kasher</em>: controllo visivo dell'integrità delle lettere, verifica del sigillo del <em>sofer</em> che l'ha scritta, controllo del contenitore. Se ci sono dubbi sulla <em>kasherut</em> della pergamena, il rito va rinviato fino a certificazione.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Arrotola la pergamena con la scritta rivolta verso l'interno, in modo che sul retro sia visibile la parola Shaddai (שדי) attraverso l'apertura del contenitore. Inserisce la pergamena nel contenitore.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Tiene la mezuzah contro lo stipite destro della porta (destro rispetto a chi entra), nel terzo superiore dello stipite, inclinata diagonalmente con l'estremità superiore verso l'interno della stanza e l'estremità inferiore verso l'esterno. L'inclinazione diagonale è codificata dalla tradizione ashkenazita (compromesso tra chi la voleva verticale, come Rashi, e chi orizzontale, come Rabbenu Tam); i sefarditi la mettono verticale, senza differenze di efficacia.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Recita la benedizione prima di completare l'affissione:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Controllare che testo e supporto siano integri e leggibili; certificazione e materiale tradizionale sono facoltativi.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Inserire la trascrizione nel contenitore e disporla sullo stipite secondo la recensione appresa.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Pronunciare la benedizione con intenzione di dedicazione.</p><div class="ritual-verse">
 <p class="latin" dir="rtl">"בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ לִקְבֹּעַ מְזוּזָה."</p>
 <p class="transliteration">"Barukh atah Adonai, Eloheinu Melekh ha-olam, asher kideshanu be-mitzvotav ve-tzivanu likboa mezuzah."</p>
 <p class="translation">"Benedetto sei Tu, Signore nostro Dio, Re dell'universo, che ci hai santificato con i Tuoi comandamenti e ci hai comandato di affiggere la Mezuzah."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Se affigge più mezuzot in successione nella stessa casa durante lo stesso rito, la benedizione va recitata una sola volta prima della prima affissione, con intenzione (<em>niyyah</em>) che copra tutte le mezuzot che seguiranno.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Immediatamente dopo la benedizione, fissa fisicamente la mezuzah allo stipite con chiodi o adesivo forte. L'affissione deve essere solida: una mezuzah che cade poco dopo l'affissione va rifissata, ma se questo capita ripetutamente è segno che il rito ha problemi (spesso la pergamena è problematica).</p>
-</div>
-</div>
-
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Fissare solidamente la mezuzah; per ulteriori soglie della stessa casa proseguire mantenendo l’intenzione del rito.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

@@ -5,9 +5,9 @@ tipo: purificazione-e-consacrazione
 sottotipo: ebraica
 denominazione: Ashkenazita
 rarita: Comune
-tempo: "10 minuti (rito completo con animale vivo) · 5 minuti (versione con surrogato monetario)"
-componenti: "Un piccolo essere vivente sano (tradizionalmente pollo; bianco per gli uomini, gallina per le donne, coppia gallo+gallina per una donna incinta) oppure surrogato monetario denso (minimo 100 $ o equivalente in contanti, non carte, non bonifici, non simboli scritti su carta; il denaro deve avere massa fisica e valore reale). Coltello rituale (<em>chalef</em>) se si usa animale, per la macellazione successiva secondo <em>shechitah</em>. Copricapo (<em>kippah</em>) e scialle di preghiera (<em>tallit</em>)*."
-costo: "<strong>35 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(con animale vivo)</em> · <strong>45 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(con surrogato monetario, il denaro è vettore meno naturale della vita animale e richiede più energia per assorbire)</em>"
+tempo: "~5 minuti per la forma monetaria; celebrazione tradizionale estesa*."
+componenti: "Denaro effettivamente destinato a una donazione proporzionata alle risorse del personaggio; destinatario presente. Forma tradizionale con vettore animale idoneo, paramenti e vigilia di Yom Kippur*."
+costo: "<strong>45 <i class=\"fa-solid fa-bolt\"></i></strong> × forma monetaria / <strong>35 <i class=\"fa-solid fa-bolt\"></i></strong> × forma tradizionale con vettore animale"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
@@ -24,62 +24,19 @@ Sul piano dogmatico funziona perché mille anni di prassi comunitaria alla vigil
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Rimuove uno status alterato non fisico attivo sul bersaglio con effetto immediato: lo status decade nel momento in cui il vettore viene "chiuso" (macellato o donato).
-
-Se lo status è imposto attivamente da un altro soggetto (es. maledizione), il trasferimento richiede tiri contrapposti. In caso di successo pulito, il legame si spezza e il vettore lo assorbe interamente; in caso di successo sporco, il vettore assorbe solo parte del legame, l'altra metà torna sul bersaglio dopo 24-72 ore (il master decide quando); in caso di fallimento, il legame non si trasferisce e il vettore muore (o il denaro si "svalorizza": le banconote diventano inspiegabilmente inservibili, macchiate o strappate) senza alcun beneficio per il bersaglio.
-
-Il vettore va chiuso obbligatoriamente entro 24 ore, altrimenti la contaminazione torna sul bersaglio moltiplicata (×1,5 in intensità, spesso con manifestazioni fisiche minori: mal di testa, epistassi, agitazione notturna). L'animale va macellato per uso alimentare secondo <em>shechitah</em> e la carne (non l'animale vivo) donata a chi ne ha bisogno. Il denaro va donato in beneficenza reale, non tenuto né restituito. Riutilizzare il vettore dopo il rito senza chiuderlo è la modalità più rapida per generare un ritorno in Dissonanza.
-
-Il rito può essere eseguito su di sé (autotrattamento) o su terzi. Su terzi, il bersaglio deve essere fisicamente presente e consenziente; su un incapace di intendere (bambini piccoli, incoscienti, dementi) può essere eseguito con l'assenso di un famigliare responsabile.
-
-Se eseguito su chi ha imposto una maledizione, nel caso in cui l'operatore usi la Kapparot su un aggressore stregonesco per rimuovere forzatamente le maledizioni che ha lanciato, lo scambio funziona, ma il vettore va incontro a morte violenta e improvvisa, e l'operatore assorbe una piccola quota residua della contaminazione in Dissonanza con effetti imprevedibili.
-
-Eseguito alla vigilia di Yom Kippur (con contesto rituale corretto: giorno esatto, ora del pomeriggio, comunità o solitudine di preghiera), tutti gli effetti sono potenziati: il costo è dimezzato e il tiro ha vantaggio, inoltre si possono trasferire fino a tre status contemporaneamente con un solo vettore. Fuori dalla finestra di Yom Kippur il rito funziona ma è meno efficiente, la sinergia con l'espiazione collettiva annuale è ciò che gli dà picco di potenza.
-
-Se il vettore usato è un animale sano ma abusato o già malato, il rito ha svantaggio al tiro: la tradizione ebraica insiste sulla sanità e integrità del vettore come condizione di validità.
-
+<p>Trasferisce una Condizione soprannaturale compatibile dal destinatario a un vettore rituale. Trasferisce <strong>una sola Condizione soprannaturale non fisica compatibile</strong> dal destinatario a un vettore, con opposizione della fonte quando l’effetto è mantenuto. Il vettore monetario è una forma ordinaria valida; non occorrono 100 dollari come soglia universale.</p>
+<p>La donazione effettiva conclude e sigilla il trasferimento entro 24 ore: il denaro deve uscire realmente dalla disponibilità delle parti. Dichiarare soltanto una futura beneficenza non chiude il rito. Un esito parziale attenua la Condizione senza garantirne la rimozione definitiva.</p>
+<p>Patti volontari, legami d’anima, strutture del Ren e trasformazioni permanenti sono esclusi. Agire sull’autore di un maleficio non rimuove automaticamente tutti gli atti che ha imposto ad altri.</p>
+<p>La celebrazione tradizionale e la ricorrenza favorevole sono facoltative e non cumulano vantaggio con costo dimezzato o tre condizioni nello stesso vettore. Se si sceglie la forma animale, la chiusura segue la destinazione rituale e assistenziale della recensione, senza rendere un animale malato un mezzo equivalente.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'operatore si procura il vettore: pollo vivo (o gallina, o coppia; in base al bersaglio) o denaro contante fisico. Se animale, va tenuto per le zampe con delicatezza, testa in alto; se denaro, tenuto stretto in una mano chiusa.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Con il bersaglio davanti (o sé stesso), l'operatore recita la formula tenendo saldamente il vettore.</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Predisporre denaro per la donazione o scegliere consapevolmente la forma tradizionale; identificare una sola Condizione e il destinatario presente.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Recitare la formula di scambio adattando correttamente i riferimenti personali.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Compiere le tre rotazioni del vettore e sostenere il trasferimento della sola Condizione raggiunta.</p><div class="ritual-verse">
 <p class="latin" dir="rtl">"זֶה חֲלִיפָתִי, זֶה תְּמוּרָתִי, זֶה כַּפָּרָתִי. זֶה הַתַּרְנְגוֹל [אוֹ: הַכֶּסֶף] יֵלֵךְ לְמִיתָה [אוֹ: לִצְדָקָה], וַאֲנִי אֵלֵךְ לְחַיִּים טוֹבִים אֲרֻכִּים וּלְשָׁלוֹם."</p>
 <p class="transliteration">"Zeh chalifati, zeh temurati, zeh kapparati. Zeh ha-tarnegol [o: ha-kesef] yelekh le-mitah [o: li-tzedakah], va-ani elekh le-chayyim tovim arukim u-le-shalom."</p>
 <p class="translation">"Questo è il mio scambio, questo è il mio sostituto, questa è la mia espiazione. Questo gallo [o: questo denaro] andrà alla morte [o: in carità], mentre io andrò a una vita buona, lunga e in pace."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Se il rito è eseguito per un'altra persona, la formula viene adattata al pronome corretto ("questo è il tuo scambio... e tu andrai a una vita buona..."); per una donna, la desinenza ebraica va concordata al femminile (<em>chalifatekha</em> → <em>chalifatekh</em>, ecc.).</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>L'operatore rotea il vettore sopra la testa del bersaglio per tre volte, lentamente, con movimento circolare orizzontale. Alla terza rotazione il vettore ha assorbito la contaminazione: è visibilmente più pesante (nel caso del denaro, la mano che lo tiene sente un lieve peso in più che si dissiperà solo alla donazione; nel caso dell'animale, il pollo si agita meno o assume postura anomala).</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Chiusura del rito. Entro 24 ore: l'animale va macellato ritualmente (<em>shechitah</em>) e la carne donata a chi ha bisogno (non consumata dall'operatore né dal bersaglio); il denaro va donato in beneficenza a persona o ente reali (non tenuto, non prestato, non "destinato a"; deve uscire dalla disponibilità dell'operatore). La chiusura sigilla il trasferimento.</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Completare entro ventiquattr’ore la donazione effettiva o la chiusura della forma tradizionale; conservare il vettore per sé interrompe la destinazione del rito.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

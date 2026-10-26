@@ -4,70 +4,33 @@ title: "Istikhara"
 tipo: percezioni
 sottotipo: musulmana
 rarita: Comune
-tempo: "15 minuti per l'esecuzione della preghiera (due rak'ah) e la supplica, seguiti obbligatoriamente dal sonno notturno (almeno un ciclo REM ininterrotto)."
-componenti: "Stato di purità rituale (wudu), assenza di barriere fisiche o spirituali, ambiente idoneo alla preghiera islamica (pulito, senza raffigurazioni animate, rivolti verso la Qibla), abbigliamento appropriato alla preghiera*."
+tempo: "5–10 minuti; il responso intuitivo segue la supplica. Sonno successivo tradizionale*."
+componenti: "Possibilità di compiere una semplice abluzione e recitare la supplica. Ambiente e abbigliamento rituali tradizionali, ultimo terzo della notte e sonno successivo*."
 costo: "<strong>15 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
-
-L'Istikhara (dall'arabo إستخارة, letteralmente "chiedere il bene in una determinata faccenda") è un rituale di percezione passiva e affidamento operativo. Non si tratta di una tecnica di divinazione predittiva o chiaroveggenza, pratiche categoricamente proibite nell'Islam dogmatico, ma di una abdicazione volontaria della scelta umana in favore della direttiva divina. L'operatore si spoglia del proprio libero arbitrio investigativo, chiedendo alla sorgente metafisica di riprogrammare la propria inclinazione inconscia o di inviare un segnale inequivocabile riguardo a un bivio decisionale.
-
-Attraverso l'esecuzione codificata della preghiera (Salat) e della supplica (Du'a), l'operatore crea un canale di ricezione "pulito", schermato da interferenze di vario genere, utilizzando il proprio sonno come tela per il responso.
-
-Sul piano teologico e operativo, il rito funziona per la densità di utilizzo millenario e per la precisione geometrica della sua forma: l'abluzione (Wudu) isola l'operatore dalle impurità minori del mondo, l'orientamento (Qibla) lo allinea sull'asse spirituale corretto, e la supplica formula un contratto vincolante. L'operatore non chiede di "vedere il futuro", ma ordina all'universo di facilitare l'esito se questo è benefico o di bloccarlo fisicamente e spiritualmente se è dannoso.
-
+<p>L’Istikhara è una preghiera di affidamento relativa a una scelta concreta. La recitazione e la supplica dispongono l’operatore a ricevere un orientamento che può manifestarsi come inclinazione, immagine o intuizione.</p>
+<p>Nella forma operativa il responso sostiene la valutazione del personaggio, senza sostituirne la volontà o garantire una decisione infallibile. Non impone all’universo di impedire fisicamente una scelta sconsigliata.</p>
+<p>Il sonno è una modalità tradizionale facoltativa; la risposta può emergere anche durante il raccoglimento conclusivo. La preparazione coerente conserva il significato del rito senza richiedere una notte o un ciclo di sonno certificato.</p>
 </section>
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Al risveglio, l'operatore riceve una direttiva univoca dal master. A differenza di divinazioni caotiche, l'Istikhara produce un responso chirurgico, che si manifesta in due forme principali:
-
-- **Espansione o contrazione del petto (Inshirah as-Sadr / Qabd):** nessun sogno specifico viene ricordato. Tuttavia, l'operatore si sveglia con una certezza emotiva incontrovertibile. Se la scelta ponderata è corretta, percepisce un'innaturale "espansione", una serenità clinica e una forte spinta all'azione (la via è facilitata). Se la scelta è errata, avverte una "contrazione", un senso di repulsione fisica, ansia asfissiante o profonda letargia associata a quell'opzione. Questa sensazione persiste come una bussola sensoriale finché l'operatore non compie la scelta.
-- **Sogno rivelatore (Ru'ya):** se la situazione è particolarmente complessa o l'inclinazione dell'operatore era troppo compromessa da desideri pregressi, la risposta scavalca l'emotività e si presenta come sogno (Ru'ya Sadeqah). Il sogno può essere letterale (mostra chiaramente l'esito disastroso o favorevole dell'azione) o simbolico (ad esempio, elementi bianchi/verdi per il favore, nero/fuoco per l'avvertimento).
-
-Se il rito ha esito negativo o viene disturbato:
-- **Interferenza:** l'operatore potrebbe sperimentare sogni terrificanti (Hulum) o sogni confusi (Adghathu Ahlam) volti a deviarlo. Un operatore esperto riconosce la differenza tra un sogno divino (lucido, calmo, coerente) e un'interferenza (angosciante, caotica, fisicamente drenante).
-- **Assenza di risposta:** se la domanda posta è frivola, se l'operatore aveva già intimamente deciso cosa fare senza reale intenzione di rimettersi al giudizio superiore, o se ha infranto lo stato di purità, il rito tace. Nessun sogno, nessuna inclinazione. Il rituale andrà ripetuto fino a un massimo di sette notti consecutive (secondo la prassi di Anas bin Malik).
-
-L'Istikhara è un rito di sottomissione. Se l'operatore riceve un avvertimento chiaro (contrazione/sogno negativo) e decide coscientemente di ignorarlo procedendo con l'azione sconsigliata, subirà una grave flessione morale.
-
+<p>Offre un orientamento intuitivo rispetto a una decisione concreta. La supplica riguarda una <strong>decisione concreta</strong> sulla quale l’operatore possiede una reale possibilità di scelta. Il responso emerge come inclinazione, immagine o intuizione comprensibile relativa a un rischio, un’opportunità o un elemento da considerare.</p>
+<p>Il risultato deve essere utile alla scena, ma non costituisce una direttiva infallibile: non indica una scelta oggettivamente corretta né garantisce l’esito. Le informazioni dipendono da ciò che il rito può raggiungere e dalle eventuali interferenze; non vengono prodotti dettagli di un futuro ancora indeterminato.</p>
+<p>L’operatore può ricevere il responso al termine del raccoglimento. Il sonno e il sogno sono una modalità tradizionale facoltativa, senza obbligo di attendere la notte o dimostrare un ciclo REM. Una risposta assente o confusa può indicare fallimento o interferenza, non una condanna morale.</p>
+<p>Ignorare l’orientamento non applica automaticamente una penalità psicologica. Ripetere identicamente la domanda non garantisce informazioni migliori: serve una decisione nuova o un cambiamento significativo.</p>
+<p>Quando l’orientamento ottenuto viene applicato a una scelta concreta, può fornire un <strong>bonus da informazione e psicologia</strong> all’azione che sfrutta quel rischio o quell’opportunità. Non garantisce il risultato e non aggiunge un beneficio alle azioni estranee al responso.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'operatore deve eseguire il <em>Wudu</em> (l'abluzione minore), purificando ritualmente mani, bocca, naso, viso, braccia, testa e piedi in un ordine strettamente codificato. L'ambiente deve essere pulito e l'operatore deve stendere il tappeto da preghiera rivolgendosi con precisione verso la Qibla (La Mecca). Il momento ideale è l'ultimo terzo della notte, quando la tradizione indica che la Divinità "scende al cielo più basso" per ascoltare le richieste.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Viene eseguita una preghiera volontaria (Nafl) composta da due <em>Rak'ah</em>. Nella prima unità è tradizione recitare la Sura Al-Kafirun dopo l'apertura; nella seconda unità, la Sura Al-Ikhlas. La preghiera deve essere eseguita con totale concentrazione (Khushu'), spogliandosi delle preoccupazioni mondane legate al dubbio che si intende porre.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Al termine della preghiera, dopo il saluto di pace (Tasleem), l'operatore alza le mani (palmi rivolti verso l'alto, uniti o vicini) e recita la Du'a dell'Istikhara con precisione. Nel momento in cui il testo recita "questo affare" (<em>hadhal-amra</em>), l'operatore deve nominare specificamente il bivio decisionale (es. "Se sai che interrogare questo demone è bene per me...").</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Compiere una semplice abluzione e scegliere un luogo in cui raccogliersi; orientamento e preparazione tradizionali sono facoltativi.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Aprire con la preghiera e porre una decisione realmente aperta.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Recitare la supplica indicando esplicitamente la questione.</p><div class="ritual-verse">
 <p class="latin" dir="rtl">اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ...</p>
 <p class="transliteration">"Allahumma inni astakhiruka bi 'ilmika, wa astaqdiruka bi qudratika, wa as'aluka min fadlika al-'azheem. Fa innaka taqdiru wa la aqdiru, wa ta'lamu wa la a'lamu..."</p>
 <p class="translation">"O Dio, io cerco la Tua guida in virtù della Tua conoscenza, e cerco abilità in virtù del Tuo potere, e Ti chiedo della Tua immensa grazia. Poiché Tu hai potere e io non ne ho, Tu sai e io non so, e Tu sei il conoscitore dell'invisibile..."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Immediatamente dopo aver terminato la supplica, l'operatore deve recarsi a dormire senza intrattenere conversazioni mondane o distrarsi con altre attività, mantenendo lo stato di purità rituale (Wudu). È prassi raccomandata coricarsi sul fianco destro, con il volto orientato verso la Qibla, e mantenere il pensiero concentrato sull'affidamento fino all'ingresso nel sonno.</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Concludere con il raccoglimento e ricevere l’orientamento; se scelta, la modalità onirica si svolge durante il successivo sonno.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

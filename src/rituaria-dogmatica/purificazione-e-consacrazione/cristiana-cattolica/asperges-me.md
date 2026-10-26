@@ -5,8 +5,8 @@ tipo: purificazione-e-consacrazione
 sottotipo: cristiana-cattolica
 rarita: Comune
 tempo: "5 minuti (rito completo con canto) · 2 minuti (aspersione secca, senza antifona)"
-componenti: "Acqua santificata (base: <a href=\"/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/benedictio-aquae-et-salis/\">Benedictio aquae et salis</a>); aspersorio o rametto d'issopo; stola bianca*. Con sola bagnatura delle dita, senza aspersorio né rametto: svantaggio al tiro."
-costo: "<strong>10 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(15 <i class=\"fa-solid fa-bolt\"></i> se area &gt; 10 m³; +5 <i class=\"fa-solid fa-bolt\"></i> per ogni bersaglio umano aggiuntivo oltre il primo)</em>"
+componenti: "Acqua benedetta; possibilità di aspergere con le dita o uno strumento comune. Aspersorio tradizionale, issopo e stola*."
+costo: "<strong>10 <i class=\"fa-solid fa-bolt\"></i></strong> fino a 10 m²; <strong>15 <i class=\"fa-solid fa-bolt\"></i></strong> per un ambiente più ampio fino a 25 m²; + <strong>5 <i class=\"fa-solid fa-bolt\"></i></strong> × persona aggiuntiva oltre la prima"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
@@ -19,15 +19,10 @@ Sul piano dogmatico, l'Asperges è una delle formule più cariche dell'intera la
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Il rituale usa acqua benedetta (prodotta con la <a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/benedictio-aquae-et-salis/">Benedictio aquae et salis</a>) come veicolo attivo per lavare residui e disinnescare influenze deboli. Ha le seguenti caratteristiche:
-
-- Neutralizza residui passivi in un volume fino a 10 m³ (una stanza media): tracce di stregoneria altrui non attive, presenze appena passate, umori psichici cristallizzati, leggera Dissonanza ambientale (non funziona su Dissonanza radicata). L'effetto è immediato ma non permanente: dura finché lo spazio non viene ricontaminato. Un ambiente riceve Asperges settimanalmente; si stabilizza una soglia bassa di Ordine (svantaggio continuo a tutti i tiri che sfruttano Dissonanza).
-- Applicato a un oggetto, rimuove residui di bassa intensità (l'impronta lasciata da un proprietario recente, tracce di stregoneria improvvisata).
-- Applicato a una persona, fornisce vantaggio al prossimo tiro in [Tenacia] contro influenze attive (es. tentativi di possessione, suggestioni sovrannaturali). L'effetto dura 3 turni. Inoltre, chi ha appena ricevuto un Asperges effettua i successivi atti di rituaria dogmatica entro l'ora con vantaggio: il "canale" è pulito, l'operatore parte da una base neutra.
-
-Contro creature avverse all'Ordine, l'acqua asperga produce gli stessi danni da avversione dell'acqua benedetta pura (efficace contro autorigenerazione, con effetti potenzialmente maggiorati).
-
+<p>Purifica persone, oggetti e piccoli ambienti da contaminazioni lievi. Rimuove residui passivi e contaminazioni lievi da una persona, un oggetto o un’area fino a ~<strong>10 m²</strong>. Non elimina presenze ancorate, Dissonanza radicata o maledizioni attive. Aree maggiori richiedono il costo previsto dalla scheda o più settori.</p>
+<p>Su una persona sostiene con vantaggio la successiva resistenza a un’influenza soprannaturale ostile nei <strong>3 turni</strong> successivi. Il beneficio viene consumato da quella sola resistenza.</p>
+<p>La purificazione può fornire un <strong>bonus da sfruttamento delle risorse al primo rito successivo entro un’ora</strong> che utilizzi concretamente lo stesso canale ripristinato. La sola rimozione della contaminazione non viene contata anche come bonus. Il beneficio non riguarda riti estranei e non si rinnova con aspersioni ripetute.</p>
+<p>L’eventuale azione avversa dell’acqua dipende dalla consacrazione attiva e dalle vulnerabilità effettive della creatura esposta. Il rinnovo settimanale non genera un malus permanente a qualunque attività dissonante.</p>
 </section>
 
 <section class="prose" id="procedura">

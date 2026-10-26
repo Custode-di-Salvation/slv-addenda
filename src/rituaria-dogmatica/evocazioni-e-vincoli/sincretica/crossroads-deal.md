@@ -4,25 +4,21 @@ title: "Crossroads Deal"
 tipo: evocazioni-e-vincoli
 sottotipo: sincretica
 rarita: Comune
-tempo: "10-20 minuti (preparazione e chiamata) + attesa variabile della risposta (da pochi minuti a diverse ore, occasionalmente fino all'alba)"
-componenti: "Incrocio a tre vie (trivium), a quattro vie funzionano ma con svantaggio. Momento liminale obbligatorio. Offerta di oggetti personali."
+tempo: "5–10 minuti di preparazione e chiamata; l’eventuale risposta viene gestita nella stessa scena."
+componenti: "Incrocio reale; oggetto personale da offrire. Incrocio a tre vie e momento liminale tradizionale*."
 costo: "<strong>20 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
-
-Il richiedente si reca a un incrocio isolato in un momento liminale (es. mezzanotte, mezzogiorno, alba, tramonto, ecc.), depone un'offerta di forte carica emotiva in una buca scavata al centro e formula un desiderio con brama genuina. Se il segnale emotivo è autentico e sufficientemente intenso, un demone si presenta all'incrocio nell'arco dell'attesa e apre la trattativa. Il demone non è obbligato a comparire, non è obbligato a offrire condizioni convenienti, non è obbligato a concludere il patto: è obbligato solo a negoziare se decide di rispondere alla chiamata.
-
-Il rito è amalgama sincretico che raccoglie strati diversissimi di tradizione ctonia e di pratiche di contatto con le entità dell'incrocio: il fondamento greco-romano (Ecate <em>Trioditis</em>, dea dei tre sentieri; Hermes <em>psychopompos</em>, dio dell'incrocio come soglia tra i mondi; <em>Trivia</em> romana; le <em>deipna Hekates</em>, cene rituali offerte alle mezzanotti della luna nuova), il filone afro-atlantico (Papa Legba e Kalfu come <em>lwa</em> voodoo dell'incrocio, Eshu-Elegba yoruba come apritore delle vie), e la cristallizzazione moderna nel folklore afroamericano del Delta blues (mito di Robert Johnson, Tommy Johnson, Peetie Wheatstraw). Nel corso del XIX e XX secolo la versione afroamericana ha assorbito completamente le altre: nell'immaginario contemporaneo l'incrocio è "dove si vende l'anima al diavolo", e questo pattern culturale è oggi il più denso e attivo.
-
-Sul piano dogmatico, il rito funziona per la potenza dell'incrocio come soglia (topologia liminale universalmente riconosciuta come punto di contatto tra i mondi in praticamente ogni tradizione umana) e per la densità cumulata del segnale emotivo depositato in questi luoghi da secoli di disperati che vi hanno chiamato. Non richiede formule perché non ha struttura verbale: è il luogo stesso e il momento liminale a costituire il pattern, insieme al segnale emotivo del richiedente.
-
+<p>Il richiedente raggiunge un incrocio reale, depone un’offerta personale e formula un desiderio con intenzione autentica. Il momento liminale tradizionale è facoltativo. Se una presenza compatibile riceve la chiamata e decide di rispondere, può manifestarsi e aprire una trattativa; non è obbligata a offrire condizioni favorevoli o a concludere un patto.</p>
+<p>Il rito è amalgama sincretico che raccoglie strati diversissimi di tradizione ctonia e di pratiche di contatto con le entità dell'incrocio: il fondamento greco-romano (Ecate <em>Trioditis</em>, dea dei tre sentieri; Hermes <em>psychopompos</em>, dio dell'incrocio come soglia tra i mondi; <em>Trivia</em> romana; le <em>deipna Hekates</em>, cene rituali offerte alle mezzanotti della luna nuova), il filone afro-atlantico (Papa Legba e Kalfu come <em>lwa</em> voodoo dell'incrocio, Eshu-Elegba yoruba come apritore delle vie), e la cristallizzazione moderna nel folklore afroamericano del Delta blues (mito di Robert Johnson, Tommy Johnson, Peetie Wheatstraw). Nel corso del XIX e XX secolo la versione afroamericana ha assorbito completamente le altre: nell'immaginario contemporaneo l'incrocio è "dove si vende l'anima al diavolo", e questo pattern culturale è oggi il più denso e attivo.</p>
+<p>Il luogo di convergenza e l’intenzione autentica costituiscono il riferimento del rito. I momenti liminali della tradizione sono una condizione favorevole facoltativa; non è necessaria una formula verbale per la chiamata.</p>
 </section>
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Se il rito riceve risposta (il segnale emotivo è genuino e un'entità decide di rispondere) un demone si presenta all'incrocio manifestandosi in un tramite, negozia e se il richiedente accetta i termini il patto è siglato con un atto fisico (es. bacio sulle labbra, stretta di mano prolungata, morso sul polso, scambio di qualche goccia di sangue).
+Richiama un demone disposto a negoziare un patto. Se il rito riceve risposta (il segnale emotivo è genuino e un'entità decide di rispondere) un demone si presenta all'incrocio manifestandosi in un tramite, negozia e se il richiedente accetta i termini il patto è siglato con un atto fisico (es. bacio sulle labbra, stretta di mano prolungata, morso sul polso, scambio di qualche goccia di sangue).
 
 La durata standard per richieste medie è di dieci anni dalla stipula (numero canonico del folklore afroamericano); per richieste enormi (grandezza artistica, potere politico, guarigione di malattie terminali di persone amate) il timer si abbrevia drasticamente, fino a tre anni, un anno, o addirittura poche settimane. Alla scadenza si presenta il cerbero che reclama l'anima del richiedente.
 
@@ -30,48 +26,12 @@ Durante la vigenza del patto, il richiedente ottiene ciò che ha chiesto, nella 
 
 Non funziona come veicolo per evocare demoni specifici (chi si presenta è chi decide di presentarsi, non chi il richiedente vorrebbe); tecnica di controllo o costrizione (il demone non è vincolato da alcun cerchio, alcuna geometria protettiva, alcun nome divino, è libero di andarsene, di mentire, di negoziare come vuole); rito ripetibile a volontà.
 
+<p>La chiamata non garantisce la presenza di un demone né il possesso dei mezzi necessari a soddisfare qualunque desiderio. Benefici, patto e conseguenze devono rispettare le capacità e le regole effettive delle parti. La risposta, quando disponibile, può essere giocata nella stessa scena senza un’attesa obbligatoria di ore.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>Il richiedente identifica un incrocio isolato adatto, preferibilmente a tre vie, sterrato, lontano da centri abitati. Nel folklore afroamericano si privilegiano gli incroci di campagna del Sud (Delta del Mississippi, Alabama, Louisiana), ma il rito funziona ovunque il luogo sia autenticamente liminale: sentieri di montagna, incroci di strade sterrate rurali, punti di convergenza di viottoli in foreste, purché siano fisicamente incroci reali e non semplici curve o biforcazioni.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Calcola con precisione il momento liminale scelto. La mezzanotte astronomica non è alle 24:00 solari: va calcolata come punto mediano esatto tra tramonto e alba, che varia di stagione in stagione e di località in località. Alba e crepuscolo civili sono più semplici da identificare (primi e ultimi raggi di luce sull'orizzonte).</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Si reca all'incrocio portando con sé l'offerta e uno strumento per scavare. Al momento liminale scava una buca al centro dell'incrocio (punto di intersezione delle vie). La profondità deve essere sufficiente a contenere l'offerta senza che questa affiori. Deposita l'offerta nella buca. Ricopre la buca con la terra rimossa, comprimendola leggermente perché non si veda che qualcosa è stato sepolto.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Si mette in piedi sopra il punto sepolto, o si inginocchia accanto. Dichiara mentalmente o a voce bassa il desiderio, con la maggior concentrazione emotiva possibile. Non serve formula: serve brama autentica.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Attende: può durare minuti, ore, l'intera notte. Il richiedente non deve allontanarsi dall'incrocio finché il momento liminale non è passato del tutto (fino a un'ora dopo la mezzanotte, fino all'alba, ecc.).</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Il richiedente negozia e, se accetta i termini, il patto è siglato con l'atto fisico prescelto dal demone.</p>
-</div>
-</div>
-</div>
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Scegliere un incrocio reale e identificare il desiderio e l’offerta personale. Il rito funziona anche a quattro vie e fuori dagli orari tradizionali.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Depositare o interrare l’offerta nel punto di convergenza e formulare la richiesta con intenzione autentica.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Attendere l’eventuale risposta entro la scena, secondo la presenza di un’entità disposta ad ascoltare.</p></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Negoziare liberamente e accettare soltanto i termini esplicitamente compresi; senza accordo non si forma un patto.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

@@ -4,8 +4,8 @@ title: "Marginalia św. Maksyma"
 tipo: cura-e-rimedio
 sottotipo: cristiana-ortodossa
 rarita: Raro
-tempo: "Circa 1 ora (non utilizzabile in combattimento né sotto stress diretto sull'esecutore)."
-componenti: "Stilo da copista, inchiostro amanuense, strisce di lino grezzo. Sostituti grezzi (inchiostro comune, sangue, gesso) rendono la formula riconoscibile ma imperfetta: la realtà legge il segno come approssimazione, applicando svantaggio al tiro di attivazione."
+tempo: "15–20 minuti, con soggetto stabile e senza attacchi in corso."
+componenti: "Strumento smussato; inchiostro comune adatto alla scrittura; lino pulito. Stilo da copista e inchiostro amanuense tradizionali*."
 costo: "<strong>50 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
@@ -21,19 +21,10 @@ Su ferite mondane l'attivazione riesce, ma la realtà non riconosce alcun bersag
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Le annotazioni svaniscono lentamente man mano che il corpo conclude naturalmente il processo di guarigione (indicativamente pari al tempo di recupero assegnato dal master alla ferita originale, secondo il Codice). Finché sussistono:
-
-**Attenuazione**: il bersaglio ignora i malus situazionali derivanti dalla ferita (dolore, distrazione, fitte).
-
-**Sinergia curativa**: qualsiasi rito, sigillo o effetto di guarigione applicato al bersaglio ottiene vantaggio al tiro di attivazione ed efficacia raddoppiata (es. durata raddoppiata, recupero Vita raddoppiato, ecc.) se non prevede tiri.
-
-**Recupero potenziato**: il bersaglio recupera Energia (<i class="fa-solid fa-bolt"></i>) come se avesse [Costituzione] 5, e i tempi di recupero da Codice Giallo sono trattati come Codice Verde (purché sopra il 20% PV).
-
-Il rito può essere "spento" graffiando, cancellando o alterando l'inchiostro (anche solo parzialmente).
-
-Trattandosi di un atto duraturo, si instaura un legame bidirezionale minimo tra celebrante e bersaglio (attivo solo per la durata delle annotazioni). Se il bersaglio subisce un ulteriore attacco soprannaturale violento diretto sulla stessa ferita, l'onda d'urto risale il legame: il celebrante subisce metà del danno inflitto in perdita di <i class="fa-solid fa-bolt"></i> corrispondenti.
-
+<p>Attenua il dolore di una ferita soprannaturale e facilita il trattamento della lesione. Le annotazioni accompagnano una ferita inflitta da volontà soprannaturale e rimangono finché la lesione conserva il proprio stato, salvo cancellazione della scrittura. Non producono effetti su una ferita puramente mondana priva del rapporto testuale descritto.</p>
+<p>Per la durata del rapporto, sospendono una <strong>Condizione dovuta esclusivamente al dolore o alla distrazione prodotti dalla ferita annotata</strong>. Ferita, shock o altri impedimenti ancora pertinenti mantengono le proprie conseguenze: fratture, emorragie e perdita di funzionalità anatomica non vengono corrette.</p>
+<p>Il primo trattamento coerente della lesione nella scena può ricevere un <strong>bonus da sfruttamento delle risorse</strong> quando impiega la stabilità del rapporto testuale. Non vengono raddoppiati PV, durata o potenza della guarigione e il medesimo sostegno non assegna anche vantaggio. Il riposo segue le condizioni effettive del personaggio, senza sostituire la Costituzione con 5 o cambiare automaticamente Codice.</p>
+<p>La cancellazione dell’inchiostro interrompe il rapporto. Se la stessa lesione viene colpita da un nuovo attacco soprannaturale capace di percorrere il legame, l’operatore può subire un contraccolpo pari a metà dei <strong>PV</strong> effettivamente inflitti alla zona, secondo la continuità raggiunta; non basta un attacco qualunque al soggetto.</p>
 </section>
 
 <section class="prose" id="procedura">

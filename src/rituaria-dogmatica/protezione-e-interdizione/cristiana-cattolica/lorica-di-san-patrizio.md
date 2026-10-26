@@ -4,9 +4,9 @@ title: "Lorica di San Patrizio"
 tipo: protezione-e-interdizione
 sottotipo: cristiana-cattolica
 rarita: Comune
-tempo: "Pochi secondi (recitazione delle strofe chiave, versione operativa) · 3-5 minuti (recitazione integrale della lorica completa, versione contemplativa con effetti pieni)"
-componenti: "Nessun componente materiale. Idealmente in antico irlandese o in latino, ma nelle traduzioni inglese o italiana funziona con svantaggio."
-costo: "<strong>100 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(versione operativa breve)</em> · <strong>60 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(recitazione integrale contemplativa, più lunga ma meno costosa perché il pattern si \"sostiene\" da sé per la durata estesa)</em>"
+tempo: "1 turno per la forma breve; 3–5 minuti per la forma estesa."
+componenti: "Testo appreso in una lingua compresa e trasmesso in una recensione coerente. Recitazione tradizionale in antico irlandese o latino*."
+costo: "<strong>100 <i class=\"fa-solid fa-bolt\"></i></strong> × forma breve / <strong>60 <i class=\"fa-solid fa-bolt\"></i></strong> × forma estesa; <strong>20 <i class=\"fa-solid fa-bolt\"></i></strong> × ora di mantenimento oltre la scena"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
@@ -25,62 +25,18 @@ Sul piano dogmatico, la potenza deriva anche dall'uso ininterrotto della lorica 
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Per la durata del rito, l'area circolare intorno all'operatore (raggio 3 m) diventa un campo diffuso di resistenza alla Dissonanza.
-
-Entità dissonanti che tentano di entrare nel perimetro subiscono penalità agli attacchi contro chi si trova all'interno (svantaggio a tutte le azioni che hanno lo scopo di attaccare sia fisicamente che psichicamente), percepiscono chiaramente il disagio del perimetro e tendono a ritirarsi se non hanno motivazione operativa forte per persistere.
-
-Entità già presenti nell'area quando il rito viene recitato subiscono la pressione ambientale: ogni turno di permanenza nel perimetro impone loro un tiro contrapposto in [Tenacia] per non essere spinte fuori. Quelle che falliscono si allontanano di alcuni metri; quelle che riescono restano ma con penalità cumulative alle loro azioni (-1, -2, -3 a tutte le azioni).
-
-Chi si trova all'interno del perimetro (l'operatore e chiunque altro entro il raggio) riceve vantaggio ai tiri di [Tenacia] contro influenze attive esterne che tentino di raggiungerli attraversando il campo, e subisce danni ridotti di ⅓. Attacchi originati dall'interno del perimetro non subiscono riduzione: se un'entità è già dentro quando il rito comincia, l'effetto di riduzione dei danni non si applica ai suoi attacchi.
-
-Il campo dura fino a quando l'operatore lascia la posizione originaria di recitazione. Se l'operatore si sposta di più di 3 metri dal punto di recitazione, il campo si dissolve immediatamente.
-
-Se l'operatore continua a recitare a bassa voce le strofe centrali della lorica per tutto il tempo che desidera mantenere il campo attivo (senza interruzione superiore a 30 secondi), il rito può essere esteso al costo di <strong>20 <i class="fa-solid fa-bolt"></i></strong> per ogni ora aggiuntiva. La recitazione continua è impegnativa (l'operatore non può fare altro contemporaneamente che azioni molto semplici e a bassa concentrazione), ma permette di mantenere una posizione difensiva prolungata.
-
-Il campo della Lorica potenzia i riti di consacrazione eseguiti al suo interno. Un rito di <a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/de-benedictione-et-consecratione-loci/">De benedictione et consecratione loci</a> eseguito dentro una Lorica attiva riceve vantaggio al tiro e ,10% <i class="fa-solid fa-bolt"></i> di costo. Analogamente, riti di esorcismo eseguiti sui bordi del perimetro (dove il campo agisce come "spingente" verso l'esterno) sono più efficaci.
-
+<p>Crea una protezione locale contro influenze e manifestazioni dissonanti attive. Stabilisce un campo di ~<strong>3 metri</strong> attorno al punto di recitazione, che dura fino al termine della scena. Si dissolve se l’operatore si allontana di oltre 3 metri dal centro.</p>
+<p>Chi si trova nel campo riceve vantaggio alle resistenze contro influenze dissonanti attive che ne attraversino il limite. Le manifestazioni direttamente risonanti con la Dissonanza che infliggano danno attraverso il campo vengono ridotte di <strong>una Fascia</strong>, minimo 0. Attacchi materiali ordinari o originati interamente all’interno seguono le proprie regole.</p>
+<p>Una presenza dissonante già interna può essere sospinta verso l’esterno se la pressione rituale prevale sulla sua opposizione. Non si accumulano penalità −1, −2, −3 né si attribuisce un malus generico a qualunque azione della creatura.</p>
+<p>Oltre la scena, l’operatore può mantenere il campo recitando a bassa voce e spendendo il costo orario. Il mantenimento richiede concentrazione e consente soltanto attività semplici compatibili. Un rito di consacrazione svolto nel campo può beneficiare della protezione, senza ulteriori riduzioni percentuali dei costi o vantaggi sovrapposti.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'operatore si posiziona nel punto che intende difendere. Unisce le mani (palmo destro sul cuore, sinistro rivolto verso l'esterno con dita distese, o entrambe le mani giunte davanti al petto secondo la variante che preferisce). Prende un respiro profondo per concentrarsi.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Recita ad alta voce e con convinzione la formula chiave della lorica. Nella versione operativa breve bastano le strofe centrali sulla geometria trinitaria e sulla protezione di Cristo nelle direzioni:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Scegliere il punto da difendere e raccogliersi nel gesto della recensione appresa.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Recitare le strofe della protezione nelle direzioni; una traduzione correttamente appresa è valida senza svantaggio.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Mantenere la posizione e accompagnare la durata del campo secondo la situazione.</p><div class="ritual-verse">
 <p class="latin">"I bind unto myself today the strong Name of the Trinity, by invocation of the same, the Three in One and One in Three... Christ be with me, Christ within me, Christ behind me, Christ before me, Christ beside me, Christ to win me, Christ to comfort and restore me. Christ beneath me, Christ above me, Christ in quiet, Christ in danger, Christ in hearts of all that love me, Christ in mouth of friend and stranger."</p>
 <p class="translation">"Lego a me oggi il Nome forte della Trinità, con l'invocazione dello stesso, i Tre in Uno e l'Uno in Tre... Cristo con me, Cristo dentro di me, Cristo dietro di me, Cristo davanti a me, Cristo accanto a me, Cristo per conquistarmi, Cristo per confortarmi e ristorarmi. Cristo sotto di me, Cristo sopra di me, Cristo nella quiete, Cristo nel pericolo, Cristo nel cuore di tutti coloro che mi amano, Cristo sulla bocca dell'amico e dell'estraneo."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Il testo originale in antico irlandese, <em>Faeth Fiada</em>, è pronunciabile solo da operatori con specifica preparazione filologica; nella versione latina medievale (traduzione carolingia diffusa nei manoscritti continentali dell'XI-XII secolo) il rito ha lo stesso effetto operativo. Le traduzioni in inglese, italiano o altre lingue moderne funzionano con svantaggio al tiro ma restano efficaci: il rito tollera bene le traduzioni perché la sua struttura è geometrica (elenca direzioni e figure) più che densamente linguistica.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Il campo si stabilisce al termine della recitazione delle strofe centrali: l'operatore percepisce (se ha sensitività sviluppata) una leggera pressione ambientale attorno a sé, come se l'aria si fosse fatta più densa nel raggio di 3 metri. Gli altri presenti dentro il perimetro possono percepirla o meno a seconda della loro sensibilità.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Durante la durata, l'operatore non deve necessariamente restare in silenzio (può parlare, dare istruzioni, combattere), ma non deve spostarsi dal punto di recitazione oltre il raggio del campo, altrimenti il rito decade. Per estendere la durata oltre la scena, deve mantenere la recitazione continua delle strofe centrali a bassa voce.</p>
-</div>
-</div>
-
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Se necessario proseguire oltre la scena, sostenere la recitazione e il costo orario; interrompere volontariamente conclude il campo.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

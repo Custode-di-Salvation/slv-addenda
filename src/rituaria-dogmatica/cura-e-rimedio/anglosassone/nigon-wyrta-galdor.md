@@ -5,8 +5,8 @@ tipo: cura-e-rimedio
 sottotipo: anglosassone
 denominazione: "tradizione vernacolare"
 rarita: Comune
-tempo: "30-45 minuti per la preparazione completa · 5 minuti per l'applicazione successiva della preparazione sullo stesso bersaglio"
-componenti: "Nove componenti vegetali della ricetta tradizionale: mucgwyrt (artemisia), wegbrade (piantaggine), lombescyrse, attorlaðe, mægðe (camomilla/mayweed), ortica, mela selvatica, fille e finocchio; sapone stagionato, acqua, cenere e uovo. L'identificazione botanica di alcuni fitonimi antico-inglesi è filologicamente controversa. Ai fini rituali prevale la tradizione ricevuta dall'operatore: sostituire arbitrariamente una pianta con una moderna identificazione alternativa durante la stessa esecuzione causa svantaggio."
+tempo: "~10 minuti per una dose; 1–3 minuti per l’applicazione di un preparato pronto. Ricetta completa di 30–45 minuti*."
+componenti: "Preparazione rituale con artemisia, piantaggine, camomilla e finocchio; acqua e base per applicazione locale. Raccolta delle nove piante della recensione tradizionale, fitonimi specialistici, sapone stagionato e lavorazione completa*."
 costo: "<strong>40 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
@@ -18,63 +18,23 @@ Il rito tratta veleno e contaminazione come qualcosa che è entrato nel corpo e 
 
 Il testo sopravvissuto è ibrido. Conserva Woden in una delle sue historiolae, ma presenta anche materiale cristiano e una successiva interpretazione cristianizzata delle virtù delle piante. Non è quindi correttamente descrivibile né come "rito pagano" puro né come preghiera ecclesiastica: appartiene alla medicina vernacolare di una cultura nella quale tradizioni differenti erano già state stratificate.
 
+<p>La preparazione delle nove erbe descrive la recensione tradizionale completa. La versione adattata dell’Addenda utilizza una base di piante comuni, mantenendo il riferimento simbolico e la formula; la raccolta completa è facoltativa.</p>
 </section>
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Applicato a un soggetto avvelenato o contaminato, il rito rallenta la progressione di un veleno e concede vantaggio alle successive prove di [Costituzione] per resistervi.
-
-Per veleni ordinari di intensità lieve o moderata, un successo completo neutralizza la componente attiva residua e impedisce ulteriori peggioramenti. I danni già prodotti dal veleno non vengono curati automaticamente.
-
-Contro veleni soprannaturali, tossine di creature o contaminazioni biologiche anomale, il rito non cancella la fonte ma ne riduce di un grado la severità e concede vantaggio alla resistenza per la durata della scena.
-
-Applicato a una ferita contaminata, riduce drasticamente il rischio di infezione e arresta una contaminazione ancora locale. Non cura necrosi già stabilita, infezioni sistemiche avanzate o malattie prive di una componente interpretabile come attor: veleno, sostanza nociva penetrata dall'esterno.
-
-La formula non è una cura generica. Non ha effetto su fratture, emorragie, malattie genetiche, tumori, danni neurologici o semplici ferite non contaminate.
-
+<p>Contrasta veleni e contaminazioni nocive identificate, limitandone la progressione e sostenendo la resistenza. La versione adattata prepara una dose contro un veleno o una contaminazione identificata. Il composto rallenta la progressione e sostiene con vantaggio le resistenze del destinatario; su veleni mondani lievi o moderati può neutralizzare la componente residua se il rito prevale.</p>
+<p>Contro veleni soprannaturali può attenuare una conseguenza concreta o sospendere un aggravamento per la scena, affrontando la fonte ancora attiva. Danni già prodotti e necrosi non vengono riparati automaticamente.</p>
+<p>Il punto d’ingresso può essere morso, ferita o altra via conosciuta. Una sostanza ingerita identificata può essere trattata attraverso la corrispondenza rituale senza svantaggio automatico per la sola assenza di una ferita visibile.</p>
+<p>La dose può essere preparata e conservata come risorsa effettiva; ogni applicazione consuma la quantità necessaria. La ricetta storica completa è facoltativa e non obbliga il personaggio a risolvere l’identificazione di ogni fitonimo controverso. Il rito non è una cura generica di fratture, malattie genetiche o alterazioni prive di componente nociva introdotta.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>Le nove piante vengono disposte separatamente. Prima di triturarle l'operatore recita il galdor tre volte su ciascuna pianta e tre volte sulla mela.</p>
-<p>La formula completa conservata in Harley MS 585 deve essere conosciuta dall'operatore. Il nucleo semantico obbligatorio contiene la dichiarazione:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Preparare le piante comuni e destinare una dose al trattamento; la ricetta completa è facoltativa.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Recitare il galdor e lavorare la base per l’applicazione.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Identificare veleno e via d’ingresso, mantenendo il riferimento al destinatario.</p><div class="ritual-verse">
 <p class="latin">"Nu magon þas VIIII wyrta wið nygon attrum…"</p>
 <p class="translation">"Ora queste nove erbe hanno potere contro nove veleni…"</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Le piante vengono ridotte insieme in polvere e incorporate con il sapone e il succo o la polpa della mela.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Con acqua e cenere viene preparata una liscivia/pasta nella quale viene fatto bollire il finocchio. La preparazione vegetale viene incorporata secondo l'ordine tradizionale e accompagnata dall'uovo battuto previsto dalla ricetta.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Prima dell'applicazione, lo stesso galdor viene recitato verso la bocca del paziente, verso entrambe le orecchie e infine direttamente sulla ferita o sul punto di ingresso della contaminazione.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>La preparazione viene quindi applicata localmente. Se il veleno è stato ingerito e non esiste una ferita visibile, il punto rituale di applicazione diventa la regione immediatamente più vicina all'ingresso conosciuto della sostanza; questo permette di rallentare il processo ma comporta svantaggio rispetto all'uso su ferita o morso.</p>
-</div>
-</div>
-
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Applicare la dose e concludere con la recitazione presso il punto pertinente; una dose pronta richiede soltanto il tempo di applicazione.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

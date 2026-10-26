@@ -4,75 +4,31 @@ title: "Tollam te, Artemisia"
 tipo: cura-e-rimedio
 sottotipo: anglosassone
 rarita: Comune
-tempo: "5 minuti prima dell'alba per la preparazione · pochi secondi per l'attivazione durante il viaggio"
-componenti: "Un rametto o stelo di artemisia comune (mucgwyrt, Artemisia vulgaris) raccolto prima dell'alba."
+tempo: "~5 minuti di preparazione; gesto breve d’attivazione durante il viaggio."
+componenti: "Rametto di artemisia comune; formula della recensione appresa. Raccolta prima dell’alba*."
 costo: "<strong>10 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
-
-Questo brevissimo rito di viaggio utilizza l'artemisia come protezione contro la stanchezza derivante da una lunga marcia. La pianta non viene trasformata in medicamento: viene raccolta con una formula, poi semplicemente portata in mano oppure all'interno della scarpa.
-
-È un esempio particolarmente puro di rituaria dogmatica vernacolare. L'effetto non deriva dalla chimica della pianta, né da un simbolo grafico, ma dall'esecuzione congiunta di tre condizioni tramandate: momento corretto, formula corretta, contatto continuativo con l'artemisia durante il tragitto.
-
-La versione conservata nel Leechbook presenta il segno della croce al momento della raccolta, sovrapposizione cristiana a una tradizione più antica sull'artemisia come pianta del viaggiatore. Non richiede tuttavia preghiera, consacrazione ecclesiastica o appartenenza religiosa.
-
+<p>Questo brevissimo rito di viaggio utilizza l'artemisia come protezione contro la stanchezza derivante da una lunga marcia. La pianta non viene trasformata in medicamento: viene raccolta con una formula, poi semplicemente portata in mano oppure all'interno della scarpa.</p>
+<p>Il rito unisce formula appresa e contatto continuativo con l’artemisia. Il momento di raccolta tradizionale è una condizione favorevole facoltativa; non impedisce la preparazione o l’uso durante il resto della giornata.</p>
+<p>La versione conservata nel Leechbook presenta il segno della croce al momento della raccolta, sovrapposizione cristiana a una tradizione più antica sull'artemisia come pianta del viaggiatore. Non richiede tuttavia preghiera, consacrazione ecclesiastica o appartenenza religiosa.</p>
 </section>
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Finché porta con sé l'artemisia correttamente raccolta, il soggetto resiste meglio all'affaticamento causato di qualsiasi tipo di viaggio e resiste (effetti dimezzati) anche alle Condizioni, status persistenti o altro genere di malus inflitti da particolari tipi di viaggio sovrannaturale.
-
-Riceve vantaggio alle prove di [Costituzione] necessarie per marce prolungate, escursioni, attraversamenti difficili e permanenza a piedi per molte ore.
-
-Il primo livello di affaticamento dovuto esclusivamente alla distanza percorsa viene ignorato fino al termine dell'effetto.
-
-Il rito non sostituisce il sonno, non protegge da fame, disidratazione, freddo, caldo estremo o ferite, non aumenta la velocità di corsa e non concede benefici durante un combattimento. Non contrasta inoltre l'esaurimento soprannaturale prodotto da drenaggio di Energia.
-
-L'effetto dura fino al tramonto, fino a quando l'artemisia viene persa o volontariamente abbandonata, oppure fino alla conclusione del viaggio per il quale era stata raccolta.
-
+<p>Sostiene la resistenza alla fatica durante un viaggio a piedi. Per il viaggio dichiarato, fino a un massimo di <strong>12 ore</strong>, l’artemisia sostiene con vantaggio la resistenza all’affaticamento prodotto da cammino, marce e attraversamenti difficili. Per la durata del viaggio può essere sospesa la prima <strong>Condizione lieve di affaticamento dovuta esclusivamente alla marcia</strong>. Il rito non restituisce Energia, non riduce i costi degli sforzi e non elimina lo sfinimento sotto un quarto del massimale o i limiti dovuti all’esaurimento della riserva.</p>
+<p>Una conseguenza soprannaturale del viaggio può essere attenuata soltanto quando dipende realmente dalla stessa componente di fatica compatibile; non si dimezzano genericamente Stati persistenti, maledizioni o perdite d’Energia da drenaggio.</p>
+<p>Fame, sete, sonno, clima estremo e ferite restano presenti. Il rito non aumenta velocità o capacità di combattimento. Perdere o abbandonare il rametto conclude l’effetto.</p>
+<p>La raccolta prima dell’alba è facoltativa: il rametto può essere preparato e attivato anche in altri momenti. Gesto e formula seguono la recensione appresa senza un malus aggiuntivo arbitrario.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>Prima del sorgere del sole l'operatore individua una pianta viva di artemisia.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Immediatamente prima di raccoglierne il rametto pronuncia:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Individuare artemisia comune e destinare il rametto a un viaggio; l’orario tradizionale è facoltativo.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Pronunciare la formula e compiere il gesto della recensione appresa.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Portare il rametto nella mano o nella scarpa e iniziare il cammino.</p><div class="ritual-verse">
 <p class="latin">"Tollam te, Artemisia, ne lassus sim in via."</p>
 <p class="translation">"Ti prendo, Artemisia, affinché io non mi stanchi durante il viaggio."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Nel testo anglosassone conservato, al momento della raccolta la pianta viene segnata con il segno della croce. Il gesto deve essere mantenuto nella recensione medievale del rito; ometterlo comporta svantaggio ma non annulla il più antico nucleo erboristico.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Durante il viaggio il rametto viene tenuto in mano oppure infilato nella scarpa, secondo le due possibilità indicate dal testo.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Il beneficio comincia con il primo tratto continuativo di cammino e non richiede ulteriori recitazioni.</p>
-</div>
-</div>
-
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Concludere quando il viaggio termina, il rametto viene abbandonato o trascorrono dodici ore.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

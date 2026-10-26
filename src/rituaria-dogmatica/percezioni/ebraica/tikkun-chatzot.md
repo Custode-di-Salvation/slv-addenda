@@ -5,8 +5,8 @@ tipo: percezioni
 sottotipo: ebraica
 denominazione: Cabalistica
 rarita: Raro
-tempo: "20 minuti (rito completo). Deve essere eseguito dopo la mezzanotte halakhica (calcolata come punto mediano esatto tra tramonto e alba, non le 24:00 solari): l'esecuzione fuori dalla finestra oraria corretta invalida il rito. La finestra ottimale va dalla mezzanotte halakhica fino a un'ora prima dell'alba."
-componenti: "Ceneri fini per apporre sulla fronte (tradizionalmente ceneri di legno bruciato di persistente sofferenza rituale, ma nella pratica moderna basta cenere di carta bruciata contenente testi di lamentazione, o cenere pura di legno di quercia). Ambiente silenzioso, buio o penombra (candela a luce bassa ammessa). Digiuno raccomandato dalla cena della sera precedente*."
+tempo: "~10 minuti, in qualunque momento; mezzanotte halakhica tradizionale*."
+componenti: "Cenere comune; testo appreso e luogo sufficientemente raccolto. Per la lettura a distanza, un oggetto significativo del luogo. Mezzanotte halakhica, digiuno preparatorio e ambiente predisposto secondo la celebrazione tradizionale*."
 costo: "<strong>25 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
@@ -25,7 +25,7 @@ Sul piano dogmatico, il rito funziona per la densità cumulata di uso mistico de
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Al termine del rito, l'operatore riceve dal master una visione o un'intuizione relativa a uno o più eventi traumatici o luttuosi accaduti nel luogo in cui il rito viene eseguito. La forma della visione dipende dalla natura del luogo e dall'intensità del trauma:
+Rivela tracce di eventi traumatici o luttuosi rimaste in un luogo. Al termine del rito, l'operatore riceve dal master una visione o un'intuizione relativa a uno o più eventi traumatici o luttuosi accaduti nel luogo in cui il rito viene eseguito. La forma della visione dipende dalla natura del luogo e dall'intensità del trauma:
 
 - **Luoghi con trauma unico e recente** (assassinio avvenuto da poche settimane, morte violenta di una persona amata, evento traumatico circoscritto): visione chiara e definita, dettagli visivi e uditivi, identità approssimativa delle persone coinvolte (senza necessariamente i nomi), sequenza degli eventi principali. L'operatore vive per pochi secondi le emozioni del momento (dolore, terrore, disperazione) come se fossero sue: costo emotivo alto ma informazione molto ricca.
 - **Luoghi con trauma stratificato o antico** (case in cui sono avvenuti più eventi drammatici nel tempo, luoghi di battaglie storiche, ospedali, campi di concentramento, prigioni): visione frammentaria, immagini sovrapposte, sensazioni contraddittorie, difficoltà a distinguere epoche. L'operatore riceve impressioni generali e alcuni dettagli precisi ma isolati, senza quadro d'insieme.
@@ -38,53 +38,16 @@ Ogni esecuzione del rito lascia sull'operatore una traccia emotiva. Chi lo esegu
 
 Se l'operatore possiede un oggetto significativo proveniente dal luogo di interesse (una chiave della casa, un oggetto personale di una vittima, terra prelevata dal sito), può eseguire il rito in casa propria tenendo l'oggetto sul petto durante la lettura dei salmi. L'effetto è attenuato (visione meno vivida) ma permette di indagare luoghi fisicamente irraggiungibili. Senza oggetto ancorante, il rito deve essere eseguito sul posto.
 
+<p>Una visione utilizzata concretamente per riconoscere una persona, ricostruire un passaggio o scegliere dove indagare può fornire un <strong>bonus da informazione e psicologia</strong> alla relativa azione. Il beneficio richiede un dettaglio effettivamente ottenuto e pertinente, non il solo fatto di avere eseguito il rito.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>Poco prima della mezzanotte halakhica (calcolabile tramite tavole astronomiche o app dedicate al calendario ebraico), l'operatore prepara l'ambiente. Si toglie le scarpe di cuoio (le calzature di cuoio sono proibite in stato di lutto per la halakhah), lascia solo calze o pantofole di stoffa. Prepara la cenere in una piccola coppa. Prepara il <em>Sefer Tehillim</em> o l'edizione codificata del Tikkun Chatzot.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Al momento esatto della mezzanotte halakhica, si siede per terra, senza appoggiare la schiena a nessun supporto (posizione codificata di <em>avelut</em>, lutto pieno). Con il dito medio della mano destra, prende una piccola quantità di cenere dalla coppa e la depone al centro della propria fronte, sopra il punto tra le sopracciglia (in corrispondenza tradizionale del luogo dove i tefillin mattutini vengono posti).</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Recita a bassa voce i salmi codificati nel rito: nella versione classica lurianica sono il Salmo 137 (<em>Al naharot Bavel</em>), il Salmo 79 (<em>Mizmor le-Asaf, Elohim ba'u goyim</em>), passaggi delle Lamentazioni (Eikha 1 e 5), e nella parte finale (<em>Tikkun Leah</em>) il Salmo 42 e il Salmo 43. La versione integrale richiede tempo: nell'uso operativo si può ridurre al Salmo 137 recitato integralmente e a un passaggio dalle Lamentazioni.</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Raggiungere il luogo o predisporre un suo oggetto significativo, cenere e testo; l’orario tradizionale è facoltativo.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Deporre la cenere sulla fronte e recitare il salmo e la lamentazione della recensione appresa.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Restare in raccoglimento per il tempo compreso nei dieci minuti, lasciando emergere il responso del luogo.</p><div class="ritual-verse">
 <p class="latin" dir="rtl">"עַל נַהֲרוֹת בָּבֶל שָׁם יָשַׁבְנוּ גַּם בָּכִינוּ בְּזָכְרֵנוּ אֶת צִיּוֹן..."</p>
 <p class="transliteration">"Al naharot Bavel sham yashavnu gam bakhinu be-zokhrenu et Tziyon..."</p>
 <p class="translation">"Sui fiumi di Babilonia, là sedevamo e piangevamo, ricordandoci di Sion..."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Al termine della lettura dei salmi, l'operatore chiude il libro (o lo poggia a terra) e entra in stato meditativo: mantiene la posizione seduta, respira lentamente, permette alla propria coscienza di aprirsi al dolore residuo del luogo. Non forza la visione: aspetta. La sintonizzazione richiede minuti di silenzio interiore, durante i quali l'operatore può percepire prima sensazioni vaghe (freddezza in certi angoli della stanza, pressione al petto, immagini fugaci al margine dell'occhio) e poi, progressivamente, la visione più definita.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>La visione può arrivare in forme diverse: flash visivo improvviso e breve, sensazione emotiva intensa senza immagini specifiche, suono udito internamente (grida, voci, rumori di oggetti), conoscenza immediata senza mediazione sensoriale (l'operatore semplicemente sa cosa è accaduto). Il master descrive la visione in base alla categoria del luogo e all'esito del tiro.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Quando la visione si dissolve o quando l'operatore sente di aver ricevuto ciò che poteva ricevere quella notte, conclude il rito rimuovendo la cenere dalla fronte (con panno pulito, non lavandola con acqua) e alzandosi lentamente. Non è raccomandato dormire immediatamente dopo il rito: l'operatore dovrebbe restare sveglio almeno un'ora, camminare, bere acqua, permettere alla coscienza di risistemarsi.</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Accogliere immagini e impressioni, poi togliere la cenere e concludere; non è obbligatoria un’ulteriore ora di veglia.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

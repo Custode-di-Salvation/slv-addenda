@@ -4,75 +4,29 @@ title: "Exorcismus in Satanam et angelos apostaticos"
 tipo: evocazioni-e-vincoli
 sottotipo: cristiana-cattolica
 rarita: Raro
-tempo: "5-8 minuti (recitazione integrale della versione lunga con le invocazioni supplementari) · 3 minuti (recitazione operativa concentrata)"
-componenti: "Stola violacea sulle spalle*; crocifisso pettorale o crocifisso stretto in mano durante la recitazione; acqua benedetta in ampolla aperta a portata di mano (per aspersione contestuale in caso di reazione violenta dell'entità); testo originale autenticato del rito*."
-costo: "<strong>80 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(singola invocazione con una modalità attiva)</em> · <strong>160 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(combinazione di due modalità nella stessa recitazione)</em> · <strong>100 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(attivazione della Modalità C di ricaccio, con o senza le altre modalità)</em>"
+tempo: "3 minuti; celebrazione estesa di 5–8 minuti*."
+componenti: "Croce o crocifisso; acqua benedetta; trascrizione leggibile della recensione appresa. Stola violacea, esemplare autenticato e celebrazione estesa*."
+costo: "<strong>80 <i class=\"fa-solid fa-bolt\"></i></strong> × blocco o autorità; <strong>100 <i class=\"fa-solid fa-bolt\"></i></strong> × ricaccio"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
-
-L'operatore invoca l'Arcangelo Michele e la milizia celeste attraverso la versione lunga originale della preghiera composta da Leone XIII: forma completa, non edulcorata, con tono direttamente imperativo verso il demonio e con formule esplicite di comando. È l'<em>Exorcismus in Satanam et angelos apostaticos</em> propriamente detto, di cui la Preghiera di San Michele diffusa nel mondo cattolico ordinario è la versione breve edulcorata progettata per essere sicura anche per i laici.
-
-Il rito permette di agire unicamente contro entità puramente dissonanti (es. demoni); su entità che risuonano con la Dissonanza (es. vampiri, skinwalker, ecc.) funziona ma con efficacia dimezzata.
-
-Sul piano dogmatico, la potenza del rito deriva dalla combinazione tra il testo autentico di Leone XIII (denso di invocazioni gerarchiche e comandi codificati) e la catena di autorità ecclesiastica che il testo presuppone. L'operatore che lo recita si pone in una posizione formale di autorità sull'entità: se l'autorità è riconosciuta (sacerdote ordinato in stato di grazia, o laico con formazione operativa consolidata e riconosciuta, es. cacciatore), il rito funziona a piena potenza.
-
+<p>L’operatore invoca Michele e la milizia celeste attraverso la recensione appresa dell’<em>Exorcismus in Satanam et angelos apostaticos</em>. Le formule imperative costituiscono un riferimento rituale per affrontare una presenza dissonante identificata.</p>
+<p>La versione operativa distingue blocco, autorità e ricaccio. L’esito dipende dalla reale interazione fra la formula e la natura della presenza: una creatura soltanto parzialmente risonante con la Dissonanza non subisce automaticamente metà di un effetto indistinto.</p>
+<p>La conoscenza della recensione e la capacità di sostenerla permettono l’esecuzione. Ordinazione, stato sacramentale, stola ed esemplare autenticato non costituiscono un requisito nascosto ulteriore rispetto ai Componenti.</p>
 </section>
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Il rito ha tre modalità operative distinte. L'operatore sceglie al momento della recitazione quale modalità attivare, e può combinarne due (o tre) con recitazioni successive o con costo maggiorato.
-
-* **Modalità A, Inchiodare**: blocco totale del bersaglio anche contro entità di rango altissimo (es. demoni progenitori) per 3 turni. L'entità non può fuggire, dissolversi, teletrasportarsi, passare attraverso pareti o soglie, sottrarsi al piano fisico, delegare ad altre entità la propria fuga; subisce svantaggio e -10 a ogni tentativo durante la recitazione continua del rito.
-* **Modalità B, Autorità di comando**: l'entità può mentire con estrema difficoltà; la menzogna esplicita è quasi impossibile per la durata della modalità attiva. Può ancora tacere completamente, essere ambigua nelle risposte, dare risposte tecnicamente vere ma fuorvianti, rifiutarsi di rispondere. Ma se pronuncia una parola, quella parola non può essere falsa direttamente. Inoltre l'entità deve obbedire a comandi diretti che rientrino nella sua natura di creatura sottoposta all'Ordine, con tiri contrapposti standard in [Tenacia] (es. rivelare il proprio nome vero demoniaco o umano, dichiarare i propri patti attivi con esseri umani, dichiarare il proprio rango nella gerarchia infernale, dichiarare gli scopi operativi in corso, lasciare un corpo posseduto, ecc.). Non può essere comandata a compiere azioni contro la sua natura fondamentale.
-* **Modalità C, Ricaccio**: se il tiro dell'operatore riesce con margine di successo elevato, l'entità viene costretta a lasciare il piano fisico e a tornare nel proprio dominio d'origine in un vero e proprio esorcismo finale, con però un obbligo temporale di permanenza nel piano originale (decretato dal master a seconda del tiro).
-
-In caso di fallimento del tiro, l'entità bersaglio ottiene automaticamente vantaggio a tutti i suoi attacchi contro l'operatore per i successivi 3 turni. In caso di fallimento del tiro Modalità C (tentativo di ricaccio fallito), l'entità reagisce con violenza amplificata: attacchi contro l'operatore con vantaggio e +5.
-
+<p>Può trattenere, comandare o ricacciare una presenza soprannaturale compatibile. L’operatore sceglie <strong>una modalità per attivazione</strong>: blocco, autorità o ricaccio. Ogni modalità incontra l’opposizione dell’entità. L’omissione della scelta non attiva automaticamente due effetti e combinare più modalità richiede attivazioni e costi distinti.</p>
+<p><strong>Blocco:</strong> per 3 turni ostacola l’allontanamento dell’entità dal punto raggiunto dal rito, comprese le capacità di fuga soprannaturale compatibili. L’entità può contrastare la costrizione e continua a usare le capacità non impedite dal vincolo; non viene dichiarata una paralisi assoluta indipendente dalla sua potenza.</p>
+<p><strong>Autorità:</strong> per 3 turni impone una sola richiesta concreta e compatibile, come interrompere un’azione, rispondere a una domanda o lasciare una presenza trattenuta. La richiesta incontra la normale resistenza e non può imporre autodistruzione, mutamenti identitari permanenti o obblighi oltre la durata. La sincerità deve fare parte dell’ingiunzione; il rito non crea informazioni né rivela automaticamente tutti i patti.</p>
+<p><strong>Ricaccio:</strong> tenta di espellere una presenza dal piano materiale verso il suo dominio, quando la sua natura e il legame attuale lo consentono. Un successo pieno conclude la presenza; un esito parziale può soltanto interromperne la manifestazione per 1 turno. Rango e potenza dell’entità restano rilevanti: i progenitori non sono automaticamente soggetti a un vincolo irresistibile.</p>
+<p>Un fallimento permette una reazione coerente dell’entità, senza attribuirle automaticamente vantaggio e bonus numerici a tutti gli attacchi. La recitazione richiede concentrazione; un’interruzione significativa interrompe l’attivazione in corso.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'operatore indossa la stola violacea. Prende il crocifisso in mano (o lo tocca ripetutamente durante la recitazione se pettorale). Ha l'acqua benedetta in ampolla aperta a portata di mano. Ha il testo autenticato del rito davanti a sé, aperto.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Formula mentalmente l'intenzione, dichiarando quale modalità (o combinazione) intende attivare. La dichiarazione è parte tecnica del rito: senza dichiarazione, il testo attiva Modalità A + B per default, senza Modalità C.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Recita il testo integrale. La versione lunga contiene: invocazione iniziale (analoga alla versione breve ma estesa), enumerazione dei nomi degli arcangeli combattenti (Michele, Gabriele, Raffaele, Uriele) con invocazione di ciascuno per la propria funzione specifica, invocazione dei cherubini e dei serafini della milizia celeste, comando diretto al demonio in tono imperativo (<em>"Ecce Crucem Domini, fugite partes adversae, vicit Leo de tribu Iuda, radix David"</em>), formule di ricaccio esplicito (<em>"Imperat tibi Deus Pater, imperat tibi Deus Filius, imperat tibi Deus Spiritus Sanctus"</em>), invocazione della Vergine Maria come <em>Terror daemonum</em>, chiusura con dossologia trinitaria.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Il testo integrale è troppo lungo per essere riprodotto qui in forma operativa completa senza rischi (la recitazione parziale o corrotta ha effetti operativi imprevedibili). Nella prassi delle Congreghe che lo tramandano, il testo autenticato viene fornito all'operatore solo dopo verifica della sua preparazione sacramentale e operativa, e viene conservato in copie autenticate filologicamente per prevenire corruzioni testuali.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Durante la recitazione, se l'entità reagisce violentemente (urla, tentativi di attacco, manifestazioni fisiche estreme), l'operatore può interrompere brevemente la recitazione per aspergere con acqua benedetta (azione di pochi secondi, ripresa immediata della recitazione). Interruzioni superiori a 30 secondi invalidano il progresso e obbligano l'operatore a ricominciare da capo.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Al termine della recitazione, se le modalità attivate sono A o B, l'effetto è immediato e visibile: l'entità appare "inchiodata" (Modalità A, con manifestazioni fisiche di resistenza al movimento) o "sottomessa" (Modalità B, l'entità visibilmente meno arrogante, più rispondente alle domande). Se la Modalità C è attivata e il tiro ha successo con margine sufficiente, l'entità si dissolve dal piano fisico con manifestazione visibile (spesso descritta come "risucchio" verso il basso o vortice d'aria fredda) e sparisce.</p>
-</div>
-</div>
-
-</div>
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Predisporre croce, acqua e una copia leggibile della formula; paramenti e autenticazione specialistica sono facoltativi.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Identificare la presenza e dichiarare una sola modalità.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Recitare la recensione appresa, mantenendo i nuclei imperativi tramandati: <em>Ecce Crucem Domini, fugite partes adversae, vicit Leo de tribu Iuda, radix David</em>; <em>Imperat tibi Deus Pater, imperat tibi Deus Filius, imperat tibi Deus Spiritus Sanctus</em>. La giocata può descrivere la recitazione senza trascrivere ogni riga del testo.</p></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Sostenere la manifestazione del vincolo e l’eventuale opposizione; un’aspersione breve può accompagnare la preghiera.</p></div></div><div class="step-item"><div class="step-number">5</div><div class="step-content"><p>Concludere con la dossologia trinitaria e il congedo, rispettando durata e risultato della sola modalità scelta.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

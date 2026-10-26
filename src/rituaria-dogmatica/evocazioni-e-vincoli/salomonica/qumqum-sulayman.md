@@ -6,7 +6,7 @@ sottotipo: "salomonica"
 denominazione: "Araba"
 rarita: "Raro"
 tempo: "10-15 minuti di preparazione · 3 turni consecutivi per completare il vincolo"
-componenti: "Un qumqum, recipiente integro di rame, ottone o altra lega a forte componente cuprica; un tappo o disco di piombo; un <a href=\"/sigilli/rari/protezione/khatam-sulayman/\">Khātam Sulaymān</a> correttamente inciso o impresso sulla chiusura; una fonte di calore sufficiente a lavorare e fissare il piombo; nome autentico del Djinn* (produce vantaggio)."
+componenti: "Recipiente integro e chiudibile di rame, ottone o lega prevalentemente cuprica; disco o tappo di piombo predisposto; <a href=\"/sigilli/rari/protezione/khatam-sulayman/\">Khātam Sulaymān</a> sulla chiusura; sistema per fissare stabilmente il tappo. Nome autentico del Djinn*."
 costo: "<strong>100 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 
@@ -20,14 +20,17 @@ costo: "<strong>100 <i class=\"fa-solid fa-bolt\"></i></strong>"
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-<p>Il qumqum preparato deve trovarsi <strong>entro 3 metri</strong> dal Djinn al momento dell'attivazione. L'operatore effettua un confronto in [Tenacia], oppure [Stregoneria] se utilizza la propria competenza tecnica nella formula, contro la [Tenacia] del Djinn.</p>
+
+<p>Confina il mārij di un Djinn in un recipiente sigillato. Il qumqum preparato deve trovarsi <strong>entro 3 metri</strong> dal Djinn al momento dell'attivazione. L'operatore effettua un confronto.</p>
 <p>In caso di successo inizia il trasferimento. Per i successivi <strong>3 turni consecutivi</strong>:</p>
 <ul><li>Il qumqum deve rimanere aperto e integro;</li><li>Il Khātam Sulaymān deve rimanere integro e riconoscibile;</li><li>Il Djinn deve restare <strong>entro 3 metri</strong> dal recipiente;</li><li>L'operatore deve continuare l'esecuzione senza interruzioni.</li></ul>
-<p>All'inizio di ciascun turno il Djinn può effettuare un <strong>nuovo tiro in [Tenacia]</strong>. Un successo interrompe il trasferimento, ristabilendo la configurazione ordinaria dell'Ha. Un nuovo tentativo richiede l'esecuzione del rito dall'inizio.</p>
+<p>Alla conclusione del terzo turno il Djinn dispone di una sola resistenza ulteriore prima che il vincolo sia fissato. Un successo interrompe il trasferimento; distanza, rottura del sigillo o interruzione della formula possono spezzarlo in qualsiasi momento.</p>
 <p>Completati tutti e tre i turni, il mārij stabilizza il qumqum come supporto dell'incarnazione. Il tappo di piombo viene applicato immediatamente e il Khātam Sulaymān completa la chiusura.</p>
 <p>Finché il vincolo rimane attivo, il Djinn: rimane privo di un Ha autonomo all'esterno del recipiente; rimane materialmente localizzato nel qumqum; perde la possibilità di ristabilire spontaneamente il proprio corpo; perde l'accesso a <a href="/specie/djinn/#wasl">Waṣl</a>, <a href="/specie/djinn/#takhayyul">Takhayyul</a>, <a href="/specie/djinn/#istial">Ištiʿāl</a>, <a href="/specie/djinn/#maqam">Maqām</a>, <a href="/specie/djinn/#ahd">ʿAhd</a> e <a href="/specie/djinn/#khafa">Khafāʾ</a> verso l'esterno; perde l'accesso al Ṭayy; rimane impossibilitato ad alimentarsi attraverso organismi esterni; <strong>conserva coscienza e memoria</strong>, con una percezione dell'ambiente estremamente attenuata. Il confinamento riguarda l'incarnazione e le capacità del Djinn. La sua volontà rimane integra e il possessore del recipiente <strong>non acquisisce alcuna autorità personale sul prigioniero</strong>.</p>
 <p>Il nome autentico può essere inserito nell'invocazione come componente facoltativa. Una designazione realmente radicata nel Ren del Djinn rende il bersaglio più precisamente individuabile dalla formula e concede <strong>vantaggio al confronto iniziale</strong>. Il beneficio richiede una designazione riconosciuta dal soggetto come propria e stabilmente integrata nella sua identità. Soprannomi occasionali, identità di copertura, nomi erroneamente attribuiti e designazioni prive di questo rapporto con il Ren non producono il bonus.</p>
 <p>La rimozione deliberata del tappo di piombo accompagnata dall'interruzione del Khātam Sulaymān scioglie il vincolo. La distruzione del recipiente rende instabile l'ancoraggio e permette al mārij di ricostituire progressivamente l'Ha nelle immediate vicinanze. La riemersione può risultare traumatica dopo confinamenti particolarmente lunghi. Il master può applicare disorientamento, perdita di Energia, difficoltà temporanee nella coordinazione fra Ha e mārij o altre Condizioni coerenti con durata e modalità della liberazione. Danneggiare il recipiente durante il confinamento <strong>non trasferisce automaticamente il danno al Djinn</strong>.</p>
+
+<p>Il tappo può essere già preparato e fissato con un sistema meccanico: non occorre fondere o lavorare piombo durante i tre turni. Il sigillo deve essere integro dopo la chiusura.</p>
 </section>
 
 <section class="prose" id="procedura">

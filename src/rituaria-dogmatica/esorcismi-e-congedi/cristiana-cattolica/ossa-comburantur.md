@@ -18,11 +18,11 @@ costo: "<strong>30 <i class=\"fa-solid fa-bolt\"></i></strong>"
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-<p><strong>La distanza dal bersaglio è irrilevante</strong>. Il collegamento è simpatetico e dipende dall'identità del resto, non dalla prossimità fisica del demone. Dal momento in cui l'osso comincia effettivamente a bruciare:</p>
+<p>Colpisce un demone attraverso le sue ossa originarie, fino a poterne provocare la morte definitiva. <strong>La distanza dal bersaglio è irrilevante</strong>. Il collegamento è simpatetico e dipende dall'identità del resto, non dalla prossimità fisica del demone. Dal momento in cui l'osso comincia effettivamente a bruciare:</p>
 <ul><li>Il demone percepisce un dolore violento e insopportabile, simile ad essere bruciati vivi dall'interno;</li><li>Subisce <strong>20 PV da avversione per turno</strong>, non riducibili tramite resistenze ordinarie;</li><li>La propria autorigenerazione viene sospesa;</li><li>Utilizza con svantaggio i poteri demoniaci finché la combustione continua.</li></ul>
 <p>Se il fuoco viene spento prima del completamento, il collegamento si interrompe immediatamente. I danni già prodotti rimangono, ma il demone sopravvive e i resti non completamente distrutti possono essere utilizzati nuovamente.</p>
 <p>Se la combustione viene mantenuta per <strong>3 turni consecutivi</strong> dopo l'attivazione del rito, il resto perde definitivamente la propria struttura e il collegamento raggiunge il Ren del bersaglio. Il demone viene <strong>ucciso definitivamente, non esorcizzato</strong>: la sua configurazione animica collassa e non viene semplicemente rimandata all'Inferno.</p>
-<p>Se il demone occupa in quel momento un tramite umano, il rito colpisce l'entità e non identifica il tramite come bersaglio. La separazione improvvisa provoca tuttavia nel posseduto un danno traumatico di <strong>+40 PV</strong> e può aggravare ferite o condizioni già presenti. Il tramite <strong>non viene automaticamente ucciso</strong>.</p>
+<p>Se il demone occupa in quel momento un tramite umano, il rito colpisce l'entità e non identifica il tramite come bersaglio. La separazione improvvisa provoca tuttavia nel posseduto un danno traumatico di <strong>40 PV</strong> e può aggravare ferite o condizioni già presenti. Il tramite <strong>non viene automaticamente ucciso</strong>.</p>
 </section>
 
 <section class="prose" id="limitazioni">
@@ -30,6 +30,7 @@ costo: "<strong>30 <i class=\"fa-solid fa-bolt\"></i></strong>"
 <p>Il rito non funziona su: ossa del tramite attualmente posseduto; sangue, capelli, denti isolati, cenere o altri residui biologici che non siano tessuto osseo originario; repliche, ossa di parenti o materiali ottenuti artificialmente a partire dal DNA del bersaglio; costrutti infernali che non abbiano mai posseduto una precedente identità umana.</p>
 <p>Non è necessario possedere l'intero scheletro: è sufficiente un frammento osseo autentico e riconoscibile, purché non sia già stato completamente calcinato. La quantità non determina la forza del collegamento, perché il resto funziona da indice d'identità e non da fonte energetica.</p>
 <p>Un demone il cui corpo umano originario sia stato cremato integralmente prima della trasformazione non può essere colpito tramite questo rito.</p>
+<p>Il reperimento e l’identificazione del resto e l’esecuzione contro un personaggio richiedono una <strong>giocata masterata</strong>. La combustione deve offrire una concreta possibilità narrativa di essere interrotta; non è un’eliminazione dichiarabile fuori scena senza opposizione o gestione della situazione.</p>
 </section>
 
 <section class="prose" id="procedura">

@@ -5,7 +5,7 @@ tipo: cura-e-rimedio
 sottotipo: latina
 rarita: Comune
 tempo: "3 minuti per scrivere e legare l'amuleto · 1 azione per applicare un amuleto già correttamente preparato"
-componenti: "Foglio di carta o pergamena non precedentemente utilizzato; inchiostro; filo di lino. Acqua corrente diretta verso oriente necessaria soltanto per la chiusura tradizionale del rito al nono giorno."
+componenti: "Carta o pergamena nuova; inchiostro; filo di lino. La chiusura tradizionale al nono giorno può essere descritta, ma non richiede un corso d’acqua orientato a est per conservare l’esito."
 costo: "<strong>20 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
@@ -24,7 +24,7 @@ L'amuleto agisce sulle manifestazioni febbrili (anche sovrannaturali) del bersag
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Abbassa progressivamente febbre, brividi, sudorazione patologica e prostrazione associata, eliminando eventuali malus dovuti esclusivamente allo stato febbrile entro circa dieci minuti dall'attivazione. Il soggetto riceve inoltre vantaggio alle prove di [Costituzione] effettuate per resistere all'esaurimento provocato dalla febbre.
+Attenua la febbre e i disturbi fisici che ne derivano. Abbassa progressivamente febbre, brividi, sudorazione patologica e prostrazione associata, eliminando eventuali malus dovuti esclusivamente allo stato febbrile entro ~10 minuti dall'attivazione. Il soggetto riceve inoltre vantaggio alle prove di [Costituzione] effettuate per resistere all'esaurimento provocato dalla febbre.
 
 Il rito non elimina la causa della febbre: infezioni, ferite, avvelenamenti e patologie continuano a richiedere trattamento. Se l'amuleto viene rimosso prima della guarigione della causa primaria, i sintomi possono ricomparire normalmente.
 
@@ -36,42 +36,9 @@ Il rito può essere mantenuto per un massimo di nove giorni. Trascorso questo pe
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>Su un foglio nuovo l'operatore scrive la parola in questa disposizione, sottraendo una lettera dall'estremità destra a ogni riga:</p>
-<div class="ritual-verse">
-<p class="latin">ABRACADABRA<br>ABRACADABR<br>ABRACADAB<br>ABRACADA<br>ABRACAD<br>ABRACA<br>ABRAC<br>ABRA<br>ABR<br>AB<br>A</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Il foglio viene ripiegato senza cancellare, coprire o attraversare la sequenza e legato con filo di lino.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>L'amuleto viene sospeso al collo del soggetto. L'attivazione avviene nel momento in cui il lino viene chiuso: il soggetto non deve pronunciare alcuna formula.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>L'amuleto deve rimanere addosso al soggetto perché l'effetto continui. Togliere il foglio interrompe il rito; rimetterlo successivamente richiede una nuova attivazione e un nuovo pagamento del costo.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Nella forma tradizionale, dopo nove giorni l'amuleto viene rimosso prima dell'alba e gettato dietro le spalle in un corso d'acqua che scorre verso oriente. Questa operazione non è necessaria per conservare una guarigione già avvenuta, ma chiude correttamente il pattern e impedisce che il foglio venga riutilizzato.</p>
-</div>
-</div>
-
-</div>
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Scrivere la sequenza diminuente su un foglio nuovo, rispettando l’ordine delle lettere.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Ripiegare normalmente senza cancellare o lacerare la scrittura e legare con lino. Coprire la sequenza attraverso la piega non invalida il rito.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Applicare il supporto al soggetto; la rimozione interrompe la protezione e una nuova attivazione richiede il relativo costo.</p><div class="ritual-verse">
+<p class="latin">ABRACADABRA<br/>ABRACADABR<br/>ABRACADAB<br/>ABRACADA<br/>ABRACAD<br/>ABRACA<br/>ABRAC<br/>ABRA<br/>ABR<br/>AB<br/>A</p>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Dopo un massimo di nove giorni rimuovere e disattivare il foglio, che non può essere riutilizzato. La chiusura tradizionale non condiziona una guarigione già avvenuta.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

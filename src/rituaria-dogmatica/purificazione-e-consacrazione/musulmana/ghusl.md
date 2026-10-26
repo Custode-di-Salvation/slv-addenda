@@ -4,106 +4,37 @@ title: "Ghusl"
 tipo: purificazione-e-consacrazione
 sottotipo: musulmana
 rarita: Comune
-tempo: "20 minuti (rito completo con <em>wudu</em> preliminare) · 10 minuti (versione ridotta, solo triplice versamento con <em>niyyah</em>)"
-componenti: "Acqua pulita in quantità sufficiente a coprire l'intero corpo, idealmente corrente (rubinetto scorrente, fontana, fiume, sorgente, mare). Non validi: acqua stagnante contaminata, acqua di scarico, acqua usata da altri per lavarsi, acqua raccolta in luoghi carichi di Dissonanza. Ambiente privato (nessuno può assistere al rito completo). Vestizione pulita da indossare dopo il rito, obbligatoria. Il corpo dell'operatore deve essere fisicamente pulito prima del versamento rituale: qualsiasi barriera fisica (smalto, cerotti non necessari, cosmetici occlusivi, residui di grasso o sudore denso) invalida il rito perché impedisce all'acqua di toccare l'intera superficie."
+tempo: "~10 minuti."
+componenti: "Acqua pulita sufficiente al lavaggio complessivo; ambiente adatto e indumento pulito disponibile. Sequenza cerimoniale completa, acqua corrente, abiti dedicati e celebrazione del venerdì*."
 costo: "<strong>30 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(rito completo)</em> · <strong>20 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(versione ridotta)</em>"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
-
-L'operatore ripristina completamente il proprio stato di purezza rituale (<em>tahara</em>), rimuovendo dal corpo qualsiasi energia residua passiva accumulata: aure ereditate da contatti recenti, tracce lasciate da esposizioni a luoghi fortemente energetici o Dissonanti, residui simpatetici di eventi traumatici, "peso" accumulato in giornate di stress sovrannaturale, contaminazioni da manipolazione di oggetti compromessi. Il corpo dell'operatore emerge dal rito completamente ricalibrato: azzerato sul piano sottile e reso idoneo all'esecuzione di qualsiasi atto dogmatico islamico.
-
-A differenza dell'<a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/asperges-me/">Asperges</a> cattolico, che agisce dall'esterno con acqua già consacrata, il Ghusl consacra il momento stesso attraverso l'intenzione (<em>niyyah</em>) e il gesto: non richiede acqua pre-benedetta, richiede intenzione formulata e procedura corretta. L'acqua diventa strumento purificatore nel momento dell'atto, non prima.
-
-Sul piano dogmatico, il Ghusl funziona con una struttura peculiare rispetto ai riti cristiani: non "aggiunge" consacrazione al corpo dell'operatore ma ristabilisce uno stato originario che i comportamenti quotidiani (contatti, contaminazioni, atti fisiologici) hanno alterato. Quattordici secoli di prassi comunitaria hanno consolidato il pattern al punto che l'esecuzione corretta è quasi impossibile da far fallire; la difficoltà non sta nella potenza dell'atto ma nella precisione delle condizioni preliminari (purezza fisica, intenzione chiara, acqua idonea).
-
-Il Ghusl è presupposto tecnico obbligatorio per l'esecuzione di qualsiasi altro rito dogmatico islamico: senza Ghusl recente (nelle circostanze che lo richiedono), la preghiera è invalida, gli atti di <em>ruqya</em> (esorcismo) inefficaci, la lettura del Corano proibita. Nel sistema questo si traduce in un prerequisito operativo: chi vuole eseguire atti dogmatici della tradizione islamica deve avere il Ghusl recente in scheda, altrimenti tutti i suoi tiri in quella tradizione partono con svantaggio automatico.
-
+<p>L'operatore ripristina completamente il proprio stato di purezza rituale (<em>tahara</em>), rimuovendo dal corpo qualsiasi energia residua passiva accumulata: aure ereditate da contatti recenti, tracce lasciate da esposizioni a luoghi fortemente energetici o Dissonanti, residui simpatetici di eventi traumatici, "peso" accumulato in giornate di stress sovrannaturale, contaminazioni da manipolazione di oggetti compromessi. Il corpo dell'operatore emerge dal rito completamente ricalibrato: azzerato sul piano sottile e reso idoneo all'esecuzione di qualsiasi atto dogmatico islamico.</p>
+<p>A differenza dell'<a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/asperges-me/">Asperges</a> cattolico, che agisce dall'esterno con acqua già consacrata, il Ghusl consacra il momento stesso attraverso l'intenzione (<em>niyyah</em>) e il gesto: non richiede acqua pre-benedetta, richiede intenzione formulata e procedura corretta. L'acqua diventa strumento purificatore nel momento dell'atto, non prima.</p>
+<p>Sul piano dogmatico, il Ghusl funziona con una struttura peculiare rispetto ai riti cristiani: non "aggiunge" consacrazione al corpo dell'operatore ma ristabilisce uno stato originario che i comportamenti quotidiani (contatti, contaminazioni, atti fisiologici) hanno alterato. Quattordici secoli di prassi comunitaria hanno consolidato il pattern al punto che l'esecuzione corretta è quasi impossibile da far fallire; la difficoltà non sta nella potenza dell'atto ma nella precisione delle condizioni preliminari (purezza fisica, intenzione chiara, acqua idonea).</p>
+<p>Le tradizioni comprendono osservanze di purezza preliminare. Nell’Addenda queste preparazioni sono facoltative quando dichiarate tali e sostengono il rito, senza trasformare un Ghusl recente in un requisito per ogni atto islamico.</p>
 </section>
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Rimuove completamente dal corpo dell'operatore qualsiasi energia residua passiva, anche di intensità superiore a quella trattabile da <a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/asperges-me/">Asperges</a> o <a href="/rituaria-dogmatica/purificazione-e-consacrazione/ebraica/tevilat-kelim/">Tevilat kelim</a> applicati a persone. Aure ereditate da contatti prolungati (giorni o settimane), tracce di stregoneria altrui subita passivamente, residui simpatetici di eventi traumatici recenti, "peso" accumulato in ambienti Dissonanti, contaminazioni da manipolazione di oggetti compromessi. Il corpo dell'operatore emerge neutro.
-
-Contro influenze attive mediate da altri soggetti (es. maledizioni ancora in corso, legamenti attivi, suggestioni stregonesche non ancora consolidate, marchi di sfortuna imposti da praticanti) necessita di tiri contrapposti. In caso di successo pulito l'influenza si stacca completamente e defluisce con l'acqua; in caso di successo sporco l'influenza si indebolisce ma resta parzialmente ancorata (l'operatore percepisce chiaramente la resistenza); in caso di fallimento l'influenza non si stacca ma l'operatore ne prende coscienza precisa. Non funziona su possessione già stabilita di qualsiasi Stadio, patti demoniaci firmati, marchi di Dissonanza consolidati, ecc.
-
-Conferisce vantaggio a tutti i tiri per eseguire riti dogmatici della tradizione islamica per le successive 24 ore. Superate le 24 ore, il bonus decade e l'operatore torna a stato neutro; una seconda esecuzione entro le 24 ore non estende ma solo rinnova la finestra da capo.
-
-Chi ha ricevuto Ghusl nelle 24 ore precedenti è protetto agli attacchi minori che sfruttano la contaminazione fisiologica come vettore: entità che cercano di ancorarsi tramite tracce di sudore, sangue mestruale, sperma, saliva, capelli o unghie recentemente perse non trovano appiglio sul corpo purificato. Utile particolarmente per operatori esposti a stregoneria con focus (che riceve svantaggio e malus di -5).
-
-Il Ghusl eseguito su un morto (<em>Ghusl al-mayyit</em>, versione codificata per la preparazione del defunto alla sepoltura): rimuove dal cadavere qualsiasi residuo che potrebbe attirare o ospitare entità estranee nelle ore che seguono la morte, chiude la soglia biologica della morte e impedisce che venga sfruttata da presenze in cerca di veicolo. Costo aumentato a <strong>45 <i class="fa-solid fa-bolt"></i></strong>, richiede almeno due operatori dello stesso sesso del defunto e va eseguito entro 24 ore dalla morte. Un defunto passato correttamente per il <em>Ghusl al-mayyit</em> non può essere reso strumento di negromanzia né ospitare entità (es. demoni) senza sforzo considerevole del praticante ostile (il tentativo riceve svantaggio e malus di -10).
-
-Un operatore che esegue Ghusl cinque volte al giorno per almeno una settimana consecutiva (uso monastico intensivo, tradizione sufi) stabilizza uno stato di purezza permanente: vantaggio e +5 permanente ai tiri di [Tenacia] contro suggestione sovrannaturale finché mantiene la disciplina. Il beneficio decade dopo tre giorni consecutivi di interruzione.
-
-Il Ghusl eseguito al venerdì mattina (uso codificato: <em>Ghusl al-jumu'ah</em>, purificazione per la preghiera del venerdì) si stabilizza sulla sinergia con il momento comunitario islamico settimanale potenzia gli effetti: il costo in <i class="fa-solid fa-bolt"></i> si dimezza e la durata del bonus ai riti si estende a 48 ore invece di 24.
-
+<p>Purifica il corpo da residui soprannaturali e contaminazioni compatibili. Purifica il corpo dell’operatore da residui passivi e contaminazioni compatibili. Contro un’influenza attiva minore affronta la presa della fonte e può scioglierla o attenuarla; possessioni radicate, patti e strutture identitarie sono esclusi.</p>
+<p>La purificazione può fornire un <strong>bonus da sfruttamento delle risorse al primo rito coerente entro 24 ore</strong> quando l’operatore utilizza concretamente il canale ripristinato. La sola scomparsa di un ostacolo non conta anche come bonus. Il sostegno non si estende a ogni atto e non diventa permanente attraverso lavaggi ripetuti.</p>
+<p>La forma funeraria può essere eseguita su un morto da officianti disponibili con il rispetto dovuto al corpo, senza obbligo assoluto di due persone dello stesso sesso. Rimuove residui e sostiene la resistenza a nuovi ancoraggi ostili, senza cancellare il Ren né impedire il normale transito.</p>
+<p>Una medicazione necessaria, un impedimento fisico o una piccola zona non raggiungibile non invalidano automaticamente il rito. Il lavaggio deve restare complessivo e realmente intenzionale. La celebrazione del venerdì è facoltativa e non dimezza i costi oltre al vantaggio.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'operatore si assicura di trovarsi in ambiente privato, con acqua pulita disponibile in quantità sufficiente e vestizione pulita pronta da indossare al termine. Il corpo va prima lavato fisicamente (rimozione di sporco, sudore denso, eventuali cosmetici occlusivi, cerotti non necessari): il Ghusl rituale segue il lavaggio fisico, non lo sostituisce.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p><em>Niyyah</em>: l'operatore formula mentalmente (o sussurra) l'intenzione precisa, distinguendo il tipo di Ghusl che sta per compiere (di purificazione ordinaria, dopo <em>janabah</em> rituale, del venerdì, per il pellegrinaggio, ecc.).</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Predisporre acqua pulita, privacy compatibile con l’assistenza necessaria e indumenti puliti.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Formulare l’intenzione e compiere il lavaggio con la recitazione, adattandolo a ferite e impedimenti senza rimuovere medicazioni necessarie.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Completare il versamento sul corpo e l’invocazione nella recensione appresa; la sequenza cerimoniale completa è facoltativa.</p><div class="ritual-verse">
 <p class="latin" dir="rtl">"نَوَيْتُ أَنْ أَغْتَسِلَ غُسْلًا..."</p>
 <p class="transliteration">"Nawaytu an aghtasila ghuslan..."</p>
 <p class="translation">"Intendo compiere il Ghusl per purificarmi..."</p>
-</div>
-<p>Senza <em>niyyah</em> formulata prima del versamento, il rito è tecnicamente invalido anche se la procedura fisica è eseguita perfettamente. La <em>niyyah</em> è ciò che distingue l'atto rituale dal semplice lavarsi.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Si lavano le parti intime con la mano sinistra, rimuovendo ogni impurità visibile.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Si compie il <em>wudu</em> completo (abluzione minore): mani fino ai polsi, sciacquo della bocca, sciacquo delle narici, viso, avambracci fino ai gomiti, passaggio delle mani bagnate sul capo, orecchie, piedi fino alle caviglie. Ogni parte tre volte.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Si versa acqua su tutto il corpo per tre volte consecutive, assicurandosi che raggiunga ogni singola parte della pelle: cuoio capelluto (l'acqua deve arrivare alle radici dei capelli, non solo scorrere in superficie: chi ha capelli molto folti o lunghi deve districarli con le dita), pieghe cutanee, tra le dita di mani e piedi, dietro le orecchie, ombelico. Un solo centimetro di pelle non toccato dall'acqua invalida il rito.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Si comincia dal lato destro del corpo (spalla destra, braccio destro, fianco destro, gamba destra), poi si passa al lato sinistro. La sequenza destra-sinistra è codificata e non tollera inversione.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">7</div>
-<div class="step-content">
-<p>Durante o subito dopo il versamento, si recita l'invocazione:</p>
-<div class="ritual-verse">
+</div><div class="ritual-verse">
 <p class="latin" dir="rtl">"بِسْمِ اللَّهِ وَالْحَمْدُ لِلَّهِ. اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ."</p>
 <p class="transliteration">"Bismillahi wa alhamdulillah. Allahumma j'alni min at-tawwabin wa j'alni min al-mutatahhirin."</p>
 <p class="translation">"Nel nome di Allah e lode ad Allah. O Allah, fammi essere tra coloro che si pentono e tra coloro che si purificano."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">8</div>
-<div class="step-content">
-<p>L'operatore esce dall'acqua, si asciuga solo lievemente (l'acqua residua sulla pelle completa il rito, come per il <a href="/rituaria-dogmatica/purificazione-e-consacrazione/ebraica/tevilat-kelim/">tevilat kelim</a>), indossa la vestizione pulita.</p>
-</div>
-</div>
-
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Concludere con asciugatura e vestizione; la forma funeraria conserva il medesimo nucleo di purificazione.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

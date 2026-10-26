@@ -6,7 +6,7 @@ sottotipo: ebraica
 denominazione: Ashkenazita
 rarita: Comune
 tempo: "5 minuti (rito completo con recitazione lenta e concentrazione)"
-componenti: "Nessun componente materiale. Recitazione perfetta in ebraico con pronuncia corretta e intenzione (<em>kavvanah</em>) di verifica. Copricapo (<em>kippah</em>) per gli uomini*."
+componenti: "Recensione appresa dello Shema e dell’Hashkiveinu; posizione stabile e raccoglimento. Pronuncia liturgica specialistica e copricapo tradizionale*."
 costo: "<strong>30 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
@@ -22,23 +22,11 @@ Sul piano dogmatico, funziona per densità unica di ripetizione storica e per la
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Se il tiro riesce, il master rivela all'operatore quali delle seguenti categorie di manipolazione hanno agito su di lui negli ultimi sette giorni:
-
-- **Suggestioni sovrannaturali imposte da entità o praticanti**: l'operatore percepisce chiaramente "questo pensiero non era mio, mi è stato messo dentro".
-- **Illusioni percettive prolungate**: ambienti visti diversamente da come sono, persone scambiate per altre, oggetti percepiti come presenti che non c'erano.
-- **Ricordi falsi impiantati**: l'operatore riconosce quali dei suoi ricordi recenti sono stati fabbricati o alterati, senza recuperare quelli veri se sono stati cancellati.
-- **Influenze telepatiche o legamenti simpatetici attivi**: l'operatore percepisce la direzione e la natura del legame, spesso ma non sempre l'identità di chi lo mantiene.
-- **Piccole compromissioni di volontà**: l'operatore riconosce decisioni prese negli ultimi giorni che non corrispondevano al suo giudizio autonomo.
-
-Il rito non rimuove nessuna di queste manipolazioni: le rende solo visibili all'operatore. Per rimuoverle servono altri riti specifici (<a href="/rituaria-dogmatica/purificazione-e-consacrazione/musulmana/al-muawwidhatayn/">Mu'awwidhatayn</a> per influenze fresche, <a href="/rituaria-dogmatica/purificazione-e-consacrazione/musulmana/ghusl/">Ghusl</a> per residui, esorcismi per compromissioni radicate, riti di rottura di legamento per legamenti simpatetici).
-
-Non funziona su: manipolazioni imposte più di sette giorni prima (troppo integrate per essere distinguibili); compromissioni da patti demoniaci firmati coscientemente (il patto è considerato parte della volontà del soggetto); marchi di Dissonanza consolidati; possessioni di qualsiasi Stadio superiore al secondo. Non funziona nemmeno su influenze imposte da altri riti dogmatici cristiani o islamici benevoli (una benedizione ricevuta non viene percepita come manipolazione, correttamente).
-
-Un uso ripetuto, eseguito con cadenza settimanale come pratica preventiva, mantiene l'operatore consapevole del proprio stato interno e permette, con un successo pulito alla difesa automatica e incosciente, di intercettare tentativi di manipolazione prima che si radichino.
-
-Non funziona su terzi. È rito strettamente introspettivo; l'operatore può eseguirlo solo su sé stesso perché richiede accesso alla propria coscienza interna che nessun altro può fornire. Per verificare le percezioni di un'altra persona, quella persona deve recitare lo Shema da sola.
-
+<p>Rivela le tracce recenti di manipolazioni subite dalla propria coscienza. Rende riconoscibili all’operatore le tracce di manipolazione della propria coscienza avvenute negli ultimi <strong>sette giorni</strong>: suggestioni, ricordi alterati, illusioni prolungate e influenze attive possono emergere come elementi estranei o anomalie.</p>
+<p>Il responso riguarda natura e presenza dell’alterazione, non rivela automaticamente l’identità del responsabile o i ricordi originali cancellati. Schermature e strutture soprannaturali che occultano la traccia possono opporsi normalmente.</p>
+<p>Non rimuove l’effetto, non legge altre persone e non annulla patti volontariamente assunti o strutture identitarie ormai consolidate. Una benedizione non diventa ostile soltanto perché di tradizione diversa.</p>
+<p>La pratica periodica può motivare attenzione e raccoglimento, ma non concede una difesa automatica e incosciente contro eventi futuri. Ogni verifica richiede una reale esecuzione e il relativo costo.</p>
+<p>Il riconoscimento di una traccia può fornire un <strong>bonus da informazione e psicologia</strong> a un’indagine o a un intervento che utilizzi concretamente quella specifica anomalia. Se il rito ha già reso disponibile un’informazione prima mancante, lo stesso dato non viene contato una seconda volta come bonus.</p>
 </section>
 
 <section class="prose" id="procedura">

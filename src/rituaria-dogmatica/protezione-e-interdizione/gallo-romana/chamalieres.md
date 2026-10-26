@@ -4,8 +4,8 @@ title: "Chamalières"
 tipo: protezione-e-interdizione
 sottotipo: gallo-romana
 rarita: Raro
-tempo: "15 minuti"
-componenti: "Una sottile lamina di piombo e uno stilo. Se il bersaglio dell'atto non è presente è necessario un focus secondo le normali regole."
+tempo: "5–10 minuti con formula predisposta; ~15 minuti per inciderla sul momento."
+componenti: "Lamina sottile di piombo e stilo; bersaglio o focus appropriato. Nome identificativo dell’autore dell’alterazione*."
 costo: "<strong>60 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
@@ -26,7 +26,7 @@ Il rito può intervenire su una singola alterazione sovrannaturale attiva che ab
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Può quindi:
+Corregge menomazioni e deformazioni provocate da effetti soprannaturali. Può quindi:
 - ripristinare una capacità fisica diminuita in modo sovrannaturale;
 - raddrizzare una deformazione provocata da una maledizione;
 - rimuovere cecità, sordità o perdita sensoriale di origine sovrannaturale;
@@ -42,54 +42,12 @@ Su alterazioni di potenza lieve o moderata l'effetto può essere definitivo. Con
 
 Chamalières non restituisce automaticamente il danno all'autore. Il suo campo è la correzione del bersaglio. La retorsione appartiene al rito di Larzac.
 
+<p>Quando viene corretta o sospesa una Condizione, cessano soltanto i malus prodotti dall’alterazione effettivamente rimossa. Ferite, shock, sfinimento e altre cause ancora presenti continuano a incidere sulle azioni alle quali sono pertinenti.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'esecutore deve identificare una proprietà del bersaglio che è stata alterata da un precedente atto sovrannaturale.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Sulla lamina di piombo viene copiata la formula di Chamalières nella recensione appresa dal praticante. La formula non viene tradotta durante l'esecuzione.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>La sezione onomastica viene utilizzata come parametro variabile del rito: vi viene inserito il nome del soggetto responsabile dell'alterazione, quando questo è noto. Se l'autore è sconosciuto, la formula può essere eseguita comunque sulla traccia dell'atto, ma con svantaggio.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>La lamina viene posta in contatto con il bersaglio o con il focus che lo rappresenta.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Durante l'attivazione l'esecutore concentra l'intento su com'era la proprietà prima dell'alterazione, non su uno stato ideale o migliorato.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Il pattern applica quindi le tre operazioni semantiche conservate nel testo: ciò che è stato diminuito viene restituito, ciò che è stato deformato viene raddrizzato, ciò che è stato oscurato viene nuovamente reso accessibile.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">7</div>
-<div class="step-content">
-<p>La lamina si esaurisce dopo una singola esecuzione.</p>
-</div>
-</div>
-</div>
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Identificare la proprietà alterata e il bersaglio o focus raggiungibile.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Copiare la formula sulla lamina e compilare la sezione onomastica; il nome dell’autore, quando noto, è un aiuto facoltativo.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Porre la lamina in contatto con il soggetto o con il focus e richiamare la sua configurazione precedente, non una condizione migliorata.</p></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Completare restituzione, raddrizzamento e chiarificazione; la lamina si esaurisce dopo l’esecuzione.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

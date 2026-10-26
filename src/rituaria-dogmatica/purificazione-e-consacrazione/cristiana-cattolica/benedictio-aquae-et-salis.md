@@ -5,7 +5,7 @@ tipo: purificazione-e-consacrazione
 sottotipo: cristiana-cattolica
 rarita: Comune
 tempo: "10 minuti (rito completo) · 4 minuti (solo sale o solo acqua)"
-componenti: "Acqua dolce (preferibilmente di fonte), sale grosso non trattato, contenitore pulito, stola violacea*."
+componenti: "Acqua pulita; sale comune; contenitori puliti. Acqua di fonte, sale non trattato e stola tradizionale*."
 costo: "<strong>30 <i class=\"fa-solid fa-bolt\"></i></strong> <em>(limite: 10 l d'acqua / 10 kg di sale per singola benedizione)</em>"
 ---
 <section class="prose" id="descrizione">
@@ -19,22 +19,10 @@ Le due benedizioni possono essere eseguite anche separatamente. Il sale benedett
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Il rituale produce de facto acqua benedetta e sale benedetto, sostanze che hanno le seguenti caratteristiche:
-
-- Producono danni da avversione (quindi efficaci contro l'autorigenerazione e con effetti potenzialmente maggiorati) su creature avverse all'Ordine.
-- Perdono la corruttibilità comune. L'acqua non si guasta né si copre di alghe per lunghi periodi se custodita in vaso pulito; il sale non si sfalda.
-
-Altri utilizzi di concerto sfruttando la simbologia cristiana a cui è associata sono: protezione contro tempeste e disastri naturali (nel testo dell'orazione la Chiesa chiede esplicitamente che l'aspersione allontani "calamitas ex tempestate") e uso agricolo e pastorale (aspersa su campi, greggi e stalle, favorisce la fertilità e allontana le epizoozie).
-
-Va conservata in vaso di vetro o terracotta pulito, al riparo dalla luce diretta. L'acqua benedetta rinnovata annualmente durante la Veglia Pasquale mantiene efficacia pluriennale; quella ordinaria va rinnovata ogni 6 mesi.
-
-Può essere miscelata a olio benedetto per unzioni; è incompatibile con acqua salmastra, acqua stagnante o acqua raccolta in luoghi carichi di Dissonanza (perde consacrazione al contatto).
-
-Segni di consacrazione riuscita sono: leggera tensione superficiale, temperatura di uno o due gradi inferiore all'ambiente, tenue aroma di incenso alla prima apertura del vaso.
-
-L'acqua/sale ottenuti tramite questo atto (in vidima o quest) potranno essere inseriti nell'inventario e si ricaricano automaticamente al termine di ogni giocata masterata.
-
+<p>Produce acqua o sale consacrati per aspersioni, purificazioni e impieghi rituali compatibili. Consacra fino a <strong>10 litri d’acqua o 10 kg di sale</strong> per esecuzione. La sostanza può essere usata nelle aspersioni e nei riti appropriati; l’azione avversa richiede una reale vulnerabilità alla risonanza attiva, quantità ed esposizione adeguate.</p>
+<p>Custodita in un recipiente pulito mantiene l’efficacia per sei mesi, salvo contaminazione sostanziale. La preparazione nella ricorrenza tradizionale può sostenere la conservazione, senza essere obbligatoria alla riuscita.</p>
+<p>La consacrazione non genera nuova materia. Ogni uso consuma la quantità materialmente impiegata; diluire una dose non moltiplica la sua risonanza né consente scorte infinite.</p>
+<p>Una scorta registrata in inventario attraverso vidima o quest segue quantità e ricarica autorizzate per quell’oggetto. L’eventuale ripristino alla fine di una giocata masterata non produce dosi autonome trasferibili o rivendibili senza limite.</p>
 </section>
 
 <section class="prose" id="procedura">

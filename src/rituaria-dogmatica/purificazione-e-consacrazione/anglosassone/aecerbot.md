@@ -4,8 +4,8 @@ title: "Æcerbot"
 tipo: purificazione-e-consacrazione
 sottotipo: anglosassone
 rarita: Comune
-tempo: "Rituale lungo: dall'ultima parte della notte fino al tramonto. Richiede diverse fasi separate e non può essere completato durante un combattimento."
-componenti: "Quattro zolle provenienti dai quattro lati del terreno; olio; miele; lievito; latte proveniente dagli animali allevati sul terreno; frammenti delle specie arboree e vegetali presenti; acqua santa; quattro piccole croci di sorbo; incenso; finocchio; sapone consacrato; sale consacrato; seme ottenuto in elemosina; farina e latte per il pane rituale. È inoltre necessario l'accesso a una chiesa per la fase liturgica."
+tempo: "20–30 minuti per un appezzamento; celebrazione comunitaria estesa*."
+componenti: "Quattro zolle o campioni del terreno; semi; acqua; un’offerta alimentare semplice; utensile per aprire il primo solco. Quattro messe, accesso alla chiesa, latte del terreno, croci di sorbo, aratro e ricetta completa tradizionale*."
 costo: "<strong>80 <i class=\"fa-solid fa-bolt\"></i></strong>"
 ---
 <section class="prose" id="descrizione">
@@ -22,7 +22,7 @@ Il rito non forza il terreno a produrre dal nulla. Ricostruisce invece la relazi
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Il rito agisce su un singolo appezzamento coerente delimitato dalle quattro zolle iniziali. La superficie può essere un campo, un orto esteso, un frutteto, un pascolo o un'area analoga; appezzamenti eccezionalmente grandi possono richiedere più esecuzioni.
+Ristabilisce la fertilità di un terreno e contrasta le contaminazioni che ostacolano la vegetazione. Il rito agisce su un singolo appezzamento coerente delimitato dalle quattro zolle iniziali. La superficie può essere un campo, un orto esteso, un frutteto, un pascolo o un'area analoga; appezzamenti eccezionalmente grandi possono richiedere più esecuzioni.
 
 Su un terreno ordinario:
 - migliora la fertilità del suolo;
@@ -40,83 +40,14 @@ Una corruzione sovrannaturale considerevole può essere temporaneamente soppress
 
 L'Æcerbot non fa apparire piante dal nulla, non fa maturare istantaneamente un raccolto, non resuscita specie estinte e non ricrea un ecosistema totalmente distrutto. Una volta purificato il terreno, acqua, semi, clima e normale coltivazione rimangono necessari.
 
+<p>Una singola esecuzione copre ordinariamente un appezzamento coerente fino a ~<strong>1.000 m²</strong>; estensioni maggiori richiedono più settori o una celebrazione specifica masterata. Una sterilità soprannaturale attiva mantiene la propria opposizione. La forma comunitaria estesa facilita il rito, ma non raddoppia automaticamente il raccolto.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>Prima dell'alba vengono prelevate quattro zolle dai quattro lati del terreno. La loro posizione e orientazione devono essere ricordate perché dovranno tornare esattamente nei punti di origine.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Sulla parte inferiore delle zolle vengono applicati olio, miele, lievito, latte e i materiali vegetali prescritti. L'acqua santa viene fatta gocciolare tre volte mentre si pronuncia la formula latina di crescita e moltiplicazione.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Le quattro zolle vengono portate in chiesa. Nella forma completa del rito vengono celebrate quattro messe sopra di esse, mantenendo il lato verde orientato verso l'altare.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Prima del tramonto le zolle vengono riportate al campo.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Vengono preparate quattro croci di sorbo, associate ai quattro evangelisti e collocate nei punti d'origine delle zolle prima che queste vengano ricomposte nel terreno.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Seguono le recitazioni prescritte, le prostrazioni verso oriente e la rotazione solare attorno al luogo. Il rituale conserva elementi cristiani e vernacolari e non può essere ridotto alla sola sezione in antico inglese.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">7</div>
-<div class="step-content">
-<p>Il praticante ottiene del seme da una persona bisognosa mediante elemosina, con l'obbligo tradizionale di restituire successivamente il doppio del suo valore.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">8</div>
-<div class="step-content">
-<p>Nel corpo dell'aratro vengono inseriti incenso, finocchio, sapone e sale consacrati.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">9</div>
-<div class="step-content">
-<p>Prima del primo solco viene pronunciata tre volte l'invocazione:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Raccogliere quattro campioni dai lati dell’appezzamento e mantenerne riconoscibile la provenienza.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Benedire i campioni con acqua e offerta semplice, recitando la sequenza appresa; le messe complete sono facoltative.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Ricollocare i campioni ai lati del terreno e rivolgere la preghiera di crescita alla terra.</p><div class="ritual-verse">
 <p class="latin">"Erce, Erce, Erce, eorþan modor."</p>
-</div>
-<p>La terra viene quindi apostrofata come madre degli uomini e invitata a diventare fertile e piena di nutrimento.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">10</div>
-<div class="step-content">
-<p>Viene aperto il primo solco e vi viene posto il seme.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">11</div>
-<div class="step-content">
-<p>Un pane preparato con farina e latte viene infine sepolto sotto il primo solco come chiusura del circuito.</p>
-</div>
-</div>
-
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Aprire un primo solco con un utensile disponibile e deporvi i semi, senza obbligo di un aratro tradizionale.</p></div></div><div class="step-item"><div class="step-number">5</div><div class="step-content"><p>Completare l’offerta e la dedicazione del terreno; gli ingredienti ulteriori della celebrazione completa sono facoltativi.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

@@ -22,7 +22,7 @@ Il rito tratta quindi l'escrescenza come una presenza localizzata separabile dal
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Riduce progressivamente una formazione superficiale e circoscritta del corpo, come: verruche; piccole cisti; noduli cutanei; escrescenze; gonfiori solidificati; tessuto anomalo chiaramente delimitato.
+Riduce piccole formazioni corporee anomale, superficiali e circoscritte. Riduce progressivamente una formazione superficiale e circoscritta del corpo, come: verruche; piccole cisti; noduli cutanei; escrescenze; gonfiori solidificati; tessuto anomalo chiaramente delimitato.
 
 Una formazione lieve può scomparire completamente entro alcuni minuti; una formazione più significativa si riduce di dimensione e smette temporaneamente di crescere.
 
@@ -70,7 +70,6 @@ Contro una formazione prodotta continuamente da un atto sovrannaturale ancora at
 </div>
 </div>
 </div>
-
 </div>
 </section>
 

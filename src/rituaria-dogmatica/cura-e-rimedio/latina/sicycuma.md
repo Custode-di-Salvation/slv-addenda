@@ -22,15 +22,11 @@ Il rito è particolarmente stabile perché la procedura storica è breve, chiusa
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
 
-Su un'emorragia esterna lieve o moderata, il flusso si riduce rapidamente fino ad arrestarsi entro un turno dall'attivazione. La ferita non si chiude e il tessuto non viene rigenerato: il rito agisce esclusivamente sul sanguinamento. Elimina una Condizione di sanguinamento e/o malus derivati.
-
-Su un'emorragia esterna grave, il rito non può sigillare sovrannaturalmente un'arteria recisa o una mutilazione maggiore, ma riduce considerevolmente la perdita di sangue (dimezza gli effetti di Condizioni e/o malus) e sospende per 3 turni l'aggravamento dovuto all'emorragia, concedendo tempo per applicare una reale misura medica.
-
-Il bersaglio riceve inoltre vantaggio alle prove necessarie per resistere allo shock emorragico finché il rito rimane attivo.
-
-Non funziona su emorragie interne prive di comunicazione con l'esterno, accumuli intracranici, emorragie cavitarie o perdita di sangue già avvenuta. Non restituisce volume ematico.
-
-L'effetto termina quando la fascia viene rimossa oppure quando la ferita viene nuovamente aperta da un trauma significativo. Una volta utilizzato, il foglio non può essere riattivato su un altro soggetto.
+<p>Arresta o contiene un’emorragia esterna, concedendo tempo per curare la ferita. Su un'emorragia esterna lieve o moderata, il flusso si riduce rapidamente fino ad arrestarsi entro un turno dall'attivazione. La ferita non si chiude e il tessuto non viene rigenerato: il rito agisce esclusivamente sul sanguinamento. Quando il flusso viene arrestato, cessa la <strong>Condizione dovuta al sanguinamento attivo</strong>; shock, debolezza da sangue già perduto e lesione rimangono se ancora presenti.</p>
+<p>Su un'emorragia esterna grave, il rito non può sigillare sovrannaturalmente un'arteria recisa o una mutilazione maggiore, ma attenua la perdita di sangue e sospende per 3 turni l'aggravamento dovuto all'emorragia, concedendo tempo per applicare una reale misura medica.</p>
+<p>Il bersaglio riceve inoltre vantaggio alle prove necessarie per resistere allo shock emorragico finché il rito rimane attivo.</p>
+<p>Non funziona su emorragie interne prive di comunicazione con l'esterno, accumuli intracranici, emorragie cavitarie o perdita di sangue già avvenuta. Non restituisce volume ematico.</p>
+<p>L'effetto termina quando la fascia viene rimossa oppure quando la ferita viene nuovamente aperta da un trauma significativo. Una volta utilizzato, il foglio non può essere riattivato su un altro soggetto.</p>
 
 </section>
 
@@ -42,7 +38,7 @@ L'effetto termina quando la fascia viene rimossa oppure quando la ferita viene n
 <div class="step-content">
 <p>Su un foglio nuovo l'operatore scrive, in sette righe separate:</p>
 <div class="ritual-verse">
-<p class="latin">SICYCVMA<br>CVCVMA<br>VCVMA<br>CVMA<br>VMA<br>MA<br>A</p>
+<p class="latin">SICYCVMA<br/>CVCVMA<br/>VCVMA<br/>CVMA<br/>VMA<br/>MA<br/>A</p>
 </div>
 </div>
 </div>
@@ -70,7 +66,6 @@ L'effetto termina quando la fascia viene rimossa oppure quando la ferita viene n
 <p>Nel momento in cui il nodo viene chiuso, l'operatore immette l'Energia e il pattern viene attivato.</p>
 </div>
 </div>
-
 </div>
 </section>
 

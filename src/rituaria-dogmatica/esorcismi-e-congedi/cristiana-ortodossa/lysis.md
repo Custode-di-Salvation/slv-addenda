@@ -4,8 +4,8 @@ title: "Lýsis"
 tipo: esorcismi-e-congedi
 sottotipo: cristiana-ortodossa
 rarita: Raro
-tempo: "30 minuti (rito completo)"
-componenti: "Olio benedetto (idealmente olio consacrato durante la Divina Liturgia, in mancanza olio d'oliva puro benedetto da presbitero); vino rosso non aromatizzato (idealmente vino consacrato non ancora usato per la Comunione, in mancanza vino da messa ordinario); ancora del fantasma."
+tempo: "10–15 minuti."
+componenti: "Olio d’oliva; vino rosso; un’ancora del fantasma o un oggetto personale che lo identifichi realmente. Olio e vino consacrati secondo la tradizione; epitrachelion e incenso*."
 costo: "<strong>60 <i class=\"fa-solid fa-bolt\"></i></strong> (rito completo)"
 ---
 <section class="prose" id="descrizione">
@@ -21,68 +21,19 @@ Non è rito di scaccia demoni, agisce su anime umane trattenute, non su entità 
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Recide il legame che trattiene il fantasma al piano materiale, permettendo all'anima di transitare al post-mortem. Tiro contrapposto in [Tenacia] tra esorcista e forza del legame (stabilita dal master in base alla natura e all'intensità del trauma o della colpa che ha ancorato il fantasma) o tra esorcista e fantasma.
-
-Se il rito ha effetto il legame tra ancora e fantasma viene reciso. Il luogo o l'oggetto ancoranti smettono di produrre fenomeni infestanti e l'anima transita al post-mortem che le compete.
-
-Se il rito fallisce il legame resiste, il fantasma resta ancorato ma percepisce chiaramente il tentativo di scioglimento e può reagire in modi variabili. Il rito può essere ritentato dopo almeno 40 giorni (finestra liturgica ortodossa canonica per la memoria dei defunti).
-
-Efficace contro fantasmi ancorati da colpe non confessate, anatemi ecclesiastici pendenti, promesse non mantenute, morti violente con senso di ingiustizia inespressa, morti in stato di rifiuto dogmatico (chi è morto rifiutando gli ultimi sacramenti), scomuniche mai revocate ufficialmente.
-
-Non funziona su fantasmi ancorati per ragioni non riducibili a peccato o colpa (traumi puri senza colpevolezza, attaccamento affettivo a persone vive, incompletezza di missione secolare).
-
-Se l'ancora non è raggiungibile (es. corpo cremato, tomba distrutta, luogo inaccessibile), l'esorcista può usare come ancora un oggetto personale del defunto (fede nuziale, croce battesimale, indumento intimo mai lavato dopo la morte, capelli conservati). L'efficacia è ridotta (svantaggio e -5 al tiro) e la fase preparatoria è più lunga (l'oggetto deve essere posto sull'altare durante una Divina Liturgia intera prima del rito, aggiungendo ore di preparazione).
-
-Il Lýsis eseguito su un luogo infestato purifica il luogo dopo la liberazione del fantasma. Non equivale a <a href="/rituaria-dogmatica/purificazione-e-consacrazione/cristiana-cattolica/de-benedictione-et-consecratione-loci/">De benedictione et consecratione loci</a>, ma prepara il terreno perché le consacrazioni successive siano più efficaci (vantaggio sui riti eseguiti nel luogo entro un anno dallo scioglimento).
-
+<p>Libera un fantasma da un legame irrisolto che ne impedisce il trapasso. Scioglie il legame di un fantasma trattenuto da colpa, promessa irrisolta, condanna interiorizzata o ingiustizia vissuta come debito non concluso. Il legame deve essere stato riconosciuto: un trauma privo di questa struttura o un semplice attaccamento affettivo richiedono un intervento diverso.</p>
+<p>Il rito affronta il legame attraverso l’ancora o un oggetto realmente significativo. Se prevale, la costrizione viene recisa e l’anima torna libera di seguire il normale passaggio; non viene imposta una confessione né cancellata l’identità del defunto.</p>
+<p>Un fallimento lascia il legame presente. Un nuovo tentativo richiede riposo, preparazione e un cambiamento rilevante, come nuove informazioni, riconciliazione o accesso a un’ancora migliore. Non esiste un’attesa obbligatoria di quaranta giorni.</p>
+<p>Il luogo liberato perde i fenomeni sostenuti da quel legame. Una consacrazione eseguita nella stessa giocata può ricevere un <strong>bonus da sfruttamento delle risorse</strong> quando utilizza concretamente l’ancora liberata o il canale ripristinato. La sola assenza del legame rimosso non viene contata anche come bonus.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>L'esorcista si reca fisicamente sull'ancora del fantasma: tomba, luogo dei resti scheletrici, sito della morte violenta, oppure siede accanto all'oggetto ancorante posato su tavolo pulito e coperto con panno bianco.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Prepara l'olio e il vino in ampolle separate. Accende l'incenso, se disponibile. Indossa l'epitrachelion.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Apre l'<em>Euchologion</em> alla Preghiera di Assoluzione (<em>Euchai Sygchoretikai</em>), recita a voce piena e con cadenza liturgica. La preghiera invoca esplicitamente il perdono divino su tutti i peccati del defunto, "volontari e involontari, nelle opere e nelle parole, nella conoscenza e nell'ignoranza".</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Identificare legame e ancora, oppure un oggetto significativo del defunto, e predisporre olio e vino.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Recitare la preghiera di assoluzione nella recensione appresa.</p></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Versare olio e vino sull’ancora come segni di remissione e scioglimento.</p><div class="ritual-verse">
 <p class="latin">"Κύριε Ἰησοῦ Χριστέ, ὁ Θεὸς ἡμῶν... συγχώρησον αὐτῷ πάντα τὰ ἁμαρτήματα αὐτοῦ, τὰ ἑκούσια καὶ τὰ ἀκούσια, τὰ ἐν ἔργῳ καὶ ἐν λόγῳ... ὅτι Σὺ εἶ ἡ ἀνάστασις, ἡ ζωὴ καὶ ἡ ἀνάπαυσις τῶν κεκοιμημένων δούλων Σου..."</p>
 <p class="transliteration">"Kyrie Iisou Christe, o Theos imon... synchoreson afto panta ta hamartimata aftou, ta hekousia kai ta akousia, ta en ergo kai en logo... oti Sy ei i anastasis, i zoi kai i anapafsis ton kekoimimenon doulon Sou..."</p>
 <p class="translation">"Signore Gesù Cristo, Dio nostro... perdona tutti i suoi peccati, volontari e involontari, nelle opere e nelle parole... Poiché Tu sei la risurrezione, la vita e il riposo dei Tuoi servi defunti..."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Al termine della preghiera, l'esorcista versa l'olio sull'ancora (sulla tomba, sui resti, sul luogo, sull'oggetto). Il gesto simboleggia l'unzione post mortem che il defunto potrebbe non avere ricevuto o che va rinnovata per sciogliere il legame.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>Immediatamente dopo, versa il vino. Il vino simboleggia il sangue di Cristo che rimette i peccati, e completa l'atto sacramentale di scioglimento.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Tiro contrapposto. Se ha effetto, l'esorcista percepisce spesso un lieve cambiamento nell'aria del luogo. Chiude con segno di croce sull'ancora, incenso, e canto del Trisagion funebre ("Meta ton hagion anapavson, Christe, tas psychas ton doulon Sou...", "Con i santi da' riposo, Cristo, alle anime dei Tuoi servi...").</p>
-</div>
-</div>
-</div>
+</div></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Accompagnare il congedo del defunto con benedizione e canto conclusivo.</p></div></div></div>
 </section>
 
 <section class="prose" id="storia">

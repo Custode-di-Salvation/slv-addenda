@@ -4,9 +4,9 @@ title: "Carmen ad luxum"
 tipo: cura-e-rimedio
 sottotipo: latina
 rarita: Comune
-tempo: "10-15 minuti per il rito iniziale · 1 minuto al giorno per la recitazione di mantenimento"
-componenti: "Una canna verde lunga circa 1,2-1,5 m, spaccata longitudinalmente in due; coltello o altro oggetto di ferro; materiale per legare la canna alla parte lesa."
-costo: "<strong>35 <i class=\"fa-solid fa-bolt\"></i></strong> per il rito iniziale · <strong>5 <i class=\"fa-solid fa-bolt\"></i></strong> per ogni recitazione giornaliera di mantenimento"
+tempo: "5–10 minuti; 1 minuto al giorno per il mantenimento."
+componenti: "Canna verde divisibile in due metà; ferro o coltello; materiale per la legatura. Lunghezza tradizionale e due assistenti*."
+costo: "<strong>35 <i class=\"fa-solid fa-bolt\"></i></strong> iniziali + <strong>5 <i class=\"fa-solid fa-bolt\"></i></strong> × recitazione giornaliera successiva"
 ---
 <section class="prose" id="descrizione">
 <div class="section-head"><h2>Descrizione</h2></div>
@@ -19,66 +19,19 @@ Il Carmen ad luxum è un rito romano per lussazioni e fratture tramandato da Cat
 
 <section class="prose" id="effetti">
 <div class="section-head"><h2>Effetti</h2></div>
-
-Su una lussazione semplice, il rito facilita il ritorno dell'articolazione nella propria posizione anatomica e riduce immediatamente dolore e spasmo. Non consente di forzare in sicurezza un'articolazione quando esistono fratture associate, lesioni vascolari o altri impedimenti strutturali.
-
-Su una frattura chiusa semplice, mantiene i segmenti ossei correttamente allineati e impedisce gli spostamenti secondari prodotti dai normali movimenti del paziente. La guarigione naturale procede a velocità aumentata di circa un terzo finché la legatura rituale resta integra e viene mantenuta la recitazione giornaliera.
-
-Produce quindi un bonus di +5 e vantaggio, per tutta la giocata, a qualsiasi azione relative a questo genere di trattamenti.
-
-Il rito non rigenera tessuto osseo nell'immediato. Non ripara fratture esposte, comminute, perdite di sostanza, lesioni spinali, tendini recisi o danni vascolari. In questi casi può essere usato soltanto come stabilizzazione temporanea e non sostituisce un intervento medico.
-
-Una nuova lesione significativa alla stessa zona spezza l'effetto.
-
+<p>Sostiene il riallineamento e la guarigione di lussazioni e fratture semplici. Su una lussazione semplice facilita il riallineamento e attenua dolore e spasmo, purché non esistano fratture, impedimenti vascolari o altre condizioni incompatibili. Su una frattura chiusa semplice sostiene la stabilità dei segmenti e la normale convalescenza.</p>
+<p>Un trattamento appropriato della lesione può ricevere un <strong>bonus da sfruttamento delle risorse</strong> quando utilizza la stabilità fornita dal rito. Il medesimo sostegno non assegna anche vantaggio né un bonus numerico aggiuntivo. La legatura non rigenera immediatamente osso né permette al paziente di usare una parte materialmente incapace di muoversi.</p>
+<p>La recitazione giornaliera, compiuta dall’operatore o da un officiante che conosca realmente il rito, sostiene la guarigione naturale e ne riduce i tempi del <strong>25%</strong> finché struttura e trattamento restano compatibili. Questa riduzione comprende il beneficio della cura giocata; non si somma alla riduzione del 25% per una role di cura o del 50% per una vidima di cura, delle quali si applica soltanto la più favorevole. Una nuova lesione significativa interrompe l’effetto.</p>
+<p>Fratture esposte, perdite di sostanza, lesioni spinali, tendini recisi e danni vascolari richiedono interventi appropriati. Il rito può soltanto sostenere una stabilizzazione possibile e non sostituisce ciò che manca materialmente.</p>
 </section>
 
 <section class="prose" id="procedura">
 <div class="section-head"><h2>Procedura</h2></div>
-<div class="step-list">
-<div class="step-item">
-<div class="step-number">1</div>
-<div class="step-content">
-<p>Una canna verde viene spaccata longitudinalmente in due metà senza separarla in ulteriori frammenti.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">2</div>
-<div class="step-content">
-<p>Due assistenti tengono le due metà divaricate. L'operatore comincia la formula mentre le metà vengono lentamente avvicinate:</p>
-<div class="ritual-verse">
+<div class="step-list"><div class="step-item"><div class="step-number">1</div><div class="step-content"><p>Dividere la canna in due metà e predisporle anche senza assistenti, mantenendo riconoscibile la corrispondenza.</p></div></div><div class="step-item"><div class="step-number">2</div><div class="step-content"><p>Recitare la formula riavvicinando le parti e accompagnare il gesto con il ferro, senza colpire il paziente.</p><div class="ritual-verse">
 <p class="latin">"Motas vaeta daries dardares astataries dissunapiter."</p>
-</div>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">3</div>
-<div class="step-content">
-<p>Durante l'avvicinamento l'operatore muove il coltello o il ferro sopra le due metà senza colpirle.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">4</div>
-<div class="step-content">
-<p>Quando le due parti della canna arrivano a toccarsi, l'operatore le afferra insieme e ne recide le estremità a destra e a sinistra.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">5</div>
-<div class="step-content">
-<p>La porzione ricongiunta viene legata sopra o accanto alla parte lussata/fratturata, senza sostituire un'eventuale immobilizzazione medica necessaria.</p>
-</div>
-</div>
-<div class="step-item">
-<div class="step-number">6</div>
-<div class="step-content">
-<p>Una volta al giorno, finché il danno non è stabilizzato, viene pronunciata la formula di mantenimento:</p>
-<div class="ritual-verse">
+</div></div></div><div class="step-item"><div class="step-number">3</div><div class="step-content"><p>Ricongiungere e legare la porzione predisposta presso la parte lesa senza sostituire l’immobilizzazione necessaria.</p></div></div><div class="step-item"><div class="step-number">4</div><div class="step-content"><p>Per proseguire la convalescenza riprendere ogni giorno la formula di mantenimento con il relativo costo.</p><div class="ritual-verse">
 <p class="latin">"Huat haut haut istasis tarsis ardannabou dannaustra."</p>
-</div>
-</div>
-</div>
-
-</div>
+</div></div></div></div>
 </section>
 
 <section class="prose" id="storia">
